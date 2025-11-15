@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ 
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="color-scheme" content="light dark" />
+ 
+ <title>ProjectPQ</title>
+ <meta name="description" content="The number #1 Past Questions WebSite for uniport students.">
+ <meta name="keywords" content="UniportPQ, Uniport Past Questions, past questions, myexam">
+ <meta name="author" content="Osiaru">
+ <meta name="robots" content="index, follow">
+ 
+ <!-- Open Graph / Facebook -->
+ <meta property="og:title" content="ProjectPQ 🎓">
+ <meta property="og:description" content=" number #1 Past Questions WebSite for uniport students.">
+ <meta property="og:type" content="website">
+ <meta property="og:url" content="https://projectpq.name.ng">
+ <meta property="og:image" content="https://projectpq.name.ng/img/icon.png">
+ 
+ <!-- Twitter -->
+ <meta name="twitter:card" content="https://projectpq.name.ng/img/icon.png">
+ <meta name="twitter:title" content="ProjectPQ">
+ <meta name="twitter:description" content="The number #1 Past Questions WebSite for uniport students.">
+ <meta name="twitter:image" content="https://projectpq.name.ng/img/icon.png">
+ 
+ <!-- Favicon & App Icons -->
+ 
+ <link rel="apple-touch-icon" href="https://projectpq.name.ng/img/icon.png" />
+ <link rel="shortcut icon" href="https://projectpq.name.ng/img/icon.png" type="image/x-icon" />
+ 
+ 
+ <!-- Additional Meta -->
+ <meta name="theme-color" content="#003D99">
+ 
+ <!--Version Management -->
+ <script>
+  let pageVersion = 2;
+  
+  async function getUpdate() {
+   try {
+    let res = await fetch("https://umlu3s3ewxprq4gyqugjtkcwjm0pdrhx.lambda-url.eu-north-1.on.aws/version/PQ_PQ");
+    let lastVersion = await res.json();
+    
+    if (lastVersion > pageVersion) {
+     //Reload hard.
+     location.reload(true); // The `true` parameter forces reload from server
+    } else {
+     alert('Happy Studying🎓')
+    }
+    console.log(lastVersion, pageVersion);
+    
+   } catch (err) {
+    alert(err.message);
+   }
+  }
+  //getUpdate()
+ </script>
+ 
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ 
+ <link rel="stylesheet" href="main.css">
+</head>
+
+<body id="body">
+ <div id="Loading">
+  <div class="osari-loading">
+   <div class="osari-loader">
+    <div class="osari-logo">ProjectPQ</div>
+    <div class="osari-spinner">
+     <div class="osari-spinner-ring"></div>
+     <div class="osari-spinner-core"></div>
+    </div>
+    <div class="osari-text">Loading</div>
+    <div class="osari-progress">
+     <div class="osari-progress-bar"></div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <!-- Custom Alert Structure -->
+ <div id="alertOverlay">
+  <div id="alertBox">
+   <div class="alertHeader" id="alertHeader">
+    <span class="alertIcon" id="alertIcon">ℹ️</span>
+    <span id="alertTitle">Alert</span>
+   </div>
+   <div class="alertBody" id="alertMessage">
+    Message goes here
+   </div>
+   <div class="alertFooter" id="alertFooter">
+    <!-- Buttons will be added dynamically -->
+   </div>
+  </div>
+ </div>
+ 
+ <div class="popup-overlay" id="popupOverlay">
+  <div class="loading" id="loadingSpinner"></div>
+  
+  <span class="close-btn" id="closeBtn">
+   &times;
+  </span>
+  <div class="popup-content">
+   <img id="popupImage" src="" alt="Popup Image">
+  </div>
+ </div>
+ 
+ 
+ <div id="mainApp">
+  
+  <!--App Header-->
+  <header class="app-header">
+   <h1 id="page_title" class="page_title">ProjectPQ</h1>
+   
+   <!---Theme controler--->
+   <label class="NightDayswitch">
+    <input type="checkbox" id="themeToggle" />
+    <span class="slider">
+     <img id="theme_icon" src=" img/lightmode.png" alt="Theme Icon" class="theme-icon" />
+    </span>
+   </label>
+   
+   <!---Menu bar   <img id="menuButton" class="menu-icon" src="img/menu1.png" alt="menu bar" />   --->
+   
+   <!---Menu bar-->
+   <svg id="menuButton" class="menu-icon">
+    <circle class="menuCircle" id="menuCircle1" />
+    <circle class="menuCircle" id="menuCircle2" />
+    <circle class="menuCircle" id="menuCircle3" />
+   </svg>
+   
+  </header>
+  
+  <section id="Page">
+   
+   <header id="header">
+    
+   </header>
+   
+   
+  </section>
+ </div>
+ 
+ 
+ 
+ 
+ 
+ <div id="controller">
+  <button id="quizBtn">Start Quiz</button>
+  <button id="exitQuizBtn">Exit</button>
+  <button id="submitBtn"> Submit </button>
+ </div>
+ 
+ <!--Timer -->
+ <div id="setTimeConBf">
+  <div class="settings-container">
+   <div class="settings-header">
+    <svg class="settings-icon" viewBox="0 0 24 24" aria-hidden="true">
+     <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M16.2,16.2L11,13V7H12.5V12.2L17,14.7L16.2,16.2Z" />
+    </svg>
+    <h1 class="settings-title">Quiz Settings</h1>
+   </div>
+   
+   <!-- Timer Settings Section -->
+   <div class="settings-section">
+    <h2 class="section-title">
+     <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M16.2,16.2L11,13V7H12.5V12.2L17,14.7L16.2,16.2Z" />
+     </svg>
+     Set Quiz Timer
+    </h2>
+    
+    <div class="time-selection" role="status" aria-live="polite">
+     <div class="time-input-container">
+      <input type="number" id="timeInput" aria-label="Selected time in minutes">
+      <span class="time-unit">mins</span>
+     </div>
+    </div>
+    
+    <div class="time-slider-container">
+     <label for="timeSlider" class="sr-only">Time in minutes</label>
+     <input type="range" class="time-slider" id="timeSlider">
+     <div class="time-markers">
+      <span id="timeMinMarker">1 min</span>
+      <span id="timeMaxMarker">120 mins</span>
+     </div>
+    </div>
+    
+    <div class="preset-buttons" id="timePresets">
+     <!-- Time preset buttons will be generated dynamically -->
+    </div>
+   </div>
+   
+   <!-- Questions Settings Section -->
+   <div class="settings-section">
+    <h2 class="section-title">
+     <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M10,20H14V4H10V20ZM4,20H8V12H4V20ZM16,9V20H20V9H16Z" />
+     </svg>
+     Number of Questions
+    </h2>
+    
+    <div class="questions-input-container" role="status" aria-live="polite">
+     <input type="number" id="questionsInput" aria-label="Number of questions">
+     <span class="time-unit">questions</span>
+    </div>
+    
+    <div class="questions-slider-container">
+     <label for="questionsSlider" class="sr-only">Number of questions</label>
+     <input type="range" class="questions-slider" id="questionsSlider">
+     <div class="questions-markers">
+      <span id="questionsMinMarker">5</span>
+      <span id="questionsMaxMarker">100</span>
+     </div>
+    </div>
+    
+    <div class="questions-preset-buttons" id="questionsPresets">
+     <!-- Questions preset buttons will be generated dynamically -->
+    </div>
+   </div>
+   
+   <!-- Shuffle Section -->
+   <div class="settings-section">
+    <h2 class="section-title">
+     <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M14.83,13.41L13.42,14.82L16.55,17.95L14.5,20H20V14.5L17.96,16.54L14.83,13.41M14.5,4L16.54,6.04L4,18.59L5.41,20L17.96,7.46L20,9.5V4M10.59,9.17L5.41,4L4,5.41L9.17,10.58L10.59,9.17Z" />
+     </svg>
+     Quiz Options
+    </h2>
+    
+    <div class="shuffle-container">
+     <label class="shuffle-checkbox">
+      <input type="checkbox" id="shuffleQuestions" aria-label="Shuffle questions">
+      <span class="custom-checkbox"></span>
+      <svg class="shuffle-icon" viewBox="0 0 24 24" aria-hidden="true">
+       <path d="M14.83,13.41L13.42,14.82L16.55,17.95L14.5,20H20V14.5L17.96,16.54L14.83,13.41M14.5,4L16.54,6.04L4,18.59L5.41,20L17.96,7.46L20,9.5V4M10.59,9.17L5.41,4L4,5.41L9.17,10.58L10.59,9.17Z" />
+      </svg>
+      Shuffle Questions
+     </label>
+    </div>
+   </div>
+   
+   <div class="control-buttons">
+    <button id="cancelQuizSettings" class="control-btn">
+     <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="currentColor" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+     </svg>
+     Cancel
+    </button>
+    <button id="startQuizBtn" class="control-btn">
+     <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="currentColor" d="M8,5.14V19.14L19,12.14L8,5.14Z" />
+     </svg>
+     Start Quiz
+    </button>
+   </div>
+  </div>
+  
+ </div>
+ 
+ 
+ <h2 id="countdown">06:00</h2>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <div id="explanationContainer">
+  <div id="explanation">
+   
+   <h3 id="explanationHead">Explanation
+    <span>
+     <img id="xExplain" src="img/x.png" alt="Exit" />
+    </span>
+   </h3>
+   <div id="explanationContent">
+    <p>My parents named me Believe.</p>
+    
+   </div>
+   
+   
+   <span id="commentBtn">Drop a comment</span>
+  </div>
+ </div>
+ 
+ <div id="ResultDiv">
+  
+  <div class="results-container">
+   <div class="score-header">
+    
+    <h1>Your Score</h1>
+    <p class="score-value"> <span id="correctAnswers" class="correctAnswers"> </span> / <span id="totalQuestions" class="totalQuestions"> </span> </p>
+    <p class="score-text">Great job! 🎉</p>
+   </div>
+   
+   <!-- Animated Progress Circle (SVG) -->
+   <div class="progress-circle">
+    <svg width="170" height="170" viewBox="0 0 100 100">
+     <circle class="circle-bg" cx="50" cy="50" r="40" />
+     <circle class="circle-fill" cx="50" cy="50" r="40" stroke-dasharray="251.327412287183459077011470662360230735773" stroke-dashoffset="100" /> <!-- 70% filled (314 * 0.3) -->
+    </svg>
+   </div>
+   
+   <!-- Breakdown -->
+   <div class="breakdown">
+    <h3>Breakdown</h3>
+    <div class="breakdown-item">
+     <span>Correct Answers</span>
+     <span class="correct">40</span>
+    </div>
+    <div class="breakdown-item">
+     <span>Incorrect Answers</span>
+     <span class="incorrect">3</span>
+    </div>
+    
+    <div class="breakdown-item">
+     <span>Quiz Duration</span>
+     <span class="quizDurationResult">20mins 26sec</span>
+    </div>
+    <div class="breakdown-item">
+     <span>Quiz Time Left</span>
+     <span class="quizDurationResult">2mins 26sec</span>
+    </div>
+    <div class="breakdown-item">
+     <span>Quiz Time Used</span>
+     <span class="quizDurationResult">20mins 26sec</span>
+    </div>
+    
+    
+   </div>
+   
+   <!-- Buttons -->
+   <div class="buttons">
+    <button id="closeResult" class="btn-retake">Check Answers</button>
+   </div>
+  </div>
+ </div>
+ 
+ 
+ <script id="MathJax-script" src="tex-mml-chtml.js"></script>
+ <script defer src="main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>

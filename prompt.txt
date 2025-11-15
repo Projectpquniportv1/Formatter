@@ -1,0 +1,54 @@
+‎From the image i sent return an array of JSON objects that match the schema below.
+‎ make the explanation easy to understand for a noobies
+‎ {
+‎ "type": "Question",
+‎ "name": "Question 1",
+‎ "topic": ["Vectors"],
+‎ "Question": {
+‎  "content": "If A.B = 0 and A ≠ 0, then A is?",
+‎  "type": "OBJ",
+‎  "options": [
+‎   "Parallel to B",
+‎   "Similar to B",
+‎   "Adjacent to B",
+‎   "Orthogonal to B"
+‎  ]
+‎ },
+‎ "Answer": {
+‎  "type": "string",
+‎  "content": "Orthogonal to B"
+‎ },
+‎ "Explanation": {
+‎  "type": "string",
+‎  "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'>
+ <h4 style='color: var(--strongColor); margin-top: 0;'>Dot Product and Orthogonality</h4>
+ <p><strong>Understanding Dot Product:</strong><br>\nThe dot product A·B = |A||B|cosθ, where θ is the angle between vectors A and B.</p>\n\n<p><strong>When A·B = 0:</strong><br>\nIf A·B = 0 and A ≠ 0, then either:<br>\n- B = 0 (but this isn't specified)<br>- cosθ = 0, which means θ = 90°</p>
+ <p><strong>Orthogonal Vectors:</strong><br>\nVectors are orthogonal when they form a 90° angle with each other. This is the vector equivalent of perpendicular lines.</p>
+ <p style='color: var(--cAns); font-weight: bold;'>When dot product is zero and vectors are non-zero, they are orthogonal (perpendicular).</p>
+</div>"
+‎ }
+‎}
+‎
+‎
+
+‎Use  the topics below  to fillin the topic property.
+
+"topics": [
+"Sector",
+"Real Number System",
+"Relations and Functions",
+"Polynomials and Rational Functions",
+"Equations",
+"Partial Fractions and Bregualities",
+"Complex Numbers",
+"Sequences and Series",
+"Permutation and Combination",
+"Mathematical Induction and Bionominal Theorem",
+"Trigonometry",
+"Circular Functions"
+]
+
+‎use MathJax syntax to make it more readable. use as little as possible.
+‎break the equation into different lines, avoid long lines of equations
+‎use necessary html elements.
+‎Give clear and step by step explanations.
