@@ -1,54 +1,142 @@
-‎From the image i sent return an array of JSON objects that match the schema below.
-‎ make the explanation easy to understand for a noobies
-‎ {
-‎ "type": "Question",
-‎ "name": "Question 1",
-‎ "topic": ["Vectors"],
-‎ "Question": {
-‎  "content": "If A.B = 0 and A ≠ 0, then A is?",
-‎  "type": "OBJ",
-‎  "options": [
-‎   "Parallel to B",
-‎   "Similar to B",
-‎   "Adjacent to B",
-‎   "Orthogonal to B"
-‎  ]
-‎ },
-‎ "Answer": {
-‎  "type": "string",
-‎  "content": "Orthogonal to B"
-‎ },
-‎ "Explanation": {
-‎  "type": "string",
-‎  "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'>
- <h4 style='color: var(--strongColor); margin-top: 0;'>Dot Product and Orthogonality</h4>
- <p><strong>Understanding Dot Product:</strong><br>\nThe dot product A·B = |A||B|cosθ, where θ is the angle between vectors A and B.</p>\n\n<p><strong>When A·B = 0:</strong><br>\nIf A·B = 0 and A ≠ 0, then either:<br>\n- B = 0 (but this isn't specified)<br>- cosθ = 0, which means θ = 90°</p>
- <p><strong>Orthogonal Vectors:</strong><br>\nVectors are orthogonal when they form a 90° angle with each other. This is the vector equivalent of perpendicular lines.</p>
- <p style='color: var(--cAns); font-weight: bold;'>When dot product is zero and vectors are non-zero, they are orthogonal (perpendicular).</p>
-</div>"
-‎ }
-‎}
+‎From the image i sent return an array of JSON objects that match the scheme.
+‎ make the explanation easy to understand by newbies.
+‎Give detailed and easy to understand explanations that students who don't attend classes will understand with ease.
+‎
+‎  {
+‎    "type": "Question",
+‎    "name": "Question 22",
+‎    "topic":["Functions and relations"],
+‎    "Question": {
+‎      "content": "The sum of the 24 terms of an AP whose first term is -5 and last term 301 is",
+‎      "type": "OBJ", // or subjective.
+‎      "options": [
+‎        "2820",
+‎        "3024",
+‎        "2854",
+‎        "3552"
+‎      ]
+‎    },
+‎    "Answer": {
+‎      "type": "string",
+‎      "content": "3552"
+‎    },
+‎    "Explanation": {
+‎      "type": "string",
+‎      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Sum of Arithmetic Progression</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Use Sum Formula for AP</strong><br>\n    When first and last terms are known:<br>\n    S_n = n/2 × (first term + last term)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Apply Given Values</strong><br>\n    n = 24, a = -5, l = 301<br>\n    S_24 = 24/2 × (-5 + 301)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      S_24 = 12 × 296 = 3552\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The sum of 24 terms is 3552\n  </div>\n</div>"
+‎    }
+‎  }
 ‎
 ‎
-
-‎Use  the topics below  to fillin the topic property.
-
-"topics": [
-"Sector",
-"Real Number System",
-"Relations and Functions",
-"Polynomials and Rational Functions",
-"Equations",
-"Partial Fractions and Bregualities",
-"Complex Numbers",
-"Sequences and Series",
-"Permutation and Combination",
-"Mathematical Induction and Bionominal Theorem",
-"Trigonometry",
-"Circular Functions"
-]
-
-‎use MathJax syntax to make it more readable. use as little as possible.
+‎use topics from here in the topic property.(topics can be more than one.)
+‎  "topics": [
+‎ "Atomic Theory and Chemical Equations",
+‎ "Atomic Structure and Quantum Theory",
+‎ "Periodic Table",
+‎ "Chemical Bonding",
+‎ "Theory of Chemical Bonding",
+‎ "Chemical Thermodynamics",
+‎ "Gaseous State"
+‎ ],
+‎
+‎Use this css root
+‎  /*our colors*/
+‎  :root {
+‎   --mainBlue: #003d99;
+‎   --blue: #4361ee;
+‎   --readBlue: #001111;
+‎   --darkReadBlue: #162B4A;
+‎   --lightBlue: #5BD3FD;
+‎   --dullBlue: #0086c5;
+‎   --darkTheme: #003366;
+‎   --greenBg: #26D200;
+‎   --greenCBg: #8AEC74;
+‎   --greenBgL: #f6ffed;
+‎   --greenText: #013510;
+‎   --red: #f44336;
+‎   --white: #fff;
+‎   --darkWhite: #f5f7fa;
+‎   --whiteTransBorder: #ffffff33;
+‎   --transparentBlack: rgba(0, 0, 0, 0.1);
+‎   --overBlack: #000000E0;
+‎   --ash: #333;
+‎   --lightAsh: #AFB4BB;
+‎   --transparentLightAsh: #AFB4BB17;
+‎   --black: #000;
+‎   --yellow: #FFF9C4;
+‎   --orange: #F37A12;
+‎   --orangeBgL: #FFE6D0;
+‎   --orangeBgD: #AC8B66;
+‎  }
+‎ 
+‎  /*Default theme*/
+‎  :root {
+‎   --strongColor: var(--mainBlue);
+‎   --overlay: var(--overBlack);
+‎   --loadRingBr: var(--whiteTransBorder);
+‎  
+‎   --instBg: var(--yellow);
+‎   --questionBlue: var(--lightBlue);
+‎   --cAns: var(--greenBg);
+‎   --icAns: var(--red);
+‎  
+‎   --ansT: var(--greenText);
+‎   --ansBtnBg: var(--transparentBlack);
+‎   --SQbtn: var(--bodyTextColor);
+‎  
+‎  }
+‎ 
+‎  html {
+‎   color-scheme: light dark;
+‎  }
+‎ 
+‎  @media (prefers-color-scheme:light) {
+‎   :root {
+‎    --themeSliderBg: var(--lightBlue);
+‎    --instCl: var(--bodyTextColor);
+‎    --bodyTextColor: var(--readBlue);
+‎    --bodyBackground: var(--white);
+‎    --explainBg: var(--darkWhite);
+‎    --explainColor: var(--darkReadBlue);
+‎    --ansL: var(--white);
+‎    --ansD: var(--greenCBg);
+‎    --warningBg: var(--orangeBgL);
+‎    --infoBg: lightSkyBlue;
+‎    --infoCl: var(--dullBlue);
+‎   
+‎    --preset-bg-color: var(--transparentLightAsh);
+‎   
+‎   }
+‎  }
+‎  @media (prefers-color-scheme:Dark) {
+‎
+‎   /* The Dark theme */
+‎   :root {
+‎    --transparentBlack: var(--transparentLightAsh);
+‎    --themeSliderBg: var(--lightAsh);
+‎    --instCl: var(--bodyBackground);
+‎    --bodyTextColor: var(--white);
+‎    --bodyBackground: var(--darkTheme);
+‎    --explainBg: var(--bodyBackground);
+‎    --explainColor: var(--bodyTextColor);
+‎    --ansL: var(--greenBg);
+‎    --ansD: var(--greenBg);
+‎    --warningBg: var(--orangeBgD);
+‎    --infoBg: var(--strongColor);
+‎    --infoCl: var(--bodyTextColor);
+‎    --preset-bg-color: var(--ash);
+‎   }
+‎  }
+‎
+‎use MathJax syntax \\( \\)for equations and chemical reactions to make it more readable. use as little as possible.
+‎
 ‎break the equation into different lines, avoid long lines of equations
 ‎use necessary html elements.
-‎Give clear and step by step explanations.
+‎Use the css variables root given for colors.
+‎
+‎
+‎IF it's a subjective question then change "type": "OBJ" to "type":"subjective"
+‎and remove options property.
+‎let answers just be the final answer.
+‎
+‎Remove the (a), (b), etc... the will label the options by itself.
+‎

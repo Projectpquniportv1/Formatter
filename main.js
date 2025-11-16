@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded',async function() {
      //Display the past question
      pqRender.start(thePaper);
      */
-   let res = await fetch('./PQ/p.json');
+   let res = await fetch('./PQ/view.json');
    thePaper = await res.json();
    
    pqRender.start(thePaper)

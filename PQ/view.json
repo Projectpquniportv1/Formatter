@@ -1,0 +1,105 @@
+[
+ 
+ {
+  "type": "pageInfo",
+  "kind": "pureOBJ",
+  "course_title": "General Chemistry I",
+  "code": "Tttt 130.1",
+  "session": "2021/2022",
+  "topics": [
+   "Atomic Theory and Chemical Equations",
+   "Atomic Structure and Quantum Theory",
+   "Periodic Table",
+   "Chemical Bonding",
+   "Theory of Chemical Bonding",
+   "Chemical Thermodynamics",
+   "Gaseous State"
+  ],
+  "time": "90"
+ },
+ 
+ 
+ {
+  "type": "Instruction",
+  "content": "Attempt All Questions"
+ },
+ 
+ {
+  "type": "Question",
+  "name": "Question 1",
+  "topic": ["Real Number System"],
+  "Question": {
+   "content": "Find the natural logarithm of 7.56",
+   "type": "OBJ",
+   "options": [
+    "2.0",
+    "2",
+    "2.02",
+    "2.023",
+    "2.0228"
+   ]
+  },
+  "Answer": {
+   "type": "string",
+   "content": "2.0228"
+  },
+  "Explanation": {
+   "type": "string",
+   "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'>\n <h4 style='color: var(--strongColor); margin-top: 0;'>Natural Logarithm Calculation</h4>\n <p><strong>What is Natural Logarithm?</strong><br>\n The natural logarithm (ln) is the logarithm to the base <em>e</em>, where <em>e</em> ≈ 2.71828.</p>\n \n <p><strong>Finding ln(7.56):</strong><br>\n Using a calculator or logarithm table:<br>\n ln(7.56) ≈ 2.0228</p>\n \n <p><strong>Verification:</strong><br>\n e² ≈ 7.389<br>\n e².⁰²²⁸ ≈ 7.56</p>\n \n <p style='color: var(--cAns); font-weight: bold;'>Therefore, ln(7.56) = 2.0228</p>\n</div>"
+  }
+ },
+ 
+ {
+  "type": "Question",
+  "name": "Question 2",
+  "topic": ["Real Number System"],
+  "Question": {
+   "content": " subjective question: Find the natural logarithm of 7.56",
+   "type": "subjective"
+  },
+  "Answer": {
+   "type": "string",
+   "content": "2.0228"
+  },
+  "Explanation": {
+   "type": "string",
+   "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'>\n <h4 style='color: var(--strongColor); margin-top: 0;'>Natural Logarithm Calculation</h4>\n <p><strong>What is Natural Logarithm?</strong><br>\n The natural logarithm (ln) is the logarithm to the base <em>e</em>, where <em>e</em> ≈ 2.71828.</p>\n \n <p><strong>Finding ln(7.56):</strong><br>\n Using a calculator or logarithm table:<br>\n ln(7.56) ≈ 2.0228</p>\n \n <p><strong>Verification:</strong><br>\n e² ≈ 7.389<br>\n e².⁰²²⁸ ≈ 7.56</p>\n \n <p style='color: var(--cAns); font-weight: bold;'>Therefore, ln(7.56) = 2.0228</p>\n</div>"
+  }
+ },
+ 
+ {
+  "type": "heading",
+  "heading": "This is the heading"
+ },
+  {
+  "type": "Question",
+  "name": "Question 3",
+  "topic": ["Real Number System"],
+  "Question": {
+   "content": "Find the natural logarithm of 7.56",
+   "type": "subjective"
+  },
+  "Answer": {
+   "type": "string",
+   "content": "2.0228"
+  },
+  "Explanation": {
+   "type": "string",
+   "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'>\n <h4 style='color: var(--strongColor); margin-top: 0;'>Natural Logarithm Calculation</h4>\n <p><strong>What is Natural Logarithm?</strong><br>\n The natural logarithm (ln) is the logarithm to the base <em>e</em>, where <em>e</em> ≈ 2.71828.</p>\n \n <p><strong>Finding ln(7.56):</strong><br>\n Using a calculator or logarithm table:<br>\n ln(7.56) ≈ 2.0228</p>\n \n <p><strong>Verification:</strong><br>\n e² ≈ 7.389<br>\n e².⁰²²⁸ ≈ 7.56</p>\n \n <p style='color: var(--cAns); font-weight: bold;'>Therefore, ln(7.56) = 2.0228</p>\n</div>"
+  }
+ },
+
+ {
+  "type": "heading",
+  "heading": "This is the heading",
+  "Subheading": "This is the sub-heading"
+ },
+ {
+  "type": "img",
+  "alt": "an image",
+  "url": "./icon.png",
+  "Caption": "example image",
+  "topic": "the value will a string or an array"
+ }
+ 
+]
