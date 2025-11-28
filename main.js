@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded',async function() {
+document.addEventListener('DOMContentLoaded', async function() {
  // Your code here
  console.log('DOM fully loaded and parsed');
  //Pro user function
@@ -497,7 +497,7 @@ document.addEventListener('DOMContentLoaded',async function() {
  
  let url = `https://procourses-v3yo.onrender.com/procourses/${API_key}`;
  //getPQ(`${url}/paper/${PastCourse}/${PastYear}`)
-await getPQ('./pq.jon');
+ await getPQ('./pq.jon');
  
  
  function randomItems(original, amount, shuffle) {
@@ -1263,4 +1263,3 @@ await getPQ('./pq.jon');
   }
  }
 });
-

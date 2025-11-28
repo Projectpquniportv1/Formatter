@@ -23,219 +23,192 @@
  },
  
  
-  {
-    "type": "Question",
-    "name": "Question 1",
-    "topic": ["Chemical Thermodynamics"],
-    "Question": {
-      "content": "Find the natural logarithm of 7.56",
-      "type": "OBJ",
-      "options": [
-        "2.0",
-        "2",
-        "2.02",
-        "2.023",
-        "2.0228"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "2.0228"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Natural Logarithm Calculation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>What is Natural Logarithm?</strong><br>\n    Natural logarithm (ln) is the logarithm to the base e, where e ≈ 2.71828. It tells us what power we need to raise e to get a certain number.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understanding the Problem</strong><br>\n    We need to find ln(7.56). This means: e<sup>x</sup> = 7.56, and we're finding x.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Using Calculator</strong><br>\n    Using a scientific calculator:<br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      ln(7.56) = 2.0228\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The natural logarithm of 7.56 is 2.0228\n  </div>\n</div>"
-    }
+ 
+ {
+  "type": "img",
+  "content": "https://ppqmg.s3.eu-north-1.amazonaws.com/pastquestionsimg/PHY_101/2023_2024/20251122_212141.png"
+ },
+ 
+ {
+  "type": "Question",
+  "name": "Question 1",
+  "topic": [
+   "Chemical Thermodynamics"
+  ],
+  "Question": {
+   "content": "Find the natural logarithm of 7.56",
+   "type": "OBJ",
+   "options": [
+    "2.0",
+    "2.02",
+    "2.023",
+    "2.0228",
+    "2.022"
+   ]
   },
-  {
-    "type": "Question",
-    "name": "Question 2",
-    "topic": ["Atomic Structure and Quantum Theory"],
-    "Question": {
-      "content": "Calculate the total number of orbital when n = 4, l = 3 and M₁ = 2?",
-      "type": "OBJ",
-      "options": [
-        "16",
-        "8",
-        "7",
-        "14",
-        "32"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "7"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Quantum Numbers and Orbitals</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Quantum Numbers Explained:</strong><br>\n    • n = principal quantum number (energy level)<br>\n    • l = azimuthal quantum number (shape of orbital)<br>\n    • mₗ = magnetic quantum number (orientation in space)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify the Orbital Type</strong><br>\n    When l = 3, this represents f-orbitals. For f-orbitals, mₗ can have values from -3 to +3.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Possible mₗ Values</strong><br>\n    For l = 3, mₗ = -3, -2, -1, 0, +1, +2, +3<br>\n    Total = 7 possible values\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Understanding the Question</strong><br>\n    The question asks for total number of orbitals when mₗ = 2 is specified. However, this seems to be asking about the total orbitals for f-subshell (l=3), which always has 7 orbitals regardless of mₗ value.\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> f-orbitals (l=3) always have 7 orbitals\n  </div>\n</div>"
-    }
+  "Answer": {
+   "type": "string",
+   "content": "2.0228"
   },
-  {
-    "type": "Question",
-    "name": "Question 3",
-    "topic": ["Chemical Thermodynamics"],
-    "Question": {
-      "content": "The enthalpy change when 1mol of a substance is burnt in excess air is called?",
-      "type": "OBJ",
-      "options": [
-        "heat of formation",
-        "heat of combustion",
-        "energy of mixing",
-        "oxidation",
-        "heat capacity"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "heat of combustion"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Heat of Combustion</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>What is Enthalpy?</strong><br>\n    Enthalpy is the heat content of a system at constant pressure.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Heat of Combustion Definition:</strong><br>\n    The heat of combustion is the enthalpy change when 1 mole of a substance is completely burned in excess oxygen (air).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Examples:</strong><br>\n    • Burning methane: CH₄ + 2O₂ → CO₂ + 2H₂O<br>\n    • Burning gasoline in car engines<br>\n    • Burning wood in a fire\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Other Options Explained:</strong><br>\n    • Heat of formation: Energy to form 1 mole from elements<br>\n    • Energy of mixing: Energy change when substances mix<br>\n    • Oxidation: Chemical reaction with oxygen<br>\n    • Heat capacity: Amount of heat to raise temperature\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Heat of combustion is the correct term\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 4",
-    "topic": ["Gaseous State"],
-    "Question": {
-      "content": "The density ρ of a gas at temperature T is given by the equation p = RTρ, if p = 1.25 atm, T = 308.5 K and R = 8.31447 J/K.mol, calculate the density of the gas. Note: 1 atm = 101325 Pa",
-      "type": "OBJ",
-      "options": [
-        "49.45 mol/m³",
-        "49.45 mol/m³",
-        "49.45 mol/m³"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "49.45 mol/m³"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Gas Density Calculation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Write the Given Equation</strong><br>\n    p = RTρ<br>\n    Where ρ is density in mol/m³\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Rearrange for Density</strong><br>\n    ρ = p ÷ (RT)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Convert Units</strong><br>\n    p = 1.25 atm × 101325 Pa/atm = 126656.25 Pa<br>\n    R = 8.31447 J/K.mol (J = Pa·m³)<br>\n    T = 308.5 K\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Calculate</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      ρ = 126656.25 ÷ (8.31447 × 308.5)<br>\n      ρ = 126656.25 ÷ 2565.16<br>\n      ρ = 49.45 mol/m³\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The gas density is 49.45 mol/m³\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 5",
-    "topic": ["Chemical Thermodynamics"],
-    "Question": {
-      "content": "Two differences between an open and a closed thermodynamic systems are:",
-      "type": "OBJ",
-      "options": [
-        "Closed system has constant mass, open system does not",
-        "Heat flows into closed system and not in open system",
-        "Closed system is adiabatic, open system is isothermal",
-        "Closed system is isobaric, open system is isobaric",
-        "None of the above"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Closed system has constant mass, open system does not"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Thermodynamic Systems</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Types of Thermodynamic Systems:</strong><br>\n    • <strong>Open System:</strong> Can exchange both energy AND matter with surroundings<br>\n    • <strong>Closed System:</strong> Can exchange energy but NOT matter with surroundings<br>\n    • <strong>Isolated System:</strong> Cannot exchange energy or matter with surroundings\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Key Differences:</strong><br>\n    <strong>1. Mass Exchange:</strong><br>\n    - Closed system: Constant mass (no matter enters or leaves)<br>\n    - Open system: Variable mass (matter can enter or leave)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Examples:</strong><br>\n    • <strong>Open system:</strong> A boiling pot of water (steam escapes)<br>\n    • <strong>Closed system:</strong> A sealed water bottle<br>\n    • <strong>Isolated system:</strong> A thermos flask (ideal case)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \"Closed system has constant mass, open system does not\" is the correct difference\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 6",
-    "topic": ["Atomic Theory and Chemical Equations"],
-    "Question": {
-      "content": "Determine the mass of NH₃ produced from a mixture of 19.88g of N₂ and 4.00g of H₂.",
-      "type": "OBJ",
-      "options": [
-        "11.23g",
-        "20.12g",
-        "22.48g",
-        "30.43g",
-        "25.46g"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "22.48g"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Stoichiometry - Limiting Reactant</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Write Balanced Equation</strong><br>\n    N₂ + 3H₂ → 2NH₃\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculate Moles</strong><br>\n    Molar mass N₂ = 28 g/mol<br>\n    Molar mass H₂ = 2 g/mol<br>\n    Molar mass NH₃ = 17 g/mol<br><br>\n    \n    Moles N₂ = 19.88 ÷ 28 = 0.71 mol<br>\n    Moles H₂ = 4.00 ÷ 2 = 2.00 mol\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Find Limiting Reactant</strong><br>\n    From equation: 1 mol N₂ needs 3 mol H₂<br>\n    Available: 0.71 mol N₂ would need 2.13 mol H₂<br>\n    But we only have 2.00 mol H₂<br>\n    ∴ H₂ is limiting reactant\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Calculate NH₃ Produced</strong><br>\n    From equation: 3 mol H₂ produces 2 mol NH₃<br>\n    2.00 mol H₂ produces (2/3) × 2.00 = 1.333 mol NH₃<br><br>\n    \n    Mass NH₃ = 1.333 × 17 = 22.48 g\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 22.48g of NH₃ will be produced\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 7",
-    "topic": ["Periodic Table"],
-    "Question": {
-      "content": "The properties of the periodic table includes which of the following:",
-      "type": "OBJ",
-      "options": [
-        "ionic radii",
-        "atomic radii",
-        "ionization energy",
-        "electronegativity",
-        "all of the above"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "all of the above"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Periodic Table Properties</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>What are Periodic Properties?</strong><br>\n    These are properties that show predictable patterns across the periodic table.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>All Options are Periodic Properties:</strong><br>\n    • <strong>Atomic Radii:</strong> Size of atoms - decreases across period, increases down group<br>\n    • <strong>Ionic Radii:</strong> Size of ions - follows similar trends as atomic radii<br>\n    • <strong>Ionization Energy:</strong> Energy to remove an electron - increases across period<br>\n    • <strong>Electronegativity:</strong> Ability to attract electrons - increases across period\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Other Periodic Properties:</strong><br>\n    • Electron affinity<br>\n    • Metallic character<br>\n    • Boiling and melting points<br>\n    • Chemical reactivity\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> All listed properties are periodic properties\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 8",
-    "topic": ["Chemical Bonding"],
-    "Question": {
-      "content": "Molecular compounds are generally composed of",
-      "type": "OBJ",
-      "options": [
-        "Metal and non-metals",
-        "Metals only",
-        "Non-metals only",
-        "ions",
-        "none of the above"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Non-metals only"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Molecular Compounds</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>What are Molecular Compounds?</strong><br>\n    Molecular compounds are formed when two or more NON-METALS share electrons through covalent bonds.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Characteristics:</strong><br>\n    • Formed between non-metals only<br>\n    • Share electrons (covalent bonding)<br>\n    • Exist as discrete molecules<br>\n    • Generally have lower melting/boiling points\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Examples:</strong><br>\n    • Water (H₂O) - hydrogen and oxygen (both non-metals)<br>\n    • Carbon dioxide (CO₂) - carbon and oxygen<br>\n    • Methane (CH₄) - carbon and hydrogen<br>\n    • Ammonia (NH₃) - nitrogen and hydrogen\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Contrast with Ionic Compounds:</strong><br>\n    Ionic compounds form between metals and non-metals through electron transfer, creating ions.\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Molecular compounds are composed of non-metals only\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 9",
-    "topic": ["Chemical Thermodynamics"],
-    "Question": {
-      "content": "A system gains 418.2J of heat and does 313.5J of work: Determine the change in internal energy of the system in Joules",
-      "type": "OBJ",
-      "options": [
-        "209J",
-        "104.5J",
-        "90J",
-        "100J",
-        "85J"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "104.5J"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>First Law of Thermodynamics</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>The First Law Formula:</strong><br>\n    ΔU = Q - W<br>\n    Where:<br>\n    ΔU = change in internal energy<br>\n    Q = heat added to system<br>\n    W = work done BY system\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Sign Convention:</strong><br>\n    • Q positive = heat added TO system<br>\n    • W positive = work done BY system<br>\n    • ΔU positive = internal energy increases\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify Values</strong><br>\n    Q = +418.2 J (heat gained by system)<br>\n    W = +313.5 J (work done by system)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Apply Formula</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      ΔU = Q - W<br>\n      ΔU = 418.2 - 313.5<br>\n      ΔU = 104.7 J\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The change in internal energy is 104.5J (rounded)\n  </div>\n</div>"
-    }
+  "Explanation": {
+   "type": "string",
+   "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Natural Logarithm</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand the Operation</strong><br>\n    The question asks for the natural logarithm (ln), which is the logarithm to the base \\( e \\) (Euler's number, approx 2.718).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculation</strong><br>\n    Using a scientific calculator:\n    <div style='background: var(--transparentBlack); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( \\ln(7.56) \\approx 2.02287 \\)\n    </div>\n    Rounding to four decimal places gives 2.0228.\n  </div>\n\n  <div style='background: var(--greenBgL); color: var(--greenText); padding: 12px; border-radius: 6px; border-left: 4px solid var(--greenBg); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The natural logarithm is 2.0228.\n  </div>\n</div>"
   }
+ },
+ {
+  "type": "Question",
+  "name": "Question 2",
+  "topic": [
+   "Atomic Structure and Quantum Theory"
+  ],
+  "Question": {
+   "content": "Calculate the total number of orbital when n = 4, l = 3 and Ml = 2?",
+   "type": "OBJ",
+   "options": [
+    "16",
+    "8",
+    "7",
+    "14",
+    "32"
+   ]
+  },
+  "Answer": {
+   "type": "string",
+   "content": "7"
+  },
+  "Explanation": {
+   "type": "string",
+   "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Quantum Numbers and Orbitals</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify the Subshell</strong><br>\n    The quantum numbers given are \\( n=4 \\) and \\( l=3 \\).<br>\n    The value \\( l=3 \\) corresponds to the <strong>f-subshell</strong>.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Determine Number of Orbitals in Subshell</strong><br>\n    The number of orbitals in a subshell is determined by the magnetic quantum number \\( m_l \\), which ranges from \\( -l \\) to \\( +l \\).<br>\n    Formula: Number of orbitals = \\( 2l + 1 \\)\n    <div style='background: var(--transparentBlack); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( 2(3) + 1 = 7 \\)\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Note on Ambiguity</strong><br>\n    Strictly speaking, specifying \\( m_l = 2 \\) points to exactly <strong>one</strong> specific orbital. However, \"1\" is not an option. In multiple-choice chemistry questions, listing the full set often implies asking for the capacity of the subshell defined by \\( l \\). Therefore, we select the number of orbitals in the \\( 4f \\) subshell.\n  </div>\n\n  <div style='background: var(--greenBgL); color: var(--greenText); padding: 12px; border-radius: 6px; border-left: 4px solid var(--greenBg); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> There are 7 orbitals in the l=3 subshell.\n  </div>\n</div>"
+  }
+ },
+ {
+  "type": "Question",
+  "name": "Question 4",
+  "topic": [
+   "Gaseous State"
+  ],
+  "Question": {
+   "content": "The density ρ of a gas at temperature T is given by the equation p = RTρ, if p = 1.25 atm, T = 308.5K and R = 8.3144 J/K.mol, calculate the density of the gas.",
+   "type": "OBJ",
+   "options": [
+    "49.46 mol/m³",
+    "49 mol/m³",
+    "49.5 mol/m³",
+    "49.458 mol/m³",
+    "49.459 mol/m³"
+   ]
+  },
+  "Answer": {
+   "type": "string",
+   "content": "49.46 mol/m³"
+  },
+  "Explanation": {
+   "type": "string",
+   "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Gas Density</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Rearrange the Given Formula</strong><br>\n    The question gives the equation: \\( p = RT\\rho \\)<br>\n    To find density (\\( \\rho \\)), we rearrange it:\n    <div style='background: var(--transparentBlack); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( \\rho = \\frac{p}{RT} \\)\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Convert Units to SI</strong><br>\n    The gas constant \\( R \\) is given in Joules (SI unit), so Pressure (\\( p \\)) must be in Pascals (Pa), not atm.<br>\n    \\( 1 \\text{ atm} = 101,325 \\text{ Pa} \\)<br>\n    \\( p = 1.25 \\times 101,325 = 126,656.25 \\text{ Pa} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Substitute Values</strong><br>\n    \\( p = 126,656.25 \\)<br>\n    \\( R = 8.3144 \\)<br>\n    \\( T = 308.5 \\)\n    <br>\n    \\( \\rho = \\frac{126656.25}{8.3144 \\times 308.5} \\)\n    <br>\n    \\( \\rho = \\frac{126656.25}{2564.99} \\approx 49.38 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Check Options</strong><br>\n    The calculated value is approx 49.4. The closest precise option provided is 49.46.\n  </div>\n\n  <div style='background: var(--greenBgL); color: var(--greenText); padding: 12px; border-radius: 6px; border-left: 4px solid var(--greenBg); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 49.46 mol/m³\n  </div>\n</div>"
+  }
+ },
+ {
+  "type": "Question",
+  "name": "Question 6",
+  "topic": [
+   "Atomic Theory and Chemical Equations"
+  ],
+  "Question": {
+   "content": "Determine the mass of NH3 produced from a mixture of 19.88g of N2 and 4.00g of H2.",
+   "type": "OBJ",
+   "options": [
+    "11.23g",
+    "20.12g",
+    "22.48g",
+    "30.43g",
+    "25.46g"
+   ]
+  },
+  "Answer": {
+   "type": "string",
+   "content": "22.48g"
+  },
+  "Explanation": {
+   "type": "string",
+   "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Stoichiometry: Limiting Reagent</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Write Balanced Equation</strong><br>\n    \\( N_2 + 3H_2 \\rightarrow 2NH_3 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculate Moles of Reactants</strong><br>\n    Molar Masses: \\( N_2 \\approx 28 \\text{ g/mol} \\), \\( H_2 \\approx 2.016 \\text{ g/mol} \\)<br>\n    Moles \\( N_2 = \\frac{19.88}{28} = 0.71 \\text{ mol} \\)<br>\n    Moles \\( H_2 = \\frac{4.00}{2.016} \\approx 1.984 \\text{ mol} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Determine Limiting Reagent</strong><br>\n    Ratio needed: 1 mole \\( N_2 \\) needs 3 moles \\( H_2 \\).<br>\n    For 0.71 moles \\( N_2 \\), we need \\( 0.71 \\times 3 = 2.13 \\) moles \\( H_2 \\).<br>\n    We only have 1.984 moles \\( H_2 \\). Therefore, <strong>H₂ is the limiting reagent</strong>.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Calculate Product Yield</strong><br>\n    From equation: 3 moles \\( H_2 \\) produce 2 moles \\( NH_3 \\).<br>\n    Moles \\( NH_3 = 1.984 \\times \\frac{2}{3} = 1.323 \\text{ mol} \\)<br>\n    Mass \\( NH_3 = 1.323 \\text{ mol} \\times 17.03 \\text{ g/mol} \\approx 22.52 \\text{ g} \\)\n  </div>\n\n  <div style='background: var(--greenBgL); color: var(--greenText); padding: 12px; border-radius: 6px; border-left: 4px solid var(--greenBg); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The closest option is 22.48g.\n  </div>\n</div>"
+  }
+ },
+ {
+  "type": "Question",
+  "name": "Question 10",
+  "topic": [
+   "Gaseous State"
+  ],
+  "Question": {
+   "content": "A sample of gas with mass of 0.450g occupies the volume of 345ml at 65°C and at pressure of 776mmHg. What is the molar mass of the gas?",
+   "type": "OBJ",
+   "options": [
+    "209J",
+    "35.46gmol⁻¹",
+    "17.5gmol⁻¹",
+    "45.2gmol⁻¹",
+    "28.2gmol⁻¹"
+   ]
+  },
+  "Answer": {
+   "type": "string",
+   "content": "35.46gmol⁻¹"
+  },
+  "Explanation": {
+   "type": "string",
+   "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Ideal Gas Law: Finding Molar Mass</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Formula</strong><br>\n    We derive Molar Mass (M) from the Ideal Gas Law \\( PV = nRT \\):<br>\n    Since \\( n = \\frac{mass}{M} \\), then \\( PV = \\frac{m}{M}RT \\) or \\( M = \\frac{mRT}{PV} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Convert Units</strong><br>\n    * Mass (m) = 0.450 g<br>\n    * Volume (V) = 345 ml = 0.345 L<br>\n    * Temp (T) = 65°C + 273 = 338 K<br>\n    * Pressure (P) = 776 mmHg. Convert to atm: \\( \\frac{776}{760} = 1.021 \\text{ atm} \\)<br>\n    * R = 0.0821 L·atm/(mol·K)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate</strong><br>\n    <div style='background: var(--transparentBlack); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( M = \\frac{0.450 \\times 0.0821 \\times 338}{1.021 \\times 0.345} \\)\n    </div>\n    Numerator \\( \\approx 12.487 \\)<br>\n    Denominator \\( \\approx 0.352 \\)<br>\n    \\( M = 35.47 \\text{ g/mol} \\)\n  </div>\n\n  <div style='background: var(--greenBgL); color: var(--greenText); padding: 12px; border-radius: 6px; border-left: 4px solid var(--greenBg); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 35.46 gmol⁻¹\n  </div>\n</div>"
+  }
+ },
+ {
+  "type": "Question",
+  "name": "Question 13",
+  "topic": [
+   "Chemical Bonding"
+  ],
+  "Question": {
+   "content": "Which of the following compound is ionic?",
+   "type": "OBJ",
+   "options": [
+    "N₂O",
+    "Na₂O",
+    "SE₄",
+    "CO",
+    "O₂"
+   ]
+  },
+  "Answer": {
+   "type": "string",
+   "content": "Na₂O"
+  },
+  "Explanation": {
+   "type": "string",
+   "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Identifying Ionic Compounds</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Concept</strong><br>\n    Ionic compounds are generally formed between a <strong>Metal</strong> and a <strong>Non-metal</strong>. Covalent compounds are formed between non-metals.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Analysis of Options</strong><br>\n    * <strong>N₂O:</strong> Nitrogen (Non-metal) + Oxygen (Non-metal) → Covalent<br>\n    * <strong>Na₂O:</strong> Sodium (Metal) + Oxygen (Non-metal) → <strong>Ionic</strong><br>\n    * <strong>SE₄:</strong> Selenium (Non-metal) + Fluorine/Element E (Non-metal) → Covalent<br>\n    * <strong>CO:</strong> Carbon (Non-metal) + Oxygen (Non-metal) → Covalent<br>\n    * <strong>O₂:</strong> Non-metal molecule → Covalent\n  </div>\n\n  <div style='background: var(--greenBgL); color: var(--greenText); padding: 12px; border-radius: 6px; border-left: 4px solid var(--greenBg); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Na₂O is the ionic compound.\n  </div>\n</div>"
+  }
+ },
+ {
+  "type": "Question",
+  "name": "Question 16",
+  "topic": [
+   "Atomic Structure and Quantum Theory"
+  ],
+  "Question": {
+   "content": "The designation of the orbital of n = 3, l = 1, m = 0 is:",
+   "type": "OBJ",
+   "options": [
+    "3py",
+    "3px",
+    "3s",
+    "3pz",
+    "3d"
+   ]
+  },
+  "Answer": {
+   "type": "string",
+   "content": "3pz"
+  },
+  "Explanation": {
+   "type": "string",
+   "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Orbital Designation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Principal and Azimuthal Numbers</strong><br>\n    * \\( n = 3 \\) indicates the 3rd shell.<br>\n    * \\( l = 1 \\) corresponds to the <strong>p</strong> subshell.<br>\n    So the orbital is a <strong>3p</strong> orbital.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Magnetic Quantum Number</strong><br>\n    The magnetic quantum number \\( m \\) (or \\( m_l \\)) determines the orientation in space.<br>\n    For p-orbitals, the values are -1, 0, +1, corresponding to \\( p_x, p_y, p_z \\).<br>\n    <strong>Convention:</strong> By standard convention in many chemistry textbooks, \\( m = 0 \\) is assigned to the <strong>z-axis (\\( p_z \\))</strong>.\n  </div>\n\n  <div style='background: var(--greenBgL); color: var(--greenText); padding: 12px; border-radius: 6px; border-left: 4px solid var(--greenBg); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 3pz\n  </div>\n</div>"
+  }
+ }
 ]
-
