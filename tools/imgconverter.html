@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image to Base64 Converter</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .container {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            padding: 30px;
+            margin-top: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eaeaea;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 2.2rem;
+        }
+        
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .warning {
+            background-color: #fff8e1;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin-bottom: 25px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .warning-icon {
+            margin-right: 10px;
+            font-size: 1.5rem;
+        }
+        
+        .converter-area {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        @media (max-width: 768px) {
+            .converter-area {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .upload-section, .result-section {
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        
+        .section-title {
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            color: #2c3e50;
+            display: flex;
+            align-items: center;
+        }
+        
+        .section-title i {
+            margin-right: 10px;
+        }
+        
+        .file-input-area {
+            border: 2px dashed #ccc;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            transition: all 0.3s;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+        
+        .file-input-area:hover {
+            border-color: #3498db;
+            background-color: #f0f8ff;
+        }
+        
+        .file-input-area.dragover {
+            border-color: #2980b9;
+            background-color: #e3f2fd;
+        }
+        
+        .file-input-label {
+            display: block;
+            cursor: pointer;
+        }
+        
+        .upload-icon {
+            font-size: 3rem;
+            color: #3498db;
+            margin-bottom: 15px;
+        }
+        
+        .upload-text {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        
+        .file-info {
+            margin-top: 15px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 6px;
+            border: 1px solid #eaeaea;
+        }
+        
+        .size-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+        }
+        
+        .size-info .size-value {
+            font-weight: 600;
+        }
+        
+        .size-info .valid {
+            color: #27ae60;
+        }
+        
+        .size-info .invalid {
+            color: #e74c3c;
+        }
+        
+        input[type="file"] {
+            display: none;
+        }
+        
+        .preview-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        .preview-title {
+            text-align: left;
+            margin-bottom: 10px;
+            color: #555;
+        }
+        
+        .image-preview {
+            max-width: 100%;
+            max-height: 200px;
+            border-radius: 6px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .base64-container {
+            position: relative;
+            margin-top: 20px;
+        }
+        
+        .base64-textarea {
+            width: 100%;
+            height: 200px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            resize: vertical;
+            background-color: #f8f9fa;
+        }
+        
+        .base64-textarea:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+        
+        .buttons {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        button {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .convert-btn {
+            background-color: #3498db;
+            color: white;
+            flex: 1;
+        }
+        
+        .convert-btn:hover {
+            background-color: #2980b9;
+        }
+        
+        .convert-btn:disabled {
+            background-color: #bdc3c7;
+            cursor: not-allowed;
+        }
+        
+        .copy-btn {
+            background-color: #2ecc71;
+            color: white;
+        }
+        
+        .copy-btn:hover {
+            background-color: #27ae60;
+        }
+        
+        .copy-btn.copied {
+            background-color: #27ae60;
+        }
+        
+        .reset-btn {
+            background-color: #e74c3c;
+            color: white;
+        }
+        
+        .reset-btn:hover {
+            background-color: #c0392b;
+        }
+        
+        button i {
+            margin-right: 8px;
+        }
+        
+        .instructions {
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 30px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .instructions h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+        
+        .instructions ul {
+            padding-left: 20px;
+        }
+        
+        .instructions li {
+            margin-bottom: 8px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            padding-top: 20px;
+            border-top: 1px solid #eaeaea;
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        .progress-bar {
+            height: 6px;
+            background-color: #e0e0e0;
+            border-radius: 3px;
+            margin-top: 10px;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background-color: #3498db;
+            width: 0%;
+            transition: width 0.3s;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Image to Base64 Converter</h1>
+            <p class="subtitle">Upload an image (max 1MB) and convert it to Base64 encoding. Use the copy button to easily copy the result to your clipboard.</p>
+        </header>
+        
+        <div class="warning">
+            <span class="warning-icon">⚠️</span>
+            <span>Maximum image size is 1MB. Larger images will be rejected.</span>
+        </div>
+        
+        <div class="converter-area">
+            <div class="upload-section">
+                <h2 class="section-title"><i class="fas fa-file-upload"></i> Upload Image</h2>
+                
+                <div class="file-input-area" id="dropArea">
+                    <label for="imageInput" class="file-input-label">
+                        <div class="upload-icon">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                        </div>
+                        <div class="upload-text">Click to browse or drag & drop your image here</div>
+                        <div class="file-types">Supports: JPG, PNG, GIF, WebP, SVG</div>
+                    </label>
+                    <input type="file" id="imageInput" accept=".jpg,.jpeg,.png,.gif,.webp,.svg">
+                </div>
+                
+                <div class="file-info">
+                    <div class="size-info">
+                        <span>File Size:</span>
+                        <span id="fileSize" class="size-value">-</span>
+                    </div>
+                    <div class="size-info">
+                        <span>Status:</span>
+                        <span id="sizeStatus" class="size-value">No file selected</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                </div>
+                
+                <div id="previewContainer" class="preview-container hidden">
+                    <div class="preview-title">Image Preview:</div>
+                    <img id="imagePreview" class="image-preview" src="" alt="Preview">
+                </div>
+                
+                <div class="buttons">
+                    <button id="convertBtn" class="convert-btn" disabled>
+                        <i class="fas fa-exchange-alt"></i> Convert to Base64
+                    </button>
+                    <button id="resetBtn" class="reset-btn">
+                        <i class="fas fa-redo"></i> Reset
+                    </button>
+                </div>
+            </div>
+            
+            <div class="result-section">
+                <h2 class="section-title"><i class="fas fa-code"></i> Base64 Result</h2>
+                
+                <div class="base64-container">
+                    <textarea id="base64Output" class="base64-textarea" placeholder="Your Base64 encoded image will appear here..." readonly></textarea>
+                </div>
+                
+                <div class="buttons">
+                    <button id="copyBtn" class="copy-btn" disabled>
+                        <i class="far fa-copy"></i> Copy to Clipboard
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="instructions">
+            <h3>How to use this converter:</h3>
+            <ul>
+                <li>Click the upload area or drag & drop an image (max 1MB)</li>
+                <li>Check the file size - it must be 1MB or less</li>
+                <li>Click "Convert to Base64" to generate the encoded string</li>
+                <li>Use the "Copy to Clipboard" button to copy the result</li>
+                <li>Use "Reset" to start over with a new image</li>
+                <li>Base64 strings can be used in CSS, HTML, or JavaScript</li>
+            </ul>
+        </div>
+        
+        <footer>
+            <p>Image to Base64 Converter | Max file size: 1MB | Made with HTML, CSS & JavaScript</p>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // DOM Elements
+            const imageInput = document.getElementById('imageInput');
+            const dropArea = document.getElementById('dropArea');
+            const fileSizeElement = document.getElementById('fileSize');
+            const sizeStatusElement = document.getElementById('sizeStatus');
+            const convertBtn = document.getElementById('convertBtn');
+            const copyBtn = document.getElementById('copyBtn');
+            const resetBtn = document.getElementById('resetBtn');
+            const base64Output = document.getElementById('base64Output');
+            const imagePreview = document.getElementById('imagePreview');
+            const previewContainer = document.getElementById('previewContainer');
+            const progressFill = document.getElementById('progressFill');
+            
+            let currentFile = null;
+            const MAX_SIZE = 1 * 1024 * 1024; // 1MB in bytes
+            
+            // File input change event
+            imageInput.addEventListener('change', handleFileSelect);
+            
+            // Drag and drop functionality
+            dropArea.addEventListener('dragover', function(e) {
+                e.preventDefault();
+                dropArea.classList.add('dragover');
+            });
+            
+            dropArea.addEventListener('dragleave', function() {
+                dropArea.classList.remove('dragover');
+            });
+            
+            dropArea.addEventListener('drop', function(e) {
+                e.preventDefault();
+                dropArea.classList.remove('dragover');
+                
+                if (e.dataTransfer.files.length) {
+                    imageInput.files = e.dataTransfer.files;
+                    handleFileSelect();
+                }
+            });
+            
+            // Click drop area to trigger file input
+            dropArea.addEventListener('click', function() {
+                imageInput.click();
+            });
+            
+            // Convert button click
+            convertBtn.addEventListener('click', convertToBase64);
+            
+            // Copy button click
+            copyBtn.addEventListener('click', copyToClipboard);
+            
+            // Reset button click
+            resetBtn.addEventListener('click', resetConverter);
+            
+            function handleFileSelect() {
+                if (!imageInput.files.length) return;
+                
+                currentFile = imageInput.files[0];
+                const fileSize = currentFile.size;
+                const fileSizeMB = (fileSize / (1024 * 1024)).toFixed(2);
+                
+                // Update file size display
+                fileSizeElement.textContent = `${fileSizeMB} MB`;
+                
+                // Update progress bar
+                const percentage = Math.min((fileSize / MAX_SIZE) * 100, 100);
+                progressFill.style.width = `${percentage}%`;
+                
+                // Check file size
+                if (fileSize > MAX_SIZE) {
+                    fileSizeElement.className = 'size-value invalid';
+                    sizeStatusElement.textContent = 'File too large!';
+                    sizeStatusElement.className = 'size-value invalid';
+                    convertBtn.disabled = true;
+                    
+                    // Update progress bar color to red
+                    progressFill.style.backgroundColor = '#e74c3c';
+                } else {
+                    fileSizeElement.className = 'size-value valid';
+                    sizeStatusElement.textContent = 'File size OK';
+                    sizeStatusElement.className = 'size-value valid';
+                    convertBtn.disabled = false;
+                    
+                    // Update progress bar color to green
+                    progressFill.style.backgroundColor = '#2ecc71';
+                }
+                
+                // Show image preview
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    imagePreview.src = e.target.result;
+                    previewContainer.classList.remove('hidden');
+                };
+                reader.readAsDataURL(currentFile);
+                
+                // Enable copy button if there's already base64 content
+                if (base64Output.value) {
+                    copyBtn.disabled = false;
+                }
+            }
+            
+            function convertToBase64() {
+                if (!currentFile) return;
+                
+                const reader = new FileReader();
+                
+                reader.onloadstart = function() {
+                    convertBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Converting...';
+                    convertBtn.disabled = true;
+                };
+                
+                reader.onload = function(e) {
+                    // The result is already a base64 string (data URL)
+                    const base64String = e.target.result;
+                    
+                    // Extract just the base64 part (remove "data:image/...;base64," prefix)
+                    const base64Data = base64String.split(',')[1];
+                    
+                    // Display the base64 string
+                    base64Output.value = base64Data;
+                    
+                    // Update button states
+                    convertBtn.innerHTML = '<i class="fas fa-check"></i> Converted!';
+                    copyBtn.disabled = false;
+                    
+                    // Re-enable convert button after a moment
+                    setTimeout(() => {
+                        convertBtn.innerHTML = '<i class="fas fa-exchange-alt"></i> Convert to Base64';
+                        convertBtn.disabled = false;
+                    }, 1500);
+                };
+                
+                reader.onerror = function() {
+                    base64Output.value = "Error: Could not read the file.";
+                    convertBtn.innerHTML = '<i class="fas fa-exchange-alt"></i> Convert to Base64';
+                    convertBtn.disabled = false;
+                };
+                
+                reader.readAsDataURL(currentFile);
+            }
+            
+            function copyToClipboard() {
+                if (!base64Output.value) return;
+                
+                // Select the text
+                base64Output.select();
+                base64Output.setSelectionRange(0, 99999); // For mobile devices
+                
+                // Copy the text
+                try {
+                    const successful = document.execCommand('copy');
+                    
+                    if (successful) {
+                        // Visual feedback
+                        const originalText = copyBtn.innerHTML;
+                        copyBtn.innerHTML = '<i class="fas fa-check"></i> Copied!';
+                        copyBtn.classList.add('copied');
+                        
+                        // Reset button after 2 seconds
+                        setTimeout(() => {
+                            copyBtn.innerHTML = originalText;
+                            copyBtn.classList.remove('copied');
+                        }, 2000);
+                    }
+                } catch (err) {
+                    // Fallback using Clipboard API
+                    navigator.clipboard.writeText(base64Output.value).then(() => {
+                        const originalText = copyBtn.innerHTML;
+                        copyBtn.innerHTML = '<i class="fas fa-check"></i> Copied!';
+                        copyBtn.classList.add('copied');
+                        
+                        setTimeout(() => {
+                            copyBtn.innerHTML = originalText;
+                            copyBtn.classList.remove('copied');
+                        }, 2000);
+                    });
+                }
+            }
+            
+            function resetConverter() {
+                // Reset all elements to initial state
+                imageInput.value = '';
+                fileSizeElement.textContent = '-';
+                sizeStatusElement.textContent = 'No file selected';
+                sizeStatusElement.className = 'size-value';
+                fileSizeElement.className = 'size-value';
+                base64Output.value = '';
+                imagePreview.src = '';
+                previewContainer.classList.add('hidden');
+                convertBtn.disabled = true;
+                copyBtn.disabled = true;
+                currentFile = null;
+                
+                // Reset progress bar
+                progressFill.style.width = '0%';
+                progressFill.style.backgroundColor = '#3498db';
+                
+                // Reset button text if needed
+                convertBtn.innerHTML = '<i class="fas fa-exchange-alt"></i> Convert to Base64';
+                copyBtn.innerHTML = '<i class="far fa-copy"></i> Copy to Clipboard';
+                copyBtn.classList.remove('copied');
+            }
+        });
+    </script>
+</body>
+</html>

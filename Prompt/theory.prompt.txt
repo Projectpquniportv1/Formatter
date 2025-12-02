@@ -145,4 +145,4 @@ IF it's a subjective question then change "type": "OBJ" to "type":"subjective"
 and remove options property.
 let answers just be the final answer.
 
-Remove the (a), (b), etc... the will label the options by itself.
+Remove the (a), (b), etc... the will label the options by itself.verter
