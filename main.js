@@ -26,7 +26,10 @@ document.addEventListener('DOMContentLoaded', async function() {
  
  
  
- /*
+ function Id(id){
+ 	 return document.getElementById(id)
+ }
+
 
  //Day and Night theme Function
  let lightImg;
@@ -37,10 +40,12 @@ document.addEventListener('DOMContentLoaded', async function() {
   if (document.body.classList.contains('dark')) {
    localStorage.setItem('theme', 'dark');
    Id("body").style.background = "#003366";
+   Id("body").style.color = "#fff";
    Id("theme_icon").src = darkImg;
   } else {
    localStorage.setItem('theme', 'light');
-   // Id("body").style.background = "#fff";
+  Id("body").style.background = "#fff";
+   Id("body").style.color = "#000";
    Id("theme_icon").src = lightImg;
   }
  }
@@ -60,7 +65,7 @@ document.addEventListener('DOMContentLoaded', async function() {
   DayOrNigth();
  });
  DayOrNigth();
- */
+ 
  
  
  
