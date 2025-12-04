@@ -1,3 +1,14 @@
+//This is an Explqination of tye json.
+
+/*
+It is just an array of objecets
+Each first level object have a type property.
+    
+//Different Type properties
+1. pageInfo : 
+						The metaingo
+*/
+
 [
  
  {
