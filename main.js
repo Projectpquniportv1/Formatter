@@ -30,6 +30,73 @@ document.addEventListener('DOMContentLoaded', async function() {
  	 return document.getElementById(id)
  }
 
+function enableDarkTheme() {
+ // Create a style element
+ const style = document.createElement("style");
+ style.id = "dark-theme-styles";
+
+ // Define the CSS for dark theme
+ style.textContent = `
+        /* The Dark theme */
+        :root {
+            --transparentBlack: var(--transparentLightAsh);
+            --themeSliderBg: var(--lightAsh);
+            --instCl: var(--bodyBackground);
+            --bodyTextColor: var(--white);
+            --bodyBackground: var(--darkTheme);
+            --explainBg: var(--bodyBackground);
+            --explainColor: var(--bodyTextColor);
+            --ansL: var(--greenBg);
+            --ansD: var(--greenBg);
+            --warningBg: var(--orangeBgD);
+            --infoBg: var(--strongColor);
+            --infoCl: var(--bodyTextColor);
+            --preset-bg-color: var(--ash);
+        }
+    `;
+
+ // Add the style to the document head
+ document.head.appendChild(style);
+
+ // Optional: Add dark theme class to body for easier targeting
+ document.body.classList.add("dark-theme");
+}
+
+function enableLigtTheme() {
+ // Create a style element
+ const style = document.createElement("style");
+ style.id = "light-theme-styles";
+
+ // Define the CSS for dark theme
+ style.textContent = `
+        /* The light theme */
+           :root {
+    --themeSliderBg: var(--lightBlue);
+    --instCl: var(--bodyTextColor);
+    --bodyTextColor: var(--readBlue);
+    --bodyBackground: var(--white);
+    --explainBg: var(--darkWhite);
+    --explainColor: var(--darkReadBlue);
+    --ansL: var(--white);
+    --ansD: var(--greenCBg);
+    --warningBg: var(--orangeBgL);
+    --infoBg: lightSkyBlue;
+    --infoCl: var(--dullBlue);
+    
+    --preset-bg-color: var(--transparentLightAsh);
+    
+   }
+
+    `;
+
+ // Add the style to the document head
+ document.head.appendChild(style);
+
+ // Optional: Add dark theme class to body for easier targeting
+ document.body.classList.add("light-theme");
+}
+
+
 
  //Day and Night theme Function
  let lightImg;
@@ -42,11 +109,13 @@ document.addEventListener('DOMContentLoaded', async function() {
    Id("body").style.background = "#003366";
    Id("body").style.color = "#fff";
    Id("theme_icon").src = darkImg;
+   enableDarkTheme()
   } else {
    localStorage.setItem('theme', 'light');
   Id("body").style.background = "#fff";
    Id("body").style.color = "#000";
    Id("theme_icon").src = lightImg;
+   enableLigtTheme();
   }
  }
 
