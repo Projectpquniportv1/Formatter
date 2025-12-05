@@ -250,6 +250,8 @@ function enableLigtTheme() {
    nonObjAnswer = [];
    allQuestions = []
    
+   InstructionNumber = 1;
+   
    //go through the each item
    array.forEach((item) => {
     switch (item.type) {
@@ -289,6 +291,7 @@ function enableLigtTheme() {
   },
   
   quiz: (array) => {
+  	InstructionNumber = 1;
    /*Handles the response*/
    //reseting
    DOM.get('#Page').innerHTML = '<header id="header"></header>';
@@ -519,7 +522,8 @@ function enableLigtTheme() {
      instructionsC.appendChild(anyInstruction)
     });
     //Add instructions to instruction container 
-    InstructionContainer.appendChild(instructionsC);
+    InstructionContainppq
+    er.appendChild(instructionsC);
    }
   	
    //Add instruction container  to visible DOM
