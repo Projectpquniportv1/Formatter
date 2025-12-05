@@ -103,6 +103,13 @@
       "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Z-2-Pentene Structure</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Structure:</strong><br>\n    CH₃–CH₂–CH=CH–CH₃\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Z-Configuration:</strong><br>\n    • Z = Zusammen (German for 'together')<br>\n    • The two higher priority/bulkier substituents (ethyl and methyl) are on the same side of the double bond\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Visual Representation:</strong><br>\n    The ethyl group (CH₃CH₂–) and methyl group (CH₃–) are both on the same side of the C=C bond\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Z-2-pentene structure as shown above\n  </div>\n</div>"
     }
   },
+  
+{
+ "type": "Instruction",
+ "content": "Attempt All Questions"
+},
+
+
   {
     "type": "Question",
     "name": "Question 5",
@@ -141,6 +148,13 @@
       "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Tollens' Test</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Answer from Solution:</strong><br>\n    TRUE\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Reason Given:</strong><br>\n    Silver nitrate test is used to distinguish between aldehydes and ketones\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Actual Test:</strong><br>\n    • Tollens' reagent (Ag(NH₃)₂⁺) tests for aldehydes specifically<br>\n    • Aldehydes give positive test (silver mirror)<br>\n    • Ketones give negative test<br>\n    • Therefore, it distinguishes between them\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> True\n  </div>\n</div>"
     }
   },
+  
+{
+ "type": "Instruction",
+ "content": "Attempt All Questions"
+},
+
+
   {
     "type": "Question",
     "name": "Question 7",

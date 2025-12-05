@@ -236,9 +236,9 @@ function enableLigtTheme() {
    }
   }
  };
+ 	let InstructionNumber = 1;
  
  const pqRender = {
- 	let InstructionNumber = 1;
  	
   start: (array) => {
    /*Handles the response*/
@@ -250,7 +250,7 @@ function enableLigtTheme() {
    nonObjAnswer = [];
    allQuestions = []
    
-   InstructionNumber = 1;
+  InstructionNumber = 1;
    
    //go through the each item
    array.forEach((item) => {
@@ -299,8 +299,8 @@ function enableLigtTheme() {
    userAnswer = [];
    nonObjAnswer = [];
    
-  	InstructionNumber = 1;
-   
+ InstructionNumber = 1;
+   console.log(InstructionNumber)
    //go through the each item
    array.forEach((item) => {
     switch (item.type) {
@@ -522,10 +522,9 @@ function enableLigtTheme() {
      instructionsC.appendChild(anyInstruction)
     });
     //Add instructions to instruction container 
-    InstructionContainppq
-    er.appendChild(instructionsC);
+    InstructionContainppqer.appendChild(instructionsC);
    }
-  	
+  	console.log(InstructionNumber)
    //Add instruction container  to visible DOM
   if(InstructionNumber===1){
    DOM.get('#header').appendChild(InstructionContainer);
