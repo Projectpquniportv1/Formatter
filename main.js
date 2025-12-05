@@ -238,6 +238,8 @@ function enableLigtTheme() {
  };
  
  const pqRender = {
+ 	let InstructionNumber = 1;
+ 	
   start: (array) => {
    /*Handles the response*/
    //reseting
@@ -519,8 +521,15 @@ function enableLigtTheme() {
     //Add instructions to instruction container 
     InstructionContainer.appendChild(instructionsC);
    }
+  	
    //Add instruction container  to visible DOM
+  if(InstructionNumber===1){
    DOM.get('#header').appendChild(InstructionContainer);
+  } else{
+   DOM.get('#Page').appendChild(InstructionContainer);
+  }
+  	
+   InstructionNumber++;
   },
   
   // Display image
