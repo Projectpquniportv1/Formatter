@@ -291,7 +291,6 @@ function enableLigtTheme() {
   },
   
   quiz: (array) => {
-  	InstructionNumber = 1;
    /*Handles the response*/
    //reseting
    DOM.get('#Page').innerHTML = '<header id="header"></header>';
@@ -300,6 +299,7 @@ function enableLigtTheme() {
    userAnswer = [];
    nonObjAnswer = [];
    
+  	InstructionNumber = 1;
    
    //go through the each item
    array.forEach((item) => {
