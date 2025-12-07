@@ -182,7 +182,7 @@ Used to insert a standalone image that provides context for subsequent questions
 ```json
 {
   "type": "img",
-  "content": "[https://example.com/graph.png](https://example.com/graph.png)",
+  "content": "https://example.com/graph.png",
   "alt": "Graph of Exothermic Reaction",
   "Caption": "Fig 1.1: Reaction Pathway",
   "Topic": ["Chemical Kinetics"]
