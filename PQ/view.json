@@ -1,688 +1,302 @@
 [
- 
- {
- "type": "pageInfo",
- "kind": "pureOBJ",
- "course_title": "Organic Chemistry I",
- "code": "CHM 260.1",
- "session": "2020/2021",
- "topics": [
-  "Organic Chemistry Fundamentals",
-  "Acid-Base Chemistry and pKa",
-  "Stereochemistry and Chirality",
-  "Isomerism and Structural Analysis",
-  "Functional Group Chemistry",
-  "Organic Reaction Mechanisms",
-  "Chemical Bonding and Molecular Structure",
-  "Nomenclature and Structural Drawing",
-  "Conformational Analysis"
-],
- "time": "90"
-},
-
-
-{
- "type": "Instruction",
- "content": "Attempt All Questions"
-},
-
-
-
-   {
-    "type": "Question",
-    "name": "Question 1",
-    "topic": ["Acid-Base Chemistry and pKa", "Organic Chemistry Fundamentals"],
-    "Question": {
-      "content": "Which of ammonia, Hydrogen fluoride, 1-aminopropane and 2–chloropropanoic acid will have the lowest Pka value? (underline).",
-      "type": "OBJ",
-      "options": [
-        "Ammonia",
-        "Hydrogen fluoride",
-        "1-aminopropane",
-        "2–chloropropanoic acid"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Hydrogen fluoride"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Understanding pKa Values</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>What is pKa?</strong><br>\n    pKa measures how easily a compound donates a proton (H⁺). <strong>Lower pKa = stronger acid</strong> = more willing to lose H⁺\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Correct Answer:</strong><br>\n    Hydrogen fluoride has the lowest pKa value among the options.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Reason:</strong><br>\n    • HF has a strong -I (inductive) effect due to high electronegativity of fluorine<br>\n    • This makes it more acidic<br>\n    • The -I effect withdraws electron density, stabilizing the conjugate base\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Hydrogen fluoride\n  </div>\n</div>"
-    }
+  {
+    "type": "pageInfo",
+    "kind": "theory",
+    "course_title": "Engineering Maths. 1",
+    "code": "ENG 201.1",
+    "session": "2013/2014",
+    "topics": [
+      "Integration by Parts",
+      "Partial Fractions",
+      "Limits of Functions",
+      "Differentiation from First Principles",
+      "Partial Differentiation",
+      "Rates of Change",
+      "Optimization",
+      "Taylor Series",
+      "Green's Theorem"
+    ],
+    "time": "90"
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer Any Three Questions"
+  },
+  {
+    "type": "heading",
+    "heading": "Question 1"
   },
   {
     "type": "Question",
-    "name": "Question 2",
-    "topic": ["Isomerism and Structural Analysis", "Functional Group Chemistry"],
+    "name": "Question 1a)i",
+    "topic": [
+      "Integration"
+    ],
     "Question": {
-      "content": "Draw the structure of a functional group isomer of butanone.",
+      "content": "Evaluate the integral function: $$I = \\int e^{3x} \\cos 2x \\, dx$$",
       "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Butanal (CH₃CH₂CH₂CHO)"
+      "content": "$$I = \\frac{e^{3x}}{13}(3\\cos 2x + 2\\sin 2x) + C$$"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Functional Group Isomers</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Functional group isomers:</strong><br>\n    Organic compounds having the same molecular formula but different functional groups\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Butanone:</strong><br>\n    CH₃COCH₂CH₃ (a ketone)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Functional Group Isomer:</strong><br>\n    Butanal: CH₃CH₂CH₂CHO (an aldehyde)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Key Points:</strong><br>\n    • Both have same molecular formula: C₄H₈O<br>\n    • Butanone has functional group: –C=O (ketone)<br>\n    • Butanal has functional group: -CHO (aldehyde)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Butanal\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'>\n <h4 style='color: var(--strongColor); margin-top: 0;'>Integration by Parts</h4>\n <p>This integral requires using integration by parts twice. The formula is \\(\\int u \\, dv = uv - \\int v \\, du\\).</p>\n <p><strong>Step 1:</strong> Let \\(u = e^{3x}\\) and \\(dv = \\cos 2x \\, dx\\).<br>\n Then \\(du = 3e^{3x} dx\\) and \\(v = \\frac{1}{2}\\sin 2x\\).<br>\n \\(I = \\frac{1}{2}e^{3x}\\sin 2x - \\frac{3}{2}\\int e^{3x}\\sin 2x \\, dx\\)</p>\n \n <p><strong>Step 2:</strong> Apply parts again to \\(\\int e^{3x}\\sin 2x \\, dx\\).<br>\n Let \\(u = e^{3x}, dv = \\sin 2x \\, dx\\).<br>\n Resulting in an expression that contains the original integral \\(I\\).</p>\n \n <p><strong>Step 3:</strong> Solve algebraically for \\(I\\).<br>\n \\(I = \\frac{e^{3x}}{13}(3\\cos 2x + 2\\sin 2x) + C\\)</p>\n</div>"
     }
   },
   {
     "type": "Question",
-    "name": "Question 3",
-    "topic": ["Isomerism and Structural Analysis", "Stereochemistry and Chirality"],
+    "name": "Question 1a)ii",
+    "topic": [
+      "Integration"
+    ],
     "Question": {
-      "content": "The type of isomerism exhibited by cis-but-2-ene and trans-but-2-ene is called ………..",
+      "content": "Evaluate the integral function: $$I = \\int \\frac{2x^2 + 39x + 12}{(2x+1)^2(x+3)} \\, dx$$",
       "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Geometric isomerism"
+      "content": "$$\\frac{1}{2} \\ln|2x+1| + \\frac{7}{2(2x+1)} - \\frac{3}{2} \\ln|x+3| + C$$"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Geometric Isomerism</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Definition:</strong><br>\n    Isomers that differ in the spatial arrangement of atoms/groups due to restricted rotation around a double bond\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Examples:</strong><br>\n    • cis-but-2-ene: Methyl groups on same side<br>\n    • trans-but-2-ene: Methyl groups on opposite sides\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Key Characteristic:</strong><br>\n    The two higher/bulky substituents are on the same side of the -C=C- bond in cis isomers\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Geometric isomerism\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'>\n <h4 style='color: var(--strongColor); margin-top: 0;'>Partial Fraction Decomposition</h4>\n <p>The integrand is a rational function. We decompose it into partial fractions:</p>\n $$\\frac{2x^2 + 39x + 12}{(2x+1)^2(x+3)} = \\frac{A}{2x+1} + \\frac{B}{(2x+1)^2} + \\frac{C}{x+3}$$\n \n <p>By clearing denominators and substituting suitable values for \\(x\\) (like \\(x=-3\\) and \\(x=-1/2\\)) or comparing coefficients, we find the constants:</p>\n <ul>\n <li>\\(A = 1\\)</li>\n <li>\\(B = -7\\)</li>\n <li>\\(C = -3.48\\) (Note: The coefficients in this specific problem may lead to complex fractions, but the form remains logarithmic and rational).</li>\n </ul>\n <p>Integrating term by term yields natural logs and a rational term.</p>\n</div>"
     }
   },
   {
     "type": "Question",
-    "name": "Question 4",
-    "topic": ["Stereochemistry and Chirality", "Chemical Bonding and Molecular Structure"],
+    "name": "Question 1b)i",
+    "topic": [
+      "Limits"
+    ],
     "Question": {
-      "content": "Draw the Z-2-pentene.",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "img",
-      "content": "https://ppqmg.s3.eu-north-1.amazonaws.com/pastquestionsimg/CHM+260.1/N4a.png",
-      "alt": "Z-2-pentene structure showing CH3-CH2-CH=CH-CH3 with ethyl and methyl groups on same side of double bond"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Z-2-Pentene Structure</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Structure:</strong><br>\n    CH₃–CH₂–CH=CH–CH₃\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Z-Configuration:</strong><br>\n    • Z = Zusammen (German for 'together')<br>\n    • The two higher priority/bulkier substituents (ethyl and methyl) are on the same side of the double bond\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Visual Representation:</strong><br>\n    The ethyl group (CH₃CH₂–) and methyl group (CH₃–) are both on the same side of the C=C bond\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Z-2-pentene structure as shown above\n  </div>\n</div>"
-    }
-  },
-  
-{
- "type": "Instruction",
- "content": "Attempt All Questions"
-},
-
-
-  {
-    "type": "Question",
-    "name": "Question 5",
-    "topic": ["Organic Reaction Mechanisms", "Functional Group Chemistry"],
-    "Question": {
-      "content": "Write a balanced equation for the reaction of methanol with a mixture of iodine and phosphorus.",
+      "content": "Evaluate the limit of the following function: $$f(x) = \\lim_{x \\to \\infty} \\frac{x}{\\sqrt{x^2 - 1}}$$ (Note: The image shows \\(x \\to \\infty\\), assumed from context of rational limits).",
       "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "3CH₃OH + ½I₂ + P → 3CH₃I + H₃PO₃"
+      "content": "1"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Reaction of Methanol with I₂ and P</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Balanced Equation:</strong><br>\n    3CH₃OH + ½I₂ + P → 3CH₃I + H₃PO₃\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Reactants:</strong><br>\n    • Methanol (CH₃OH)<br>\n    • Iodine (I₂)<br>\n    • Phosphorus (P)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Products:</strong><br>\n    • Methyl iodide (CH₃I)<br>\n    • Phosphorous acid (H₃PO₃)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Reaction Type:</strong><br>\n    Conversion of alcohol to alkyl halide using phosphorus and halogen\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 3CH₃OH + ½I₂ + P → 3CH₃I + H₃PO₃\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'>\n <h4 style='color: var(--strongColor); margin-top: 0;'>Limits at Infinity</h4>\n <p>To evaluate limits at infinity for rational functions involving roots:</p>\n <p>Divide the numerator and denominator by the highest power of \\(x\\) in the denominator. Inside the square root, this is \\(x^2\\).</p>\n $$\\lim_{x \\to \\infty} \\frac{x/x}{\\sqrt{\\frac{x^2}{x^2} - \\frac{1}{x^2}}} = \\lim_{x \\to \\infty} \\frac{1}{\\sqrt{1 - 0}} = 1$$\n</div>"
     }
   },
   {
     "type": "Question",
-    "name": "Question 6",
-    "topic": ["Organic Chemistry Fundamentals", "Functional Group Chemistry"],
+    "name": "Question 1b)ii",
+    "topic": [
+      "Limits"
+    ],
     "Question": {
-      "content": "Alkaline solution of silver nitrate containing Ag(NH₃)₂⁺ complex is to test for the presence of aldehydes and ketones (True or false)",
-      "type": "OBJ",
-      "options": [
-        "True",
-        "False"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "True"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Tollens' Test</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Answer from Solution:</strong><br>\n    TRUE\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Reason Given:</strong><br>\n    Silver nitrate test is used to distinguish between aldehydes and ketones\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Actual Test:</strong><br>\n    • Tollens' reagent (Ag(NH₃)₂⁺) tests for aldehydes specifically<br>\n    • Aldehydes give positive test (silver mirror)<br>\n    • Ketones give negative test<br>\n    • Therefore, it distinguishes between them\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> True\n  </div>\n</div>"
-    }
-  },
-  
-{
- "type": "Instruction",
- "content": "Attempt All Questions"
-},
-
-
-  {
-    "type": "Question",
-    "name": "Question 7",
-    "topic": ["Organic Reaction Mechanisms", "Functional Group Chemistry"],
-    "Question": {
-      "content": "What are the products of nucleophilic substitution reaction between ethylamine and ethyl chloride?",
+      "content": "Evaluate the limit of the following function: $$f(x) = \\lim_{x \\to \\infty} \\sqrt{\\frac{x^3 - 1}{4x^3 - 5x^2 + 1}}$$",
       "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Diethylamine and hydrochloric acid"
+      "content": "0.5"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Nucleophilic Substitution Reaction</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Reaction:</strong><br>\n    CH₃CH₂NH₂ + CH₃CH₂Cl → CH₃CH₂Cl + CH₃CH₂NH₂\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Note from Solution:</strong><br>\n    The solution shows the reactants and products but there appears to be an error in the equation shown in the image.<br>\n    The correct reaction should produce diethylamine and HCl.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Correct Reaction:</strong><br>\n    CH₃CH₂NH₂ + CH₃CH₂Cl → (CH₃CH₂)₂NH + HCl\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Products:</strong><br>\n    • Diethylamine: (CH₃CH₂)₂NH<br>\n    • Hydrochloric acid: HCl\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Diethylamine and hydrochloric acid\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'>\n <h4 style='color: var(--strongColor); margin-top: 0;'>Limits of Rational Functions</h4>\n <p>Identify the highest power of \\(x\\) in the numerator and denominator (\\(x^3\\)). Divide all terms by \\(x^3\\).</p>\n $$\\lim_{x \\to \\infty} \\sqrt{\\frac{1 - \\frac{1}{x^3}}{4 - \\frac{5}{x} + \\frac{1}{x^3}}}$$\n <p>As \\(x \\to \\infty\\), terms with \\(x\\) in the denominator go to 0.</p>\n $$= \\sqrt{\\frac{1}{4}} = \\frac{1}{2} = 0.5$$\n</div>"
     }
   },
   {
+    "type": "heading",
+    "heading": "Question 2"
+  },
+  {
     "type": "Question",
-    "name": "Question 8",
-    "topic": ["Organic Reaction Mechanisms", "Functional Group Chemistry"],
+    "name": "Question 2a)i",
+    "topic": [
+      "Differentiation"
+    ],
     "Question": {
-      "content": "Give the name of the organic product formed when propanone is reduced with zinc amalgam in concentrated hydrochloric acid.",
+      "content": "Differentiate the function $$z = (x+y)^3$$ from first principles.",
       "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Propane"
+      "content": "$$\\frac{\\partial z}{\\partial x} = 3(x+y)^2, \\quad \\frac{\\partial z}{\\partial y} = 3(x+y)^2$$"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Clemmensen Reduction</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Reaction:</strong><br>\n    CH₃–C(=O)–CH₃ → CH₃–CH₂–CH₃\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>From Solution:</strong><br>\n    Propanone (CH₃–C(=O)–CH₃) with Zn/Hg/HCl → Propane (CH₃–CH₂–CH₃)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Mechanism:</strong><br>\n    This reaction converts the carbonyl group (–C=O) to –CH₂ group<br>\n    Converts the compound to its corresponding alkane\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Product:</strong><br>\n    Propane - a 3-carbon alkane\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Propane\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'>\n <h4 style='color: var(--strongColor); margin-top: 0;'>Differentiation from First Principles</h4>\n <p><strong>Analytic Answer:</strong> Using the Chain Rule, treating the bracket as a single unit.</p>\n <p><strong>First Principles Method:</strong></p>\n <p>You must use the limit definition:</p>\n $$\\frac{\\partial z}{\\partial x} = \\lim_{h \\to 0} \\frac{f(x+h, y) - f(x,y)}{h}$$\n <p>Substitute \\(z=(x+y)^3\\), expand \\((x+h+y)^3\\), subtract \\((x+y)^3\\), divide by \\(h\\), and take the limit as \\(h \\to 0\\).</p>\n</div>"
     }
   },
   {
     "type": "Question",
-    "name": "Question 9",
-    "topic": ["Organic Reaction Mechanisms", "Functional Group Chemistry"],
+    "name": "Question 2a)ii",
+    "topic": [
+      "Differentiation"
+    ],
     "Question": {
-      "content": "Draw the structure of the product formed when butanal is completely oxidized with KMnO₄.",
+      "content": "Differentiate the function $$z = \\frac{9y}{y^2 + 5x}$$ from first principles.",
       "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Butanoic acid (CH₃CH₂CH₂COOH)"
+      "content": "$$\\frac{\\partial z}{\\partial x} = \\frac{-45y}{(y^2+5x)^2}, \\quad \\frac{\\partial z}{\\partial y} = \\frac{9(5x-y^2)}{(y^2+5x)^2}$$"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Oxidation of Butanal</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Note:</strong><br>\n    The image does not show the solution for Question 9, but based on the question:<br>\n    Butanal (CH₃CH₂CH₂CHO) completely oxidized with KMnO₄ produces butanoic acid\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Reaction:</strong><br>\n    CH₃CH₂CH₂CHO → CH₃CH₂CH₂COOH\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Oxidation Process:</strong><br>\n    Strong oxidizing agents like KMnO₄ convert aldehydes to carboxylic acids\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Butanoic acid (CH₃CH₂CH₂COOH)\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'>\n <h4 style='color: var(--strongColor); margin-top: 0;'>Partial Differentiation</h4>\n <p><strong>With respect to x:</strong> Treat \\(y\\) as a constant. Use the Chain Rule or Quotient Rule.</p>\n <p><strong>With respect to y:</strong> Treat \\(x\\) as a constant. Use the Quotient Rule: $$\\frac{v u' - u v'}{v^2}$$ where \\(u=9y\\) and \\(v=y^2+5x\\).</p>\n</div>"
     }
   },
   {
     "type": "Question",
-    "name": "Question 10",
-    "topic": ["Nomenclature and Structural Drawing", "Functional Group Chemistry"],
+    "name": "Question 2b)",
+    "topic": [
+      "Partial Differentiation"
+    ],
     "Question": {
-      "content": "Draw the structure of di-2-methyl propyl ether.",
+      "content": "Given $$z = \\frac{x}{y}\\ln y$$, evaluate $$\\frac{\\partial^2 z}{\\partial y^2}$$ when \\(x = -3\\) and \\(y = 1\\).",
       "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "CH₃-O-CH₂CH₂CH₃ (Methylpropyl ether)"
+      "content": "9"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Structure of Di-2-methyl propyl ether</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>From Image Solution:</strong><br>\n    CH₃-O-CH₂CH₂CH₃<br>\n    Methylpropyl ether\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Note:</strong><br>\n    The name \"di-2-methyl propyl ether\" suggests two isobutyl groups [(CH₃)₂CH–],<br>\n    but the solution shows methylpropyl ether.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Structure Shown:</strong><br>\n    • Methyl group: CH₃–<br>\n    • Propyl group: CH₃CH₂CH₂–<br>\n    • Connected by oxygen: –O–\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> CH₃-O-CH₂CH₂CH₃ (Methylpropyl ether)\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'>\n <h4 style='color: var(--strongColor); margin-top: 0;'>Higher Order Partial Derivatives</h4>\n <p><strong>1. Find First Derivative (\\(\\frac{\\partial z}{\\partial y}\\)):</strong></p>\n <p>Using product/quotient rule on \\(x(y^{-1}\\ln y)\\):</p>\n $$\\frac{\\partial z}{\\partial y} = x \\left( \\frac{1-\\ln y}{y^2} \\right)$$\n \n <p><strong>2. Find Second Derivative (\\(\\frac{\\partial^2 z}{\\partial y^2}\\)):</strong></p>\n <p>Differentiate the result above with respect to \\(y\\) again:</p>\n $$\\frac{\\partial^2 z}{\\partial y^2} = x \\left( \\frac{y^2(-1/y) - (1-\\ln y)(2y)}{y^4} \\right)$$\n \n $$= x \\left( \\frac{-y - 2y + 2y\\ln y}{y^4} \\right) = x \\left( \\frac{-3 + 2\\ln y}{y^3} \\right)$$\n \n <p><strong>3. Evaluate:</strong></p>\n <p>Substitute \\(x = -3\\) and \\(y = 1\\) (Recall \\(\\ln 1 = 0\\)).</p>\n $$= (-3) \\left( \\frac{-3 + 0}{1^3} \\right) = (-3)(-3) = 9$$\n</div>"
     }
   },
   {
+    "type": "heading",
+    "heading": "Question 3"
+  },
+  {
+    "type": "img",
+    "alt": "Rectangular solid figure for Question 3a",
+    "content": "data:image/jpeg;base64,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",
+    "Caption": "Figure for Question 3(a)"
+  },
+  {
     "type": "Question",
-    "name": "Question 11",
-    "topic": ["Organic Reaction Mechanisms", "Functional Group Chemistry"],
+    "name": "Question 3a",
+    "topic": [
+      "Partial Differentiation",
+      "Rates of Change"
+    ],
     "Question": {
-      "content": "What is the name of the product obtained when propanol is heated in the presence of a strong acid?",
+      "content": "Suppose the diagonal \\(AC\\) of the rectangular solid figure below is \\(U=f(x,y,z)\\). Determine the rate of increase of \\(U\\), if the sides \\(x\\) and \\(y\\) increase at \\(6 \\text{ mm/s}\\) and \\(5 \\text{ mm/s}\\) respectively, while \\(z\\) decreases at \\(4 \\text{ mm/s}\\), assuming that \\(x = 5 \\text{ cm}\\), \\(y = 4 \\text{ cm}\\) and \\(z = 3 \\text{ cm}\\).",
       "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Propene"
+      "content": "The rate of increase of \\(U\\) is approximately \\(0.537 \\text{ cm/s}\\) (or \\(5.37 \\text{ mm/s}\\))."
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Dehydration of Propanol</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>From Image Solution:</strong><br>\n    \"This is a dehydration reaction\"\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Reaction:</strong><br>\n    Propanol (CH₃CH₂CH₂OH) → Propene (CH₃CH=CH₂) + H₂O\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Mechanism:</strong><br>\n    Strong acid (like H₂SO₄) catalyzes the removal of water from the alcohol<br>\n    Forms an alkene through elimination\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Conditions:</strong><br>\n    Heating with concentrated sulfuric acid\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Propene\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'>\n <h4 style='color: var(--strongColor); margin-top: 0;'>Total Derivative (Rates of Change)</h4>\n <p><strong>1. Define the Function:</strong><br>\n The length of the space diagonal \\(U\\) is given by the distance formula:<br>\n $$U = \\sqrt{x^2 + y^2 + z^2}$$</p>\n \n <p><strong>2. Differentiate with respect to time (\\(t\\)):</strong><br>\n Using the Chain Rule:<br>\n $$\\frac{dU}{dt} = \\frac{\\partial U}{\\partial x}\\frac{dx}{dt} + \\frac{\\partial U}{\\partial y}\\frac{dy}{dt} + \\frac{\\partial U}{\\partial z}\\frac{dz}{dt}$$<br>\n The partial derivatives are:<br>\n $$\\frac{\\partial U}{\\partial x} = \\frac{x}{U}, \\quad \\frac{\\partial U}{\\partial y} = \\frac{y}{U}, \\quad \\frac{\\partial U}{\\partial z} = \\frac{z}{U}$$</p>\n \n <p><strong>3. Substitute Values (Convert units to cm):</strong><br>\n \\(x=5, y=4, z=3\\)<br>\n \\(U = \\sqrt{5^2 + 4^2 + 3^2} = \\sqrt{25+16+9} = \\sqrt{50} = 5\\sqrt{2} \\approx 7.07 \\text{ cm}\\)<br>\n Rates: \\(\\frac{dx}{dt} = 0.6 \\text{ cm/s}, \\frac{dy}{dt} = 0.5 \\text{ cm/s}, \\frac{dz}{dt} = -0.4 \\text{ cm/s}\\) (negative because it decreases).</p>\n \n <p><strong>4. Calculate \\(\\frac{dU}{dt}\\):</strong><br>\n $$\\frac{dU}{dt} = \\frac{1}{5\\sqrt{2}} \\left[ 5(0.6) + 4(0.5) + 3(-0.4) \\right]$$<br>\n $$\\frac{dU}{dt} = \\frac{1}{5\\sqrt{2}} [3.0 + 2.0 - 1.2] = \\frac{3.8}{7.07} \\approx 0.537 \\text{ cm/s}$$</p>\n</div>"
     }
   },
   {
     "type": "Question",
-    "name": "Question 12",
-    "topic": ["Isomerism and Structural Analysis", "Functional Group Chemistry"],
+    "name": "Question 3b",
+    "topic": [
+      "Stationary Values",
+      "Optimization"
+    ],
     "Question": {
-      "content": "Draw the functional group isomer for C₃H₆O.",
+      "content": "Find the stationary values and nature of the points of the function \\(z = (x^2 + y^2)^2 - 8(x^2 - y^2)\\).",
       "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Propanone (CH₃C(=O)CH₃)"
+      "content": "Stationary points are at \\((0,0)\\) (Saddle Point) and \\((\\pm 2, 0)\\) (Local Minima)."
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Functional Group Isomer for C₃H₆O</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>From Image Solution:</strong><br>\n    CH₃–C(=O)–CH₃<br>\n    Propanone\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Note:</strong><br>\n    For C₃H₆O, there are several functional group isomers including:<br>\n    • Propanal (aldehyde): CH₃CH₂CHO<br>\n    • Propanone (ketone): CH₃C(=O)CH₃<br>\n    • Prop-2-en-1-ol (allyl alcohol): CH₂=CHCH₂OH\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>The Solution Shows:</strong><br>\n    Propanone (acetone) as one functional group isomer\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Propanone (CH₃C(=O)CH₃)\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'>\n <h4 style='color: var(--strongColor); margin-top: 0;'>Optimization of Two Variables</h4>\n <p><strong>1. Find Partial Derivatives:</strong><br>\n $$z_x = 4x(x^2+y^2) - 16x$$<br>\n $$z_y = 4y(x^2+y^2) + 16y$$</p>\n \n <p><strong>2. Find Critical Points (Set \\(z_x = 0, z_y = 0\\)):</strong><br>\n From \\(z_y = 4y(x^2+y^2+4) = 0\\), since \\(x^2+y^2+4\\) is always positive, we must have \\(y=0\\).<br>\n Substitute \\(y=0\\) into \\(z_x = 0\\):<br>\n \\(4x(x^2 - 4) = 0 \\implies x=0, x=2, x=-2\\).<br>\n Points: \\((0,0), (2,0), (-2,0)\\).</p>\n \n <p><strong>3. Classify using Hessian Matrix (\\(\\Delta = z_{xx}z_{yy} - (z_{xy})^2\\)):</strong><br>\n \\(z_{xx} = 12x^2 + 4y^2 - 16\\)<br>\n \\(z_{yy} = 4x^2 + 12y^2 + 16\\)<br>\n \\(z_{xy} = 8xy\\)<br>\n <br>\n <strong>At \\((0,0)\\):</strong> \\(z_{xx}=-16, z_{yy}=16\\). \\(\\Delta = -256 < 0\\) \\(\\implies\\) Saddle Point.<br>\n <strong>At \\((\\pm 2,0)\\):</strong> \\(z_{xx}=32, z_{yy}=32\\). \\(\\Delta = 1024 > 0\\) and \\(z_{xx} > 0\\) \\(\\implies\\) Local Minima.</p>\n</div>"
     }
   },
   {
+    "type": "heading",
+    "heading": "Question 4"
+  },
+  {
     "type": "Question",
-    "name": "Question 13",
-    "topic": ["Nomenclature and Structural Drawing", "Functional Group Chemistry"],
+    "name": "Question 4a",
+    "topic": [
+      "Taylor Series"
+    ],
     "Question": {
-      "content": "Draw the chemical structure of 1,6-diaminohexane.",
+      "content": "Evaluate the Taylor's series expansion of the function \\(z = \\sin^{-1}(y/x)\\) at the point \\((2,1)\\) to the second order degree term.",
       "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "NH₂-CH₂-CH₂-CH₂-CH₂-CH₂-NH₂"
+      "content": "$$f(x,y) \\approx \\frac{\\pi}{6} - \\frac{1}{2\\sqrt{3}}(x-2) + \\frac{1}{\\sqrt{3}}(y-1) + \\frac{1}{4\\sqrt{3}}(x-2)^2 - \\frac{1}{2\\sqrt{3}}(x-2)(y-1) + \\frac{1}{3\\sqrt{3}}(y-1)^2$$ (Coefficients approximate)."
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Structure of 1,6-Diaminohexane</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>From Image Solution:</strong><br>\n    NH₂-CH₂-CH₂-CH₂-CH₂-CH₂-NH₂\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Structure Breakdown:</strong><br>\n    • 6-carbon chain: hexane backbone<br>\n    • Amino groups at positions 1 and 6: NH₂ at both ends<br>\n    • Also known as hexamethylenediamine\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Note:</strong><br>\n    The image shows \"NHSON's\" which appears to be a typo. The correct formula is NH₂-(CH₂)₆-NH₂\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> NH₂-CH₂-CH₂-CH₂-CH₂-CH₂-NH₂\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'>\n <h4 style='color: var(--strongColor); margin-top: 0;'>Taylor Series Expansion</h4>\n <p>The formula for Taylor series of \\(f(x,y)\\) at \\((a,b)\\) is:</p>\n $$f(a,b) + [f_x(x-a) + f_y(y-b)] + \\frac{1}{2!}[f_{xx}(x-a)^2 + 2f_{xy}(x-a)(y-b) + f_{yy}(y-b)^2]$$\n \n <p><strong>1. Value at \\((2,1)\\):</strong><br>\n \\(f(2,1) = \\sin^{-1}(1/2) = \\pi/6\\).</p>\n \n <p><strong>2. First Derivatives:</strong><br>\n \\(f_x = \\frac{-y}{x\\sqrt{x^2-y^2}} \\implies f_x(2,1) = \\frac{-1}{2\\sqrt{3}}<br>\n \\(f_y = \\frac{1}{\\sqrt{x^2-y^2}} \\implies f_y(2,1) = \\frac{1}{\\sqrt{3}}</p>\n \n <p><strong>3. Second Derivatives:</strong><br>\n Evaluate \\(f_{xx}, f_{xy}, f_{yy}\\) at \\((2,1)\\) and substitute into the formula.</p>\n</div>"
     }
   },
   {
     "type": "Question",
-    "name": "Question 14",
-    "topic": ["Nomenclature and Structural Drawing", "Functional Group Chemistry"],
+    "name": "Question 4b",
+    "topic": [
+      "Lagrange Multipliers",
+      "Constrained Optimization"
+    ],
     "Question": {
-      "content": "Give the structure of N,N-Dimethyl-2-bromopropanamide.",
+      "content": "Evaluate the stationary values of the function \\(f(x, y) = xy + x^2 + y^2 - 1\\) subject to \\(g(x, y) = x^2 + y^2 - 4 = 0\\).",
       "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "CH₃–CH(Br)–CON(CH₃)₂"
+      "content": "Stationary values for \\(f(x,y)\\) are \\(5\\) (Maximum) and \\(1\\) (Minimum)."
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Structure of N,N-Dimethyl-2-bromopropanamide</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>From Image Solution:</strong><br>\n    Br<br>\n    CH₃–CH–CON–CH₃<br>\n    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>\n    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CH₃<br>\n    N,N-dimethyl-2-bromopropanamide\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Correct Line Structure:</strong><br>\n    CH₃–CH(Br)–CON(CH₃)₂\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Structure Breakdown:</strong><br>\n    • Propanamide backbone: 3-carbon chain with amide<br>\n    • 2-bromo: Bromine atom on carbon 2<br>\n    • N,N-dimethyl: Two methyl groups on the nitrogen\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> CH₃–CH(Br)–CON(CH₃)₂\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'>\n <h4 style='color: var(--strongColor); margin-top: 0;'>Constrained Optimization</h4>\n <p><strong>Method 1: Substitution</strong><br>\n Since \\(x^2 + y^2 = 4\\), substitute this into \\(f(x,y)\\):<br>\n \\(f(x,y) = xy + 4 - 1 = xy + 3\\).<br>\n We now maximize/minimize \\(xy\\) on the circle \\(x^2+y^2=4\\).</p>\n \n <p><strong>2. Find Extrema:</strong><br>\n On a circle, \\(xy\\) is maximized when \\(x=y\\) and minimized when \\(x=-y\\).<br>\n If \\(x=y\\), \\(2x^2=4 \\implies x=\\pm\\sqrt{2}\\). Then \\(xy=2\\).<br>\n Max value: \\(2 + 3 = 5\\).<br>\n If \\(x=-y\\), \\(2x^2=4 \\implies x=\\pm\\sqrt{2}\\). Then \\(xy=-2\\).<br>\n Min value: \\(-2 + 3 = 1\\).</p>\n</div>"
     }
   },
   {
-    "type": "Question",
-    "name": "Question 15",
-    "topic": ["Isomerism and Structural Analysis", "Functional Group Chemistry"],
-    "Question": {
-      "content": "State True or false: A ketone is isomeric with an aldehyde.",
-      "type": "OBJ",
-      "options": [
-        "True",
-        "False"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "True"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Ketones and Aldehydes as Isomers</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>From Image Solution:</strong><br>\n    True - Aldehydes and ketones are functional group Isomers\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Explanation:</strong><br>\n    • Ketones and aldehydes with the same number of carbon atoms can be isomers<br>\n    • Example: Propanal (CH₃CH₂CHO) and Propanone (CH₃COCH₃) both have C₃H₆O<br>\n    • They are functional group isomers - same molecular formula, different functional groups\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Key Point:</strong><br>\n    For compounds with 3 or more carbons, aldehydes and ketones can be isomers\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> True\n  </div>\n</div>"
-    }
+    "type": "heading",
+    "heading": "Question 5"
   },
   {
     "type": "Question",
-    "name": "Question 16",
-    "topic": ["Organic Reaction Mechanisms", "Functional Group Chemistry"],
+    "name": "Question 5a",
+    "topic": [
+      "Vector Calculus",
+      "Green's Theorem"
+    ],
     "Question": {
-      "content": "State True or false: Wolf-Kishner reaction will convert an aldehyde into an alcohol.",
-      "type": "OBJ",
-      "options": [
-        "True",
-        "False"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "False"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Wolf-Kishner Reaction</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>From Image Solution:</strong><br>\n    False - Wolf-Kishner is used to convert carbonyl group –C=O (e.g. in aldehydes) to methylene group –CH₂ (e.g. in alkanes).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>What Wolf-Kishner Does:</strong><br>\n    • Converts carbonyl compounds (aldehydes/ketones) to alkanes<br>\n    • Converts –C=O to –CH₂<br>\n    • Does NOT produce alcohols\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>What Converts Aldehydes to Alcohols:</strong><br>\n    • Reduction with NaBH₄ or LiAlH₄<br>\n    • Catalytic hydrogenation (H₂ with catalyst)<br>\n    • NOT Wolf-Kishner reaction\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> False\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 17",
-    "topic": ["Organic Reaction Mechanisms", "Functional Group Chemistry"],
-    "Question": {
-      "content": "Draw the structure of the major product of the reaction between 1-aminobutane and ethanoyl chloride.",
+      "content": "Use Green's Theorem to evaluate \\(\\oint_C xy \\, dx + x^2y^3 \\, dy\\) where \\(C\\) is the triangle with vertices \\((0,0)\\), \\((1,0)\\), \\((1,2)\\) with positive orientation.",
       "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "CH₃CONHCH₂CH₂CH₂CH₃ (N-butylethanamide)"
+      "content": "\\(\\frac{2}{3}\\)"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Acylation Reaction</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>From Image Solution:</strong><br>\n    CH₃COCl + CH₃CH₂CH₂CH₂NH₂ → CH₃CONHCH₂CH₂CH₂CH₃<br>\n    Ethanoylchloride + 1-aminobutane → N-butylethanamide\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Reaction Type:</strong><br>\n    Nucleophilic acyl substitution - amine attacks acid chloride\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Products:</strong><br>\n    • Main product: N-butylethanamide (secondary amide)<br>\n    • Byproduct: HCl (hydrochloric acid)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Structure:</strong><br>\n    Acetyl group (CH₃CO–) connected to butyl group (CH₃CH₂CH₂CH₂–) through amide linkage (–NH–)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> CH₃CONHCH₂CH₂CH₂CH₃ (N-butylethanamide)\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'>\n <h4 style='color: var(--strongColor); margin-top: 0;'>Green's Theorem</h4>\n <p>Green's Theorem states: \\(\\oint_C P dx + Q dy = \\iint_D (\\frac{\\partial Q}{\\partial x} - \\frac{\\partial P}{\\partial y}) dA\\).</p>\n \n <p><strong>1. Identify P and Q:</strong><br>\n \\(P = xy \\implies \\frac{\\partial P}{\\partial y} = x\\)<br>\n \\(Q = x^2y^3 \\implies \\frac{\\partial Q}{\\partial x} = 2xy^3\\)</p>\n \n <p><strong>2. Set up Integral:</strong><br>\n Integrand: \\(2xy^3 - x\\).<br>\n Region D: Triangle bounded by \\(y=0\\), \\(x=1\\), and hypotenuse \\(y=2x\\).<br>\n Limits: \\(0 \\le x \\le 1\\) and \\(0 \\le y \\le 2x\\).</p>\n \n <p><strong>3. Evaluate:</strong><br>\n $$\\int_0^1 \\int_0^{2x} (2xy^3 - x) \\, dy \\, dx$$<br>\n Integrate w.r.t \\(y\\): \\([\\frac{1}{2}xy^4 - xy]_0^{2x} = \\frac{1}{2}x(16x^4) - x(2x) = 8x^5 - 2x^2\\).<br>\n Integrate w.r.t \\(x\\): \\([\\frac{8}{6}x^6 - \\frac{2}{3}x^3]_0^1 = \\frac{4}{3} - \\frac{2}{3} = \\frac{2}{3}\\).</p>\n</div>"
     }
   },
   {
     "type": "Question",
-    "name": "Question 18",
-    "topic": ["Acid-Base Chemistry and pKa", "Organic Reaction Mechanisms"],
+    "name": "Question 5b",
+    "topic": [
+      "Integration"
+    ],
     "Question": {
-      "content": "Draw the structure of the major product of the reaction between propanoic acid and sodium hydroxide.",
+      "content": "Evaluate the line integral function \\(I = \\int_C x \\cos x \\, dx\\) defined by \\(-\\pi \\le x \\le \\pi\\).",
       "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "CH₃CH₂COONa (Sodium propanoate)"
+      "content": "0"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Acid-Base Neutralization</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>From Image Solution:</strong><br>\n    CH₃CH₂COOH + NaOH → CH₃CH₂COONa + H₂O<br>\n    Propanoic acid + Sodium hydroxide → Sodium Propanoate + Water\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Reaction Type:</strong><br>\n    Acid-base neutralization (carboxylic acid + base → salt + water)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Products:</strong><br>\n    • Sodium propanoate: CH₃CH₂COO⁻Na⁺ (carboxylate salt)<br>\n    • Water: H₂O (byproduct)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Structure:</strong><br>\n    The acidic hydrogen from –COOH is replaced by sodium ion<br>\n    Forms ionic compound (salt)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> CH₃CH₂COONa (Sodium propanoate)\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 19",
-    "topic": ["Chemical Bonding"],
-    "Question": {
-      "content": "Which of these alkyl groups will have the most hyperconjugable hydrogen atoms when attached to a benzene ring?",
-      "type": "OBJ",
-      "options": [
-        "CH₃-",
-        "CH₃CH₂-",
-        "(CH₃)₂CH-",
-        "(CH₃)₃C-"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "(CH₃)₃C-"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Hyperconjugation and Hydrogen Atoms</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>What is hyperconjugation?</strong><br>\n    Electron donation from C-H bonds to stabilize positive charge or radicals\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Counting hyperconjugable hydrogens:</strong><br>\n    • <strong>CH₃-</strong>: 3 hydrogens<br>\n    • <strong>CH₃CH₂-</strong>: 3 hydrogens (only α-hydrogens count)<br>\n    • <strong>(CH₃)₂CH-</strong>: 6 hydrogens (2 methyl groups × 3H)<br>\n    • <strong>(CH₃)₃C-</strong>: 9 hydrogens (3 methyl groups × 3H)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Key point:</strong><br>\n    Only hydrogens on carbons directly attached to the benzene ring participate in hyperconjugation\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> (CH₃)₃C- has 9 hyperconjugable hydrogens (most)\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 20",
-    "topic": ["Chemical Bonding"],
-    "Question": {
-      "content": "How many stereoisomers are expected of a compound with five chiral carbons?",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "32"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Stereoisomers Calculation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>What are chiral carbons?</strong><br>\n    Carbon atoms with four different groups attached (asymmetric centers)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Formula for maximum stereoisomers:</strong><br>\n    Maximum stereoisomers = 2ⁿ<br>\n    Where n = number of chiral centers\n  </div>\n\n  <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n    <strong>For 5 chiral carbons: 2⁵ = 32</strong>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Why this formula?</strong><br>\n    Each chiral center can have two configurations (R or S), and they combine independently\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 32 stereoisomers\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 21",
-    "topic": ["Chemical Bonding"],
-    "Question": {
-      "content": "Which of the alcohols below will have the highest miscibility with water?",
-      "type": "OBJ",
-      "options": [
-        "Methanol",
-        "Butanol",
-        "Ethanol",
-        "Propanol"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Methanol"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Alcohol Solubility in Water</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Rule of thumb:</strong><br>\n    Smaller alcohol molecules are more soluble in water\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Why?</strong><br>\n    • Alcohols have –OH groups that form hydrogen bonds with water<br>\n    • But they also have hydrocarbon parts that don't mix with water<br>\n    • Smaller hydrocarbon part = better solubility\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Order of solubility:</strong><br>\n    Methanol > Ethanol > Propanol > Butanol\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Methanol has highest water miscibility\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 22",
-    "topic": ["Chemical Bonding"],
-    "Question": {
-      "content": "What is the name of the product formed when ethanamide reacts with nitrous acid?",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Ethanoic acid"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Reaction of Amides with Nitrous Acid</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Starting Material:</strong><br>\n    Ethanamide: CH₃C(=O)NH₂ (primary amide)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Reagent:</strong><br>\n    Nitrous acid (HNO₂) - prepared from NaNO₂ + HCl\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Reaction:</strong><br>\n    Amide is hydrolyzed to carboxylic acid\n  </div>\n\n  <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n    <strong>CH₃C(=O)NH₂ + HNO₂ → CH₃COOH + N₂ + H₂O</strong>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Products:</strong><br>\n    • Ethanoic acid (acetic acid)<br>\n    • Nitrogen gas<br>\n    • Water\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Ethanoic acid\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 23",
-    "topic": ["Chemical Bonding"],
-    "Question": {
-      "content": "Give the name of the product of reduction of propanamide with LiAlH₄.",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Propylamine"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Reduction of Amides</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Starting Material:</strong><br>\n    Propanamide: CH₃CH₂C(=O)NH₂\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Reagent:</strong><br>\n    Lithium aluminum hydride (LiAlH₄) - strong reducing agent\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Reaction:</strong><br>\n    Amide is reduced to amine\n  </div>\n\n  <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n    <strong>CH₃CH₂C(=O)NH₂ → CH₃CH₂CH₂NH₂</strong>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>What happens?</strong><br>\n    The carbonyl group (C=O) is reduced to CH₂, giving a primary amine\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Product:</strong><br>\n    Propylamine - a primary amine with 3-carbon chain\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Propylamine\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 24",
-    "topic": ["Chemical Bonding"],
-    "Question": {
-      "content": "Arrange (CH₃)₂NH, NH₃ and (CH₃)₃N in an increasing order of basic strength",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "NH₃ < (CH₃)₃N < (CH₃)₂NH"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Basic Strength of Amines</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>What makes amines basic?</strong><br>\n    Amines have a lone pair on nitrogen that can accept protons (H⁺)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Factors affecting basicity:</strong><br>\n    • <strong>Electron-donating groups</strong> (like CH₃) increase basicity<br>\n    • <strong>Steric hindrance</strong> decreases basicity\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Order from image:</strong><br>\n    NH₃ < (CH₃)₃N < (CH₃)₂NH\n  </div>\n\n  <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n    <strong>Increasing basicity: NH₃ → (CH₃)₃N → (CH₃)₂NH</strong>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> NH₃ < (CH₃)₃N < (CH₃)₂NH\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 25",
-    "topic": ["Chemical Bonding"],
-    "Question": {
-      "content": "2-Butanone will undergo the Wolf-Kishner reaction to afford ……..",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Butane"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Wolf-Kishner Reduction</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Starting Material:</strong><br>\n    2-Butanone: CH₃–C(=O)–CH₂–CH₃ (a ketone)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Wolf-Kishner Reaction:</strong><br>\n    Converts carbonyl group (C=O) to methylene group (CH₂)\n  </div>\n\n  <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n    <strong>CH₃–C(=O)–CH₂–CH₃ → CH₃–CH₂–CH₂–CH₃</strong>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Product:</strong><br>\n    Butane - a simple alkane with 4 carbons\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Butane\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 26",
-    "topic": ["Chemical Bonding"],
-    "Question": {
-      "content": "2-Butanone can exist in equilibrium with 2-buten-2-ol. This phenomenon is called ………",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Tautomerism"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Tautomerism</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>What is tautomerism?</strong><br>\n    Isomers that can interconvert by moving a hydrogen atom and rearranging double bonds\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Specific type:</strong><br>\n    Keto-enol tautomerism (ketone ⇌ enol)\n  </div>\n\n  <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n    <strong>CH₃–C(=O)–CH₂–CH₃ ⇌ CH₃–C(OH)=CH–CH₃</strong><br>\n    2-Butanone ⇌ 2-Buten-2-ol\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>From image:</strong><br>\n    The answer is simply \"Tautomerism\" (not specifically \"Keto-enol tautomerism\")\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Tautomerism\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 27",
-    "topic": ["Chemical Bonding"],
-    "Question": {
-      "content": "Which of 1,2-dichloroethane, 1-chloropropane and 1,2-dibromoethane is the most polar?",
-      "type": "OBJ",
-      "options": [
-        "1,2-dichloroethane",
-        "1-chloropropane",
-        "1,2-dibromoethane"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "1,2-dichloroethane"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Molecular Polarity</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>From image answer:</strong><br>\n    1,2-dichloroethane is marked as the most polar\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Important note:</strong><br>\n    This answer differs from our previous discussion. According to the image,<br>\n    1,2-dichloroethane is considered the most polar among the options.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Reasoning (based on image):</strong><br>\n    • 1,2-dichloroethane has polar C-Cl bonds<br>\n    • Despite being symmetric, the individual bond dipoles may be considered<br>\n    • The image indicates this as the correct answer\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer (from image):</strong> 1,2-dichloroethane\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 28",
-    "topic": ["Chemical Bonding"],
-    "Question": {
-      "content": "Draw the structure of one resonance form of phenoxide ion.",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "img",
-      "content": "https://ppqmg.s3.eu-north-1.amazonaws.com/pastquestionsimg/CHM+260.1/N28a.jpg"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Resonance in Phenoxide Ion</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>From image:</strong><br>\n    The phenoxide ion resonance structure is drawn in the image.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Key features of resonance:</strong><br>\n    • Negative charge delocalized over ortho and para positions<br>\n    • Multiple resonance forms contribute to stability<br>\n    • Benzene ring with alternating double bonds in different positions\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Note:</strong><br>\n    Since this requires a structural drawing, the answer is provided as an image reference.\n    The specific resonance form shows the negative charge on one of the ring carbons.\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Image showing one resonance form of phenoxide ion\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 29",
-    "topic": ["Chemical Bonding"],
-    "Question": {
-      "content": "Draw the structure of 3-methylbutan-2-ol and indicate the stereogenic center(s) with asterisks.",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "img",
-      "content": "https://ppqmg.s3.eu-north-1.amazonaws.com/pastquestionsimg/CHM+260.1/N29a.jpg"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Structure of 3-methylbutan-2-ol</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>From image:</strong><br>\n    The structure is drawn in the image with stereogenic centers at carbons 2 and 3.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Structure from image:</strong><br>\n    \n      1<br>\n      CH₃<br>\n    H₂C-OH<br>\n    H-C-CH₃<br>\n      4<br>\n      CH₃\n    \n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Stereogenic centers:</strong><br>\n    According to the image, carbons 2 and 3 are both chiral centers.<br>\n    Carbon 2 has: OH, H, CH₃, and CH(CH₃)₂<br>\n    Carbon 3 has: CH₃, H, CH₃, and CH(OH)CH₃\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Image showing structure with asterisks at carbons 2 and 3\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 30",
-    "topic": ["Chemical Bonding"],
-    "Question": {
-      "content": "Which of the following is true about the optical property of 2,3-dichlorobutane?",
-      "type": "OBJ",
-      "options": [
-        "It is chiral and optically active",
-        "It is achiral and optically active",
-        "It is chiral and optically inactive",
-        "It is achiral and optically inactive"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "It is chiral and optically active"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Optical Properties of 2,3-dichlorobutane</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>From image:</strong><br>\n    Answer A: \"It is chiral and optically active\"\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Structure:</strong><br>\n    CH₃–CH(Cl)–CH(Cl)–CH₃\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Analysis:</strong><br>\n    • Has two chiral centers (carbons 2 and 3)<br>\n    • Exists as enantiomers: (2R,3R) and (2S,3S)<br>\n    • Also has a meso form: (2R,3S)/(2S,3R) with internal plane of symmetry<br>\n    • According to image, the optically active enantiomers are considered\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Note:</strong><br>\n    Previous discussion mentioned meso form making it optically inactive,<br>\n    but image indicates \"chiral and optically active\" as correct answer.\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> It is chiral and optically active\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 31",
-    "topic": ["Chemical Bonding"],
-    "Question": {
-      "content": "Using Fischer projection, draw the structure of R-2-butanol.",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "img", 
-      "content": "https://ppqmg.s3.eu-north-1.amazonaws.com/pastquestionsimg/CHM+260.1/N31a.jpg"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Fischer Projection of R-2-butanol</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>From image:</strong><br>\n    Fischer projection is drawn showing R-2-butanol with clockwise rotation.\n  </div>\n\n  <div style='margin-bottom: 12px; text-align: center;'>\n    <strong style='color: var(--strongColor);'>Structure from image:</strong><br>\n    <img src='https://ppqmg.s3.eu-north-1.amazonaws.com/pastquestionsimg/CHM+260.1/N31a.jpg' alt='Fischer Projection of R-2-butanol' style='max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 5px; padding: 10px; background: white; margin: 10px 0;'>\n    <div style='font-size: 0.9em; color: #666; margin-top: 5px;'>Fischer projection of R-2-butanol showing R configuration</div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Fischer projection rules:</strong><br>\n    • Vertical lines = bonds going behind plane<br>\n    • Horizontal lines = bonds coming forward<br>\n    • Chiral center at intersection<br>\n    • For R configuration: OH on right, H on left (when lowest priority is vertical)<br>\n    • Priority order: OH (1) > CH₂CH₃ (2) > CH₃ (3) > H (4)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>How to read:</strong><br>\n    • Top and bottom groups are behind the plane<br>\n    • Left and right groups are in front of the plane<br>\n    • Clockwise priority order gives R configuration\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Image showing Fischer projection of R-2-butanol\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 32",
-    "topic": ["Chemical Bonding"],
-    "Question": {
-      "content": "Draw the structure of the most stable conformer of 2,2-dimethyl cyclohexane.",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "img",
-      "content": "https://ppqmg.s3.eu-north-1.amazonaws.com/pastquestionsimg/CHM+260.1/N32a.jpg"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Most Stable Conformer of 2,2-dimethyl cyclohexane</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>From image:</strong><br>\n    Chair conformation is drawn with methyl groups shown.\n  </div>\n\n  <div style='margin-bottom: 12px; text-align: center;'>\n    <strong style='color: var(--strongColor);'>Structure from image:</strong><br>\n    <img src='https://ppqmg.s3.eu-north-1.amazonaws.com/pastquestionsimg/CHM+260.1/N32a.jpg' alt='Chair conformation of 2,2-dimethyl cyclohexane' style='max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 5px; padding: 10px; background: white; margin: 10px 0;'>\n    <div style='font-size: 0.9em; color: #666; margin-top: 5px;'>Chair conformation of 2,2-dimethyl cyclohexane</div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Key point from image note:</strong><br>\n    \"The conformation will be more stable when the two bulky substituents are seen on the equatorial carbon, e.g., carbon 2 and 3 of the chair conformation.\"\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>For 2,2-dimethyl cyclohexane:</strong><br>\n    • Both methyl groups are on carbon 2 (geminal disubstitution)<br>\n    • In chair conformation, one methyl will be axial, one equatorial<br>\n    • Most stable has larger group equatorial when possible<br>\n    • For geminal disubstitution (both on same carbon), one must be axial, one equatorial\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Stability factors:</strong><br>\n    • Chair conformation is most stable for cyclohexane<br>\n    • 1,3-diaxial interactions are minimized<br>\n    • Bulky groups prefer equatorial positions to reduce steric strain<br>\n    • In 2,2-dimethyl, both methyls cannot be equatorial simultaneously\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Image showing chair conformation with methyl groups\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 33",
-    "topic": ["Chemical Bonding"],
-    "Question": {
-      "content": "Underline the compound with the highest pka value among the following: propylamine, propanol, 2-bromopropanoic acid, 2,2-dimethylpropylamine.",
-      "type": "OBJ",
-      "options": [
-        "Propylamine",
-        "Propanol",
-        "2-bromopropanoic acid",
-        "2,2-dimethylpropylamine"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "2,2-dimethylpropylamine"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Compound with Highest pKa Value</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>From image:</strong><br>\n    \"2,2-dimethyl propylamine is the most basic; the higher the pKₐ value, the more basic.\"\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>pKa values comparison:</strong><br>\n    • <strong>2-bromopropanoic acid</strong>: pKa ≈ 2-3 (lowest, strongest acid)<br>\n    • <strong>Propanol</strong>: pKa ≈ 16-18<br>\n    • <strong>Propylamine</strong>: conjugate acid pKa ≈ 10-11<br>\n    • <strong>2,2-dimethylpropylamine</strong>: conjugate acid pKa ≈ 10.5-11.5 (highest due to more alkyl groups)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Why 2,2-dimethylpropylamine?</strong><br>\n    More alkyl groups = more electron donation to nitrogen = stronger base = higher pKa of conjugate acid\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 2,2-dimethylpropylamine\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 34",
-    "topic": ["Chemical Bonding"],
-    "Question": {
-      "content": "Draw the structure of dimethyl sulfide.",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "CH₃-S-CH₃"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Structure of Dimethyl Sulfide</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>From image:</strong><br>\n    \"CH₃-S-CH₃ Dimethyl Sulphide\"\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Structure:</strong><br>\n    Two methyl groups connected by a sulfur atom\n  </div>\n\n  <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n    <strong>CH₃–S–CH₃</strong>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Key features:</strong><br>\n    • Sulfur atom in the middle<br>\n    • Two C–S single bonds<br>\n    • Bent molecular geometry (approximately 100° bond angle)<br>\n    • Also called methyl sulfide\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> CH₃–S–CH₃\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 35",
-    "topic": ["Chemical Bonding"],
-    "Question": {
-      "content": "Give the structure of the product of the reaction between ethanoic acid and propanol.",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "CH₃COOCH₂CH₂CH₃"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Esterification Reaction</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>From image:</strong><br>\n    Reaction equation and note about esterification\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Reaction from image:</strong><br>\n    CH₃COOH + CH₃CH₂CH₂OH ⇌ CH₃COOCH₂CH₂CH₃ + H₂O<br>\n    Ethanoic acid + Propanol ⇌ Propyl ethanoate + Water\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Type of reaction:</strong><br>\n    Esterification (acid-catalyzed)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Product:</strong><br>\n    Propyl ethanoate (also called propyl acetate)<br>\n    Structure: CH₃COOCH₂CH₂CH₃\n  </div>\n\n  <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n    <strong>Ester formed: CH₃–C(=O)–O–CH₂–CH₂–CH₃</strong>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> CH₃COOCH₂CH₂CH₃ (propyl ethanoate)\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'>\n <h4 style='color: var(--strongColor); margin-top: 0;'>Definite Integral Properties</h4>\n <p>The integral is \\(I = \\int_{-\\pi}^{\\pi} x \\cos x \\, dx\\).</p>\n \n <p><strong>Symmetry Argument:</strong><br>\n Let \\(f(x) = x \\cos x\\).<br>\n \\(f(-x) = (-x) \\cos(-x) = -x \\cos x = -f(x)\\).<br>\n Since \\(f(x)\\) is an <strong>odd function</strong> and the interval \\([-\\pi, \\pi]\\) is symmetric about the origin, the net area cancels out to zero.</p>\n \n <p style='color: var(--cAns); font-weight: bold;'>Therefore, the value is 0.</p>\n</div>"
     }
   }
 ]

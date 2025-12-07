@@ -289,7 +289,7 @@
    color: var(--ansT);
    animation: ansAppear 0.05s ease-in;
    content-visibility: auto;
-   overflow: hidden;
+   overflow: scroll;
   }
   
   @keyframes ansAppear {
