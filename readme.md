@@ -203,8 +203,144 @@ All mathematical formulas and chemical equations must be formatted using **MathJ
       * Example: `\\[E = mc^2\\]`
 
 **Example Usage in JSON:**
-
 ```json
 "content": "Calculate the molar mass of \\[H_2SO_4\\] given that \\(H=1, S=32, O=16\\)."
+```
+
+-----
+-----
+-----
+
+-----
+
+
+# 📋 How to Create Content
+
+This guide outlines the workflow for converting past question papers into the structured JSON format required by the system.
+
+## 🛠️ Prerequisites
+
+* **Source Material:** Past question papers (PDF or Image format).
+* **Graphics Tool:**  pixelab Photoshop, GIMP, Canva, or any photo editor.
+* **Technical Knowledge:** Basic understanding of JSON structure.
+
+---
+
+## 🚀 Step-by-Step Guide
+
+### 1. Source Material Preparation
+* Obtain the target past question paper.
+* **Batch Strategy:** Work in small batches. Select the first **7-9 questions** for initial processing.
+* Capture clear screenshots of these selected questions.
+
+### 2. Image Enhancement
+Before submitting to AI, the image quality must be optimized for Optical Character Recognition (OCR).
+
+```bash
+# Quality Checklist:
+[✓] High contrast (Dark text on light background)
+[✓] Clear text (No blur)
+[✓] Straight alignment
+[✓] Minimal background noise
+````
+
+**Action:** Use your graphic design tool to crop out irrelevant headers/footers and adjust brightness/contrast.
+
+### 3\. AI Processing
+
+  * Navigate to the `prompts/` directory in the project.
+  * Select the prompt template matching your subject (e.g., Chemistry, Math).
+  * Submit your enhanced screenshot along with the prompt to the AI (Gemini pro or deepseek).
+  * **Result:** The AI will return a formatted JSON array.
+
+### 4\. Integration
+
+  * Open `view.json` in your code editor.
+  * Replace the existing question array with the new AI-generated data.
+  * **Crucial:** Update the `pageInfo` object to match the current exam metadata.
+
+**Example Metadata Update:**
+
+```json
+{
+  "type": "pageInfo",
+  "kind": "OBJ",
+  "course_title": "General Chemistry 1",
+  "code": "CHM 130.1",
+  "session": "2022/2023",
+  "time": "90",
+  "topics": [
+    "Stoichiometry",
+    "Organic Chemistry",
+    "Periodic Table"
+  ]
+}
+```
+
+### 5\. Validation & Testing
+
+Do not commit without testing.
+
+1.  **Preview:** Open `index.html` in your browser.
+2.  **Functionality Check:** Ensure navigation works and questions are legible.
+3.  **Content Verification:**
+      * Compare AI answers against textbooks or Google Search.
+      * Verify against the original PDF.
+
+-----
+
+## ✅ Quality Assurance Checklist
+
+| Step | Action | Verification Criteria |
+| :--- | :--- | :--- |
+| **1** | **Image Clarity** | Is text readable without zooming in? |
+| **2** | **AI Output** | Are all JSON commas and braces correct? |
+| **3** | **Metadata** | Does `course_title` and `session` match the source? |
+| **4** | **Answers** | Have complex answers been verified against 2+ sources? |
+| **5** | **Functionality**| Do images load? Do options click correctly? |
+
+-----
+
+## ⚠️ Important Notes
+
+> **Batch Processing:** Always process 7-9 questions at a time. Large batches confuse the AI.
+>
+> **Backup:** Keep a copy of the previous `view.json` before pasting new code.
+>
+> **Consistency:** Ensure formatting (bolding, spacing) remains uniform across sections.
+
+-----
+
+## 🔄 Workflow Summary
+
+```mermaid
+Source Material -> Screenshot -> Enhance Image -> AI Processing -> JSON Integration -> Testing -> Final Review
+```
+
+*(Text Version)*
+`Source` → `Screenshot` → `Enhance` → `AI Processing` → `Integration` → `Testing` → `Review`
+
+-----
+
+## 🆘 Troubleshooting
+
+| Issue | Solution |
+| :--- | :--- |
+| **AI text is garbled** | Image quality is too low. Increase contrast and retry. |
+| **Questions hidden** | Check for syntax errors in JSON (missing commas/brackets). |
+| **Wrong Answers** | AI is not perfect. Manually verify via Google/Textbooks. |
+| **Format errors** | Refer to the Schema Documentation in `/docs`. |
+
+-----
+
+## 📊 Example Progress Tracking
+
+```text
+[✅] Section 1: Multiple Choice (10/10 questions completed)
+[✅] Section 2: Theory (5/5 questions completed)
+[⏳] Section 3: Calculations (3/7 questions processing...)
+[□] Section 4: Practicals (0/4 questions started)
+```
+
 ```
 
