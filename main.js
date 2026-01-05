@@ -137,12 +137,17 @@ function enableLigtTheme() {
  
  
  
+ //Dev codes 
+ let alltopicsUsed = [];
+ 
+ 
+ 
  
  //Handle the Past Questions.
  let L = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i'];
  let QuizAnswers = [];
  let userAnswer = [];
- 
+ let nQQ = 0;
  let thePaper;
  let Topics = [];
  let allQuestions = [];
@@ -220,7 +225,7 @@ function enableLigtTheme() {
      */
    let res = await fetch('./PQ/view.json');
    thePaper = await res.json();
-   
+   nQQ = 1;
    pqRender.start(thePaper)
    //  Orderer(data.pq);
    //update the user object.
@@ -249,7 +254,7 @@ function enableLigtTheme() {
    userAnswer = [];
    nonObjAnswer = [];
    allQuestions = []
-   
+   nQQ = 0;
   InstructionNumber = 1;
    
    //go through the each item
@@ -261,7 +266,7 @@ function enableLigtTheme() {
      case 'Question': // Questions 
       pqRender.question(item);
       allQuestions.push(item);
-      
+      nQQ++;
       break;
      case 'Instruction': //Exam instruction(s)
       pqRender.instruction(item);
@@ -281,7 +286,7 @@ function enableLigtTheme() {
      default: // the default act
     }
    });
-   
+   console.log(nQQ)
    //Check if Equations are showing 
    pqRender.equation();
    //answer Button alive
@@ -471,7 +476,14 @@ function enableLigtTheme() {
    /* Add the Quiz and question elements to the Question paper*/
    DOM.get('#Page').appendChild(question);
    DOM.get('#Page').appendChild(quizQuestion);
+   
+   alltopicsUsed.push(...line.topic);
   },
+  
+  
+
+
+
   //Show Answers
   showAns: function() {
    let ansBtns = DOM.getAll('.ansBtn');
@@ -1348,4 +1360,13 @@ function enableLigtTheme() {
    overlay.style.display = 'none';
   }
  }
+ 
+ 
+ 
+ function removeDuplicates(alltopicsUsed) {
+ // Set automatically removes duplicates, then convert back to array
+ return [...new Set(alltopicsUsed)];
+}
+alltopicsUsed = removeDuplicates(alltopicsUsed);
+console.log(alltopicsUsed)
 });
