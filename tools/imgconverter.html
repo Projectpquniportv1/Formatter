@@ -19,6 +19,7 @@
             padding: 20px;
             max-width: 1200px;
             margin: 0 auto;
+            min-height: 100vh;
         }
         
         .container {
@@ -75,6 +76,14 @@
             .converter-area {
                 grid-template-columns: 1fr;
             }
+            
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
         }
         
         .upload-section, .result-section {
@@ -103,6 +112,7 @@
             transition: all 0.3s;
             margin-bottom: 20px;
             cursor: pointer;
+            position: relative;
         }
         
         .file-input-area:hover {
@@ -118,6 +128,8 @@
         .file-input-label {
             display: block;
             cursor: pointer;
+            width: 100%;
+            height: 100%;
         }
         
         .upload-icon {
@@ -130,6 +142,11 @@
             font-size: 1.1rem;
             color: #555;
             margin-bottom: 10px;
+        }
+        
+        .file-types {
+            color: #7f8c8d;
+            font-size: 0.9rem;
         }
         
         .file-info {
@@ -159,7 +176,14 @@
         }
         
         input[type="file"] {
-            display: none;
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0;
         }
         
         .preview-container {
@@ -178,6 +202,7 @@
             max-height: 200px;
             border-radius: 6px;
             box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+            object-fit: contain;
         }
         
         .base64-container {
@@ -195,17 +220,29 @@
             font-size: 0.9rem;
             resize: vertical;
             background-color: #f8f9fa;
+            line-height: 1.4;
         }
         
         .base64-textarea:focus {
             outline: none;
             border-color: #3498db;
+            box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
         }
         
         .buttons {
             display: flex;
             gap: 15px;
             margin-top: 20px;
+        }
+        
+        @media (max-width: 480px) {
+            .buttons {
+                flex-direction: column;
+            }
+            
+            button {
+                width: 100%;
+            }
         }
         
         button {
@@ -219,6 +256,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            gap: 8px;
         }
         
         .convert-btn {
@@ -229,11 +267,19 @@
         
         .convert-btn:hover {
             background-color: #2980b9;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+        }
+        
+        .convert-btn:active {
+            transform: translateY(0);
         }
         
         .convert-btn:disabled {
             background-color: #bdc3c7;
             cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
         }
         
         .copy-btn {
@@ -243,6 +289,12 @@
         
         .copy-btn:hover {
             background-color: #27ae60;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(46, 204, 113, 0.3);
+        }
+        
+        .copy-btn:active {
+            transform: translateY(0);
         }
         
         .copy-btn.copied {
@@ -256,10 +308,12 @@
         
         .reset-btn:hover {
             background-color: #c0392b;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(231, 76, 60, 0.3);
         }
         
-        button i {
-            margin-right: 8px;
+        .reset-btn:active {
+            transform: translateY(0);
         }
         
         .instructions {
@@ -283,6 +337,21 @@
             margin-bottom: 8px;
         }
         
+        .mime-info {
+            margin-top: 10px;
+            padding: 8px 12px;
+            background-color: #e8f4fc;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .mime-info span {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
         footer {
             text-align: center;
             margin-top: 40px;
@@ -293,7 +362,7 @@
         }
         
         .hidden {
-            display: none;
+            display: none !important;
         }
         
         .progress-bar {
@@ -308,7 +377,88 @@
             height: 100%;
             background-color: #3498db;
             width: 0%;
-            transition: width 0.3s;
+            transition: width 0.3s, background-color 0.3s;
+        }
+        
+        .notification {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 15px 20px;
+            border-radius: 6px;
+            color: white;
+            font-weight: 600;
+            z-index: 1000;
+            animation: slideIn 0.3s ease, fadeOut 0.3s ease 2.7s;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .notification.success {
+            background-color: #2ecc71;
+        }
+        
+        .notification.error {
+            background-color: #e74c3c;
+        }
+        
+        .notification.info {
+            background-color: #3498db;
+        }
+        
+        @keyframes slideIn {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+        
+        @keyframes fadeOut {
+            from {
+                opacity: 1;
+            }
+            to {
+                opacity: 0;
+            }
+        }
+        
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255,255,255,.3);
+            border-radius: 50%;
+            border-top-color: #fff;
+            animation: spin 1s ease-in-out infinite;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .format-options {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .format-option {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .format-option input[type="radio"] {
+            margin: 0;
+        }
+        
+        .format-option label {
+            cursor: pointer;
+            font-size: 0.9rem;
         }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -372,8 +522,28 @@
             <div class="result-section">
                 <h2 class="section-title"><i class="fas fa-code"></i> Base64 Result</h2>
                 
+                <div class="format-options">
+                    <div class="format-option">
+                        <input type="radio" id="formatDataUrl" name="outputFormat" value="dataurl" checked>
+                        <label for="formatDataUrl">Data URL (for img.src)</label>
+                    </div>
+                    <div class="format-option">
+                        <input type="radio" id="formatRaw" name="outputFormat" value="raw">
+                        <label for="formatRaw">Raw Base64</label>
+                    </div>
+                </div>
+                
+                <div class="mime-info">
+                    <span>MIME Type:</span>
+                    <span id="mimeType">-</span>
+                </div>
+                
                 <div class="base64-container">
                     <textarea id="base64Output" class="base64-textarea" placeholder="Your Base64 encoded image will appear here..." readonly></textarea>
+                    <div class="size-info" style="margin-top: 10px;">
+                        <span>Character count:</span>
+                        <span id="charCount">0</span>
+                    </div>
                 </div>
                 
                 <div class="buttons">
@@ -389,10 +559,11 @@
             <ul>
                 <li>Click the upload area or drag & drop an image (max 1MB)</li>
                 <li>Check the file size - it must be 1MB or less</li>
+                <li>Choose output format: <strong>Data URL</strong> (for img.src) or <strong>Raw Base64</strong></li>
                 <li>Click "Convert to Base64" to generate the encoded string</li>
                 <li>Use the "Copy to Clipboard" button to copy the result</li>
                 <li>Use "Reset" to start over with a new image</li>
-                <li>Base64 strings can be used in CSS, HTML, or JavaScript</li>
+                <li>Data URLs can be directly used in HTML: <code>&lt;img src="data:image/jpeg;base64,..."&gt;</code></li>
             </ul>
         </div>
         
@@ -415,12 +586,21 @@
             const imagePreview = document.getElementById('imagePreview');
             const previewContainer = document.getElementById('previewContainer');
             const progressFill = document.getElementById('progressFill');
+            const charCountElement = document.getElementById('charCount');
+            const mimeTypeElement = document.getElementById('mimeType');
+            const formatDataUrlRadio = document.getElementById('formatDataUrl');
+            const formatRawRadio = document.getElementById('formatRaw');
             
             let currentFile = null;
+            let currentMimeType = '';
             const MAX_SIZE = 1 * 1024 * 1024; // 1MB in bytes
             
             // File input change event
             imageInput.addEventListener('change', handleFileSelect);
+            
+            // Format change events
+            formatDataUrlRadio.addEventListener('change', updateOutputFormat);
+            formatRawRadio.addEventListener('change', updateOutputFormat);
             
             // Drag and drop functionality
             dropArea.addEventListener('dragover', function(e) {
@@ -437,14 +617,21 @@
                 dropArea.classList.remove('dragover');
                 
                 if (e.dataTransfer.files.length) {
-                    imageInput.files = e.dataTransfer.files;
-                    handleFileSelect();
+                    const file = e.dataTransfer.files[0];
+                    if (isValidFileType(file)) {
+                        currentFile = file;
+                        handleFileUpdate();
+                    } else {
+                        showNotification('Please select a valid image file (JPG, PNG, GIF, WebP, SVG)', 'error');
+                    }
                 }
             });
             
             // Click drop area to trigger file input
-            dropArea.addEventListener('click', function() {
-                imageInput.click();
+            dropArea.addEventListener('click', function(e) {
+                if (e.target !== imageInput) {
+                    imageInput.click();
+                }
             });
             
             // Convert button click
@@ -456,15 +643,60 @@
             // Reset button click
             resetBtn.addEventListener('click', resetConverter);
             
+            // Update character count when base64 changes
+            base64Output.addEventListener('input', updateCharCount);
+            
+            function isValidFileType(file) {
+                const validTypes = ['image/jpeg', 'image/jpg', 'image/png', 'image/gif', 'image/webp', 'image/svg+xml'];
+                return validTypes.includes(file.type);
+            }
+            
+            function getMimeTypeFromFile(file) {
+                // Map file extensions to MIME types
+                const mimeMap = {
+                    'jpeg': 'image/jpeg',
+                    'jpg': 'image/jpeg',
+                    'png': 'image/png',
+                    'gif': 'image/gif',
+                    'webp': 'image/webp',
+                    'svg': 'image/svg+xml'
+                };
+                
+                // Use the file's MIME type if available
+                if (file.type && file.type.startsWith('image/')) {
+                    return file.type;
+                }
+                
+                // Fallback: extract from filename
+                const extension = file.name.split('.').pop().toLowerCase();
+                return mimeMap[extension] || 'image/jpeg';
+            }
+            
             function handleFileSelect() {
                 if (!imageInput.files.length) return;
                 
-                currentFile = imageInput.files[0];
+                const file = imageInput.files[0];
+                if (!isValidFileType(file)) {
+                    showNotification('Please select a valid image file (JPG, PNG, GIF, WebP, SVG)', 'error');
+                    return;
+                }
+                
+                currentFile = file;
+                currentMimeType = getMimeTypeFromFile(file);
+                handleFileUpdate();
+            }
+            
+            function handleFileUpdate() {
+                if (!currentFile) return;
+                
                 const fileSize = currentFile.size;
                 const fileSizeMB = (fileSize / (1024 * 1024)).toFixed(2);
                 
                 // Update file size display
                 fileSizeElement.textContent = `${fileSizeMB} MB`;
+                
+                // Update MIME type display
+                mimeTypeElement.textContent = currentMimeType;
                 
                 // Update progress bar
                 const percentage = Math.min((fileSize / MAX_SIZE) * 100, 100);
@@ -479,6 +711,8 @@
                     
                     // Update progress bar color to red
                     progressFill.style.backgroundColor = '#e74c3c';
+                    
+                    showNotification('File size exceeds 1MB limit. Please select a smaller image.', 'error');
                 } else {
                     fileSizeElement.className = 'size-value valid';
                     sizeStatusElement.textContent = 'File size OK';
@@ -487,45 +721,55 @@
                     
                     // Update progress bar color to green
                     progressFill.style.backgroundColor = '#2ecc71';
+                    
+                    // Show image preview
+                    const reader = new FileReader();
+                    reader.onload = function(e) {
+                        imagePreview.src = e.target.result;
+                        previewContainer.classList.remove('hidden');
+                    };
+                    reader.readAsDataURL(currentFile);
                 }
                 
-                // Show image preview
-                const reader = new FileReader();
-                reader.onload = function(e) {
-                    imagePreview.src = e.target.result;
-                    previewContainer.classList.remove('hidden');
-                };
-                reader.readAsDataURL(currentFile);
-                
                 // Enable copy button if there's already base64 content
-                if (base64Output.value) {
+                if (base64Output.value.trim()) {
                     copyBtn.disabled = false;
                 }
             }
             
             function convertToBase64() {
-                if (!currentFile) return;
+                if (!currentFile) {
+                    showNotification('Please select an image first', 'error');
+                    return;
+                }
+                
+                if (currentFile.size > MAX_SIZE) {
+                    showNotification('File size exceeds 1MB limit', 'error');
+                    return;
+                }
                 
                 const reader = new FileReader();
                 
                 reader.onloadstart = function() {
-                    convertBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Converting...';
+                    convertBtn.innerHTML = '<span class="loading"></span> Converting...';
                     convertBtn.disabled = true;
                 };
                 
                 reader.onload = function(e) {
-                    // The result is already a base64 string (data URL)
-                    const base64String = e.target.result;
+                    // The result is already a data URL string
+                    const dataUrl = e.target.result;
                     
-                    // Extract just the base64 part (remove "data:image/...;base64," prefix)
-                    const base64Data = base64String.split(',')[1];
+                    // Get the base64 data
+                    const base64Data = dataUrl.split(',')[1];
                     
-                    // Display the base64 string
-                    base64Output.value = base64Data;
+                    // Update output based on selected format
+                    updateOutputFormat();
                     
                     // Update button states
                     convertBtn.innerHTML = '<i class="fas fa-check"></i> Converted!';
                     copyBtn.disabled = false;
+                    
+                    showNotification('Image successfully converted to Base64!', 'success');
                     
                     // Re-enable convert button after a moment
                     setTimeout(() => {
@@ -538,46 +782,83 @@
                     base64Output.value = "Error: Could not read the file.";
                     convertBtn.innerHTML = '<i class="fas fa-exchange-alt"></i> Convert to Base64';
                     convertBtn.disabled = false;
+                    showNotification('Error converting image. Please try again.', 'error');
                 };
                 
                 reader.readAsDataURL(currentFile);
             }
             
-            function copyToClipboard() {
-                if (!base64Output.value) return;
+            function updateOutputFormat() {
+                if (!currentFile) return;
                 
-                // Select the text
-                base64Output.select();
-                base64Output.setSelectionRange(0, 99999); // For mobile devices
+                // Re-read the file to get the data URL
+                const reader = new FileReader();
                 
-                // Copy the text
-                try {
-                    const successful = document.execCommand('copy');
+                reader.onload = function(e) {
+                    const dataUrl = e.target.result;
+                    const base64Data = dataUrl.split(',')[1];
                     
-                    if (successful) {
-                        // Visual feedback
-                        const originalText = copyBtn.innerHTML;
-                        copyBtn.innerHTML = '<i class="fas fa-check"></i> Copied!';
-                        copyBtn.classList.add('copied');
-                        
-                        // Reset button after 2 seconds
-                        setTimeout(() => {
-                            copyBtn.innerHTML = originalText;
-                            copyBtn.classList.remove('copied');
-                        }, 2000);
+                    if (formatDataUrlRadio.checked) {
+                        // Output as Data URL (for img.src)
+                        base64Output.value = dataUrl;
+                    } else {
+                        // Output as raw Base64
+                        base64Output.value = base64Data;
                     }
+                    
+                    updateCharCount();
+                };
+                
+                reader.readAsDataURL(currentFile);
+            }
+            
+            async function copyToClipboard() {
+                if (!base64Output.value.trim()) {
+                    showNotification('No Base64 data to copy', 'error');
+                    return;
+                }
+                
+                try {
+                    await navigator.clipboard.writeText(base64Output.value);
+                    
+                    // Visual feedback
+                    const originalText = copyBtn.innerHTML;
+                    copyBtn.innerHTML = '<i class="fas fa-check"></i> Copied!';
+                    copyBtn.classList.add('copied');
+                    copyBtn.disabled = true;
+                    
+                    showNotification('Base64 copied to clipboard!', 'success');
+                    
+                    // Reset button after 2 seconds
+                    setTimeout(() => {
+                        copyBtn.innerHTML = originalText;
+                        copyBtn.classList.remove('copied');
+                        copyBtn.disabled = false;
+                    }, 2000);
                 } catch (err) {
-                    // Fallback using Clipboard API
-                    navigator.clipboard.writeText(base64Output.value).then(() => {
-                        const originalText = copyBtn.innerHTML;
-                        copyBtn.innerHTML = '<i class="fas fa-check"></i> Copied!';
-                        copyBtn.classList.add('copied');
-                        
-                        setTimeout(() => {
-                            copyBtn.innerHTML = originalText;
-                            copyBtn.classList.remove('copied');
-                        }, 2000);
-                    });
+                    // Fallback for older browsers
+                    base64Output.select();
+                    base64Output.setSelectionRange(0, 99999);
+                    
+                    try {
+                        const successful = document.execCommand('copy');
+                        if (successful) {
+                            const originalText = copyBtn.innerHTML;
+                            copyBtn.innerHTML = '<i class="fas fa-check"></i> Copied!';
+                            copyBtn.classList.add('copied');
+                            copyBtn.disabled = true;
+                            
+                            showNotification('Base64 copied to clipboard!', 'success');
+                            
+                            setTimeout(() => {
+                                copyBtn.innerHTML = originalText;
+                                copyBtn.classList.remove('copied');
+                                copyBtn.disabled = false;
+                            }, 2000);
+                        }
+                    } catch (err2) {
+                        showNotification('Failed to copy to clipboard', 'error');
+                    }
                 }
             }
             
@@ -594,6 +875,9 @@
                 convertBtn.disabled = true;
                 copyBtn.disabled = true;
                 currentFile = null;
+                currentMimeType = '';
+                charCountElement.textContent = '0';
+                mimeTypeElement.textContent = '-';
                 
                 // Reset progress bar
                 progressFill.style.width = '0%';
@@ -603,6 +887,36 @@
                 convertBtn.innerHTML = '<i class="fas fa-exchange-alt"></i> Convert to Base64';
                 copyBtn.innerHTML = '<i class="far fa-copy"></i> Copy to Clipboard';
                 copyBtn.classList.remove('copied');
+                
+                // Reset format to Data URL
+                formatDataUrlRadio.checked = true;
+                
+                showNotification('Converter has been reset', 'info');
+            }
+            
+            function updateCharCount() {
+                const count = base64Output.value.length;
+                charCountElement.textContent = count.toLocaleString();
+            }
+            
+            function showNotification(message, type = 'info') {
+                // Remove existing notifications
+                const existingNotifications = document.querySelectorAll('.notification');
+                existingNotifications.forEach(notification => notification.remove());
+                
+                // Create new notification
+                const notification = document.createElement('div');
+                notification.className = `notification ${type}`;
+                notification.textContent = message;
+                
+                document.body.appendChild(notification);
+                
+                // Remove notification after animation completes
+                setTimeout(() => {
+                    if (notification.parentNode) {
+                        notification.parentNode.removeChild(notification);
+                    }
+                }, 3000);
             }
         });
     </script>
