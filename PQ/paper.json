@@ -1,172 +1,71 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [
-
- {
- "type": "pageInfo",
- "kind": "pureOBJ",
- "course_title": "General Chemistry I",
- "code": "Tttt 130.1",
- "session": "2021/2022",
- "topics": [
-  "Atomic Theory and Chemical Equations",
-  "Atomic Structure and Quantum Theory",
-  "Periodic Table",
-  "Chemical Bonding",
-  "Theory of Chemical Bonding",
-  "Chemical Thermodynamics",
-  "Gaseous State"
- ],
- "time": "90"
-},
-
-
-{
- "type": "Instruction",
- "content": "Attempt All Questions"
-},
-
-
-
-
   {
-    "type": "Question",
-    "name": "Question 1",
-    "topic": ["Real Number System"],
+    "type": "subjective",
+    "name": "Question 1a",
+    "topic": [
+      "Equilibrium of Forces",
+      "Statics"
+    ],
     "Question": {
-      "content": "Find the natural logarithm of 7.56",
-      "type": "OBJ",
-      "options": [
-        "2.0",
-        "2",
-        "2.02",
-        "2.023",
-        "2.0228"
-      ]
+      "content": "Determine the magnitude of the tension in each cable supporting the 8m boom AC acted upon by the 6kN force shown in the figure.",
+      "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "2.0228"
+      "content": "9.62 kN"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'>\n <h4 style='color: var(--strongColor); margin-top: 0;'>Natural Logarithm Calculation</h4>\n <p><strong>What is Natural Logarithm?</strong><br>\n The natural logarithm (ln) is the logarithm to the base <em>e</em>, where <em>e</em> ≈ 2.71828.</p>\n \n <p><strong>Finding ln(7.56):</strong><br>\n Using a calculator or logarithm table:<br>\n ln(7.56) ≈ 2.0228</p>\n \n <p><strong>Verification:</strong><br>\n e² ≈ 7.389<br>\n e².⁰²²⁸ ≈ 7.56</p>\n \n <p style='color: var(--cAns); font-weight: bold;'>Therefore, ln(7.56) = 2.0228</p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Cable Tension</h4>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand the Goal</strong><br>\n    We need to find how tightly the cables (BE and BD) are pulling to keep the boom (AC) from falling down. The boom is being pushed down by a 6kN load at the tip.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Get Coordinates & Dimensions</strong><br>\n    Imagine a 3D grid with the joint A at the center (0,0,0).\n    <ul>\n      <li><strong>Point B (Cable attachment):</strong> 4.6m along the boom. \( B = (4.6, 0, 0) \)</li>\n      <li><strong>Point E (Wall anchor):</strong> It's back at the wall (x=0), up 4.2m, and to the side 4.6m. \( E = (0, 4.2, 4.6) \)</li>\n      <li><strong>Point C (Load):</strong> Total length 8m. \( C = (8, 0, 0) \)</li>\n    </ul>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate Cable Geometry</strong><br>\n    We need the length of the cable from B to E. We use the 3D distance formula:\n    <br>\n    \( \text{Length} = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2 + (z_2-z_1)^2} \)\n    <br>\n    \( L = \sqrt{(0-4.6)^2 + (4.2-0)^2 + (4.6-0)^2} \)\n    \( L = \sqrt{21.16 + 17.64 + 21.16} = \sqrt{59.96} \approx 7.743\,m \)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Use \"Moments\" (The See-Saw Effect)</strong>
+      
+      [Image of moment of force diagram] <
+      br > \n The joint A acts like the pivot of a see - saw.The 6 kN load tries to rotate the boom down(Clockwise).The cables pull it up(Counter - Clockwise).These must balance.\n < br > <br>\n    <strong>The Equation:</strong> \( \sum M_A = 0 \)\n    <br>\n    \( (\text{Upward Pull} \times \text{Distance to A}) = (\text{Downward Load} \times \text{Distance to A}) \)\n    <br><br>\n    <em>Note:</em> Only the vertical part of the tension pulls \"up\". The vertical ratio is height/length = \( 4.2 / 7.743 \).\n    Since there are <strong>two</strong> cables:\n    <br>\n    \( 2 \times (T \times \frac{4.2}{7.743}) \times 4.6m = 6kN \times 8m \)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 5: Solve for Tension (T)</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \( T \times 4.99 = 48 \)\n      <br>\n      \( T = \frac{48}{4.99} \approx 9.62\,kN \)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The tension in each cable is 9.62 kN.\n  </div>\n</div>"
     }
   },
   {
-    "type": "Question",
-    "name": "Question 2",
-    "topic": ["Sequences and Series"],
+    "type": "subjective",
+    "name": "Question 1b",
+    "topic": [
+      "Equilibrium of Forces",
+      "Statics"
+    ],
     "Question": {
-      "content": "Calculate the total number of orbital when $n = 4$, $l = 3$ and $M_1 = 2$?",
-      "type": "OBJ",
-      "options": [
-        "16",
-        "8",
-        "7",
-        "14",
-        "32"
-      ]
+      "content": "Determine the reactions at the ball-and-socket joint A for the boom system shown in the figure.",
+      "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "7"
+      "content": "Ax = 11.43 kN, Ay = -4.43 kN, Az = 0 kN"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'>\n <h4 style='color: var(--strongColor); margin-top: 0;'>Quantum Numbers and Orbitals</h4>\n <p><strong>Quantum Numbers:</strong><br>\n - n = principal quantum number (energy level)<br>\n - l = azimuthal quantum number (orbital shape)<br>\n - m<sub>l</sub> = magnetic quantum number (orbital orientation)</p>\n \n <p><strong>Given Values:</strong><br>\n n = 4, l = 3, m<sub>l</sub> = 2</p>\n \n <p><strong>For l = 3 (f-orbitals):</strong><br>\n The magnetic quantum number m<sub>l</sub> ranges from -l to +l:<br>\n m<sub>l</sub> = -3, -2, -1, 0, +1, +2, +3</p>\n \n <p><strong>Total Orbitals:</strong><br>\n For any l value, there are (2l + 1) orbitals:<br>\n 2(3) + 1 = 7 orbitals</p>\n \n <p style='color: var(--cAns); font-weight: bold;'>For l = 3, there are always 7 orbitals regardless of m<sub>l</sub> value.</p>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 3",
-    "topic": ["Relations and Functions"],
-    "Question": {
-      "content": "The enthalpy change when 1mol of a substance is burnt in excess air is called?",
-      "type": "OBJ",
-      "options": [
-        "heat of formation",
-        "heat of combustion",
-        "energy of mixing",
-        "oxidation",
-        "heat capacity"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "heat of combustion"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'>\n <h4 style='color: var(--strongColor); margin-top: 0;'>Thermodynamic Definitions</h4>\n <p><strong>Heat of Combustion:</strong><br>\n The enthalpy change when 1 mole of a substance is completely burned in excess oxygen.</p>\n \n <p><strong>Other Options Explained:</strong><br>\n - Heat of formation: Energy change when 1 mole of compound forms from elements<br>\n - Energy of mixing: Energy change when substances mix<br>\n - Oxidation: Chemical process of losing electrons<br>\n - Heat capacity: Amount of heat needed to raise temperature by 1°C</p>\n \n <p style='color: var(--cAns); font-weight: bold;'>Burning in excess air = combustion, so it's heat of combustion.</p>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 4",
-    "topic": ["Equations"],
-    "Question": {
-      "content": "The density \\(rho\\) of a gas at temperature T is given by the equation p = RT \\(rho\\), if \\(p = 1.25 \\text{ atm}\\), \\(T = 308.5 \\text{ K}\\) and \\(R = 8.31447 \\text{ J/K.mol}\\), calculate the density of the gas.",
-      "type": "OBJ",
-      "options": [
-        "49.45 mol/m³",
-        "49.45 mol/m³",
-        "49.45 mol/m³"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "49.45 mol/m³"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'>\n <h4 style='color: var(--strongColor); margin-top: 0;'>Gas Density Calculation</h4>\n <p><strong>Given Equation:</strong><br>\n $p = RT\\rho$</p>\n \n <p><strong>Rearrange for density:</strong><br>\n $\\rho = \\frac{p}{RT}$</p>\n \n <p><strong>Convert units:</strong><br>\n 1 atm = 101325 Pa<br>\n $p = 1.25 \\times 101325 = 126656.25$ Pa</p>\n \n <p><strong>Calculate:</strong><br>\n $\\rho = \\frac{126656.25}{8.31447 \\times 308.5}$<br>\n $\\rho = \\frac{126656.25}{2565.02}$<br>\n $\\rho = 49.45$ mol/m³</p>\n \n <p style='color: var(--cAns); font-weight: bold;'>The gas density is 49.45 mol/m³</p>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 6",
-    "topic": ["Equations"],
-    "Question": {
-      "content": "Determine the mass of NH₃ produced from a mixture of 19.88g of N₂ and 4.00g of H₂.",
-      "type": "OBJ",
-      "options": [
-        "11.23g",
-        "20.12g",
-        "22.48g",
-        "30.43g",
-        "25.46g"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "22.48g"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'>\n <h4 style='color: var(--strongColor); margin-top: 0;'>Stoichiometry - Limiting Reactant</h4>\n <p><strong>Balanced Equation:</strong><br>\n N₂ + 3H₂ → 2NH₃</p>\n \n <p><strong>Molar Masses:</strong><br>\n N₂ = 28 g/mol, H₂ = 2 g/mol, NH₃ = 17 g/mol</p>\n \n <p><strong>Moles Available:</strong><br>\n N₂: 19.88g ÷ 28 g/mol = 0.71 mol<br>\n H₂: 4.00g ÷ 2 g/mol = 2.00 mol</p>\n \n <p><strong>Limiting Reactant:</strong><br>\n From equation: 1 mol N₂ needs 3 mol H₂<br>\n Available H₂ for 0.71 mol N₂: 0.71 × 3 = 2.13 mol needed<br>\n But only 2.00 mol H₂ available → H₂ is limiting reactant</p>\n \n <p><strong>NH₃ Produced:</strong><br>\n 3 mol H₂ produces 2 mol NH₃<br>\n 2.00 mol H₂ produces: (2/3) × 2.00 = 1.333 mol NH₃<br>\n Mass = 1.333 mol × 17 g/mol = 22.48g</p>\n \n <p style='color: var(--cAns); font-weight: bold;'>H₂ is limiting, producing 22.48g NH₃</p>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 9",
-    "topic": ["Relations and Functions"],
-    "Question": {
-      "content": "A system gains 418.2J of heat and does 313.5J of work: Determine the change in internal energy of the system in Joules",
-      "type": "OBJ",
-      "options": [
-        "209J",
-        "104.5J",
-        "90J",
-        "100J",
-        "85J"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "104.5J"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'>\n <h4 style='color: var(--strongColor); margin-top: 0;'>First Law of Thermodynamics</h4>\n <p><strong>First Law Formula:</strong><br>\n ΔU = Q - W<br>\n Where:<br>\n ΔU = change in internal energy<br>\n Q = heat added to system<br>\n W = work done by system</p>\n \n <p><strong>Given Values:</strong><br>\n Q = +418.2 J (heat gained = positive)<br>\n W = +313.5 J (work done by system = positive)</p>\n \n <p><strong>Calculation:</strong><br>\n ΔU = 418.2 - 313.5<br>\n ΔU = 104.7 J</p>\n \n <p><strong>Sign Convention:</strong><br>\n - Heat IN to system: +Q<br>\n - Work OUT from system: +W<br>\n - Internal energy increases when Q > W</p>\n \n <p style='color: var(--cAns); font-weight: bold;'>ΔU = 104.7 J (closest to 104.5J in options)</p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Reactions at Joint A</h4>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand Reactions</strong><br>\n    Newton's Third Law says \"For every action, there is an equal and opposite reaction.\" The wall at point A pushes back against the boom to keep it from moving. We need to find the force of this push in the X, Y, and Z directions.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Sum of Forces in X (Horizontal)</strong><br>\n    The cables are pulling the boom <em>into</em> the wall (Negative X). The wall must push <em>out</em> (Positive X).\n    <br>\n    \( A_x + \text{Cable Forces}_x = 0 \)\n    <br>\n    \( A_x = 2 \times T \times (\frac{4.6}{7.743}) \)\n    <br>\n    \( A_x = 2 \times 9.62 \times 0.594 \approx 11.43\,kN \)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Sum of Forces in Y (Vertical)</strong><br>\n    We have the cables pulling UP, the Load pushing DOWN, and the Reaction \( A_y \).\n    <br>\n    \( A_y + \text{Cable Upward Force} - \text{Load} = 0 \)\n    <br>\n    We know the total cable upward force is \( 10.43\,kN \) (from the previous calculation).\n    <br>\n    \( A_y + 10.43 - 6 = 0 \)\n    <br>\n    \( A_y + 4.43 = 0 \implies A_y = -4.43\,kN \)\n    <br>\n    <em>(The negative sign means the reaction at A is actually pulling downwards to anchor the boom).</em>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Sum of Forces in Z (Side-to-Side)</strong><br>\n    Because the two cables are symmetrical (one pulls left, one pulls right with equal force), they cancel each other out sideways.\n    <br>\n    \( A_z = 0\,kN \)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong>\n    <ul>\n      <li>\( A_x = 11.43\,kN \)</li>\n      <li>\( A_y = -4.43\,kN \)</li>\n      <li>\( A_z = 0\,kN \)</li>\n    </ul>\n  </div>\n</div>"
     }
   }
 ]

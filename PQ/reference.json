@@ -94,12 +94,11 @@
   "heading": "This is the heading",
   "Subheading": "This is the sub-heading"
  },
- {
-  "type": "img",
-  "alt": "an image",
-  "url": "./icon.png",
-  "Caption": "example image",
-  "topic": "the value will a string or an array"
- }
- 
+{
+ "type": "img",
+ "alt": "an image",
+ "url": "./icon.png",
+ "Caption": "example image",
+ "topic": "the value will a string or an array"
+}
 ]

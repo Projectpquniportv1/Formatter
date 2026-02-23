@@ -264,6 +264,7 @@ function enableLigtTheme() {
       pqRender.title(item);
       break;
      case 'Question': // Questions 
+     console.log(item.name)
       pqRender.question(item);
       allQuestions.push(item);
       nQQ++;
