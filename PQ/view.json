@@ -1,6 +1,5 @@
-
 [
-    {
+  {
     "type": "pageInfo",
     "kind": "OBJ",
     "course_title": "Protochordates and chordates",
@@ -16,833 +15,509 @@
     "type": "Instruction",
     "content": "Attempt All Questions"
   },
-  
   {
     "type": "Question",
     "name": "Question 1",
     "topic": [
-      "Definitions",
-      "Protochordates",
-      "Invertebrates"
+      "Analytical Chemistry",
+      "Titration",
+      "Precipitation Titration"
     ],
     "Question": {
-      "content": "What is the informal category of animals, named mainly for convenience, that describes invertebrate animals closely related to vertebrates?",
-      "type": "OBJ",
-      "options": [
-        "Protochordates",
-        "Echinoderms",
-        "Arthropods",
-        "Mollusks"
-      ]
+      "content": "When does the equivalence point in the titration of NaCl with AgNO₃ occur?",
+      "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Protochordates"
+      "content": "When moles of AgNO₃ added equals moles of NaCl originally present"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Understanding Protochordates</h4>\n  <p>The correct answer is <strong>Protochordates</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>What does this mean?</strong><br>\n    The term \"Protochordates\" is used as a convenient group name for animals that are invertebrates (they have no backbone) but share key characteristics with chordates (animals that do have a backbone or a similar structure). Think of them as the \"pre-cursors\" to vertebrates.\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Equivalence Point in Precipitation Titration</h4>\n  <p>The equivalence point occurs when the amount of titrant (AgNO₃) added is <strong>stoichiometrically equivalent</strong> to the amount of analyte (NaCl) originally present in the solution.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>The Reaction</strong><br>\n    The titration follows this reaction:\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0; font-family: monospace;'>\n      NaCl + AgNO₃ → AgCl↓ + NaNO₃\n    </div>\n    At the equivalence point, all Cl⁻ ions have reacted with Ag⁺ ions to form solid AgCl precipitate.\n  </div>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Detection Methods</strong><br>\n    This point can be detected using:\n    <ul style='margin-top: 5px;'>\n      <li><strong>Indicators</strong> (like chromate in Mohr's method)</li>\n      <li><strong>Potentiometric methods</strong> (measuring change in electrode potential)</li>\n    </ul>\n  </div>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 2",
     "topic": [
-      "Urochordates",
-      "Larvaceans",
-      "Reproduction",
-      "Development"
+      "Analytical Chemistry",
+      "Solution Preparation",
+      "Laboratory Techniques"
     ],
     "Question": {
-      "content": "What is the phenomenon where organisms in the class Larvacea become sexually mature and reproduce while retaining their larval features?",
-      "type": "OBJ",
-      "options": [
-        "Metamorphosis",
-        "Neoteny",
-        "Paedogenesis",
-        "Parthenogenesis"
-      ]
+      "content": "Describe the preparation of 3.0L of 0.05M AgNO₃ (169.0g/mol) from the primary-standard grade solid.",
+      "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Paedogenesis"
+      "content": "Weigh 25.35g of AgNO₃, dissolve in water, and dilute to 3.0L in a volumetric flask"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Reproduction in Larvaceans</h4>\n  <p>The correct answer is <strong>Paedogenesis</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>A Simple Breakdown</strong><br>\n    Paedogenesis is a type of reproduction where an organism reaches sexual maturity and reproduces while still in a larval or juvenile form. It's like a tadpole being able to have baby tadpoles without ever turning into a frog. Larvaceans are a classic example of this.\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Preparation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Calculate the mass needed</strong><br>\n    First, we need to find how many grams of AgNO₃ are required.\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0;'>\n      Moles needed = Molarity × Volume (in L)<br>\n      Moles = 0.05 mol/L × 3.0 L = 0.15 mol<br><br>\n      Mass = Moles × Molar mass<br>\n      Mass = 0.15 mol × 169.0 g/mol = <strong>25.35 g</strong>\n    </div>\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Weighing</strong><br>\n    Using an analytical balance, accurately weigh <strong>25.35 g</strong> of primary-standard grade AgNO₃ solid. Primary-standard grade ensures high purity and known composition.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Dissolution</strong><br>\n    Transfer the weighed AgNO₃ into a clean beaker. Add about 500 mL of distilled water and stir until completely dissolved.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Transfer and Dilution</strong><br>\n    Quantitatively transfer the solution into a <strong>3.0 L volumetric flask</strong>. Rinse the beaker several times with distilled water and add these rinsings to the flask. Fill the flask to the calibration mark with distilled water. Stopper and invert several times to ensure thorough mixing.\n  </div>\n  \n  <div style='background: var(--warningBg); padding: 10px; border-radius: 5px;'>\n    <strong style='color: var(--strongColor);'>⚠️ Important Note:</strong> AgNO₃ is light-sensitive. Store the prepared solution in an amber bottle to prevent decomposition.\n  </div>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 3",
     "topic": [
-      "Hemichordata",
-      "Development",
-      "Definitions"
+      "Analytical Chemistry",
+      "Analytical Process"
     ],
     "Question": {
-      "content": "What is the larval form of organisms in the phylum Hemichordata called?",
-      "type": "OBJ",
-      "options": [
-        "Planula",
-        "Nauplius",
-        "Tornaria",
-        "Bipinnaria"
-      ]
+      "content": "Mention the 4th stage in analytical process?",
+      "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Tornaria"
+      "content": "Measurement"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Hemichordate Larva</h4>\n  <p>The correct answer is <strong>Tornaria</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Why is this important?</strong><br>\n    The tornaria larva is a free-swimming, planktonic larval stage found in some hemichordates (like acorn worms). It looks very similar to the larva of some echinoderms (like starfish), which provides evidence of an evolutionary link between these two groups.\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Analytical Process Stages</h4>\n  \n  <p>The complete analytical process typically consists of 7 stages:</p>\n  \n  <ol style='background: var(--preset-bg-color); padding: 15px 30px; border-radius: 5px;'>\n    <li><strong>Formulating the question</strong> - Defining what needs to be determined</li>\n    <li><strong>Selecting analytical procedure</strong> - Choosing appropriate methods</li>\n    <li><strong>Sampling</strong> - Obtaining a representative sample</li>\n    <li><strong>Sample preparation</strong> - Making the sample ready for analysis</li>\n    <li><strong><span style='color: var(--strongColor); font-size: 1.1em;'>Measurement (4th stage)</span></strong> - Performing the actual analysis and obtaining data</li>\n    <li><strong>Calibration and calculation</strong> - Converting measurements to results</li>\n    <li><strong>Evaluation and reporting</strong> - Interpreting and presenting findings</li>\n  </ol>\n  \n  <div style='margin-top: 15px;'>\n    <strong style='color: var(--strongColor);'>What happens in the Measurement stage?</strong><br>\n    This is where we actually perform the analysis using instruments or classical methods. For example, measuring the volume of titrant used, reading absorbance from a spectrophotometer, or measuring mass on a balance. The quality of measurement directly affects the final result.\n  </div>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 4",
     "topic": [
-      "Agnatha",
-      "Fishes",
-      "Anatomy",
-      "Classification"
+      "Analytical Chemistry",
+      "Gravimetric Analysis",
+      "Stoichiometry"
     ],
     "Question": {
-      "content": "Which group of animals is described as 'invertebrate' chordates, lacking a true brain or skull, lacking jaws, and possessing an endostyle and permanent pharyngeal gill clefts?",
-      "type": "OBJ",
-      "options": [
-        "Cephalochordates",
-        "Urochordates",
-        "Agnathans",
-        "Gnathostomata"
-      ]
+      "content": "Calculate the %P in a 0.640g parfait sample. Final yield is 0.351g Mg₃(PO₄)₂ (222g/mol).",
+      "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Agnathans"
+      "content": "9.99%"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Identifying Jawless Fish</h4>\n  <p>The correct answer is <strong>Agnathans</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>What are Agnathans?</strong><br>\n    The name \"Agnatha\" literally means \"without jaws.\" While the question mentions \"invertebrate\" chordates (like lancelets), the key phrase here is \"absence of true brain or skull\". This describes the jawless fish, such as lampreys and hagfish. They are vertebrates, but very primitive ones without a fully developed vertebral column or skull. The presence of an endostyle (a structure that helps with filter-feeding) is a key chordate feature.\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Percentage of Phosphorus</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Find moles of Mg₃(PO₄)₂</strong><br>\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0;'>\n      Moles = \\( \\frac{\\text{mass}}{\\text{molar mass}} \\)<br>\n      Moles = \\( \\frac{0.351 \\text{ g}}{222 \\text{ g/mol}} = 0.001581 \\text{ mol} \\)\n    </div>\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Find moles of P</strong><br>\n    Each formula unit of Mg₃(PO₄)₂ contains 2 phosphorus atoms.<br>\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0;'>\n      Moles of P = Moles of Mg₃(PO₄)₂ × 2<br>\n      Moles of P = 0.001581 mol × 2 = 0.003162 mol\n    </div>\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Find mass of P</strong><br>\n    Atomic mass of P = 31 g/mol<br>\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0;'>\n      Mass of P = 0.003162 mol × 31 g/mol = 0.09802 g\n    </div>\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Calculate %P in the sample</strong><br>\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0;'>\n      %P = \\( \\frac{\\text{mass of P}}{\\text{mass of sample}} \\times 100 \\)<br>\n      %P = \\( \\frac{0.09802 \\text{ g}}{0.640 \\text{ g}} \\times 100 = 15.32\\% \\)\n    </div>\n  </div>\n  \n  <div style='background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 5px;'>\n    <strong>✅ Final Answer:</strong> The sample contains <strong>15.32% phosphorus</strong>.\n  </div>\n  \n  <p style='margin-top: 15px; font-style: italic;'>Note: This is a typical gravimetric analysis calculation where we precipitate the analyte as a compound of known composition, then work backward to find the original amount.</p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 5",
     "topic": [
-      "Fishes",
-      "Ecology",
-      "Feeding Mechanisms"
+      "Analytical Chemistry",
+      "Gravimetric Analysis",
+      "Precipitation"
     ],
     "Question": {
-      "content": "Name two examples of organisms that carry out filter feeding.",
+      "content": "What do we do to colloidal particles to give a filterable mass that will settle out of solution?",
       "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Menhadden and Herrings"
+      "content": "Digestion or coagulation/aging"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Examples of Filter Feeders</h4>\n  <p>The provided answers are <strong>Menhadden and Herrings</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>How it works</strong><br>\n    Filter feeding is a method of eating where an animal strains suspended matter and food particles from water. Many fish do this. Other classic examples from the provided topics could include sponges, baleen whales, and flamingos.\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Handling Colloidal Precipitates</h4>\n  \n  <p>When precipitates form as colloidal particles, they are too small to be trapped by ordinary filter paper and remain suspended in solution. To make them filterable, we perform a process called <strong>digestion</strong> or <strong>coagulation</strong>.</p>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>What is Digestion?</strong><br>\n    Digestion involves heating the precipitate in the mother liquor (the solution from which it was precipitated) for some time, usually 30 minutes to several hours.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>What happens during digestion?</strong><br>\n    <ul style='margin-top: 5px;'>\n      <li><strong>Particle growth:</strong> Smaller particles dissolve and reprecipitate onto larger particles (Ostwald ripening)</li>\n      <li><strong>Purification:</strong> Impurities are expelled from the crystal lattice</li>\n      <li><strong>Coagulation:</strong> Colloidal particles aggregate into larger, filterable particles</li>\n    </ul>\n  </div>\n  \n  <div style='background: var(--warningBg); padding: 10px; border-radius: 5px;'>\n    <strong style='color: var(--strongColor);'>Alternative methods:</strong> Adding electrolytes can help coagulate colloidal particles by neutralizing surface charges that keep them suspended.\n  </div>\n  \n  <p style='margin-top: 15px;'>After digestion, the precipitate will settle quickly and can be easily collected by filtration.</p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 6",
     "topic": [
-      "Fishes",
-      "Classification",
-      "Evolution"
+      "Analytical Chemistry",
+      "Gravimetric Analysis",
+      "Drying Techniques"
     ],
     "Question": {
-      "content": "Hagfish, lampreys, cartilaginous fish, and bony fish are all classes of fish. What is the correct evolutionary order they are listed in, from most primitive to most advanced?",
-      "type": "OBJ",
-      "options": [
-        "Agnatha, Chondrichthyes, Osteichthyes",
-        "Osteichthyes, Chondrichthyes, Agnatha",
-        "Agnatha, Osteichthyes, Chondrichthyes",
-        "Chondrichthyes, Agnatha, Osteichthyes"
-      ]
+      "content": "Low temperature drying during precipitation gravimetry is suitable for?",
+      "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Agnatha, Chondrichthyes, Osteichthyes"
+      "content": "Precipitates that are hygroscopic or decompose at high temperatures"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Evolutionary Order of Fish</h4>\n  <p>The correct answer is <strong>Agnatha, Chondrichthyes, Osteichthyes</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>From Simple to Complex</strong><br>\n    This order represents the evolutionary history of fish:\n    <ol>\n      <li><b>Agnatha (Jawless Fish):</b> The most primitive, like hagfish and lampreys. They have no jaws or paired fins.</li>\n      <li><b>Chondrichthyes (Cartilaginous Fish):</b> Evolved later. They have jaws and paired fins, but their skeleton is made of cartilage (like sharks and rays).</li>\n      <li><b>Osteichthyes (Bony Fish):</b> The most advanced group. They have a skeleton made of bone (like tuna, salmon, and perch).</li>\n    </ol>\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Low Temperature Drying in Gravimetry</h4>\n  \n  <p>Low temperature drying (typically below 100°C or in a desiccator) is used for specific types of precipitates:</p>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>1. Hygroscopic Precipitates</strong><br>\n    Some compounds readily absorb moisture from the air. High temperatures might drive off this moisture, but they might also cause the precipitate to reabsorb moisture during cooling. Low temperature drying minimizes this issue.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>2. Thermally Unstable Compounds</strong><br>\n    Some precipitates decompose, oxidize, or undergo chemical changes at high temperatures. For example:\n    <ul style='margin-top: 5px;'>\n      <li>Hydrates that lose water of crystallization at moderate temperatures</li>\n      <li>Organic precipitates that might char or decompose</li>\n      <li>Compounds that volatilize at high temperatures</li>\n    </ul>\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>3. Precipitates with Low Melting Points</strong><br>\n    Some substances might melt or sinter at high temperatures, making them difficult to weigh accurately.\n  </div>\n  \n  <div style='background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 5px;'>\n    <strong>Example:</strong> Silver chloride (AgCl) is often dried at 110°C rather than ignited at high temperatures because it can decompose or partially volatilize.\n  </div>\n  \n  <p style='margin-top: 15px;'>The goal is to remove volatile solvents (usually water) without altering the chemical composition of the precipitate.</p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 7",
     "topic": [
-      "Fishes",
-      "Reproduction"
+      "Analytical Chemistry",
+      "Stoichiometry",
+      "Reaction Calculations"
     ],
     "Question": {
-      "content": "What are ovoviviparous and viviparous fish commonly referred to as by aquarists?",
-      "type": "OBJ",
-      "options": [
-        "Egg-layers",
-        "Livebearers",
-        "Mouthbrooders",
-        "Sprayers"
-      ]
+      "content": "What mass of AgNO₃ (169.0g/mol) is needed to convert 3.40g of Na₂CO₃ (106.0g/mol) to Ag₂CO₃?",
+      "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Livebearers"
+      "content": "10.84g"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Aquarium Terminology</h4>\n  <p>The correct answer is <strong>Livebearers</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>What's the difference?</strong><br>\n    Aquarists use the simple term \"livebearers\" for fish that give birth to live, free-swimming young instead of laying eggs.\n    <ul>\n      <li><b>Ovoviviparous:</b> Eggs develop and hatch inside the mother's body, but the embryos get nutrition from the egg yolk, not directly from the mother. (e.g., Guppies, Mollies).</li>\n      <li><b>Viviparous:</b> Embryos develop inside the mother and receive direct nourishment from her body, similar to mammals. (e.g., some sharks).</li>\n    </ul>\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Required Mass of AgNO₃</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Write the balanced equation</strong><br>\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0; font-family: monospace;'>\n      Na₂CO₃ + 2AgNO₃ → Ag₂CO₃ + 2NaNO₃\n    </div>\n    From the equation: <strong>1 mol Na₂CO₃ reacts with 2 mol AgNO₃</strong>\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Find moles of Na₂CO₃</strong><br>\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0;'>\n      Moles of Na₂CO₃ = \\( \\frac{3.40 \\text{ g}}{106.0 \\text{ g/mol}} = 0.03208 \\text{ mol} \\)\n    </div>\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Find moles of AgNO₃ needed</strong><br>\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0;'>\n      Moles of AgNO₃ = 0.03208 mol Na₂CO₃ × \\( \\frac{2 \\text{ mol AgNO₃}}{1 \\text{ mol Na₂CO₃}} \\)<br>\n      Moles of AgNO₃ = 0.06416 mol\n    </div>\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Calculate mass of AgNO₃</strong><br>\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0;'>\n      Mass of AgNO₃ = 0.06416 mol × 169.0 g/mol<br>\n      Mass of AgNO₃ = <strong>10.84 g</strong>\n    </div>\n  </div>\n  \n  <div style='background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 5px;'>\n    <strong>✅ Final Answer:</strong> You need <strong>10.84 grams</strong> of AgNO₃ to completely convert all Na₂CO₃ to Ag₂CO₃.\n  </div>\n  \n  <p style='margin-top: 15px;'>This is a typical stoichiometry problem where we use the mole ratio from the balanced equation to convert between reactants.</p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 8",
     "topic": [
-      "Fishes",
-      "Reproduction"
+      "Analytical Chemistry",
+      "Precipitation Titration",
+      "Molarity Calculation"
     ],
     "Question": {
-      "content": "What is the average diameter of the eggs of marine fish?",
-      "type": "OBJ",
-      "options": [
-        "10.0 mm or 11.0 mm",
-        "1.0 mm or 2.0 mm",
-        "0.1 mm or 0.2 mm",
-        "5.0 mm or 6.0 mm"
-      ]
+      "content": "A 10.0mL solution containing Cl⁻ was treated with excess AgNO₃ to precipitate 0.40g of AgCl. What was the molarity of Cl⁻ in the unknown? (AgCl = 143.0g/mol)",
+      "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "1.0 mm or 2.0 mm"
+      "content": "0.28 M"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Marine Fish Egg Size</h4>\n  <p>The correct answer is <strong>1.0 mm or 2.0 mm</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Why so small?</strong><br>\n    Many marine fish produce a huge number of very small, buoyant eggs that float in the plankton. This is a survival strategy. The small size (about 1-2 mm) allows for wide dispersal by ocean currents, and the sheer number of eggs increases the chance that at least some will survive to adulthood.\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Finding Molarity of Cl⁻</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand the reaction</strong><br>\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0; font-family: monospace;'>\n      Ag⁺ + Cl⁻ → AgCl↓\n    </div>\n    This is a 1:1 reaction. <strong>1 mole of Cl⁻ produces 1 mole of AgCl</strong>.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Find moles of AgCl precipitated</strong><br>\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0;'>\n      Moles of AgCl = \\( \\frac{0.40 \\text{ g}}{143.0 \\text{ g/mol}} = 0.002797 \\text{ mol} \\)\n    </div>\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Relate to Cl⁻</strong><br>\n    Since 1 mol AgCl comes from 1 mol Cl⁻:<br>\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0;'>\n      Moles of Cl⁻ = 0.002797 mol\n    </div>\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Calculate molarity of Cl⁻</strong><br>\n    Volume of solution = 10.0 mL = 0.0100 L<br>\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0;'>\n      Molarity = \\( \\frac{\\text{moles}}{\\text{volume in L}} \\)<br>\n      Molarity = \\( \\frac{0.002797 \\text{ mol}}{0.0100 \\text{ L}} = 0.2797 \\text{ M} \\)\n    </div>\n  </div>\n  \n  <div style='background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 5px;'>\n    <strong>✅ Final Answer:</strong> The concentration of Cl⁻ in the unknown solution is <strong>0.28 M</strong> (rounded to 2 significant figures).\n  </div>\n  \n  <p style='margin-top: 15px;'>This method is called <strong>gravimetric analysis by precipitation</strong> - we precipitate the analyte as an insoluble compound, weigh it, and calculate back to the original concentration.</p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 9",
     "topic": [
-      "Fishes",
-      "Communication",
-      "Sound Production"
+      "Analytical Chemistry",
+      "Acid-Base Indicators",
+      "Equilibrium"
     ],
     "Question": {
-      "content": "Some species of fish can produce sounds by what action involving their teeth?",
-      "type": "OBJ",
-      "options": [
-        "grinding them together",
-        "vibrating them rapidly",
-        "clicking them once",
-        "rubbing them against their gills"
-      ]
+      "content": "Write the expression that describes the behavior of acid type indicator.",
+      "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "grinding them together"
+      "content": "HIn ⇌ H⁺ + In⁻; K_a = [H⁺][In⁻]/[HIn]"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>How Fish Use Their Teeth for Sound</h4>\n  <p>The correct answer is <strong>grinding them together</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>An Underwater Orchestra</strong><br>\n    Fish produce sounds in various ways, and using teeth is one of them. This is often called <b>pharyngeal teeth grinding</b>. Some fish have special teeth in their throat (pharyngeal teeth) that they can grind together to create grunting or grinding sounds, likely for communication or as a startle response.\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Acid-Type Indicator Behavior</h4>\n  \n  <p>Acid-base indicators are themselves weak acids or bases that have different colors in their protonated and deprotonated forms.</p>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>The Equilibrium Expression</strong><br>\n    For an acid-type indicator (HIn), the equilibrium is:\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0; font-size: 1.2em; text-align: center;'>\n      HIn ⇌ H⁺ + In⁻\n    </div>\n    Where:\n    <ul style='margin-top: 5px;'>\n      <li><strong>HIn</strong> = acid form (one color, e.g., yellow)</li>\n      <li><strong>In⁻</strong> = conjugate base form (different color, e.g., blue)</li>\n    </ul>\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>The Equilibrium Constant Expression</strong><br>\n    <div style='background: var(--preset-bg-color); padding: 15px; border-radius: 5px; margin: 10px 0; font-size: 1.2em; text-align: center;'>\n      K_a = \\( \\frac{[H^+][In^-]}{[HIn]} \\)\n    </div>\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Rearranged Form</strong><br>\n    Taking negative logarithms gives the Henderson-Hasselbalch form:\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0; text-align: center;'>\n      pH = pK_a + log \\( \\frac{[In^-]}{[HIn]} \\)\n    </div>\n    This shows that the color (ratio of [In⁻]/[HIn]) depends on the pH of the solution.\n  </div>\n  \n  <div style='background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 5px;'>\n    <strong>Color Change Region:</strong> The indicator changes color when [In⁻] ≈ [HIn], which occurs when pH ≈ pK_a ± 1.\n  </div>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 10",
     "topic": [
-      "Fishes",
-      "Communication",
-      "Sound Production"
+      "Analytical Chemistry",
+      "Precipitation",
+      "Crystallization"
     ],
     "Question": {
-      "content": "The noise or sounds produced by bone-on-bone rubbing or interactions in fish are known as ______, and this involves the transmission of acoustic signals from one individual to another.",
+      "content": "What is the relationship between nucleation and relative super-saturation?",
       "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Stridulation"
+      "content": "Directly proportional: higher relative supersaturation leads to more nucleation"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Term for Bone Rubbing</h4>\n  <p>The correct answer is <strong>Stridulation</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>It's Like a Musical Instrument</strong><br>\n    Stridulation is the act of producing sound by rubbing two hard body parts together. Think of it like running a stick across a washboard. In fish, this can involve rubbing bones, fin spines, or teeth together to create sounds used for communication, often during courtship or to warn off rivals.\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Nucleation and Relative Supersaturation</h4>\n  \n  <p><strong>Relative supersaturation</strong> (Q - S)/S is a measure of how supersaturated a solution is, where Q is the actual concentration and S is the equilibrium solubility.</p>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>The Relationship</strong><br>\n    There is a <strong>direct relationship</strong>: as relative supersaturation increases, the rate of nucleation increases.\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0; text-align: center;'>\n      Nucleation rate ∝ Relative supersaturation\n    </div>\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>What happens at different levels?</strong><br>\n    <ul style='margin-top: 5px;'>\n      <li><strong>Low relative supersaturation:</strong> Few nuclei form; existing particles grow larger → crystalline precipitate</li>\n      <li><strong>High relative supersaturation:</strong> Many nuclei form rapidly; many small particles → colloidal or amorphous precipitate</li>\n    </ul>\n  </div>\n  \n  <div style='background: var(--warningBg); padding: 10px; border-radius: 5px;'>\n    <strong style='color: var(--strongColor);'>Von Weimarn's Ratio:</strong> This relationship is described by the von Weimarn equation, which states that particle size is inversely related to relative supersaturation. To get large, filterable crystals, we want low relative supersaturation.\n  </div>\n  \n  <p style='margin-top: 15px;'>In gravimetric analysis, we control supersaturation by slow addition of reagents, dilution, and heating to promote particle growth over nucleation.</p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 11",
     "topic": [
-      "Fishes",
-      "Respiration",
-      "Physiology"
+      "Chemistry",
+      "Equilibrium",
+      "Thermodynamics"
     ],
     "Question": {
-      "content": "Air-breathing fish can be divided into what two main groups?",
+      "content": "What is effect of increasing temperature on solutes equilibrium constant and what type of precipitate is formed?",
       "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Obligate air breathers and Facultative air breathers"
+      "content": "For endothermic reactions, K increases; for exothermic, K decreases. Higher temperature generally favors larger, more crystalline precipitates"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Two Strategies for Breathing Air</h4>\n  <p>The correct answer is <strong>Obligate air breathers and Facultative air breathers</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Understanding the Difference</strong><br>\n    <ul>\n      <li><b>Obligate Air Breathers:</b> These fish <i>must</i> breathe air to survive. They will drown if they cannot access the surface. (e.g., Lungfish).</li>\n      <li><b>Facultative Air Breathers:</b> These fish primarily rely on their gills but can breathe air if they need to, such as in oxygen-poor water. (e.g., Catfish, Gar).</li>\n    </ul>\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Temperature Effects on Equilibrium and Precipitation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Effect on Equilibrium Constant (K)</strong><br>\n    According to Le Chatelier's principle and the van't Hoff equation:\n    <ul style='margin-top: 5px;'>\n      <li><strong>Endothermic reactions (ΔH > 0):</strong> Increasing temperature <strong>increases</strong> K (shifts equilibrium toward products)</li>\n      <li><strong>Exothermic reactions (ΔH < 0):</strong> Increasing temperature <strong>decreases</strong> K (shifts equilibrium toward reactants)</li>\n    </ul>\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0;'>\n      van't Hoff equation: \\( \\ln\\frac{K_2}{K_1} = \\frac{\\Delta H}{R}(\\frac{1}{T_1} - \\frac{1}{T_2}) \\)\n    </div>\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Effect on Precipitate Type</strong><br>\n    Increasing temperature generally leads to:\n    <ul style='margin-top: 5px;'>\n      <li><strong>Larger crystal size</strong> - Higher temperature increases solubility and slows nucleation rate</li>\n      <li><strong>More crystalline precipitates</strong> - Atoms/molecules have more energy to arrange in ordered structures</li>\n      <li><strong>Purer precipitates</strong> - Higher temperature helps expel impurities (digestion)</li>\n    </ul>\n  </div>\n  \n  <div style='background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 5px;'>\n    <strong>Practical Application:</strong> In gravimetric analysis, we often heat solutions during precipitation to obtain large, pure, easily filterable crystals rather than colloidal precipitates.\n  </div>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 12",
     "topic": [
-      "Fishes",
-      "Anatomy",
-      "Sensory Organs"
+      "Analytical Chemistry",
+      "Qualitative Analysis"
     ],
     "Question": {
-      "content": "Some fish, such as catfish and sharks, have teeth and also specialized organs that can detect weak electric currents. These organs are called ______.",
+      "content": "Which type of analysis seeks information about the identity or form of substance present?",
       "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Ampullae of Lorenzini"
+      "content": "Qualitative analysis"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>A Sixth Sense in Fish</h4>\n  <p>The correct answer is <strong>Ampullae of Lorenzini</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>How does it work?</strong><br>\n    The Ampullae of Lorenzini are special gel-filled pores found on the heads of sharks, rays, and some catfish. They are incredibly sensitive electroreceptors that can detect the tiny electrical fields generated by the muscle contractions and heartbeats of prey hidden in the sand or murky water. It's like having a built-in metal detector for finding food.\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Qualitative vs. Quantitative Analysis</h4>\n  \n  <p>Analytical chemistry is divided into two main branches:</p>\n  \n  <div style='display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 15px 0;'>\n    <div style='background: var(--preset-bg-color); padding: 15px; border-radius: 8px;'>\n      <strong style='color: var(--strongColor); font-size: 1.1em;'>🔍 Qualitative Analysis</strong>\n      <ul style='margin-top: 10px; padding-left: 20px;'>\n        <li><strong>Answers:</strong> \"What is it?\"</li>\n        <li><strong>Identifies:</strong> Identity, form, or presence of substances</li>\n        <li><strong>Examples:</strong> Flame tests, spot tests, identifying functional groups</li>\n        <li><strong>Outcome:</strong> Descriptive information</li>\n      </ul>\n    </div>\n    \n    <div style='background: var(--preset-bg-color); padding: 15px; border-radius: 8px;'>\n      <strong style='color: var(--strongColor); font-size: 1.1em;'>⚖️ Quantitative Analysis</strong>\n      <ul style='margin-top: 10px; padding-left: 20px;'>\n        <li><strong>Answers:</strong> \"How much is there?\"</li>\n        <li><strong>Determines:</strong> Amount or concentration</li>\n        <li><strong>Examples:</strong> Titrations, gravimetry, spectrophotometry</li>\n        <li><strong>Outcome:</strong> Numerical data</li>\n      </ul>\n    </div>\n  </div>\n  \n  <div style='background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 5px;'>\n    <strong>✅ Answer:</strong> The type of analysis that seeks information about the identity or form of a substance is <strong>qualitative analysis</strong>.\n  </div>\n  \n  <p style='margin-top: 15px;'>Often, qualitative analysis is performed before quantitative analysis to know what to measure.</p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 13",
     "topic": [
-      "Amphibians",
-      "Definitions"
+      "Analytical Chemistry",
+      "Acid-Base Indicators",
+      "pH"
     ],
     "Question": {
-      "content": "The word 'amphibian' is a Greek word which literally means what?",
-      "type": "OBJ",
-      "options": [
-        "Double Life",
-        "Land Dweller",
-        "Water Lover",
-        "Smooth Skin"
-      ]
+      "content": "Why is litmus a poor indicator?",
+      "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Double Life"
+      "content": "It has a wide transition range (pH 5-8) and color change is not sharp"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Meaning of 'Amphibian'</h4>\n  <p>The correct answer is <strong>Double Life</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Breaking Down the Word</strong><br>\n    The word \"amphibian\" comes from the Greek words \"amphi\" (meaning \"both\" or \"double\") and \"bios\" (meaning \"life\"). This refers to the characteristic two-stage life cycle of most amphibians, where they live in water as larvae (e.g., tadpoles with gills) and on land as adults (e.g., frogs with lungs).\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Limitations of Litmus as an Indicator</h4>\n  \n  <p>Litmus is a natural indicator extracted from lichens. While commonly known, it has several drawbacks for precise analytical work:</p>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>1. Wide Transition Range</strong><br>\n    Litmus changes color over a broad pH range of <strong>5.0 to 8.0</strong>.\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0;'>\n      Red (pH < 5) → Purple (pH 5-8) → Blue (pH > 8)\n    </div>\n    This wide range means it doesn't give a sharp endpoint at a specific pH.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>2. Gradual Color Change</strong><br>\n    The color change is not sharp or distinct. It passes through various shades of purple, making it difficult to pinpoint the exact equivalence point.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>3. Subject to Errors</strong><br>\n    Different observers may perceive the endpoint differently. The purple intermediate color is subjective.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>4. Comparison with Good Indicators</strong><br>\n    Good indicators (like phenolphthalein or methyl orange) have:\n    <ul style='margin-top: 5px;'>\n      <li>Narrow transition range (1-2 pH units)</li>\n      <li>Sharp, distinct color change</li>\n      <li>Transition range that matches the titration curve's steep region</li>\n    </ul>\n  </div>\n  \n  <div style='background: var(--warningBg); padding: 10px; border-radius: 5px;'>\n    <strong style='color: var(--strongColor);'>Note:</strong> Litmus is fine for rough estimates (like testing if something is acidic or basic), but it's unsuitable for precise titrations where accurate endpoint detection is crucial.\n  </div>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 14",
     "topic": [
-      "Amphibians",
-      "Evolution",
-      "Paleontology"
+      "Analytical Chemistry",
+      "Electrochemistry",
+      "Colligative Properties"
     ],
     "Question": {
-      "content": "What two groups are considered the first vertebrates to explore terrestrial (land) life?",
+      "content": "Mention at least one feature of colligative cell.",
       "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Labyrinthodonts and Lepospondyls"
+      "content": "It measures concentration based on colligative properties like freezing point depression or osmotic pressure"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Pioneers of the Land</h4>\n  <p>The correct answer is <strong>Labyrinthodonts and Lepospondyls</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Ancient Amphibians</strong><br>\n    These are two major groups of extinct, primitive amphibians that were among the first vertebrates to make the transition from water to land during the Devonian and Carboniferous periods.\n    <ul>\n      <li><b>Labyrinthodonts:</b> Named for the complex, maze-like (labyrinthine) structure of their teeth. They are thought to be close to the ancestry of all other land vertebrates (reptiles, mammals, etc.).</li>\n      <li><b>Lepospondyls:</b> A smaller, more diverse group of early amphibians with simpler, spool-shaped vertebrae.</li>\n    </ul>\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Features of Colligative Cells</h4>\n  \n  <p>A colligative cell is an analytical device that measures concentration based on colligative properties - properties that depend only on the number of solute particles, not their identity.</p>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Key Features:</strong><br>\n    <ul style='margin-top: 5px;'>\n      <li><strong>Measures concentration without calibration:</strong> Since colligative properties are theoretically predictable, they can give absolute concentration measurements.</li>\n      <li><strong>Based on physical properties:</strong> Uses phenomena like freezing point depression, boiling point elevation, osmotic pressure, or vapor pressure lowering.</li>\n      <li><strong>Useful for determining molar mass:</strong> By measuring the colligative effect of a known mass of unknown solute, we can calculate its molecular weight.</li>\n      <li><strong>Temperature control:</strong> Often requires precise temperature measurement and control.</li>\n      <li><strong>Non-destructive:</strong> Sample can usually be recovered after measurement.</li>\n    </ul>\n  </div>\n  \n  <div style='background: var(--preset-bg-color); padding: 15px; border-radius: 8px; margin: 10px 0;'>\n    <strong style='color: var(--strongColor);'>Examples of colligative property measurements:</strong>\n    <ul style='margin-top: 5px;'>\n      <li>Osmometers - measure osmotic pressure</li>\n      <li>Cryoscopes - measure freezing point depression</li>\n      <li>Ebuliometers - measure boiling point elevation</li>\n      <li>Vapor pressure osmometers</li>\n    </ul>\n  </div>\n  \n  <div style='background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 5px;'>\n    <strong>✅ One Key Feature:</strong> A colligative cell measures solute concentration by detecting changes in physical properties that depend solely on the number of particles in solution, such as freezing point depression or osmotic pressure.\n  </div>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 15",
     "topic": [
-      "Amphibians",
-      "Classification",
-      "Taxonomy"
+      "Analytical Chemistry",
+      "Gravimetric Analysis",
+      "Precipitation"
     ],
     "Question": {
-      "content": "How many orders make up the present-day (extant) amphibians?",
-      "type": "OBJ",
-      "options": [
-        "Two",
-        "Three",
-        "Four",
-        "Five"
-      ]
+      "content": "Occlusion can be minimized by the process called?",
+      "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Three"
+      "content": "Digestion or reprecipitation"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Orders of Living Amphibians</h4>\n  <p>The correct answer is <strong>Three</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>The Three Orders</strong><br>\n    All living amphibians belong to one of three orders:\n    <ol>\n      <li><b>Anura (Salientia):</b> The frogs and toads. They lack tails as adults and are specialized for jumping.</li>\n      <li><b>Urodela (Caudata):</b> The salamanders and newts. They have long bodies and tails.</li>\n      <li><b>Apoda (Gymnophiona):</b> The caecilians. These are limbless, worm-like amphibians found in the tropics.</li>\n    </ol>\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Minimizing Occlusion in Precipitates</h4>\n  \n  <p><strong>Occlusion</strong> occurs when impurities are trapped inside the growing crystal lattice during rapid precipitation. This is a common source of error in gravimetric analysis.</p>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Processes to Minimize Occlusion:</strong><br>\n    <ul style='margin-top: 5px;'>\n      <li><strong>Digestion (Aging):</strong> Allowing the precipitate to stand in contact with the mother liquor (often with heating). During this time, smaller particles dissolve and reprecipitate on larger ones, expelling trapped impurities.</li>\n      <li><strong>Reprecipitation:</strong> Dissolving the precipitate and precipitating it again. This is very effective because impurities trapped in the first precipitate are removed when it's dissolved.</li>\n      <li><strong>Slow precipitation:</strong> Adding precipitating agent slowly with stirring to control crystal growth.</li>\n      <li><strong>Precipitation from homogeneous solution:</strong> Generating the precipitating agent slowly in situ to control supersaturation.</li>\n    </ul>\n  </div>\n  \n  <div style='background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 5px;'>\n    <strong>✅ Answer:</strong> Occlusion is primarily minimized by the process called <strong>digestion</strong> (or aging) and, in severe cases, <strong>reprecipitation</strong>.\n  </div>\n  \n  <p style='margin-top: 15px;'>During digestion, the crystal structure rearranges, and impurities are expelled, resulting in a purer precipitate.</p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 16",
     "topic": [
-      "Amphibians",
-      "Ecology"
+      "Analytical Chemistry",
+      "Gravimetric Analysis",
+      "Precipitation"
     ],
     "Question": {
-      "content": "In nature, are most amphibians solitary or social animals?",
-      "type": "OBJ",
-      "options": [
-        "Social",
-        "Solitary",
-        "Colonial",
-        "Communal"
-      ]
+      "content": "What is formed when interfering ions become trapped within the growing precipitate?",
+      "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Solitary"
+      "content": "Mixed crystals or occluded impurities"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Social Life of Amphibians</h4>\n  <p>The correct answer is <strong>Solitary</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Loners by Nature</strong><br>\n    Most amphibians spend the majority of their lives alone. They are generally solitary animals that only come together for one primary purpose: breeding. During the breeding season, frogs and toads, for example, may gather in large groups at ponds to mate, but they return to a solitary life afterwards.\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Impurity Trapping in Precipitates</h4>\n  \n  <p>When interfering ions become trapped within a growing precipitate, several types of contamination can occur:</p>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>1. Mixed Crystal Formation (Isomorphous Replacement)</strong><br>\n    When an interfering ion has similar size and charge to the analyte ion, it can substitute in the crystal lattice. Example: Ba²⁺ and Pb²⁺ in BaSO₄ precipitation.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>2. Occlusion</strong><br>\n    Impurities are physically trapped within pockets or imperfections in the growing crystal. This happens during rapid crystal growth.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>3. Inclusion</strong><br>\n    Impurities are trapped at specific sites within the crystal lattice, often due to similar ionic radii.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>4. Surface Adsorption</strong><br>\n    Ions can be adsorbed on the surface of the precipitate (especially colloidal precipitates with large surface areas).\n  </div>\n  \n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0;'>\n    <strong>Common term:</strong> In analytical chemistry, the general phenomenon of interfering ions being trapped inside the precipitate is often referred to as <strong>coprecipitation</strong>.\n  </div>\n  \n  <div style='background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 5px;'>\n    <strong>✅ Answer:</strong> When interfering ions become trapped within the growing precipitate, <strong>mixed crystals</strong> or <strong>occluded impurities</strong> are formed.\n  </div>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 17",
     "topic": [
-      "Amphibians",
-      "Adaptation",
-      "Ecology"
+      "Analytical Chemistry",
+      "Water Analysis",
+      "Complexometric Titration"
     ],
     "Question": {
-      "content": "What are the two ways of life that amphibians use to overcome their environmental challenges?",
+      "content": "Write a complete chemical equation for determination of calcium ion in natural waters.",
       "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Hibernation and Aestivation"
+      "content": "Ca²⁺ + H₂Y²⁻ → CaY²⁻ + 2H⁺ (where H₂Y²⁻ is EDTA)"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Surviving Harsh Conditions</h4>\n  <p>The correct answer is <strong>Hibernation and Aestivation</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Two Types of Dormancy</strong><br>\n    Amphibians are ectotherms (cold-blooded) and vulnerable to extreme temperatures and drought. They overcome this through dormancy:\n    <ul>\n      <li><b>Hibernation:</b> A state of dormancy during the cold winter months. They bury themselves in mud or under leaf litter to avoid freezing.</li>\n      <li><b>Aestivation:</b> A state of dormancy during hot, dry summer months. They burrow into the ground and secrete a cocoon of mucus to prevent themselves from drying out (desiccation).</li>\n    </ul>\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Determination of Calcium by EDTA Titration</h4>\n  \n  <p>The most common method for determining calcium in natural waters is <strong>complexometric titration with EDTA</strong> (ethylenediaminetetraacetic acid).</p>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>The Complete Reaction:</strong><br>\n    <div style='background: var(--preset-bg-color); padding: 15px; border-radius: 5px; margin: 10px 0; font-size: 1.1em; text-align: center;'>\n      Ca²⁺ + H₂Y²⁻ ⇌ CaY²⁻ + 2H⁺\n    </div>\n    Where <strong>H₂Y²⁻</strong> represents the EDTA anion (fully deprotonated form that participates in complexation).\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>More Detailed Form:</strong><br>\n    <div style='background: var(--preset-bg-color); padding: 15px; border-radius: 5px; margin: 10px 0; font-size: 1.1em; text-align: center;'>\n      Ca²⁺ + Na₂H₂Y → Na₂CaY + 2H⁺\n    </div>\n    This shows the disodium salt of EDTA (Na₂H₂Y) which is commonly used in the lab.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>With Structures:</strong><br>\n    EDTA has six potential donor atoms (4 oxygen and 2 nitrogen atoms) that wrap around the Ca²⁺ ion, forming a stable, water-soluble complex.\n  </div>\n  \n  <div style='background: var(--warningBg); padding: 10px; border-radius: 5px;'>\n    <strong style='color: var(--strongColor);'>Indicators Used:</strong> Eriochrome Black T (EBT) or murexide are common indicators that change color when all Ca²⁺ has been complexed by EDTA.\n  </div>\n  \n  <div style='background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 5px; margin-top: 10px;'>\n    <strong>✅ Answer:</strong> The complete equation is: <strong>Ca²⁺ + H₂Y²⁻ → CaY²⁻ + 2H⁺</strong> where H₂Y²⁻ represents the EDTA ion.\n  </div>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 18",
     "topic": [
-      "Amphibians",
-      "Reproduction",
-      "Anatomy"
+      "Analytical Chemistry",
+      "Volumetric Analysis",
+      "Instrumental Analysis"
     ],
     "Question": {
-      "content": "What specific reproductive organ do male amphibians lack?",
-      "type": "OBJ",
-      "options": [
-        "A penis",
-        "Testes",
-        "A cloaca",
-        "Sperm ducts"
-      ]
+      "content": "Volumetric and volumetric analysis are instrumental techniques. True/False",
+      "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "A penis"
+      "content": "False"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Amphibian Reproduction</h4>\n  <p>The correct answer is <strong>A penis</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>How Do They Mate?</strong><br>\n    Most male amphibians lack an intromittent organ (a penis) for internal fertilization. Instead, fertilization is typically external. In frogs, the male grasps the female in a hug called <b>amplexus</b>. As the female releases her eggs into the water, the male releases his sperm (milt) directly over them to fertilize them.\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Volumetric Analysis vs. Instrumental Techniques</h4>\n  \n  <p>The statement is <strong>False</strong>. There seems to be a typo in the question (it likely means \"Volumetric and gravimetric analysis\").</p>\n  \n  <div style='display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 15px 0;'>\n    <div style='background: var(--preset-bg-color); padding: 15px; border-radius: 8px;'>\n      <strong style='color: var(--strongColor); font-size: 1.1em;'>🧪 Classical Methods (Wet Chemistry)</strong>\n      <ul style='margin-top: 10px; padding-left: 20px;'>\n        <li><strong>Volumetric analysis</strong> (titrimetry) - measuring volume</li>\n        <li><strong>Gravimetric analysis</strong> - measuring mass</li>\n        <li>Require balances, burettes, pipettes</li>\n        <li>Based on stoichiometric reactions</li>\n        <li>No complex electronic instruments</li>\n      </ul>\n    </div>\n    \n    <div style='background: var(--preset-bg-color); padding: 15px; border-radius: 8px;'>\n      <strong style='color: var(--strongColor); font-size: 1.1em;'>🔬 Instrumental Techniques</strong>\n      <ul style='margin-top: 10px; padding-left: 20px;'>\n        <li>Spectroscopy (UV-Vis, IR, AA)</li>\n        <li>Chromatography (GC, HPLC)</li>\n        <li>Electroanalytical methods</li>\n        <li>Mass spectrometry</li>\n        <li>Require electronic instruments and calibration</li>\n      </ul>\n    </div>\n  </div>\n  \n  <div style='background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 5px;'>\n    <strong>✅ Answer:</strong> <strong>False</strong>. Volumetric and gravimetric analysis are <strong>classical (wet chemical) methods</strong>, not instrumental techniques. Instrumental techniques involve the use of electronic instruments to measure physical properties.\n  </div>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 19",
     "topic": [
-      "Amphibians",
-      "Reproduction",
-      "Anatomy"
+      "Chemistry",
+      "Electrochemistry",
+      "Faraday's Laws"
     ],
     "Question": {
-      "content": "What specific reproductive organ do male amphibians lack?",
-      "type": "OBJ",
-      "options": [
-        "A penis",
-        "Testes",
-        "A cloaca",
-        "Sperm ducts"
-      ]
+      "content": "What weight of copper would be deposited by 3378 coulombs?",
+      "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "A penis"
+      "content": "1.11 g"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Amphibian Reproduction</h4>\n  <p>The correct answer is <strong>A penis</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>How Do They Mate?</strong><br>\n    Most male amphibians lack an intromittent organ (a penis) for internal fertilization. Instead, fertilization is typically external. In frogs, the male grasps the female in a hug called <b>amplexus</b>. As the female releases her eggs into the water, the male releases his sperm (milt) directly over them to fertilize them.\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Mass of Copper Deposited</h4>\n  \n  <p>We use <strong>Faraday's laws of electrolysis</strong> to calculate the mass of metal deposited.</p>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify the half-reaction</strong><br>\n    Copper deposition from Cu²⁺ solution:\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0; font-family: monospace; text-align: center;'>\n      Cu²⁺ + 2e⁻ → Cu(s)\n    </div>\n    This shows that <strong>2 moles of electrons</strong> are required to deposit <strong>1 mole of copper</strong>.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Recall Faraday's constant</strong><br>\n    1 Faraday (F) = 96,485 coulombs = charge of 1 mole of electrons.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate moles of electrons</strong><br>\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0;'>\n      Moles of e⁻ = \\( \\frac{\\text{charge (C)}}{96,485 \\text{ C/mol}} \\)<br>\n      Moles of e⁻ = \\( \\frac{3378}{96,485} = 0.0350 \\text{ mol e⁻} \\)\n    </div>\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Calculate moles of Cu deposited</strong><br>\n    From the half-reaction: 2 mol e⁻ → 1 mol Cu<br>\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0;'>\n      Moles of Cu = 0.0350 mol e⁻ × \\( \\frac{1 \\text{ mol Cu}}{2 \\text{ mol e⁻}} = 0.0175 \\text{ mol Cu} \\)\n    </div>\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 5: Calculate mass of Cu</strong><br>\n    Atomic mass of Cu = 63.55 g/mol<br>\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0;'>\n      Mass of Cu = 0.0175 mol × 63.55 g/mol = <strong>1.11 g</strong>\n    </div>\n  </div>\n  \n  <div style='background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 5px;'>\n    <strong>✅ Final Answer:</strong> <strong>1.11 grams</strong> of copper would be deposited.\n  </div>\n  \n  <p style='margin-top: 15px;'>Note: This assumes 100% current efficiency and that all copper is deposited as Cu⁰ from Cu²⁺.</p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 20",
     "topic": [
-      "Amphibians",
-      "Thermoregulation",
-      "Physiology"
+      "Analytical Chemistry",
+      "Error Analysis",
+      "Statistics"
     ],
     "Question": {
-      "content": "Amphibians are described as ______ thermic, meaning they rely on external sources to regulate their body temperature.",
+      "content": "Calculate the absolute error and % relative error of Pb in meat, if the concentration is measured to be 5.0 ± 0.02 mg/kg.",
       "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Poikilothermic"
+      "content": "Absolute error = 0.02 mg/kg; % Relative error = 0.4%"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Understanding Amphibian Body Temperature</h4>\n  <p>The correct answer is <strong>Poikilothermic</strong> (often used interchangeably with 'ectothermic' or 'cold-blooded').</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>What does this mean?</strong><br>\n    A poikilotherm is an animal whose internal body temperature varies considerably. It does not have internal mechanisms to maintain a constant body temperature like birds and mammals (homeotherms). Instead, amphibians rely on behavioral adaptations—like basking in the sun to warm up or moving into the shade or water to cool down—to regulate their temperature.\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Absolute and Relative Error</h4>\n  \n  <p>The notation <strong>5.0 ± 0.02 mg/kg</strong> indicates the measured value with its uncertainty.</p>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify the values</strong><br>\n    <ul style='margin-top: 5px;'>\n      <li>Measured value = 5.0 mg/kg</li>\n      <li>Uncertainty = ±0.02 mg/kg</li>\n    </ul>\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Absolute Error</strong><br>\n    The absolute error is simply the uncertainty in the measurement.\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0; text-align: center;'>\n      Absolute Error = <strong>0.02 mg/kg</strong>\n    </div>\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Relative Error (%)</strong><br>\n    Relative error compares the absolute error to the measured value.\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0;'>\n      % Relative Error = \\( \\frac{\\text{Absolute Error}}{\\text{Measured Value}} \\times 100 \\)<br>\n      % Relative Error = \\( \\frac{0.02}{5.0} \\times 100 = 0.4\\% \\)\n    </div>\n  </div>\n  \n  <div style='background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 5px;'>\n    <strong>✅ Final Answer:</strong> \n    <ul>\n      <li><strong>Absolute error = 0.02 mg/kg</strong></li>\n      <li><strong>% Relative error = 0.4%</strong></li>\n    </ul>\n  </div>\n  \n  <p style='margin-top: 15px;'>This means the true value is expected to lie between 4.98 and 5.02 mg/kg, and the error is 0.4% of the measured value.</p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 21",
     "topic": [
-      "Amphibians",
-      "Thermoregulation",
-      "Physiology"
+      "Analytical Chemistry",
+      "Statistics",
+      "Precision"
     ],
     "Question": {
-      "content": "Amphibians are described as ______ blooded animals.",
+      "content": "Repeatability and reproducibility of analytical result can be used to express precision. True/False",
       "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Cold"
+      "content": "True"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Common Terminology</h4>\n  <p>The correct answer is <strong>Cold</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Cold-blooded vs. Warm-blooded</strong><br>\n    In everyday language, animals that cannot regulate their internal body temperature internally are called \"cold-blooded.\" The more scientific terms are poikilothermic (variable temperature) or ectothermic (heat来自外部). So, amphibians are commonly referred to as cold-blooded animals because their body temperature changes with the temperature of their surroundings.\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Precision in Analytical Chemistry</h4>\n  \n  <p>The statement is <strong>True</strong>. Repeatability and reproducibility are two key measures of precision.</p>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Definitions:</strong><br>\n    \n    <div style='background: var(--preset-bg-color); padding: 15px; border-radius: 8px; margin: 10px 0;'>\n      <strong>🎯 Precision</strong> - The closeness of agreement between independent test results obtained under stipulated conditions. It reflects the random error of a measurement.\n    </div>\n    \n    <div style='display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 15px 0;'>\n      <div style='background: var(--preset-bg-color); padding: 15px; border-radius: 8px;'>\n        <strong style='color: var(--strongColor);'>🔄 Repeatability</strong>\n        <ul style='margin-top: 10px; padding-left: 20px;'>\n          <li>Same conditions</li>\n          <li>Same laboratory</li>\n          <li>Same analyst</li>\n          <li>Same equipment</li>\n          <li>Short time interval</li>\n          <li>Measures <em>within-run</em> precision</li>\n        </ul>\n      </div>\n      \n      <div style='background: var(--preset-bg-color); padding: 15px; border-radius: 8px;'>\n        <strong style='color: var(--strongColor);'>📊 Reproducibility</strong>\n        <ul style='margin-top: 10px; padding-left: 20px;'>\n          <li>Different conditions</li>\n          <li>Different laboratories</li>\n          <li>Different analysts</li>\n          <li>Different equipment</li>\n          <li>Different times</li>\n          <li>Measures <em>between-lab</em> precision</li>\n        </ul>\n      </div>\n    </div>\n  </div>\n  \n  <div style='background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 5px;'>\n    <strong>✅ Answer:</strong> <strong>True</strong>. Both repeatability and reproducibility are measures of precision, just under different conditions. Repeatability is the smallest expected variation, while reproducibility is the largest.\n  </div>\n  \n  <p style='margin-top: 15px;'>Both are typically expressed as standard deviations or relative standard deviations.</p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 22",
     "topic": [
-      "Amphibians",
-      "Evolution",
-      "Paleontology"
+      "Analytical Chemistry",
+      "Concentration Units",
+      "p-function"
     ],
     "Question": {
-      "content": "Amphibians evolved from what type of fish living in what kind of environment?",
+      "content": "Calculate the molar concentration of Ag⁺ in a solution that has a pAg of 6.37.",
       "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Lobe-finned fish living in freshwater"
+      "content": "4.27 × 10⁻⁷ M"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Origin of Amphibians</h4>\n  <p>The correct answer is <strong>Lobe-finned fish living in freshwater</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>From Fish to Tetrapod</strong><br>\n    During the Devonian period (around 375 million years ago), a group of fish called lobe-finned fish (Sarcopterygii), which had fleshy, muscular fins, lived in shallow freshwater environments that periodically dried up. Natural selection favored individuals with stronger fins that could navigate through mud or shallow water to find new ponds. Over millions of years, these fins evolved into limbs, and these fish gave rise to the first amphibians. Tiktaalik is a famous example of a transitional fossil between lobe-finned fish and early amphibians.\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Converting p-function to Concentration</h4>\n  \n  <p>The p-function is defined as the negative logarithm (base 10) of the molar concentration.</p>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Definition:</strong><br>\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0; text-align: center; font-size: 1.2em;'>\n      pAg = -log₁₀[Ag⁺]\n    </div>\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Set up the equation</strong><br>\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0;'>\n      6.37 = -log[Ag⁺]<br>\n      -6.37 = log[Ag⁺]\n    </div>\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Take antilog</strong><br>\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0;'>\n      [Ag⁺] = 10⁻⁶·³⁷\n    </div>\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate</strong><br>\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0;'>\n      10⁻⁶·³⁷ = 10⁻⁷ × 10⁰·⁶³<br>\n      10⁰·⁶³ = 4.27<br>\n      [Ag⁺] = 4.27 × 10⁻⁷ M\n    </div>\n  </div>\n  \n  <div style='background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 5px;'>\n    <strong>✅ Final Answer:</strong> The molar concentration of Ag⁺ is <strong>4.27 × 10⁻⁷ M</strong>.\n  </div>\n  \n  <p style='margin-top: 15px;'>Just like pH, pAg = 7 would mean [Ag⁺] = 10⁻⁷ M. Here, pAg = 6.37 means slightly higher concentration than 10⁻⁷ M.</p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 23",
     "topic": [
-      "Reptiles",
-      "Classification",
-      "Taxonomy"
+      "Chemistry",
+      "Solutions",
+      "Concentration Calculations"
     ],
     "Question": {
-      "content": "Reptiles are ______ animals in the class ______.",
+      "content": "How many grams of solute are contained in 450mL of 0.14M H₂O₂?",
       "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Vertebrate animals in the class Reptilia"
+      "content": "2.14 g"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Reptile Classification</h4>\n  <p>The correct answer is <strong>Vertebrate animals in the class Reptilia</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Basic Taxonomy</strong><br>\n    Like amphibians, birds, and mammals, reptiles are <b>vertebrates</b>—they have a backbone. They are all grouped together into the taxonomic class called <b>Reptilia</b>. This class includes animals like snakes, lizards, turtles, crocodiles, and tuataras.\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Mass of H₂O₂</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify known values</strong><br>\n    <ul style='margin-top: 5px;'>\n      <li>Volume = 450 mL = 0.450 L</li>\n      <li>Molarity = 0.14 mol/L</li>\n      <li>Solute = H₂O₂</li>\n      <li>Molar mass of H₂O₂ = (2×1.008) + (2×16.00) = 34.016 g/mol ≈ 34.02 g/mol</li>\n    </ul>\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculate moles of H₂O₂</strong><br>\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0;'>\n      Moles = Molarity × Volume (L)<br>\n      Moles = 0.14 mol/L × 0.450 L = 0.063 mol\n    </div>\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate mass</strong><br>\n    <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; margin: 10px 0;'>\n      Mass = Moles × Molar mass<br>\n      Mass = 0.063 mol × 34.02 g/mol = 2.143 g\n    </div>\n  </div>\n  \n  <div style='background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 5px;'>\n    <strong>✅ Final Answer:</strong> <strong>2.14 g</strong> of H₂O₂ (rounded to 3 significant figures).\n  </div>\n  \n  <p style='margin-top: 15px;'>This is a straightforward molarity calculation: convert volume to liters, find moles, then multiply by molar mass.</p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 24",
     "topic": [
-      "Reptiles",
-      "Amphibians",
-      "Paleontology",
-      "Definitions"
+      "Analytical Chemistry",
+      "Statistics",
+      "Error Analysis"
     ],
     "Question": {
-      "content": "What is the study of the traditional reptile orders historically combined with that of modern amphibians called?",
-      "type": "OBJ",
-      "options": [
-        "Herpetology",
-        "Ichthyology",
-        "Ornithology",
-        "Mammalogy"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Herpetology"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Study of Reptiles and Amphibians</h4>\n  <p>The correct answer is <strong>Herpetology</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>A Combined Field</strong><br>\n    Herpetology is the branch of zoology concerned with the study of amphibians (frogs, salamanders, caecilians) and reptiles (snakes, lizards, turtles, crocodilians). Even though these are two distinct classes of animals, they are traditionally studied together due to historical and methodological reasons.\n    <ul>\n      <li><b>Ichthyology:</b> Study of fish</li>\n      <li><b>Ornithology:</b> Study of birds</li>\n      <li><b>Mammalogy:</b> Study of mammals</li>\n    </ul>\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 25",
-    "topic": [
-      "Reptiles",
-      "Paleontology",
-      "Evolution"
-    ],
-    "Question": {
-      "content": "What is the oldest unquestionable reptile known to science?",
-      "type": "OBJ",
-      "options": [
-        "Tiktaalik",
-        "Hylonomus",
-        "Dimetrodon",
-        "Archaeopteryx"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Hylonomus"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The First Reptile</h4>\n  <p>The correct answer is <strong>Hylonomus</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>A Small but Significant Animal</strong><br>\n    Hylonomus (meaning \"forest mouse\") is an extinct genus of reptile that lived about 312 million years ago during the Late Carboniferous period. Fossils have been found in Canada. It was a small, lizard-like animal, about 20 cm long, and is considered the oldest undisputed reptile. Its adaptations, like laying amniotic eggs, allowed it to live fully on land, unlike its amphibian ancestors.\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 26",
-    "topic": [
-      "Reptiles",
-      "Anatomy",
-      "Circulatory System"
-    ],
-    "Question": {
-      "content": "Most reptiles have a heart with how many chambers?",
-      "type": "OBJ",
-      "options": [
-        "Two",
-        "Three",
-        "Four",
-        "Five"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Three"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Reptilian Heart</h4>\n  <p>The correct answer is <strong>Three</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>A 3-Chambered Heart</strong><br>\n    The majority of reptiles (snakes, lizards, turtles, tuataras) have a three-chambered heart consisting of two atria and one ventricle. This allows for some mixing of oxygenated and deoxygenated blood, which is less efficient than the four-chambered hearts of birds and mammals. However, crocodilians (and birds/mammals) have a four-chambered heart.\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 27",
-    "topic": [
-      "Reptiles",
-      "Anatomy",
-      "Circulatory System"
-    ],
-    "Question": {
-      "content": "Crocodiles are the only reptiles which have a ______ chambered heart.",
+      "content": "Analysis of calcium levels in mg/kg at 3 sites yielded the following results at 4 replicate analyses. If the true value of calcium is 2.65mg/kg, discuss the type of errors in sample A and C. (b) Calculate the standard deviation in sample B and its relative error",
       "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Four"
+      "content": "Sample A: Random error (values cluster around true value). Sample C: Systematic error (one outlier, otherwise clustered around 4.3). Sample B: Mean = 2.18 mg/kg, SD = 0.59 mg/kg, Relative error = 17.7%"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Exception Among Reptiles</h4>\n  <p>The correct answer is <strong>Four</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Crocodilian Advantage</strong><br>\n    While most reptiles have a three-chambered heart, crocodiles and alligators (order Crocodilia) possess a four-chambered heart (two atria and two separate ventricles). This completely separates oxygenated and deoxygenated blood, allowing for a more efficient, high-pressure circulatory system. This adaptation is likely linked to their more active predatory lifestyle and is also a feature shared with birds (their closest living relatives) and mammals.\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 28",
-    "topic": [
-      "Birds",
-      "Classification",
-      "Taxonomy"
-    ],
-    "Question": {
-      "content": "Birds are ______ that belong to the class ______.",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Vertebrates that belong to the class Aves"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Bird Classification</h4>\n  <p>The correct answer is <strong>Vertebrates that belong to the class Aves</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>What Makes a Bird?</strong><br>\n    Birds are a group of endothermic (warm-blooded) vertebrates. They are characterized by features like feathers, toothless beaked jaws, laying hard-shelled eggs, and having a four-chambered heart. All these animals are grouped into the taxonomic class called <b>Aves</b>.\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 29",
-    "topic": [
-      "Birds",
-      "Definitions"
-    ],
-    "Question": {
-      "content": "Birds are also often described as what two things?",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Feathered and Flying vertebrates"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Defining Features of Birds</h4>\n  <p>The correct answer is <strong>Feathered and Flying vertebrates</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Key Characteristics</strong><br>\n    In simple terms, birds are most famously known for two things:\n    <ol>\n      <li><b>Feathers:</b> They are the only living animals to have feathers, which are essential for flight, insulation, and display.</li>\n      <li><b>Flight:</b> While some birds (like ostriches and penguins) have lost the ability to fly, the vast majority of birds are capable of flight, which is their primary mode of locomotion.</li>\n    </ol>\n    So, they are commonly described as feathered flying vertebrates.\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 30",
-    "topic": [
-      "Birds",
-      "Classification",
-      "Biodiversity"
-    ],
-    "Question": {
-      "content": "How have birds been classified in terms of major orders and total species?",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Into about 30 major orders and about 10,000 species"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Bird Diversity</h4>\n  <p>The correct answer is <strong>Into about 30 major orders and about 10,000 species</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>A Diverse Group</strong><br>\n    Birds are an incredibly diverse class of vertebrates. Taxonomists classify them into roughly <b>30 to 40 orders</b> (major groups, like Passeriformes - perching birds, or Falconiformes - birds of prey). Within these orders, there are approximately <b>10,000 living species</b> distributed all over the world. (Note: The exact number varies as new species are discovered and taxonomy is revised).\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 31",
-    "topic": [
-      "Birds",
-      "Physiology"
-    ],
-    "Question": {
-      "content": "Moulting is a process by which birds ______ at regular intervals.",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Replace their feathers"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Molting Process</h4>\n  <p>The correct answer is <strong>Replace their feathers</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Why do birds molt?</strong><br>\n    Molting is a vital process where birds shed their old, worn, or damaged feathers and grow new ones. Feathers are made of keratin and can't repair themselves, so they must be replaced periodically to maintain their function for flight, insulation, and waterproofing. Molting usually happens once or twice a year, often after the breeding season.\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 32",
-    "topic": [
-      "Birds",
-      "Excretion",
-      "Physiology"
-    ],
-    "Question": {
-      "content": "Birds have no urinary bladder or external urethral opening except for which bird, and as such, feces is excreted alongside uric acid as what substance?",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Ostrich; Bird dropping"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Bird Excretion System</h4>\n  <p>The correct answer is <strong>Ostrich; Bird dropping</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Why birds don't urinate</strong><br>\n    Most birds do not have a urinary bladder or urethra. This is an adaptation to reduce weight for flight. The only exception is the <b>ostrich</b>, which has a separate opening for urine. In other birds, the waste from the kidneys (uric acid - a white paste) mixes with feces from the digestive tract in the cloaca and is excreted together as a combined waste product commonly called a <b>bird dropping</b>.\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 33",
-    "topic": [
-      "Birds",
-      "Excretion",
-      "Physiology"
-    ],
-    "Question": {
-      "content": "Birds have no urinary bladder or external urethral opening except the ______ and as such faeces is excreted alongside the uric acid as a ______.",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Ostrich; Bird dropping"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Bird Excretion System</h4>\n  <p>The correct answer is <strong>Ostrich; Bird dropping</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Why birds don't urinate</strong><br>\n    Most birds do not have a urinary bladder or urethra. This is an adaptation to reduce weight for flight. The only exception is the <b>ostrich</b>, which has a separate opening for urine. In other birds, the waste from the kidneys (uric acid - a white paste) mixes with feces from the digestive tract in the cloaca and is excreted together as a combined waste product commonly called a <b>bird dropping</b>.\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 34",
-    "topic": [
-      "Mammals",
-      "Classification",
-      "Taxonomy"
-    ],
-    "Question": {
-      "content": "How many different types of mammals are there, and what are they called?",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Three; Monotremes, Marsupials, and Placentals"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Three Types of Mammals</h4>\n  <p>The correct answer is <strong>Three; Monotremes, Marsupials, and Placentals</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Major Mammal Groups</strong><br>\n    Mammals are divided into three main groups based on how they reproduce and give birth:\n    <ol>\n      <li><b>Monotremes:</b> Egg-laying mammals (e.g., platypus, echidna).</li>\n      <li><b>Marsupials:</b> Mammals that give birth to very underdeveloped young that continue to develop in a pouch (e.g., kangaroos, koalas, opossums).</li>\n      <li><b>Placentals:</b> Mammals where the young develop fully inside the mother's uterus, nourished by a placenta, and are born relatively developed (e.g., humans, dogs, whales, bats).</li>\n    </ol>\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 35",
-    "topic": [
-      "Mammals",
-      "Reproduction",
-      "Classification"
-    ],
-    "Question": {
-      "content": "There are ______ basic groups or classification of mammals based on reproduction, which are ______ and ______.",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Two; Prototheria and Theria"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Mammal Classification Based on Reproduction</h4>\n  <p>The correct answer is <strong>Two; Prototheria and Theria</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Scientific Subclasses</strong><br>\n    While there are three \"types\" in common language, scientifically, mammals are divided into two main subclasses based on reproductive anatomy:\n    <ul>\n      <li><b>Prototheria:</b> This subclass contains the egg-laying mammals (monotremes).</li>\n      <li><b>Theria:</b> This subclass contains all mammals that give birth to live young. It is further divided into infraclasses: <b>Metatheria</b> (marsupials) and <b>Eutheria</b> (placental mammals).</li>\n    </ul>\n    So, the two basic reproductive groups are Prototheria and Theria.\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Error Analysis and Statistics</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Part (a): Type of Errors in Samples A and C</strong><br>\n    \n    <div style='background: var(--preset-bg-color); padding: 15px; border-radius: 8px; margin: 10px 0;'>\n      <strong>Sample A:</strong> Values: 2.75, 2.60, 2.65, 2.70<br>\n      Mean of A = 2.675 mg/kg<br>\n      True value = 2.65 mg/kg<br>\n      The values are close to the true value and randomly distributed around it. This indicates <strong>random error</strong> (precision is good, accuracy is good).\n    </div>\n    \n    <div style='background: var(--preset-bg-color); padding: 15px; border-radius: 8px; margin: 10px 0;'>\n      <strong>Sample C:</strong> Values: 4.40, 4.10, 0.24, 4.30<br>\n      The value 0.24 is an <strong>outlier</strong> (probably a gross error or mistake). Excluding the outlier, the other three values average around 4.27 mg/kg, which is far from the true value 2.65 mg/kg. This indicates <strong>systematic error</strong> (bias) - the method or instrument is giving consistently high readings.\n    </div>\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Part (b): Standard Deviation and Relative Error for Sample B</strong><br>\n    \n    <div style='background: var(--preset-bg-color); padding: 15px; border-radius: 8px; margin: 10px 0;'>\n      <strong>Sample B values:</strong> 1.90, 3.00, 2.00, 1.80<br><br>\n      \n      <strong>Step 1: Calculate the mean</strong><br>\n      Mean = \\( \\frac{1.90 + 3.00 + 2.00 + 1.80}{4} = \\frac{8.70}{4} = 2.175 \\text{ mg/kg} \\)<br><br>\n      \n      <strong>Step 2: Calculate deviations from mean</strong><br>\n      (1.90 - 2.175) = -0.275<br>\n      (3.00 - 2.175) = 0.825<br>\n      (2.00 - 2.175) = -0.175<br>\n      (1.80 - 2.175) = -0.375<br><br>\n      \n      <strong>Step 3: Square the deviations</strong><br>\n      0.0756, 0.6806, 0.0306, 0.1406<br>\n      Sum of squares = 0.9274<br><br>\n      \n      <strong>Step 4: Calculate variance</strong><br>\n      Variance = \\( \\frac{\\text{Sum of squares}}{n-1} = \\frac{0.9274}{3} = 0.3091 \\)<br><br>\n      \n      <strong>Step 5: Calculate standard deviation</strong><br>\n      SD = \\( \\sqrt{0.3091} = 0.556 \\text{ mg/kg} \\)<br><br>\n      \n      <strong>Step 6: Calculate relative error</strong><br>\n      True value = 2.65 mg/kg<br>\n      Absolute error = |2.175 - 2.65| = 0.475 mg/kg<br>\n      % Relative error = \\( \\frac{0.475}{2.65} \\times 100 = 17.9\\% \\)\n    </div>\n  </div>\n  \n  <div style='background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 5px;'>\n    <strong>✅ Final Answers:</strong> \n    <ul>\n      <li><strong>Sample A:</strong> Random error (precise and accurate)</li>\n      <li><strong>Sample C:</strong> Systematic error (biased high) with one outlier</li>\n      <li><strong>Sample B:</strong> Mean = 2.18 mg/kg, SD = 0.56 mg/kg, Relative error = 17.9%</li>\n    </ul>\n  </div>\n  \n  <p style='margin-top: 15px;'>The high relative error in Sample B indicates poor accuracy, while the moderate SD indicates moderate precision.</p>\n</div>"
     }
   }
+  
+  
+  
 ]

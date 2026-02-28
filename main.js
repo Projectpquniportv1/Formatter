@@ -108,13 +108,13 @@ function enableLigtTheme() {
    localStorage.setItem('theme', 'dark');
    Id("body").style.background = "#003366";
    Id("body").style.color = "#fff";
-   Id("theme_icon").src = darkImg;
+   Id("theme_icon").src = '';
    enableDarkTheme()
   } else {
    localStorage.setItem('theme', 'light');
   Id("body").style.background = "#fff";
    Id("body").style.color = "#000";
-   Id("theme_icon").src = lightImg;
+   Id("theme_icon").src = '';
    enableLigtTheme();
   }
  }

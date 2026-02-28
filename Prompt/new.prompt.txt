@@ -12,84 +12,84 @@ Give step by step detailed and easy to understand explanations that students who
 4. Use consistent naming in the `name` field: "Question 1a)i", "Question 1a)ii", etc.
 
 
-  {
-    "type": "Question",
-    "name": "Question 70",
-    "topic": [
-      "Mammals",
-      "Primates",
-      "Evolution"
-    ],
-    "Question": {
-      "content": "Primates first evolved from a small group of arboreal mammals called _______.",
-      "type": "OBJ",
-      "options": [
-        "Homo sapiens",
-        "Archonta",
-        "Archontasis",
-        "Homo erectus"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Archonta"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Primate Origins</h4>\n  <p>The solution key indicates the answer is <strong>B (Archonta)</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Classification</strong><br>\n    Archonta is a superorder that traditionally groups Primates with Bats (Chiroptera), Colugos (Dermoptera), and Tree Shrews (Scandentia), suggesting a common arboreal ancestor.\n  </div>\n</div>"
-    }
-  },
-  
-  
+{
+"type": "Question",
+"name": "Question 70",
+"topic": [
+"Mammals",
+"Primates",
+"Evolution"
+],
+"Question": {
+"content": "Primates first evolved from a small group of arboreal mammals called _______.",
+"type": "OBJ",
+"options": [
+"Homo sapiens",
+"Archonta",
+"Archontasis",
+"Homo erectus"
+]
+},
+"Answer": {
+"type": "string",
+"content": "Archonta"
+},
+"Explanation": {
+"type": "string",
+"content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Primate Origins</h4>\n <p>The solution key indicates the answer is <strong>B (Archonta)</strong>.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Classification</strong><br>\n Archonta is a superorder that traditionally groups Primates with Bats (Chiroptera), Colugos (Dermoptera), and Tree Shrews (Scandentia), suggesting a common arboreal ancestor.\n </div>\n</div>"
+}
+},
+
+
 
 use topics from here in the topic property.(topics can be more than one.)
-    "topics": [
-      "Vertebrates",
-      "Amphibians",
-      "Classification",
-      "Fishes",
-      "Agnatha",
-      "Reptiles",
-      "Osteichthyes",
-      "Placodermi",
-      "Paleontology",
-      "Chondrichthyes",
-      "Evolution",
-      "Physiology",
-      "Communication",
-      "Biodiversity",
-      "Ecology",
-      "Acanthodii",
-      "Taxonomy",
-      "Thermoregulation",
-      "Adaptation",
-      "Anatomy",
-      "Circulatory System",
-      "Respiration",
-      "Definitions",
-      "Head",
-      "Urochordates",
-      "Development",
-      "Larvaceans",
-      "Thaliacea",
-      "Sensory Organs",
-      "Lamprey",
-      "Digestive System",
-      "Excretion",
-      "Nervous System",
-      "Hearing",
-      "Pain Perception",
-      "Swim Bladder",
-      "Reproduction",
-      "Sound Production",
-      "Dormancy",
-      "Biology",
-      "Birds",
-      "Skeleton",
-      "Feathers",
-      "Mammals",
-      "Primates"
-    ],
+"topics": [
+"Vertebrates",
+"Amphibians",
+"Classification",
+"Fishes",
+"Agnatha",
+"Reptiles",
+"Osteichthyes",
+"Placodermi",
+"Paleontology",
+"Chondrichthyes",
+"Evolution",
+"Physiology",
+"Communication",
+"Biodiversity",
+"Ecology",
+"Acanthodii",
+"Taxonomy",
+"Thermoregulation",
+"Adaptation",
+"Anatomy",
+"Circulatory System",
+"Respiration",
+"Definitions",
+"Head",
+"Urochordates",
+"Development",
+"Larvaceans",
+"Thaliacea",
+"Sensory Organs",
+"Lamprey",
+"Digestive System",
+"Excretion",
+"Nervous System",
+"Hearing",
+"Pain Perception",
+"Swim Bladder",
+"Reproduction",
+"Sound Production",
+"Dormancy",
+"Biology",
+"Birds",
+"Skeleton",
+"Feathers",
+"Mammals",
+"Primates"
+],
 
 
 topic array can be more than one and outside the topics I provided .
