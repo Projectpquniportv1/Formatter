@@ -12,49 +12,84 @@ Give step by step detailed and easy to understand explanations that students who
 4. Use consistent naming in the `name` field: "Question 1a)i", "Question 1a)ii", etc.
 
 
+  {
     "type": "Question",
-    "name": "Question 1",
-    "topic": ["Units and measurement"],
+    "name": "Question 70",
+    "topic": [
+      "Mammals",
+      "Primates",
+      "Evolution"
+    ],
     "Question": {
-      "content": "What is the equivalent of 150km/h in meter/seconds?",
+      "content": "Primates first evolved from a small group of arboreal mammals called _______.",
       "type": "OBJ",
       "options": [
-        "1.5m",
-        "2.5m/s",
-        "0.15m/s",
-        "41.67m/s"
+        "Homo sapiens",
+        "Archonta",
+        "Archontasis",
+        "Homo erectus"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "41.67m/s"
+      "content": "Archonta"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Speed Unit Conversion</h4><p><strong>Step 1: Conversion factors</strong><br>1 km = 1000 m<br>1 hour = 3600 seconds</p><p><strong>Step 2: Convert km/h to m/s</strong><br>150 km/h = 150 × (1000 m) / (3600 s)</p><p><strong>Step 3: Calculate</strong><br>= 150,000 / 3600 = 41.67 m/s</p><p style='color: var(--cAns); font-weight: bold;'>150 km/h equals 41.67 m/s.</p></div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Primate Origins</h4>\n  <p>The solution key indicates the answer is <strong>B (Archonta)</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Classification</strong><br>\n    Archonta is a superorder that traditionally groups Primates with Bats (Chiroptera), Colugos (Dermoptera), and Tree Shrews (Scandentia), suggesting a common arboreal ancestor.\n  </div>\n</div>"
     }
-  
+  },
   
   
 
 use topics from here in the topic property.(topics can be more than one.)
-"topics": [
-   "Mechanics, an exact Science",
-   "Units and measurement",
-   "Vectors",
-   "Particle Kinematics",
-   "Motion in Plane",
-   "Projectile motion",
-   "Uniform circular motion",
-   "Relative motion",
-   "Dynamics",
-   "Laws of motions",
-   "Work, power and energy",
-   "Momentum and Energy",
-   "Rotational Motion",
-   "Oscillations in System",
-   "Mechanics of fluids"
-  ],
+    "topics": [
+      "Vertebrates",
+      "Amphibians",
+      "Classification",
+      "Fishes",
+      "Agnatha",
+      "Reptiles",
+      "Osteichthyes",
+      "Placodermi",
+      "Paleontology",
+      "Chondrichthyes",
+      "Evolution",
+      "Physiology",
+      "Communication",
+      "Biodiversity",
+      "Ecology",
+      "Acanthodii",
+      "Taxonomy",
+      "Thermoregulation",
+      "Adaptation",
+      "Anatomy",
+      "Circulatory System",
+      "Respiration",
+      "Definitions",
+      "Head",
+      "Urochordates",
+      "Development",
+      "Larvaceans",
+      "Thaliacea",
+      "Sensory Organs",
+      "Lamprey",
+      "Digestive System",
+      "Excretion",
+      "Nervous System",
+      "Hearing",
+      "Pain Perception",
+      "Swim Bladder",
+      "Reproduction",
+      "Sound Production",
+      "Dormancy",
+      "Biology",
+      "Birds",
+      "Skeleton",
+      "Feathers",
+      "Mammals",
+      "Primates"
+    ],
 
 
 topic array can be more than one and outside the topics I provided .

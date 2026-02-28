@@ -1,0 +1,848 @@
+
+[
+    {
+    "type": "pageInfo",
+    "kind": "OBJ",
+    "course_title": "Protochordates and chordates",
+    "code": "AEB 302.1",
+    "session": "2024/2025",
+    "topics": ["Definitions", "Protochordates", "Invertebrates", "Urochordates", "Larvaceans", "Reproduction", "Development", "Hemichordata", "Agnatha", "Fishes", "Anatomy", "Classification", "Ecology", "Feeding Mechanisms", "Evolution", "Communication", "Sound Production", "Respiration", "Physiology", "Sensory Organs", "Amphibians", "Paleontology", "Taxonomy", "Adaptation", "Thermoregulation", "Reptiles", "Circulatory System", "Birds", "Biodiversity", "Excretion", "Mammals"],
+    
+    "time": "120"
+  },
+  
+  
+  {
+    "type": "Instruction",
+    "content": "Attempt All Questions"
+  },
+  
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": [
+      "Definitions",
+      "Protochordates",
+      "Invertebrates"
+    ],
+    "Question": {
+      "content": "What is the informal category of animals, named mainly for convenience, that describes invertebrate animals closely related to vertebrates?",
+      "type": "OBJ",
+      "options": [
+        "Protochordates",
+        "Echinoderms",
+        "Arthropods",
+        "Mollusks"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Protochordates"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Understanding Protochordates</h4>\n  <p>The correct answer is <strong>Protochordates</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>What does this mean?</strong><br>\n    The term \"Protochordates\" is used as a convenient group name for animals that are invertebrates (they have no backbone) but share key characteristics with chordates (animals that do have a backbone or a similar structure). Think of them as the \"pre-cursors\" to vertebrates.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "topic": [
+      "Urochordates",
+      "Larvaceans",
+      "Reproduction",
+      "Development"
+    ],
+    "Question": {
+      "content": "What is the phenomenon where organisms in the class Larvacea become sexually mature and reproduce while retaining their larval features?",
+      "type": "OBJ",
+      "options": [
+        "Metamorphosis",
+        "Neoteny",
+        "Paedogenesis",
+        "Parthenogenesis"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Paedogenesis"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Reproduction in Larvaceans</h4>\n  <p>The correct answer is <strong>Paedogenesis</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>A Simple Breakdown</strong><br>\n    Paedogenesis is a type of reproduction where an organism reaches sexual maturity and reproduces while still in a larval or juvenile form. It's like a tadpole being able to have baby tadpoles without ever turning into a frog. Larvaceans are a classic example of this.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "topic": [
+      "Hemichordata",
+      "Development",
+      "Definitions"
+    ],
+    "Question": {
+      "content": "What is the larval form of organisms in the phylum Hemichordata called?",
+      "type": "OBJ",
+      "options": [
+        "Planula",
+        "Nauplius",
+        "Tornaria",
+        "Bipinnaria"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Tornaria"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Hemichordate Larva</h4>\n  <p>The correct answer is <strong>Tornaria</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Why is this important?</strong><br>\n    The tornaria larva is a free-swimming, planktonic larval stage found in some hemichordates (like acorn worms). It looks very similar to the larva of some echinoderms (like starfish), which provides evidence of an evolutionary link between these two groups.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": [
+      "Agnatha",
+      "Fishes",
+      "Anatomy",
+      "Classification"
+    ],
+    "Question": {
+      "content": "Which group of animals is described as 'invertebrate' chordates, lacking a true brain or skull, lacking jaws, and possessing an endostyle and permanent pharyngeal gill clefts?",
+      "type": "OBJ",
+      "options": [
+        "Cephalochordates",
+        "Urochordates",
+        "Agnathans",
+        "Gnathostomata"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Agnathans"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Identifying Jawless Fish</h4>\n  <p>The correct answer is <strong>Agnathans</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>What are Agnathans?</strong><br>\n    The name \"Agnatha\" literally means \"without jaws.\" While the question mentions \"invertebrate\" chordates (like lancelets), the key phrase here is \"absence of true brain or skull\". This describes the jawless fish, such as lampreys and hagfish. They are vertebrates, but very primitive ones without a fully developed vertebral column or skull. The presence of an endostyle (a structure that helps with filter-feeding) is a key chordate feature.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": [
+      "Fishes",
+      "Ecology",
+      "Feeding Mechanisms"
+    ],
+    "Question": {
+      "content": "Name two examples of organisms that carry out filter feeding.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Menhadden and Herrings"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Examples of Filter Feeders</h4>\n  <p>The provided answers are <strong>Menhadden and Herrings</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>How it works</strong><br>\n    Filter feeding is a method of eating where an animal strains suspended matter and food particles from water. Many fish do this. Other classic examples from the provided topics could include sponges, baleen whales, and flamingos.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "topic": [
+      "Fishes",
+      "Classification",
+      "Evolution"
+    ],
+    "Question": {
+      "content": "Hagfish, lampreys, cartilaginous fish, and bony fish are all classes of fish. What is the correct evolutionary order they are listed in, from most primitive to most advanced?",
+      "type": "OBJ",
+      "options": [
+        "Agnatha, Chondrichthyes, Osteichthyes",
+        "Osteichthyes, Chondrichthyes, Agnatha",
+        "Agnatha, Osteichthyes, Chondrichthyes",
+        "Chondrichthyes, Agnatha, Osteichthyes"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Agnatha, Chondrichthyes, Osteichthyes"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Evolutionary Order of Fish</h4>\n  <p>The correct answer is <strong>Agnatha, Chondrichthyes, Osteichthyes</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>From Simple to Complex</strong><br>\n    This order represents the evolutionary history of fish:\n    <ol>\n      <li><b>Agnatha (Jawless Fish):</b> The most primitive, like hagfish and lampreys. They have no jaws or paired fins.</li>\n      <li><b>Chondrichthyes (Cartilaginous Fish):</b> Evolved later. They have jaws and paired fins, but their skeleton is made of cartilage (like sharks and rays).</li>\n      <li><b>Osteichthyes (Bony Fish):</b> The most advanced group. They have a skeleton made of bone (like tuna, salmon, and perch).</li>\n    </ol>\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "topic": [
+      "Fishes",
+      "Reproduction"
+    ],
+    "Question": {
+      "content": "What are ovoviviparous and viviparous fish commonly referred to as by aquarists?",
+      "type": "OBJ",
+      "options": [
+        "Egg-layers",
+        "Livebearers",
+        "Mouthbrooders",
+        "Sprayers"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Livebearers"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Aquarium Terminology</h4>\n  <p>The correct answer is <strong>Livebearers</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>What's the difference?</strong><br>\n    Aquarists use the simple term \"livebearers\" for fish that give birth to live, free-swimming young instead of laying eggs.\n    <ul>\n      <li><b>Ovoviviparous:</b> Eggs develop and hatch inside the mother's body, but the embryos get nutrition from the egg yolk, not directly from the mother. (e.g., Guppies, Mollies).</li>\n      <li><b>Viviparous:</b> Embryos develop inside the mother and receive direct nourishment from her body, similar to mammals. (e.g., some sharks).</li>\n    </ul>\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "topic": [
+      "Fishes",
+      "Reproduction"
+    ],
+    "Question": {
+      "content": "What is the average diameter of the eggs of marine fish?",
+      "type": "OBJ",
+      "options": [
+        "10.0 mm or 11.0 mm",
+        "1.0 mm or 2.0 mm",
+        "0.1 mm or 0.2 mm",
+        "5.0 mm or 6.0 mm"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.0 mm or 2.0 mm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Marine Fish Egg Size</h4>\n  <p>The correct answer is <strong>1.0 mm or 2.0 mm</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Why so small?</strong><br>\n    Many marine fish produce a huge number of very small, buoyant eggs that float in the plankton. This is a survival strategy. The small size (about 1-2 mm) allows for wide dispersal by ocean currents, and the sheer number of eggs increases the chance that at least some will survive to adulthood.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "topic": [
+      "Fishes",
+      "Communication",
+      "Sound Production"
+    ],
+    "Question": {
+      "content": "Some species of fish can produce sounds by what action involving their teeth?",
+      "type": "OBJ",
+      "options": [
+        "grinding them together",
+        "vibrating them rapidly",
+        "clicking them once",
+        "rubbing them against their gills"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "grinding them together"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>How Fish Use Their Teeth for Sound</h4>\n  <p>The correct answer is <strong>grinding them together</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>An Underwater Orchestra</strong><br>\n    Fish produce sounds in various ways, and using teeth is one of them. This is often called <b>pharyngeal teeth grinding</b>. Some fish have special teeth in their throat (pharyngeal teeth) that they can grind together to create grunting or grinding sounds, likely for communication or as a startle response.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "topic": [
+      "Fishes",
+      "Communication",
+      "Sound Production"
+    ],
+    "Question": {
+      "content": "The noise or sounds produced by bone-on-bone rubbing or interactions in fish are known as ______, and this involves the transmission of acoustic signals from one individual to another.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Stridulation"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Term for Bone Rubbing</h4>\n  <p>The correct answer is <strong>Stridulation</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>It's Like a Musical Instrument</strong><br>\n    Stridulation is the act of producing sound by rubbing two hard body parts together. Think of it like running a stick across a washboard. In fish, this can involve rubbing bones, fin spines, or teeth together to create sounds used for communication, often during courtship or to warn off rivals.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "topic": [
+      "Fishes",
+      "Respiration",
+      "Physiology"
+    ],
+    "Question": {
+      "content": "Air-breathing fish can be divided into what two main groups?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Obligate air breathers and Facultative air breathers"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Two Strategies for Breathing Air</h4>\n  <p>The correct answer is <strong>Obligate air breathers and Facultative air breathers</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Understanding the Difference</strong><br>\n    <ul>\n      <li><b>Obligate Air Breathers:</b> These fish <i>must</i> breathe air to survive. They will drown if they cannot access the surface. (e.g., Lungfish).</li>\n      <li><b>Facultative Air Breathers:</b> These fish primarily rely on their gills but can breathe air if they need to, such as in oxygen-poor water. (e.g., Catfish, Gar).</li>\n    </ul>\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "topic": [
+      "Fishes",
+      "Anatomy",
+      "Sensory Organs"
+    ],
+    "Question": {
+      "content": "Some fish, such as catfish and sharks, have teeth and also specialized organs that can detect weak electric currents. These organs are called ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Ampullae of Lorenzini"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>A Sixth Sense in Fish</h4>\n  <p>The correct answer is <strong>Ampullae of Lorenzini</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>How does it work?</strong><br>\n    The Ampullae of Lorenzini are special gel-filled pores found on the heads of sharks, rays, and some catfish. They are incredibly sensitive electroreceptors that can detect the tiny electrical fields generated by the muscle contractions and heartbeats of prey hidden in the sand or murky water. It's like having a built-in metal detector for finding food.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "topic": [
+      "Amphibians",
+      "Definitions"
+    ],
+    "Question": {
+      "content": "The word 'amphibian' is a Greek word which literally means what?",
+      "type": "OBJ",
+      "options": [
+        "Double Life",
+        "Land Dweller",
+        "Water Lover",
+        "Smooth Skin"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Double Life"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Meaning of 'Amphibian'</h4>\n  <p>The correct answer is <strong>Double Life</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Breaking Down the Word</strong><br>\n    The word \"amphibian\" comes from the Greek words \"amphi\" (meaning \"both\" or \"double\") and \"bios\" (meaning \"life\"). This refers to the characteristic two-stage life cycle of most amphibians, where they live in water as larvae (e.g., tadpoles with gills) and on land as adults (e.g., frogs with lungs).\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "topic": [
+      "Amphibians",
+      "Evolution",
+      "Paleontology"
+    ],
+    "Question": {
+      "content": "What two groups are considered the first vertebrates to explore terrestrial (land) life?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Labyrinthodonts and Lepospondyls"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Pioneers of the Land</h4>\n  <p>The correct answer is <strong>Labyrinthodonts and Lepospondyls</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Ancient Amphibians</strong><br>\n    These are two major groups of extinct, primitive amphibians that were among the first vertebrates to make the transition from water to land during the Devonian and Carboniferous periods.\n    <ul>\n      <li><b>Labyrinthodonts:</b> Named for the complex, maze-like (labyrinthine) structure of their teeth. They are thought to be close to the ancestry of all other land vertebrates (reptiles, mammals, etc.).</li>\n      <li><b>Lepospondyls:</b> A smaller, more diverse group of early amphibians with simpler, spool-shaped vertebrae.</li>\n    </ul>\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "topic": [
+      "Amphibians",
+      "Classification",
+      "Taxonomy"
+    ],
+    "Question": {
+      "content": "How many orders make up the present-day (extant) amphibians?",
+      "type": "OBJ",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Three"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Orders of Living Amphibians</h4>\n  <p>The correct answer is <strong>Three</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>The Three Orders</strong><br>\n    All living amphibians belong to one of three orders:\n    <ol>\n      <li><b>Anura (Salientia):</b> The frogs and toads. They lack tails as adults and are specialized for jumping.</li>\n      <li><b>Urodela (Caudata):</b> The salamanders and newts. They have long bodies and tails.</li>\n      <li><b>Apoda (Gymnophiona):</b> The caecilians. These are limbless, worm-like amphibians found in the tropics.</li>\n    </ol>\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16",
+    "topic": [
+      "Amphibians",
+      "Ecology"
+    ],
+    "Question": {
+      "content": "In nature, are most amphibians solitary or social animals?",
+      "type": "OBJ",
+      "options": [
+        "Social",
+        "Solitary",
+        "Colonial",
+        "Communal"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Solitary"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Social Life of Amphibians</h4>\n  <p>The correct answer is <strong>Solitary</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Loners by Nature</strong><br>\n    Most amphibians spend the majority of their lives alone. They are generally solitary animals that only come together for one primary purpose: breeding. During the breeding season, frogs and toads, for example, may gather in large groups at ponds to mate, but they return to a solitary life afterwards.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 17",
+    "topic": [
+      "Amphibians",
+      "Adaptation",
+      "Ecology"
+    ],
+    "Question": {
+      "content": "What are the two ways of life that amphibians use to overcome their environmental challenges?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Hibernation and Aestivation"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Surviving Harsh Conditions</h4>\n  <p>The correct answer is <strong>Hibernation and Aestivation</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Two Types of Dormancy</strong><br>\n    Amphibians are ectotherms (cold-blooded) and vulnerable to extreme temperatures and drought. They overcome this through dormancy:\n    <ul>\n      <li><b>Hibernation:</b> A state of dormancy during the cold winter months. They bury themselves in mud or under leaf litter to avoid freezing.</li>\n      <li><b>Aestivation:</b> A state of dormancy during hot, dry summer months. They burrow into the ground and secrete a cocoon of mucus to prevent themselves from drying out (desiccation).</li>\n    </ul>\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 18",
+    "topic": [
+      "Amphibians",
+      "Reproduction",
+      "Anatomy"
+    ],
+    "Question": {
+      "content": "What specific reproductive organ do male amphibians lack?",
+      "type": "OBJ",
+      "options": [
+        "A penis",
+        "Testes",
+        "A cloaca",
+        "Sperm ducts"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "A penis"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Amphibian Reproduction</h4>\n  <p>The correct answer is <strong>A penis</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>How Do They Mate?</strong><br>\n    Most male amphibians lack an intromittent organ (a penis) for internal fertilization. Instead, fertilization is typically external. In frogs, the male grasps the female in a hug called <b>amplexus</b>. As the female releases her eggs into the water, the male releases his sperm (milt) directly over them to fertilize them.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 19",
+    "topic": [
+      "Amphibians",
+      "Reproduction",
+      "Anatomy"
+    ],
+    "Question": {
+      "content": "What specific reproductive organ do male amphibians lack?",
+      "type": "OBJ",
+      "options": [
+        "A penis",
+        "Testes",
+        "A cloaca",
+        "Sperm ducts"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "A penis"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Amphibian Reproduction</h4>\n  <p>The correct answer is <strong>A penis</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>How Do They Mate?</strong><br>\n    Most male amphibians lack an intromittent organ (a penis) for internal fertilization. Instead, fertilization is typically external. In frogs, the male grasps the female in a hug called <b>amplexus</b>. As the female releases her eggs into the water, the male releases his sperm (milt) directly over them to fertilize them.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 20",
+    "topic": [
+      "Amphibians",
+      "Thermoregulation",
+      "Physiology"
+    ],
+    "Question": {
+      "content": "Amphibians are described as ______ thermic, meaning they rely on external sources to regulate their body temperature.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Poikilothermic"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Understanding Amphibian Body Temperature</h4>\n  <p>The correct answer is <strong>Poikilothermic</strong> (often used interchangeably with 'ectothermic' or 'cold-blooded').</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>What does this mean?</strong><br>\n    A poikilotherm is an animal whose internal body temperature varies considerably. It does not have internal mechanisms to maintain a constant body temperature like birds and mammals (homeotherms). Instead, amphibians rely on behavioral adaptations—like basking in the sun to warm up or moving into the shade or water to cool down—to regulate their temperature.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 21",
+    "topic": [
+      "Amphibians",
+      "Thermoregulation",
+      "Physiology"
+    ],
+    "Question": {
+      "content": "Amphibians are described as ______ blooded animals.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Cold"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Common Terminology</h4>\n  <p>The correct answer is <strong>Cold</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Cold-blooded vs. Warm-blooded</strong><br>\n    In everyday language, animals that cannot regulate their internal body temperature internally are called \"cold-blooded.\" The more scientific terms are poikilothermic (variable temperature) or ectothermic (heat来自外部). So, amphibians are commonly referred to as cold-blooded animals because their body temperature changes with the temperature of their surroundings.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 22",
+    "topic": [
+      "Amphibians",
+      "Evolution",
+      "Paleontology"
+    ],
+    "Question": {
+      "content": "Amphibians evolved from what type of fish living in what kind of environment?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Lobe-finned fish living in freshwater"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Origin of Amphibians</h4>\n  <p>The correct answer is <strong>Lobe-finned fish living in freshwater</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>From Fish to Tetrapod</strong><br>\n    During the Devonian period (around 375 million years ago), a group of fish called lobe-finned fish (Sarcopterygii), which had fleshy, muscular fins, lived in shallow freshwater environments that periodically dried up. Natural selection favored individuals with stronger fins that could navigate through mud or shallow water to find new ponds. Over millions of years, these fins evolved into limbs, and these fish gave rise to the first amphibians. Tiktaalik is a famous example of a transitional fossil between lobe-finned fish and early amphibians.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 23",
+    "topic": [
+      "Reptiles",
+      "Classification",
+      "Taxonomy"
+    ],
+    "Question": {
+      "content": "Reptiles are ______ animals in the class ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Vertebrate animals in the class Reptilia"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Reptile Classification</h4>\n  <p>The correct answer is <strong>Vertebrate animals in the class Reptilia</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Basic Taxonomy</strong><br>\n    Like amphibians, birds, and mammals, reptiles are <b>vertebrates</b>—they have a backbone. They are all grouped together into the taxonomic class called <b>Reptilia</b>. This class includes animals like snakes, lizards, turtles, crocodiles, and tuataras.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 24",
+    "topic": [
+      "Reptiles",
+      "Amphibians",
+      "Paleontology",
+      "Definitions"
+    ],
+    "Question": {
+      "content": "What is the study of the traditional reptile orders historically combined with that of modern amphibians called?",
+      "type": "OBJ",
+      "options": [
+        "Herpetology",
+        "Ichthyology",
+        "Ornithology",
+        "Mammalogy"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Herpetology"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Study of Reptiles and Amphibians</h4>\n  <p>The correct answer is <strong>Herpetology</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>A Combined Field</strong><br>\n    Herpetology is the branch of zoology concerned with the study of amphibians (frogs, salamanders, caecilians) and reptiles (snakes, lizards, turtles, crocodilians). Even though these are two distinct classes of animals, they are traditionally studied together due to historical and methodological reasons.\n    <ul>\n      <li><b>Ichthyology:</b> Study of fish</li>\n      <li><b>Ornithology:</b> Study of birds</li>\n      <li><b>Mammalogy:</b> Study of mammals</li>\n    </ul>\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 25",
+    "topic": [
+      "Reptiles",
+      "Paleontology",
+      "Evolution"
+    ],
+    "Question": {
+      "content": "What is the oldest unquestionable reptile known to science?",
+      "type": "OBJ",
+      "options": [
+        "Tiktaalik",
+        "Hylonomus",
+        "Dimetrodon",
+        "Archaeopteryx"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Hylonomus"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The First Reptile</h4>\n  <p>The correct answer is <strong>Hylonomus</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>A Small but Significant Animal</strong><br>\n    Hylonomus (meaning \"forest mouse\") is an extinct genus of reptile that lived about 312 million years ago during the Late Carboniferous period. Fossils have been found in Canada. It was a small, lizard-like animal, about 20 cm long, and is considered the oldest undisputed reptile. Its adaptations, like laying amniotic eggs, allowed it to live fully on land, unlike its amphibian ancestors.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 26",
+    "topic": [
+      "Reptiles",
+      "Anatomy",
+      "Circulatory System"
+    ],
+    "Question": {
+      "content": "Most reptiles have a heart with how many chambers?",
+      "type": "OBJ",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Three"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Reptilian Heart</h4>\n  <p>The correct answer is <strong>Three</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>A 3-Chambered Heart</strong><br>\n    The majority of reptiles (snakes, lizards, turtles, tuataras) have a three-chambered heart consisting of two atria and one ventricle. This allows for some mixing of oxygenated and deoxygenated blood, which is less efficient than the four-chambered hearts of birds and mammals. However, crocodilians (and birds/mammals) have a four-chambered heart.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 27",
+    "topic": [
+      "Reptiles",
+      "Anatomy",
+      "Circulatory System"
+    ],
+    "Question": {
+      "content": "Crocodiles are the only reptiles which have a ______ chambered heart.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Four"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Exception Among Reptiles</h4>\n  <p>The correct answer is <strong>Four</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Crocodilian Advantage</strong><br>\n    While most reptiles have a three-chambered heart, crocodiles and alligators (order Crocodilia) possess a four-chambered heart (two atria and two separate ventricles). This completely separates oxygenated and deoxygenated blood, allowing for a more efficient, high-pressure circulatory system. This adaptation is likely linked to their more active predatory lifestyle and is also a feature shared with birds (their closest living relatives) and mammals.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 28",
+    "topic": [
+      "Birds",
+      "Classification",
+      "Taxonomy"
+    ],
+    "Question": {
+      "content": "Birds are ______ that belong to the class ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Vertebrates that belong to the class Aves"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Bird Classification</h4>\n  <p>The correct answer is <strong>Vertebrates that belong to the class Aves</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>What Makes a Bird?</strong><br>\n    Birds are a group of endothermic (warm-blooded) vertebrates. They are characterized by features like feathers, toothless beaked jaws, laying hard-shelled eggs, and having a four-chambered heart. All these animals are grouped into the taxonomic class called <b>Aves</b>.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 29",
+    "topic": [
+      "Birds",
+      "Definitions"
+    ],
+    "Question": {
+      "content": "Birds are also often described as what two things?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Feathered and Flying vertebrates"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Defining Features of Birds</h4>\n  <p>The correct answer is <strong>Feathered and Flying vertebrates</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Key Characteristics</strong><br>\n    In simple terms, birds are most famously known for two things:\n    <ol>\n      <li><b>Feathers:</b> They are the only living animals to have feathers, which are essential for flight, insulation, and display.</li>\n      <li><b>Flight:</b> While some birds (like ostriches and penguins) have lost the ability to fly, the vast majority of birds are capable of flight, which is their primary mode of locomotion.</li>\n    </ol>\n    So, they are commonly described as feathered flying vertebrates.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 30",
+    "topic": [
+      "Birds",
+      "Classification",
+      "Biodiversity"
+    ],
+    "Question": {
+      "content": "How have birds been classified in terms of major orders and total species?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Into about 30 major orders and about 10,000 species"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Bird Diversity</h4>\n  <p>The correct answer is <strong>Into about 30 major orders and about 10,000 species</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>A Diverse Group</strong><br>\n    Birds are an incredibly diverse class of vertebrates. Taxonomists classify them into roughly <b>30 to 40 orders</b> (major groups, like Passeriformes - perching birds, or Falconiformes - birds of prey). Within these orders, there are approximately <b>10,000 living species</b> distributed all over the world. (Note: The exact number varies as new species are discovered and taxonomy is revised).\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 31",
+    "topic": [
+      "Birds",
+      "Physiology"
+    ],
+    "Question": {
+      "content": "Moulting is a process by which birds ______ at regular intervals.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Replace their feathers"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Molting Process</h4>\n  <p>The correct answer is <strong>Replace their feathers</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Why do birds molt?</strong><br>\n    Molting is a vital process where birds shed their old, worn, or damaged feathers and grow new ones. Feathers are made of keratin and can't repair themselves, so they must be replaced periodically to maintain their function for flight, insulation, and waterproofing. Molting usually happens once or twice a year, often after the breeding season.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 32",
+    "topic": [
+      "Birds",
+      "Excretion",
+      "Physiology"
+    ],
+    "Question": {
+      "content": "Birds have no urinary bladder or external urethral opening except for which bird, and as such, feces is excreted alongside uric acid as what substance?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Ostrich; Bird dropping"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Bird Excretion System</h4>\n  <p>The correct answer is <strong>Ostrich; Bird dropping</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Why birds don't urinate</strong><br>\n    Most birds do not have a urinary bladder or urethra. This is an adaptation to reduce weight for flight. The only exception is the <b>ostrich</b>, which has a separate opening for urine. In other birds, the waste from the kidneys (uric acid - a white paste) mixes with feces from the digestive tract in the cloaca and is excreted together as a combined waste product commonly called a <b>bird dropping</b>.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 33",
+    "topic": [
+      "Birds",
+      "Excretion",
+      "Physiology"
+    ],
+    "Question": {
+      "content": "Birds have no urinary bladder or external urethral opening except the ______ and as such faeces is excreted alongside the uric acid as a ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Ostrich; Bird dropping"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Bird Excretion System</h4>\n  <p>The correct answer is <strong>Ostrich; Bird dropping</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Why birds don't urinate</strong><br>\n    Most birds do not have a urinary bladder or urethra. This is an adaptation to reduce weight for flight. The only exception is the <b>ostrich</b>, which has a separate opening for urine. In other birds, the waste from the kidneys (uric acid - a white paste) mixes with feces from the digestive tract in the cloaca and is excreted together as a combined waste product commonly called a <b>bird dropping</b>.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 34",
+    "topic": [
+      "Mammals",
+      "Classification",
+      "Taxonomy"
+    ],
+    "Question": {
+      "content": "How many different types of mammals are there, and what are they called?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Three; Monotremes, Marsupials, and Placentals"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Three Types of Mammals</h4>\n  <p>The correct answer is <strong>Three; Monotremes, Marsupials, and Placentals</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Major Mammal Groups</strong><br>\n    Mammals are divided into three main groups based on how they reproduce and give birth:\n    <ol>\n      <li><b>Monotremes:</b> Egg-laying mammals (e.g., platypus, echidna).</li>\n      <li><b>Marsupials:</b> Mammals that give birth to very underdeveloped young that continue to develop in a pouch (e.g., kangaroos, koalas, opossums).</li>\n      <li><b>Placentals:</b> Mammals where the young develop fully inside the mother's uterus, nourished by a placenta, and are born relatively developed (e.g., humans, dogs, whales, bats).</li>\n    </ol>\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 35",
+    "topic": [
+      "Mammals",
+      "Reproduction",
+      "Classification"
+    ],
+    "Question": {
+      "content": "There are ______ basic groups or classification of mammals based on reproduction, which are ______ and ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Two; Prototheria and Theria"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Mammal Classification Based on Reproduction</h4>\n  <p>The correct answer is <strong>Two; Prototheria and Theria</strong>.</p>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Scientific Subclasses</strong><br>\n    While there are three \"types\" in common language, scientifically, mammals are divided into two main subclasses based on reproductive anatomy:\n    <ul>\n      <li><b>Prototheria:</b> This subclass contains the egg-laying mammals (monotremes).</li>\n      <li><b>Theria:</b> This subclass contains all mammals that give birth to live young. It is further divided into infraclasses: <b>Metatheria</b> (marsupials) and <b>Eutheria</b> (placental mammals).</li>\n    </ul>\n    So, the two basic reproductive groups are Prototheria and Theria.\n  </div>\n</div>"
+    }
+  }
+]
