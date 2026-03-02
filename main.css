@@ -330,6 +330,9 @@
    width: 50vw;
    border-radius: 5vw;
   }
+  .imgAns, #popupimage {
+   background: #fff;
+  }
   
   .imageContainer {
    padding: 4vw;
@@ -986,6 +989,7 @@
   .explainImg {
    width: 80%;
    margin: 0px auto;
+   background: #fff;
   }
   
   @media print {

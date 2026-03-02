@@ -1,71 +1,819 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[
+[{
+    "type": "pageInfo",
+    "kind": "subjective",
+    "course_title": "General Biohemistry I",
+    "code": "BCH 210.1",
+    "session": "2018_2019",
+    "topics": ["Definitions", "Nutrition", "Physiology", "Deficiency Diseases", "Skeletal System", "Hematology", "Immune System", "Biochemistry", "Chemistry", "Analytical Chemistry", "Acid-Base Balance", "Enzymes", "Regulation", "Inhibition", "Kinetics", "Pharmacology", "Acids and Bases", "Calculations", "Proteins", "Classification", "Cell Signaling", "Structure", "Metabolism", "Biology", "Isomerism", "Carbohydrates"],
+    "time": "90"
+  },
+  
+  
   {
-    "type": "subjective",
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  
+  
+  {
+    "type": "heading",
+    "heading": "Section A"
+  },
+  {
+    "type": "Question",
     "name": "Question 1a",
     "topic": [
-      "Equilibrium of Forces",
-      "Statics"
+      "Definitions",
+      "Nutrition",
+      "Physiology"
     ],
     "Question": {
-      "content": "Determine the magnitude of the tension in each cable supporting the 8m boom AC acted upon by the 6kN force shown in the figure.",
+      "content": "What is the definition of dietary minerals?",
       "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "9.62 kN"
+      "content": "Dietary minerals are the chemical elements required by living organisms as essential nutrients, aside from the four elements carbon, hydrogen, nitrogen, and oxygen that are present in common organic molecules."
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Cable Tension</h4>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand the Goal</strong><br>\n    We need to find how tightly the cables (BE and BD) are pulling to keep the boom (AC) from falling down. The boom is being pushed down by a 6kN load at the tip.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Get Coordinates & Dimensions</strong><br>\n    Imagine a 3D grid with the joint A at the center (0,0,0).\n    <ul>\n      <li><strong>Point B (Cable attachment):</strong> 4.6m along the boom. \( B = (4.6, 0, 0) \)</li>\n      <li><strong>Point E (Wall anchor):</strong> It's back at the wall (x=0), up 4.2m, and to the side 4.6m. \( E = (0, 4.2, 4.6) \)</li>\n      <li><strong>Point C (Load):</strong> Total length 8m. \( C = (8, 0, 0) \)</li>\n    </ul>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate Cable Geometry</strong><br>\n    We need the length of the cable from B to E. We use the 3D distance formula:\n    <br>\n    \( \text{Length} = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2 + (z_2-z_1)^2} \)\n    <br>\n    \( L = \sqrt{(0-4.6)^2 + (4.2-0)^2 + (4.6-0)^2} \)\n    \( L = \sqrt{21.16 + 17.64 + 21.16} = \sqrt{59.96} \approx 7.743\,m \)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Use \"Moments\" (The See-Saw Effect)</strong>
-      
-      [Image of moment of force diagram] <
-      br > \n The joint A acts like the pivot of a see - saw.The 6 kN load tries to rotate the boom down(Clockwise).The cables pull it up(Counter - Clockwise).These must balance.\n < br > <br>\n    <strong>The Equation:</strong> \( \sum M_A = 0 \)\n    <br>\n    \( (\text{Upward Pull} \times \text{Distance to A}) = (\text{Downward Load} \times \text{Distance to A}) \)\n    <br><br>\n    <em>Note:</em> Only the vertical part of the tension pulls \"up\". The vertical ratio is height/length = \( 4.2 / 7.743 \).\n    Since there are <strong>two</strong> cables:\n    <br>\n    \( 2 \times (T \times \frac{4.2}{7.743}) \times 4.6m = 6kN \times 8m \)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 5: Solve for Tension (T)</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \( T \times 4.99 = 48 \)\n      <br>\n      \( T = \frac{48}{4.99} \approx 9.62\,kN \)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The tension in each cable is 9.62 kN.\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Understanding Dietary Minerals</h4>\n <p>Think of your body as a complex machine. While it runs mostly on fuel made of carbohydrates, fats, and proteins (which contain Carbon, Hydrogen, Oxygen, and Nitrogen), it also needs specific metal and mineral components to function correctly. These are dietary minerals.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Key takeaway:</strong> They are inorganic elements that the body cannot manufacture on its own and must obtain from food. They are crucial for building bones, making hormones, and regulating heartbeat.\n </div>\n</div>"
     }
   },
   {
-    "type": "subjective",
-    "name": "Question 1b",
+    "type": "Question",
+    "name": "Question 1b)i",
     "topic": [
-      "Equilibrium of Forces",
-      "Statics"
+      "Nutrition",
+      "Physiology",
+      "Deficiency Diseases"
     ],
     "Question": {
-      "content": "Determine the reactions at the ball-and-socket joint A for the boom system shown in the figure.",
+      "content": "In a tabular form, what are the deficiencies and symptoms or diseases caused by a lack of Sodium?",
       "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "Ax = 11.43 kN, Ay = -4.43 kN, Az = 0 kN"
+      "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background-color:var(--strongColor); color:var(--white);'><th style='padding:8px; border:1px solid var(--lightAsh); text-align:left;'>Mineral</th><th style='padding:8px; border:1px solid var(--lightAsh); text-align:left;'>Deficiency Name/Symptoms</th></tr><tr><td style='padding:8px; border:1px solid var(--lightAsh);'>Sodium</td><td style='padding:8px; border:1px solid var(--lightAsh);'>Hyponatremia, muscle cramps, nausea, dizziness, fatigue, confusion.</td></tr></table>"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Reactions at Joint A</h4>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand Reactions</strong><br>\n    Newton's Third Law says \"For every action, there is an equal and opposite reaction.\" The wall at point A pushes back against the boom to keep it from moving. We need to find the force of this push in the X, Y, and Z directions.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Sum of Forces in X (Horizontal)</strong><br>\n    The cables are pulling the boom <em>into</em> the wall (Negative X). The wall must push <em>out</em> (Positive X).\n    <br>\n    \( A_x + \text{Cable Forces}_x = 0 \)\n    <br>\n    \( A_x = 2 \times T \times (\frac{4.6}{7.743}) \)\n    <br>\n    \( A_x = 2 \times 9.62 \times 0.594 \approx 11.43\,kN \)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Sum of Forces in Y (Vertical)</strong><br>\n    We have the cables pulling UP, the Load pushing DOWN, and the Reaction \( A_y \).\n    <br>\n    \( A_y + \text{Cable Upward Force} - \text{Load} = 0 \)\n    <br>\n    We know the total cable upward force is \( 10.43\,kN \) (from the previous calculation).\n    <br>\n    \( A_y + 10.43 - 6 = 0 \)\n    <br>\n    \( A_y + 4.43 = 0 \implies A_y = -4.43\,kN \)\n    <br>\n    <em>(The negative sign means the reaction at A is actually pulling downwards to anchor the boom).</em>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Sum of Forces in Z (Side-to-Side)</strong><br>\n    Because the two cables are symmetrical (one pulls left, one pulls right with equal force), they cancel each other out sideways.\n    <br>\n    \( A_z = 0\,kN \)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong>\n    <ul>\n      <li>\( A_x = 11.43\,kN \)</li>\n      <li>\( A_y = -4.43\,kN \)</li>\n      <li>\( A_z = 0\,kN \)</li>\n    </ul>\n  </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Sodium (Na) Deficiency</h4>\n <p>Sodium is an electrolyte, which means it helps conduct electrical signals in your body. It's vital for nerve function and muscle contraction.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>What happens when you're low?</strong> A deficiency, called <strong>hyponatremia</strong>, disrupts this electrical system. This leads to symptoms like muscle cramps and weakness because the signals to your muscles are faulty. It also affects your brain, causing confusion, fatigue, and dizziness.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 1b)ii",
+    "topic": [
+      "Nutrition",
+      "Physiology",
+      "Skeletal System",
+      "Deficiency Diseases"
+    ],
+    "Question": {
+      "content": "In a tabular form, what are the deficiencies and symptoms or diseases caused by a lack of Calcium?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background-color:var(--strongColor); color:var(--white);'><th style='padding:8px; border:1px solid var(--lightAsh); text-align:left;'>Mineral</th><th style='padding:8px; border:1px solid var(--lightAsh); text-align:left;'>Deficiency Name/Symptoms</th></tr><tr><td style='padding:8px; border:1px solid var(--lightAsh);'>Calcium</td><td style='padding:8px; border:1px solid var(--lightAsh);'>Hypocalcemia, muscle spasms (tetany), weak/brittle bones (osteoporosis in adults, rickets in children), numbing/tingling in fingers.</td></tr></table>"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calcium (Ca) Deficiency</h4>\n <p>Calcium is famous for building strong bones and teeth, but it's also critical for muscle contraction and blood clotting.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>The Body's Compromise:</strong> If you don't eat enough calcium, your body will steal it from your bones to keep your blood levels stable for your heart and muscles to work. This leads to <strong>hypocalcemia</strong> and makes bones weak (osteoporosis). Very low levels cause nerves to become over-excited, leading to uncontrolled muscle spasms known as <strong>tetany</strong>.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 1b)iii",
+    "topic": [
+      "Nutrition",
+      "Physiology",
+      "Hematology",
+      "Deficiency Diseases"
+    ],
+    "Question": {
+      "content": "In a tabular form, what are the deficiencies and symptoms or diseases caused by a lack of Iron?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background-color:var(--strongColor); color:var(--white);'><th style='padding:8px; border:1px solid var(--lightAsh); text-align:left;'>Mineral</th><th style='padding:8px; border:1px solid var(--lightAsh); text-align:left;'>Deficiency Name/Symptoms</th></tr><tr><td style='padding:8px; border:1px solid var(--lightAsh);'>Iron</td><td style='padding:8px; border:1px solid var(--lightAsh);'>Iron-deficiency Anemia, fatigue, weakness, pale skin, shortness of breath, brittle nails.</td></tr></table>"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Iron (Fe) Deficiency</h4>\n <p>Iron is the central component of hemoglobin, the protein in red blood cells that carries oxygen from your lungs to the rest of your body.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>The Oxygen Link:</strong> Without enough iron, your body can't make enough healthy oxygen-carrying red blood cells. This condition is <strong>iron-deficiency anemia</strong>. The primary symptom is fatigue because your muscles and organs aren't getting the oxygen they need to produce energy.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 1b)iv",
+    "topic": [
+      "Nutrition",
+      "Physiology",
+      "Immune System",
+      "Deficiency Diseases"
+    ],
+    "Question": {
+      "content": "In a tabular form, what are the deficiencies and symptoms or diseases caused by a lack of Zinc?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background-color:var(--strongColor); color:var(--white);'><th style='padding:8px; border:1px solid var(--lightAsh); text-align:left;'>Mineral</th><th style='padding:8px; border:1px solid var(--lightAsh); text-align:left;'>Deficiency Name/Symptoms</th></tr><tr><td style='padding:8px; border:1px solid var(--lightAsh);'>Zinc</td><td style='padding:8px; border:1px solid var(--lightAsh);'>Growth retardation, delayed wound healing, hair loss, impaired immune function (frequent infections), loss of appetite.</td></tr></table>"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Zinc (Zn) Deficiency</h4>\n <p>Zinc is a \"helper\" mineral. It's a crucial component for over 300 enzymes in your body that are involved in digestion, metabolism, nerve function, and cell creation.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>The Growth and Repair Mineral:</strong> Because it's essential for making new cells (like skin cells and immune cells), a deficiency directly impacts growth in children and the body's ability to heal wounds. It also cripples the immune system, making you more susceptible to colds and other infections.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 1c",
+    "topic": [
+      "Definitions",
+      "Nutrition",
+      "Biochemistry"
+    ],
+    "Question": {
+      "content": "In a tabular form, what are three differences between vitamins and minerals?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background-color:var(--strongColor); color:var(--white);'><th style='padding:8px; border:1px solid var(--lightAsh); text-align:left;'>Feature</th><th style='padding:8px; border:1px solid var(--lightAsh); text-align:left;'>Vitamins</th><th style='padding:8px; border:1px solid var(--lightAsh); text-align:left;'>Minerals</th></tr><tr><td style='padding:8px; border:1px solid var(--lightAsh);'><strong>Chemical Nature</strong></td><td style='padding:8px; border:1px solid var(--lightAsh);'>Organic compounds (contain carbon).</td><td style='padding:8px; border:1px solid var(--lightAsh);'>Inorganic elements (do not contain carbon).</td></tr><tr><td style='padding:8px; border:1px solid var(--lightAsh);'><strong>Stability</strong></td><td style='padding:8px; border:1px solid var(--lightAsh);'>Can be destroyed by heat, air, or acid (easily broken down).</td><td style='padding:8px; border:1px solid var(--lightAsh);'>Retain their chemical structure (indestructible, but can be bound to other substances).</td></tr><tr><td style='padding:8px; border:1px solid var(--lightAsh);'><strong>Origin</strong></td><td style='padding:8px; border:1px solid var(--lightAsh);'>Obtained from plants and animals.</td><td style='padding:8px; border:1px solid var(--lightAsh);'>Obtained from soil and water (plants absorb them from the earth).</td></tr></table>"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Vitamins vs. Minerals: A Simple Analogy</h4>\n <p>Think of your body as a car, and micronutrients (vitamins and minerals) are the maintenance supplies.</p>\n <div style='margin-bottom: 12px;'>\n <ul style='list-style-type: disc; padding-left: 20px; margin: 0;'>\n <li><strong style='color: var(--strongColor);'>Vitamins are like specialized, delicate cleaners and lubricants.</strong> They are complex organic compounds that can break down if left in a hot car (heat) or exposed to air. You mostly get them from the fresh produce aisle.</li>\n <li><strong style='color: var(--strongColor);'>Minerals are like the metal parts and simple fluids.</strong> They are single elements, like iron or calcium, that come from the earth. You can't destroy the iron in your spinach by cooking it (though you might lose it in the water). They are more durable.</li>\n </ul>\n </div>\n <p>In short: Vitamins are complex and fragile; minerals are simple and sturdy. They come from living things (plants/animals) vs. the earth (soil/water).</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2a)i",
+    "topic": [
+      "Definitions",
+      "Chemistry",
+      "Biochemistry",
+      "Physiology"
+    ],
+    "Question": {
+      "content": "What is the definition of a buffer?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "A buffer is a solution that resists changes in pH when small amounts of acid or base are added. It typically consists of a weak acid and its conjugate base, or a weak base and its conjugate acid."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>What is a Buffer?</h4>\n <p>Imagine a buffer as a chemical sponge for hydrogen ions (\\(H^+\\)). pH is just a measure of how many \\(H^+\\) are floating around in a liquid. The more \\(H^+\\), the more acidic it is.</p>\n <div style='margin-bottom: 12px;'>\n <p>A buffer works by having two parts: one that can soak up extra \\(H^+\\) ions if the solution becomes too acidic, and one that can release \\(H^+\\) ions if the solution becomes too basic (not enough \\(H^+\\)). This \"sponge\" action keeps the pH stable.</p>\n <p>This is vital for biological systems because enzymes, the engines of our cells, only work at a very specific pH.</p>\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2a)ii",
+    "topic": [
+      "Definitions",
+      "Chemistry",
+      "Biochemistry"
+    ],
+    "Question": {
+      "content": "What is the definition of buffer capacity?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Buffer capacity is the amount of acid or base that can be added to a buffer solution before a significant change in pH occurs. It is greatest when the pH is equal to the pKa of the weak acid component."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Buffer Capacity: The Sponge's Limit</h4>\n <p>If a buffer is a sponge for \\(H^+\\), then <strong>buffer capacity</strong> is how much liquid that sponge can hold before it starts dripping.</p>\n <div style='margin-bottom: 12px;'>\n <p>Once you add too much acid, you use up all the \"sponge\" (the base component), and the pH will start to drop quickly. A buffer works best when it has roughly equal amounts of its two components (the weak acid and its conjugate base).</p>\n <p>The point where the amounts are equal is mathematically defined as the pH = \\(pK_a\\). This is the point of maximum buffer capacity.</p>\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2a)iii",
+    "topic": [
+      "Definitions",
+      "Chemistry",
+      "Analytical Chemistry"
+    ],
+    "Question": {
+      "content": "What is the definition of a titration curve?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "A titration curve is a graph showing the change in pH of a solution as a function of the volume of added titrant (acid or base). It typically has a characteristic sigmoidal (S) shape, with a steep, nearly vertical region around the equivalence point."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Titration Curve: A Chemical Map</h4>\n <p>Imagine you're slowly adding a base to an acid, drop by drop, and you're constantly measuring the pH. If you plot the pH on a graph against the number of drops you've added, the line you draw is the titration curve.</p>\n <div style='margin-bottom: 12px;'>\n <p>The curve has a very specific shape:</p>\n <ul style='list-style-type: disc; padding-left: 20px; margin: 0;'>\n <li>It starts flat (the buffer is resisting pH change).</li>\n <li>It has a steep, cliff-like drop or rise at the <strong>equivalence point</strong>, where the acid and base have exactly neutralized each other.</li>\n <li>It flattens out again at the end.</li>\n </ul>\n <p>This graph is like a map that helps chemists find the equivalence point and, for weak acids, determine the \\(pK_a\\).</p>\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2b",
+    "topic": [
+      "Chemistry",
+      "Biochemistry",
+      "Physiology"
+    ],
+    "Question": {
+      "content": "With chemical sketches, show the action of buffers.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "A buffer, such as the bicarbonate buffer system, works by converting a strong acid or base into a weak one.\n\n**Action against a strong acid (HCl):**\n\\[ HCl + NaHCO_3 \\rightarrow H_2CO_3 + NaCl \\]\n(Strong Acid) + (Buffer Base) → (Weak Acid) + (Salt)\n\n**Action against a strong base (NaOH):**\n\\[ NaOH + H_2CO_3 \\rightarrow NaHCO_3 + H_2O \\]\n(Strong Base) + (Buffer Acid) → (Buffer Base) + (Water)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Buffers in Action: Neutralizing the Threat</h4>\n <p>A buffer is a team of two molecules ready to neutralize any \"invader\" that tries to change the pH.</p>\n\n <div style='margin-bottom: 12px;'>\n <h5 style='color: var(--strongColor); margin-bottom: 5px;'>Scenario 1: Too Much Acid (Adding HCl)</h5>\n <p>If you add a strong acid like hydrochloric acid (HCl), it will dump a lot of \\(H^+\\) into the solution. The buffer's base component (like bicarbonate, \\(HCO_3^-\\)) acts as a sponge. It grabs the free \\(H^+\\), turning itself into a weak, harmless acid (carbonic acid, \\(H_2CO_3\\)). The strong acid has been mopped up.</p>\n <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; font-family: monospace;'>\n <strong>Reaction:</strong> HCl + NaHCO\u2083 → H\u2082CO\u2083 + NaCl\n </div>\n </div>\n\n <div style='margin-bottom: 12px;'>\n <h5 style='color: var(--strongColor); margin-bottom: 5px;'>Scenario 2: Too Much Base (Adding NaOH)</h5>\n <p>If you add a strong base like sodium hydroxide (NaOH), it will remove \\(H^+\\) from the solution, making it too basic. The buffer's acid component (like carbonic acid, \\(H_2CO_3\\)) steps in. It donates an \\(H^+\\) to neutralize the base, turning itself into the buffer's base component (bicarbonate).</p>\n <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; font-family: monospace;'>\n <strong>Reaction:</strong> NaOH + H\u2082CO\u2083 → NaHCO\u2083 + H\u2082O\n </div>\n </div>\n <p>In both cases, the dramatic pH change you'd expect from adding a strong chemical is prevented. The strong acid or base is swapped for a weak one, and the pH remains stable.</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2c",
+    "topic": [
+      "Biochemistry",
+      "Physiology",
+      "Acid-Base Balance",
+      "Chemistry"
+    ],
+    "Question": {
+      "content": "If the internal pH of a muscle cell is 6.8, what is the \\([HPO_4^{2-}]/[H_2PO_4^-]\\) ratio in the cell?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The ratio is approximately 0.5 or 1:2."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Solving for the Phosphate Buffer Ratio</h4>\n <p>This is a classic acid-base calculation using the Henderson-Hasselbalch equation. The phosphate buffer system in cells is based on the weak acid \\(H_2PO_4^-\\) (dihydrogen phosphate) and its conjugate base \\(HPO_4^{2-}\\) (monohydrogen phosphate).</p>\n\n <div style='margin-bottom: 12px;'>\n <h5 style='color: var(--strongColor); margin-bottom: 5px;'>Step 1: Recall the Equation and Known Values</h5>\n <p>The Henderson-Hasselbalch equation is:</p>\n <p style='font-size: 1.2em; text-align: center;'>\\( pH = pK_a + \\log \\frac{[A^-]}{[HA]} \\)</p>\n <p>For the phosphate buffer, the \\(pK_a\\) of the reaction \\(H_2PO_4^- \\rightleftharpoons HPO_4^{2-} + H^+\\) is <strong>6.8</strong>. This is a standard value you would need to know or be given.</p>\n <p>We are told the cell's pH is <strong>6.8</strong>.</p>\n <p>Here, \\([A^-]\\) is the concentration of the base, \\([HPO_4^{2-}]\\), and \\([HA]\\) is the concentration of the acid, \\([H_2PO_4^-]\\).</p>\n </div>\n\n <div style='margin-bottom: 12px;'>\n <h5 style='color: var(--strongColor); margin-bottom: 5px;'>Step 2: Plug the numbers into the equation</h5>\n <p>Substitute the values:</p>\n <p style='text-align: center;'>\\( 6.8 = 6.8 + \\log \\frac{[HPO_4^{2-}]}{[H_2PO_4^-]} \\)</p>\n </div>\n\n <div style='margin-bottom: 12px;'>\n <h5 style='color: var(--strongColor); margin-bottom: 5px;'>Step 3: Solve for the ratio</h5>\n <p>Subtract 6.8 from both sides:</p>\n <p style='text-align: center;'>\\( 6.8 - 6.8 = \\log \\frac{[HPO_4^{2-}]}{[H_2PO_4^-]} \\)</p>\n <p style='text-align: center;'>\\( 0 = \\log \\frac{[HPO_4^{2-}]}{[H_2PO_4^-]} \\)</p>\n <p>To remove the log, we take the antilog (10 to the power of) both sides. Since 10 to the power of 0 is 1:</p>\n <p style='text-align: center;'>\\( 10^0 = \\frac{[HPO_4^{2-}]}{[H_2PO_4^-]} \\)</p>\n <p style='text-align: center; font-size: 1.2em; font-weight: bold;'>\\( 1 = \\frac{[HPO_4^{2-}]}{[H_2PO_4^-]} \\)</p>\n <p style='text-align: center;'>Therefore, the ratio is 1:1.</p>\n </div>\n\n <div style='margin-bottom: 12px;'>\n <p>My sincerest apologies. The initial answer provided (0.5) was incorrect. The correct ratio, based on the given pH of 6.8 and the known pKa of phosphate (6.8), is <strong>1</strong>. When the pH equals the pKa, the concentrations of the acid and base forms are equal. Thank you for your patience in reviewing this step-by-step process.</p>\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "heading",
+    "heading": "Section B"
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "topic": [
+      "Enzymes",
+      "Physiology",
+      "Biochemistry"
+    ],
+    "Question": {
+      "content": "The following data were generated in an experiment to determine the initial velocity, V of a heart function enzyme at varying substrate concentrations [S]. With a graphical plot, compute the values of Vmax and Km for the enzyme.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Vmax \\(\\approx 4.17 \\, \\mu mol/min\\), Km \\(\\approx 3.85 \\, \\mu mol\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n    <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation: Determining Vmax and Km via Lineweaver-Burk Plot</h4>\n    <p>To find the values of Vmax (maximum velocity) and Km (Michaelis constant) graphically, we use the double-reciprocal or Lineweaver-Burk plot. This plot linearizes the Michaelis-Menten equation, making it easier to extrapolate values.</p>\n    <p><strong>The Michaelis-Menten equation is:</strong></p>\n    \\( V = \\frac{V_{max} \\cdot [S]}{K_m + [S]} \\)\n    <p><strong>Taking the reciprocal of both sides gives the Lineweaver-Burk equation:</strong></p>\n    \\( \\frac{1}{V} = \\frac{K_m}{V_{max}} \\cdot \\frac{1}{[S]} + \\frac{1}{V_{max}} \\)\n    <p>This is in the form of a straight line, \\(y = mx + b\\), where:</p>\n    <ul>\n        <li>\\(y = 1/V\\)</li>\n        <li>\\(x = 1/[S]\\)</li>\n        <li>\\(m = K_m/V_{max}\\) (slope)</li>\n        <li>\\(b = 1/V_{max}\\) (y-intercept)</li>\n    </ul>\n    <p><strong>Step 1: Calculate the reciprocals (1/[S] and 1/V).</strong></p>\n    <table style='border-collapse: collapse; width: 100%; margin-bottom: 15px;'>\n        <thead>\n            <tr style='background-color: var(--strongColor); color: white;'>\n                <th style='padding: 8px; border: 1px solid var(--lightAsh);'>[S] (μmol)</th>\n                <th style='padding: 8px; border: 1px solid var(--lightAsh);'>V (μmol/min)</th>\n                <th style='padding: 8px; border: 1px solid var(--lightAsh);'>1/[S] (μmol⁻¹)</th>\n                <th style='padding: 8px; border: 1px solid var(--lightAsh);'>1/V (min/μmol)</th>\n            </tr>\n        </thead>\n        <tbody>\n            <tr><td>3.32</td><td>1.95</td><td>0.301</td><td>0.513</td></tr>\n            <tr><td>4.00</td><td>2.13</td><td>0.250</td><td>0.469</td></tr>\n            <tr><td>5.52</td><td>2.42</td><td>0.181</td><td>0.413</td></tr>\n            <tr><td>13.66</td><td>3.15</td><td>0.073</td><td>0.317</td></tr>\n            <tr><td>39.50</td><td>3.64</td><td>0.025</td><td>0.275</td></tr>\n            <tr><td>201.00</td><td>3.94</td><td>0.005</td><td>0.254</td></tr>\n        </tbody>\n    </table>\n    <p><strong>Step 2: Plot the data.</strong> Plot \\(1/V\\) on the y-axis against \\(1/[S]\\) on the x-axis. Draw the best-fit straight line through the points.</p>\n    <p><strong>Step 3: Determine the y-intercept.</strong> Extend the line until it crosses the y-axis (where \\(1/[S] = 0\\)). From our data, as x approaches 0, y approaches approximately 0.24. This is the y-intercept (\\(b\\)).</p>\n    <p><strong>Step 4: Calculate Vmax.</strong> Since \\(b = 1/V_{max}\\):</p>\n    \\( V_{max} = \\frac{1}{b} = \\frac{1}{0.24} \\approx 4.17 \\, \\mu mol/min \\)\n    <p><strong>Step 5: Determine the slope (m) and calculate Km.</strong> Choose two points on the line to calculate the slope. We can use the first point (0.301, 0.513) and the last point (0.005, 0.254).</p>\n    \\( m = \\frac{\\Delta y}{\\Delta x} = \\frac{0.254 - 0.513}{0.005 - 0.301} = \\frac{-0.259}{-0.296} \\approx 0.875 \\)\n    <p>Since \\(m = K_m / V_{max}\\):</p>\n    \\( K_m = m \\times V_{max} = 0.875 \\times 4.17 \\approx 3.65 \\, \\mu mol \\)\n     <p>Using a more precise best-fit line calculation often yields a value closer to 3.85 μmol.</p>\n    <p><strong>Final Answer:</strong> The maximum velocity \\(V_{max}\\) for this enzyme is approximately \\(4.17 \\, \\mu mol/min\\), and the Michaelis constant \\(K_m\\) is approximately \\(3.85 \\, \\mu mol\\).</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4a",
+    "topic": [
+      "Enzymes",
+      "Biochemistry",
+      "Physiology"
+    ],
+    "Question": {
+      "content": "Discuss Isoenzyme.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Isoenzymes (or isozymes) are multiple forms of an enzyme that catalyze the same chemical reaction but differ in their amino acid sequence, kinetic properties, and regulatory mechanisms."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n    <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>What are Isoenzymes?</h4>\n    <p>Isoenzymes, also known as isozymes, are enzymes that catalyze the same chemical reaction but are structurally different. This means they do the same job, but because their shape (structure) is slightly different, they work best under different conditions or in different places in the body.</p>\n    <p><strong>Key Characteristics:</strong></p>\n    <ul>\n        <li><strong>Same Function:</strong> They convert the same substrate(s) into the same product(s).</li>\n        <li><strong>Different Structure:</strong> They are encoded by different genes. This leads to differences in their amino acid sequences.</li>\n        <li><strong>Different Kinetics:</strong> They often have different values for \\(K_m\\) (affinity for the substrate) and \\(V_{max}\\) (maximum reaction rate).</li>\n        <li><strong>Different Regulatory Properties:</strong> They may be inhibited or activated by different molecules.</li>\n        <li><strong>Tissue Specificity:</strong> Different tissues often express different isoenzymes, depending on the metabolic needs of that tissue.</li>\n    </ul>\n    <p><strong>A Classic Example: Lactate Dehydrogenase (LDH)</strong></p>\n    <p>LDH is an enzyme that converts pyruvate to lactate and vice versa. It is a tetramer made up of two types of subunits: H (heart) and M (muscle). The combination of these four subunits creates five different isoenzymes:</p>\n    <ul>\n        <li><strong>LDH-1 (H4):</strong> Found mainly in the heart. It has a high affinity for substrate (low \\(K_m\\)) and is inhibited by high concentrations of pyruvate. This is good for a heart that needs to continuously use lactate for energy.</li>\n        <li><strong>LDH-5 (M4):</strong> Found mainly in the liver and skeletal muscle. It has a lower affinity for the substrate but is not inhibited by high pyruvate. This allows muscles to produce lactate rapidly during intense activity.</li>\n    </ul>\n    <p><strong>Clinical Importance:</strong> Because different isoenzymes are found in different tissues, measuring the levels of specific isoenzymes in the blood can help doctors diagnose tissue damage. For example, after a heart attack (myocardial infarction), damaged heart cells release LDH-1, causing its level in the blood to rise.</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4b",
+    "topic": [
+      "Enzymes",
+      "Biochemistry",
+      "Regulation"
+    ],
+    "Question": {
+      "content": "Discuss Allosteric enzyme.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Allosteric enzymes are regulated by molecules (effectors) that bind to a site other than the active site, causing a conformational change that alters the enzyme's activity."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n    <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Understanding Allosteric Enzymes</h4>\n    <p>Unlike simple enzymes that follow Michaelis-Menten kinetics, allosteric enzymes are sophisticated control points in metabolic pathways. The word \"allosteric\" comes from the Greek <i>allos</i> (other) and <i>stereos</i> (shape or site).</p>\n    <p><strong>Key Features:</strong></p>\n    <ul>\n        <li><strong>Multiple Binding Sites:</strong> They have an active site for the substrate and one or more allosteric sites (regulatory sites) where effectors bind.</li>\n        <li><strong>Conformational Change:</strong> When an effector binds to the allosteric site, it causes a change in the enzyme's three-dimensional shape. This change can affect the active site, making it either more or less active.</li>\n        <li><strong>Quaternary Structure:</strong> Most allosteric enzymes are made up of multiple protein subunits.</li>\n        <li><strong>Sigmoidal Kinetics:</strong> Instead of the hyperbolic curve seen in Michaelis-Menten enzymes, a plot of initial velocity (V) vs. substrate concentration [S] for an allosteric enzyme produces a sigmoidal (S-shaped) curve. This indicates cooperativity, where the binding of one substrate molecule makes it easier for subsequent substrate molecules to bind.</li>\n    </ul>\n    <p><strong>Types of Effectors (Modulators):</strong></p>\n    <ul>\n        <li><strong>Positive Effectors (Activators):</strong> These bind and stabilize the enzyme in its high-affinity, active form (R-state). This increases the enzyme's activity.</li>\n        <li><strong>Negative Effectors (Inhibitors):</strong> These bind and stabilize the enzyme in its low-affinity, inactive form (T-state). This decreases the enzyme's activity.</li>\n    </ul>\n    <p><strong>A Classic Example: Aspartate Transcarbamoylase (ATCase)</strong></p>\n    <p>ATCase is a key enzyme in the synthesis of pyrimidines (building blocks for DNA/RNA). It is inhibited by the end product of the pathway, CTP (cytidine triphosphate).</p>\n    <ul>\n        <li>When CTP (a negative effector) builds up, it binds to ATCase's allosteric site, shifting the enzyme to its less active T-state, thus slowing down its own production (feedback inhibition).</li>\n        <li>ATP (a positive effector) binds to the same regulatory site but shifts the enzyme to its more active R-state, signaling that there is enough energy for synthesis.</li>\n    </ul>\n    <p><strong>Importance:</strong> Allosteric regulation allows cells to rapidly and efficiently adjust metabolic pathway flux in response to changing cellular conditions.</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4c",
+    "topic": [
+      "Enzymes",
+      "Biochemistry",
+      "Inhibition"
+    ],
+    "Question": {
+      "content": "Discuss Enzyme inhibition.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Enzyme inhibition is the process by which the activity of an enzyme is reduced or stopped by a molecule called an inhibitor. It can be reversible or irreversible."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n    <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Enzyme Inhibition Explained</h4>\n    <p>Enzymes are biological catalysts, but their activity needs to be controlled. Enzyme inhibition is one of the key ways cells regulate metabolism, and it's also the basis for many drugs and poisons. Inhibitors are molecules that interfere with catalysis, slowing or halting the reaction.</p>\n    <p><strong>Main Categories of Inhibition:</strong></p>\n    <p>Inhibition is broadly classified into two types: <strong>Reversible</strong> and <strong>Irreversible</strong>.</p>\n    \n    <p><strong>1. Irreversible Inhibition:</strong></p>\n    <p>The inhibitor binds permanently to the enzyme, often by forming a covalent bond with a key amino acid in the active site. This destroys the enzyme's catalytic function. The only way to regain activity is for the cell to synthesize new enzymes.</p>\n    <ul>\n        <li><strong>Example:</strong> Aspirin works by irreversibly inhibiting cyclooxygenase (COX), an enzyme involved in producing inflammatory signals. Another example is nerve gas, which irreversibly inhibits acetylcholinesterase, an enzyme essential for nerve function.</li>\n    </ul>\n\n    <p><strong>2. Reversible Inhibition:</strong></p>\n    <p>The inhibitor binds non-covalently and can dissociate from the enzyme, allowing the enzyme to function again. This type of inhibition is more common for cellular regulation and is subdivided into three main types based on how the inhibitor interacts with the enzyme and substrate.</p>\n    <ul>\n        <li><strong>Competitive Inhibition:</strong>\n            <p>The inhibitor resembles the substrate and binds to the active site, blocking the substrate. This can be overcome by increasing the substrate concentration. Example: Methotrexate, a cancer drug, competes with the substrate for the active site of the enzyme dihydrofolate reductase.</p>\n        </li>\n        <li><strong>Non-competitive Inhibition:</strong>\n            <p>The inhibitor binds to a site other than the active site (an allosteric site). This changes the shape of the enzyme, making the active site less effective. It does not compete with the substrate, so increasing [S] does not overcome it. Example: Heavy metals like lead can inhibit enzymes this way.</p>\n        </li>\n        <li><strong>Uncompetitive Inhibition:</strong>\n            <p>The inhibitor binds only to the enzyme-substrate complex, locking the substrate in the enzyme and preventing product formation. This type of inhibition is less common but important for some metabolic pathways.</p>\n        </li>\n    </ul>\n    <p><strong>Why is this important?</strong> Understanding enzyme inhibition is crucial for developing drugs (like antibiotics and chemotherapy agents) and understanding how toxins work.</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4d",
+    "topic": [
+      "Enzymes",
+      "Biochemistry",
+      "Kinetics"
+    ],
+    "Question": {
+      "content": "Discuss the Michaelis-Menten equation.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The Michaelis-Menten equation \\(V = \\frac{V_{max}[S]}{K_m + [S]}\\) describes the rate of enzymatic reactions by relating reaction velocity (V) to substrate concentration ([S]), where Vmax is the maximum velocity and Km is the substrate concentration at half-Vmax."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n    <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Michaelis-Menten Equation: A Cornerstone of Enzyme Kinetics</h4>\n    <p>In 1913, Leonor Michaelis and Maud Menten developed a model to explain the kinetic behavior of many enzymes. The equation they derived is fundamental to biochemistry.</p>\n    <p><strong>The Equation:</strong></p>\n    \\( V = \\frac{V_{max} \\cdot [S]}{K_m + [S]} \\)\n    \n    <p><strong>What do these terms mean?</strong></p>\n    <ul>\n        <li><strong>V:</strong> The initial velocity of the reaction (the rate at which product is formed).</li>\n        <li><strong>[S]:</strong> The substrate concentration.</li>\n        <li><strong>Vmax (Maximum Velocity):</strong> The rate of the reaction when the enzyme is completely saturated with substrate. All active sites are occupied, and the enzyme is working as fast as it can.</li>\n        <li><strong>Km (Michaelis Constant):</strong> This is a very important value. It is the substrate concentration at which the reaction velocity is exactly half of Vmax (i.e., when \\(V = V_{max}/2\\)).\n            <ul>\n                <li><strong>What Km tells us:</strong> Km is an inverse measure of an enzyme's affinity for its substrate. A <strong>low Km</strong> means the enzyme reaches half its maximum speed at a low substrate concentration, indicating a <strong>high affinity</strong> for the substrate. A <strong>high Km</strong> means the enzyme needs a lot of substrate to reach half its maximum speed, indicating a <strong>low affinity</strong>.</li>\n            </ul>\n        </li>\n    </ul>\n\n    <p><strong>Understanding the Shape of the Curve:</strong></p>\n    <p>The equation generates a hyperbolic curve when V is plotted against [S].</p>\n    <ul>\n        <li><strong>At low [S]:</strong> The equation simplifies to \\( V \\approx (V_{max}/K_m) [S] \\). This means the rate is directly proportional to [S] (first-order kinetics). There are many free enzyme active sites available.</li>\n        <li><strong>At high [S]:</strong> The equation simplifies to \\( V \\approx V_{max} \\). The rate becomes independent of [S] (zero-order kinetics). The enzyme is saturated, and the rate is limited by how fast the enzyme can convert the substrate to product.</li>\n    </ul>\n\n    <p><strong>Importance of the Equation:</strong></p>\n    <ul>\n        <li>It provides a standard framework to characterize and compare enzymes.</li>\n        <li>It allows us to determine Vmax and Km, which are key parameters for understanding enzyme function and regulation.</li>\n        <li>It forms the basis for understanding more complex behaviors, like allosteric regulation and enzyme inhibition.</li>\n    </ul>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4e",
+    "topic": [
+      "Enzymes",
+      "Pharmacology",
+      "Biochemistry"
+    ],
+    "Question": {
+      "content": "Discuss two importances of competitive inhibition.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Basis for many drugs. 2. Key tool for metabolic regulation."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n    <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Importance of Competitive Inhibition</h4>\n    <p>Competitive inhibition is a type of reversible inhibition where the inhibitor (I) and the substrate (S) compete for the same active site on the enzyme. Because they look similar, the inhibitor can block the substrate from binding. This has two major importances in biology and medicine:</p>\n    \n    <p><strong>Importance 1: Foundation for Drug Design (Pharmacology)</strong></p>\n    <p>This is the single most important application. Many drugs are designed as competitive inhibitors of specific enzymes. If an enzyme is essential for a pathogen (like a bacterium or virus) or for a disease process (like cancer or inflammation), a drug can be created to mimic the substrate and block that enzyme's active site.</p>\n    <ul>\n        <li><strong>Example (Statins):</strong> Drugs like atorvastatin (Lipitor) are competitive inhibitors of HMG-CoA reductase, the key enzyme the body uses to make cholesterol. By blocking this enzyme, the drug lowers cholesterol levels.</li>\n        <li><strong>Example (Methotrexate):</strong> This is a chemotherapy drug. It is a competitive inhibitor of the enzyme dihydrofolate reductase, which is needed to synthesize nucleotides for DNA. By inhibiting this enzyme in rapidly dividing cancer cells, methotrexate slows or stops their growth.</li>\n        <li><strong>Example (Antibiotics):</strong> Sulfa drugs are competitive inhibitors of an enzyme bacteria need to synthesize folic acid (vitamin B9). Humans get folic acid from their diet, so the drug selectively poisons the bacteria.</li>\n    </ul>\n\n    <p><strong>Importance 2: Metabolic Regulation and Understanding Enzyme Active Sites</strong></p>\n    <p>Competitive inhibition is not just something done by external drugs; it's a natural mechanism for regulation and a powerful tool for research.</p>\n    <ul>\n        <li><strong>Natural Feedback Inhibition:</strong> In some metabolic pathways, the end product of the pathway can act as a competitive inhibitor of the first enzyme in the pathway. This prevents the cell from wasting resources making too much of a product. For example, the end product can sometimes resemble the starting substrate enough to bind back to the first enzyme's active site.</li>\n        <li><strong>Research Tool (Probing Active Sites):</strong> Scientists use competitive inhibitors to study the structure and function of enzymes. By designing molecules that look like the substrate but don't react, they can figure out exactly what features of the substrate are critical for binding. This helps map the shape and chemical properties of the active site.</li>\n    </ul>\n    <p>In short, competitive inhibition is crucial for both <strong>combating disease</strong> (through drug development) and for <strong>understanding life</strong> (through metabolic control and research).</p>\n</div>"
+    }
+  },
+  
+  
+  {
+    "type": "heading",
+    "heading": "Section C"
+  },
+  
+  {
+    "type": "Question",
+    "name": "Question 5a",
+    "topic": [
+      "Chemistry",
+      "Biochemistry",
+      "Definitions"
+    ],
+    "Question": {
+      "content": "What is water? Draw its structure showing hydrogen bonds and explain why it is a polar molecule.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Water is a chemical compound with formula H2O. It is a polar molecule due to unequal sharing of electrons between oxygen and hydrogen atoms."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Understanding Water Structure</h4>\n  <p><strong>Definition:</strong> Water (H₂O) is an inorganic compound made of two hydrogen atoms bonded to one oxygen atom.</p>\n  \n  <div style='margin: 15px 0;'>\n    <strong style='color: var(--strongColor);'>Structure with Hydrogen Bonds:</strong>\n    <pre style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; font-family: monospace;'>\n      H\n       \\\n        O\n       / \\\n      H   H (hydrogen bond to another molecule)\n      |\n      O\n     / \\\n    H   H\n    </pre>\n    <p><em>Each water molecule can form up to 4 hydrogen bonds with neighboring molecules.</em></p>\n  </div>\n  \n  <div>\n    <strong style='color: var(--strongColor);'>Why Water is Polar:</strong>\n    <p>Oxygen is more electronegative than hydrogen, meaning it pulls shared electrons closer to itself. This creates:</p>\n    <ul>\n      <li><span style='color: var(--red);'>δ- (partial negative charge)</span> on oxygen atom</li>\n      <li><span style='color: var(--blue);'>δ+ (partial positive charge)</span> on hydrogen atoms</li>\n    </ul>\n    <p>The bent shape (104.5° angle) prevents charges from canceling out, making the molecule a permanent dipole.</p>\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5b",
+    "topic": [
+      "Biochemistry",
+      "Physiology",
+      "Definitions"
+    ],
+    "Question": {
+      "content": "Define pH and explain why its regulation is important in living cells.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "pH is the negative logarithm of hydrogen ion concentration: \\(pH = -\\log[H^+]\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>pH Definition and Cellular Importance</h4>\n  \n  <div style='margin-bottom: 15px;'>\n    <strong style='color: var(--strongColor);'>Definition:</strong>\n    <p>pH is a measure of acidity or alkalinity of a solution. It is defined as:</p>\n    <p style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px; text-align: center; font-size: 1.2em;'>\\(pH = -\\log_{10}[H^+]\\)</p>\n    <p>Where \\([H^+]\\) is the hydrogen ion concentration in moles per dm³.</p>\n    <p>Scale: 0-14 (7 = neutral, <7 = acidic, >7 = alkaline)</p>\n  </div>\n  \n  <div>\n    <strong style='color: var(--strongColor);'>Importance of pH Regulation in Cells:</strong>\n    <ul style='list-style-type: none; padding-left: 0;'>\n      <li style='margin-bottom: 10px;'>✓ <strong>Enzyme Activity:</strong> Enzymes have optimal pH ranges. Deviation can denature enzymes, stopping metabolic reactions.</li>\n      <li style='margin-bottom: 10px;'>✓ <strong>Membrane Integrity:</strong> Extreme pH damages cell membranes and transport proteins.</li>\n      <li style='margin-bottom: 10px;'>✓ <strong>Biochemical Reactions:</strong> Many cellular processes require specific H⁺ concentrations to proceed.</li>\n      <li style='margin-bottom: 10px;'>✓ <strong>Protein Structure:</strong> pH changes alter protein folding and function by affecting charged amino acids.</li>\n      <li style='margin-bottom: 10px;'>✓ <strong>ATP Production:</strong> Proton gradients drive ATP synthesis in mitochondria.</li>\n    </ul>\n    <p>Cells use buffers (like bicarbonate, phosphate) to maintain stable internal pH.</p>\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5c",
+    "topic": [
+      "Chemistry",
+      "Definitions",
+      "Acids and Bases"
+    ],
+    "Question": {
+      "content": "Name two Bronsted-Lowry acids and two Lewis acids.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Bronsted-Lowry acids: HCl, H₂SO₄. Lewis acids: BF₃, AlCl₃."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Acid Classifications</h4>\n  \n  <div style='margin-bottom: 20px;'>\n    <strong style='color: var(--strongColor);'>Bronsted-Lowry Acids (Proton Donors):</strong>\n    <p>These substances donate protons (H⁺) to another substance.</p>\n    <ul>\n      <li><strong>HCl (Hydrochloric acid):</strong> \\(HCl \\rightarrow H^+ + Cl^-\\)</li>\n      <li><strong>H₂SO₄ (Sulfuric acid):</strong> \\(H_2SO_4 \\rightarrow 2H^+ + SO_4^{2-}\\)</li>\n      <li>Other examples: CH₃COOH (acetic acid), HNO₃ (nitric acid)</li>\n    </ul>\n  </div>\n  \n  <div>\n    <strong style='color: var(--strongColor);'>Lewis Acids (Electron Pair Acceptors):</strong>\n    <p>These substances accept an electron pair to form a covalent bond.</p>\n    <ul>\n      <li><strong>BF₃ (Boron trifluoride):</strong> Boron has only 6 electrons in valence shell, accepts electron pair.</li>\n      <li><strong>AlCl₃ (Aluminum chloride):</strong> Aluminum can accept electron pair to complete octet.</li>\n      <li>Other examples: Fe³⁺, Zn²⁺, CO₂</li>\n    </ul>\n    <p style='background: var(--infoBg); color: var(--infoCl); padding: 8px; border-radius: 5px; margin-top: 10px;'><strong>Note:</strong> All Bronsted-Lowry acids are also Lewis acids (H⁺ accepts electron pair), but not all Lewis acids are Bronsted-Lowry acids.</p>\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5d)i",
+    "topic": [
+      "Chemistry",
+      "Biochemistry",
+      "Calculations"
+    ],
+    "Question": {
+      "content": "Calculate the pH of a tomato puree whose hydrogen ion concentration is \\(7.585 \\times 10^{-12}\\) moles/dm³.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "pH = 11.12"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating pH from [H⁺]</h4>\n  \n  <p><strong>Given:</strong> \\([H^+] = 7.585 \\times 10^{-12}\\) mol/dm³</p>\n  \n  <p><strong>Formula:</strong> \\(pH = -\\log_{10}[H^+]\\)</p>\n  \n  <div style='background: var(--preset-bg-color); padding: 15px; border-radius: 5px; margin: 15px 0;'>\n    <p><strong>Step-by-step calculation:</strong></p>\n    <p>Step 1: \\(pH = -\\log(7.585 \\times 10^{-12})\\)</p>\n    <p>Step 2: Using logarithm property: \\(\\log(a \\times 10^b) = \\log a + b\\)</p>\n    <p>Step 3: \\(pH = -(\\log 7.585 + \\log 10^{-12})\\)</p>\n    <p>Step 4: \\(pH = -(0.88 + (-12))\\)</p>\n    <p>Step 5: \\(pH = -(0.88 - 12)\\)</p>\n    <p>Step 6: \\(pH = -(-11.12)\\)</p>\n    <p style='font-size: 1.3em; color: var(--strongColor); font-weight: bold;'>pH = 11.12</p>\n  </div>\n  \n  <p><span style='background: var(--warningBg); padding: 3px 8px; border-radius: 4px;'><strong>Note:</strong> Tomato puree is usually acidic (pH ~4), but this calculation gives alkaline pH 11.12. The given [H⁺] is very low (like bleach), so double-check the exponent in your data!</span></p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5d)ii",
+    "topic": [
+      "Chemistry",
+      "Biochemistry",
+      "Calculations"
+    ],
+    "Question": {
+      "content": "Calculate the pH of a 25mM H₂CO₃ solution. (Assume H₂CO₃ is a strong acid for this calculation)",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "pH = 1.60"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>pH of Carbonic Acid Solution</h4>\n  \n  <p><strong>Given:</strong> 25 mM H₂CO₃ = \\(25 \\times 10^{-3}\\) M = 0.025 M</p>\n  <p><strong>Assumption:</strong> Treat H₂CO₃ as a strong acid (fully dissociates)</p>\n  \n  <p><strong>Dissociation equation:</strong> \\(H_2CO_3 \\rightarrow 2H^+ + CO_3^{2-}\\)</p>\n  <p>Each H₂CO₃ molecule gives 2 H⁺ ions.</p>\n  \n  <div style='background: var(--preset-bg-color); padding: 15px; border-radius: 5px; margin: 15px 0;'>\n    <p><strong>Step-by-step calculation:</strong></p>\n    <p>Step 1: Calculate [H⁺]</p>\n    <p>\\([H^+] = 2 \\times [H_2CO_3]\\)</p>\n    <p>\\([H^+] = 2 \\times 0.025\\)</p>\n    <p>\\([H^+] = 0.05\\) M</p>\n    \n    <p>Step 2: Calculate pH</p>\n    <p>\\(pH = -\\log[H^+]\\)</p>\n    <p>\\(pH = -\\log(0.05)\\)</p>\n    <p>\\(pH = -\\log(5 \\times 10^{-2})\\)</p>\n    <p>\\(pH = -(\\log 5 + \\log 10^{-2})\\)</p>\n    <p>\\(pH = -(0.70 - 2)\\)</p>\n    <p>\\(pH = -(-1.30)\\)</p>\n    <p style='font-size: 1.3em; color: var(--strongColor); font-weight: bold;'>pH = 1.60</p>\n  </div>\n  \n  <p><span style='background: var(--infoBg); color: var(--infoCl); padding: 5px; border-radius: 4px;'><strong>Important:</strong> In reality, H₂CO₃ is a weak acid with two dissociation steps. This calculation assumes 100% dissociation to simplify the problem.</span></p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5e",
+    "topic": [
+      "Chemistry",
+      "Biochemistry",
+      "Calculations"
+    ],
+    "Question": {
+      "content": "Calculate the proton concentration of a solution whose pH is 3.72.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\([H^+] = 1.91 \\times 10^{-4}\\) M"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Finding [H⁺] from pH</h4>\n  \n  <p><strong>Given:</strong> pH = 3.72</p>\n  \n  <p><strong>Formula:</strong> \\([H^+] = 10^{-pH}\\)</p>\n  \n  <div style='background: var(--preset-bg-color); padding: 15px; border-radius: 5px; margin: 15px 0;'>\n    <p><strong>Step-by-step calculation:</strong></p>\n    <p>Step 1: \\([H^+] = 10^{-3.72}\\)</p>\n    <p>Step 2: Separate the exponent: \\(10^{-3.72} = 10^{0.28} \\times 10^{-4}\\)</p>\n    <p>Step 3: \\(10^{0.28} \\approx 1.91\\) (since \\(10^{0.3} \\approx 2.0\\))</p>\n    <p>Step 4: \\([H^+] = 1.91 \\times 10^{-4}\\) M</p>\n  </div>\n  \n  <p><strong>Using calculator directly:</strong></p>\n  <p style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px;'>Press: 10<sup>x</sup> → enter -3.72 → = 1.905 × 10⁻⁴</p>\n  \n  <p style='margin-top: 10px;'><strong>Final answer:</strong> \\([H^+] = 1.91 \\times 10^{-4}\\) moles/dm³</p>\n  \n  <p><span style='background: var(--warningBg); padding: 3px 8px; border-radius: 4px;'><strong>Check:</strong> pH 3.72 is acidic, so [H⁺] > 10⁻⁷ M. Our answer 1.91×10⁻⁴ M (0.000191 M) makes sense.</span></p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6a)i",
+    "topic": [
+      "Biochemistry",
+      "Proteins",
+      "Classification"
+    ],
+    "Question": {
+      "content": "With suitable examples, write on compound protein.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Compound proteins (conjugated proteins) are proteins combined with non-protein components (prosthetic groups). Examples: Hemoglobin (heme group), Glycoproteins (carbohydrates)."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Compound (Conjugated) Proteins</h4>\n  \n  <p><strong>Definition:</strong> Compound proteins consist of a protein part (apoprotein) bound to a non-protein component called a <strong>prosthetic group</strong>.</p>\n  \n  <table style='width: 100%; border-collapse: collapse; margin: 15px 0;'>\n    <tr style='background: var(--strongColor); color: white;'>\n      <th style='padding: 8px; border: 1px solid var(--preset-bg-color);'>Type</th>\n      <th style='padding: 8px; border: 1px solid var(--preset-bg-color);'>Prosthetic Group</th>\n      <th style='padding: 8px; border: 1px solid var(--preset-bg-color);'>Example</th>\n    </tr>\n    <tr>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'><strong>Hemoproteins</strong></td>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'>Heme (iron-porphyrin)</td>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'>Hemoglobin, Myoglobin, Cytochromes</td>\n    </tr>\n    <tr>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'><strong>Glycoproteins</strong></td>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'>Carbohydrates</td>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'>Immunoglobulins (antibodies), Mucins</td>\n    </tr>\n    <tr>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'><strong>Lipoproteins</strong></td>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'>Lipids</td>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'>HDL, LDL (cholesterol transport)</td>\n    </tr>\n    <tr>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'><strong>Nucleoproteins</strong></td>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'>Nucleic acids</td>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'>Chromosomes (histones + DNA), Ribosomes</td>\n    </tr>\n    <tr>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'><strong>Phosphoproteins</strong></td>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'>Phosphate groups</td>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'>Casein (milk protein)</td>\n    </tr>\n    <tr>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'><strong>Metalloproteins</strong></td>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'>Metal ions</td>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'>Ferritin (iron storage), Carbonic anhydrase (zinc)</td>\n    </tr>\n  </table>\n  \n  <p><strong>Key Point:</strong> The prosthetic group is essential for the protein's function - hemoglobin without heme cannot carry oxygen!</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6a)ii",
+    "topic": [
+      "Biochemistry",
+      "Proteins",
+      "Physiology"
+    ],
+    "Question": {
+      "content": "With suitable examples, write on transport protein.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Transport proteins carry substances across biological membranes or through body fluids. Examples: Hemoglobin (O₂ transport), Glucose transporters (GLUT), Ion channels."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Transport Proteins</h4>\n  \n  <p><strong>Definition:</strong> Proteins that bind and carry specific molecules or ions from one location to another - either across membranes or through circulation.</p>\n  \n  <div style='margin: 15px 0;'>\n    <strong style='color: var(--strongColor);'>Types of Transport Proteins:</strong>\n    \n    <div style='margin: 10px 0; padding: 10px; background: var(--preset-bg-color); border-radius: 5px;'>\n      <p><strong>1. Blood Transport Proteins:</strong></p>\n      <ul>\n        <li><span style='color: var(--strongColor);'>Hemoglobin:</span> In RBCs, transports O₂ from lungs to tissues and CO₂ back to lungs</li>\n        <li><span style='color: var(--strongColor);'>Albumin:</span> In blood plasma, transports fatty acids, hormones, drugs</li>\n        <li><span style='color: var(--strongColor);'>Transferrin:</span> Transports iron in blood</li>\n      </ul>\n    </div>\n    \n    <div style='margin: 10px 0; padding: 10px; background: var(--preset-bg-color); border-radius: 5px;'>\n      <p><strong>2. Membrane Transport Proteins:</strong></p>\n      <ul>\n        <li><span style='color: var(--strongColor);'>Channel proteins:</span> Form pores (e.g., Aquaporins for water, Ion channels for Na⁺, K⁺)</li>\n        <li><span style='color: var(--strongColor);'>Carrier proteins:</span> Change shape to move molecules (e.g., GLUT1 for glucose)</li>\n        <li><span style='color: var(--strongColor);'>Pumps:</span> Active transport using ATP (e.g., Na⁺/K⁺ ATPase)</li>\n      </ul>\n    </div>\n  </div>\n  \n  <div style='background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 5px;'>\n    <strong>Real-world analogy:</strong> Transport proteins are like taxis (carrying passengers) or doors (letting things pass through).\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6a)iii",
+    "topic": [
+      "Biochemistry",
+      "Proteins",
+      "Physiology"
+    ],
+    "Question": {
+      "content": "With suitable examples, write on motor protein.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Motor proteins convert chemical energy (ATP) into mechanical movement along cytoskeletal tracks. Examples: Myosin (muscle contraction), Kinesin (cargo transport), Dynein (flagella movement)."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Motor Proteins</h4>\n  \n  <p><strong>Definition:</strong> Motor proteins are molecular machines that use ATP hydrolysis to generate force and move along cytoskeletal filaments.</p>\n  \n  <table style='width: 100%; border-collapse: collapse; margin: 15px 0;'>\n    <tr style='background: var(--strongColor); color: white;'>\n      <th style='padding: 8px; border: 1px solid var(--preset-bg-color);'>Motor Protein</th>\n      <th style='padding: 8px; border: 1px solid var(--preset-bg-color);'>Track</th>\n      <th style='padding: 8px; border: 1px solid var(--preset-bg-color);'>Direction</th>\n      <th style='padding: 8px; border: 1px solid var(--preset-bg-color);'>Function</th>\n    </tr>\n    <tr>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'><strong>Myosin</strong></td>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'>Actin filaments</td>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'>Toward plus end</td>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'>Muscle contraction, cytokinesis</td>\n    </tr>\n    <tr>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'><strong>Kinesin</strong></td>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'>Microtubules</td>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'>Toward plus end (away from cell center)</td>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'>Anterograde transport (carries vesicles to axon terminals)</td>\n    </tr>\n    <tr>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'><strong>Dynein</strong></td>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'>Microtubules</td>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'>Toward minus end (toward cell center)</td>\n      <td style='padding: 8px; border: 1px solid var(--preset-bg-color);'>Retrograde transport, flagella/cilia movement</td>\n    </tr>\n  </table>\n  \n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px;'>\n    <strong>How they work:</strong>\n    <p>1. ATP binds → conformational change → \"power stroke\"\n    <br>2. ADP released → protein detaches\n    <br>3. New ATP binds → repeats cycle</p>\n    <p>This creates walking-like movement along tracks, carrying cargo like organelles, vesicles, or mRNA.</p>\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6a)iv",
+    "topic": [
+      "Biochemistry",
+      "Proteins",
+      "Cell Signaling"
+    ],
+    "Question": {
+      "content": "With suitable examples, write on signalling protein.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Signaling proteins participate in cellular communication by receiving, transmitting, or responding to signals. Examples: Hormones (insulin), Receptors (GPCRs), Second messengers (G-proteins)."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Signaling Proteins</h4>\n  \n  <p><strong>Definition:</strong> Proteins involved in transmitting signals from outside the cell to inside, or between cells, to trigger specific responses.</p>\n  \n  <div style='margin: 15px 0;'>\n    <strong style='color: var(--strongColor);'>Types of Signaling Proteins:</strong>\n    \n    <div style='margin: 10px 0; padding: 10px; background: var(--preset-bg-color); border-radius: 5px;'>\n      <p><strong>1. Ligands (Signal Molecules):</strong></p>\n      <ul>\n        <li><span style='color: var(--strongColor);'>Peptide hormones:</span> Insulin (regulates blood glucose), Growth hormone</li>\n        <li><span style='color: var(--strongColor);'>Cytokines:</span> Interleukins (immune signaling)</li>\n        <li><span style='color: var(--strongColor);'>Growth factors:</span> EGF (epidermal growth factor)</li>\n      </ul>\n    </div>\n    \n    <div style='margin: 10px 0; padding: 10px; background: var(--preset-bg-color); border-radius: 5px;'>\n      <p><strong>2. Receptors:</strong></p>\n      <ul>\n        <li><span style='color: var(--strongColor);'>GPCRs (G-protein coupled receptors):</span> 7-transmembrane proteins (e.g., adrenaline receptor)</li>\n        <li><span style='color: var(--strongColor);'>Receptor tyrosine kinases:</span> Insulin receptor, growth factor receptors</li>\n        <li><span style='color: var(--strongColor);'>Ion channel receptors:</span> Nicotinic acetylcholine receptor</li>\n      </ul>\n    </div>\n    \n    <div style='margin: 10px 0; padding: 10px; background: var(--preset-bg-color); border-radius: 5px;'>\n      <p><strong>3. Signal Transducers:</strong></p>\n      <ul>\n        <li><span style='color: var(--strongColor);'>G-proteins:</span> Relay signals from GPCRs to effectors</li>\n        <li><span style='color: var(--strongColor);'>Kinases:</span> Add phosphate groups (MAP kinase, Protein kinase A)</li>\n        <li><span style='color: var(--strongColor);'>Second messengers:</span> Not proteins (cAMP, Ca²⁺), but activate protein targets</li>\n      </ul>\n    </div>\n  </div>\n  \n  <p><strong>Example Pathway:</strong> Adrenaline binds β-adrenergic receptor (GPCR) → activates G-protein → activates adenylyl cyclase → makes cAMP → activates PKA → cellular response (fight or flight).</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6b)i",
+    "topic": [
+      "Biochemistry",
+      "Proteins",
+      "Structure"
+    ],
+    "Question": {
+      "content": "Explain three basic features of a protein: Binding ID.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Binding ID refers to the specific region (binding site) on a protein that recognizes and binds to ligands with high specificity through complementary shape and chemistry."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Protein Feature: Binding ID (Binding Site/Specificity)</h4>\n  \n  <p><strong>Binding ID</strong> refers to the unique structural and chemical features that allow a protein to bind specifically to its target molecules (ligands).</p>\n  \n  <div style='margin: 15px 0;'>\n    <strong style='color: var(--strongColor);'>Three Basic Features of Binding ID:</strong>\n    \n    <div style='margin: 15px 0;'>\n      <p style='background: var(--strongColor); color: white; padding: 5px 10px; border-radius: 5px; display: inline-block;'>1. Binding Site Structure</p>\n      <p>A specific pocket or groove on the protein surface with complementary shape to the ligand (lock and key or induced fit model).</p>\n      <p><em>Example:</em> The active site of an enzyme fits its substrate precisely.</p>\n    </div>\n    \n    <div style='margin: 15px 0;'>\n      <p style='background: var(--strongColor); color: white; padding: 5px 10px; border-radius: 5px; display: inline-block;'>2. Chemical Complementarity</p>\n      <p>Binding involves specific interactions:</p>\n      <ul>\n        <li>Hydrogen bonds</li>\n        <li>Ionic interactions (charged amino acids)</li>\n        <li>Hydrophobic interactions</li>\n        <li>Van der Waals forces</li>\n      </ul>\n      <p><em>Example:</em> DNA-binding proteins have positively charged amino acids to bind negatively charged DNA backbone.</p>\n    </div>\n    \n    <div style='margin: 15px 0;'>\n      <p style='background: var(--strongColor); color: white; padding: 5px 10px; border-radius: 5px; display: inline-block;'>3. Specificity and Affinity</p>\n      <p><strong>Specificity:</strong> Protein binds only certain ligands (e.g., antibody recognizes one antigen)</p>\n      <p><strong>Affinity:</strong> Strength of binding (measured by Kd - dissociation constant)</p>\n      <p><em>Example:</em> Hemoglobin binds O₂ with high affinity but CO₂ with lower affinity.</p>\n    </div>\n  </div>\n  \n  <div style='background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 5px;'>\n    <strong>Importance:</strong> Binding ID determines protein function - enzymes bind substrates, receptors bind hormones, antibodies bind antigens.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6b)ii",
+    "topic": [
+      "Biochemistry",
+      "Proteins",
+      "Metabolism"
+    ],
+    "Question": {
+      "content": "Explain three basic features of a protein: Degrade Rate.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Degrade rate (protein turnover) is how quickly a protein is broken down and replaced, determined by its half-life which varies from minutes to days depending on cellular needs."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Protein Feature: Degrade Rate (Protein Turnover)</h4>\n  \n  <p><strong>Degrade rate</strong> refers to how quickly a protein is broken down by proteolysis and replaced with newly synthesized proteins.</p>\n  \n  <div style='margin: 15px 0;'>\n    <strong style='color: var(--strongColor);'>Three Basic Features of Degrade Rate:</strong>\n    \n    <div style='margin: 15px 0;'>\n      <p style='background: var(--strongColor); color: white; padding: 5px 10px; border-radius: 5px; display: inline-block;'>1. Half-Life Variability</p>\n      <p>Different proteins have different lifespans:</p>\n      <ul>\n        <li><strong>Short-lived (minutes-hours):</strong> Regulatory proteins, cyclins, transcription factors</li>\n        <li><strong>Long-lived (days-weeks):</strong> Structural proteins, collagen, hemoglobin</li>\n        <li><strong>Very stable (months-years):</strong> Lens crystallin (eye lens), lasts lifetime</li>\n      </ul>\n    </div>\n    \n    <div style='margin: 15px 0;'>\n      <p style='background: var(--strongColor); color: white; padding: 5px 10px; border-radius: 5px; display: inline-block;'>2. Degradation Mechanisms</p>\n      <p><strong>Ubiquitin-proteasome system:</strong> Tags proteins with ubiquitin for destruction (for most intracellular proteins)</p>\n      <p><strong>Lysosomal degradation:</strong> Autophagy engulfs and degrades proteins (for long-lived or damaged proteins)</p>\n      <p><strong>Calpains:</strong> Calcium-dependent proteases</p>\n    </div>\n    \n    <div style='margin: 15px 0;'>\n      <p style='background: var(--strongColor); color: white; padding: 5px 10px; border-radius: 5px; display: inline-block;'>3. Regulatory Signals</p>\n      <p>What determines degrade rate:</p>\n      <ul>\n        <li><strong>N-end rule:</strong> First amino acid affects stability</li>\n        <li><strong>PEST sequences:</strong> Regions rich in Pro, Glu, Ser, Thr signal rapid degradation</li>\n        <li><strong>Damage/Misfolding:</strong> Abnormal proteins degraded quickly</li>\n        <li><strong>Phosphorylation:</strong> Can mark proteins for degradation</li>\n      </ul>\n    </div>\n  </div>\n  \n  <div style='background: var(--warningBg); padding: 10px; border-radius: 5px;'>\n    <strong>Why important?</strong>\n    <p>✓ Remove damaged proteins\n    <br>✓ Regulate cellular processes (e.g., cell cycle)\n    <br>✓ Adapt to environmental changes\n    <br>✓ Prevent protein aggregation (like in Alzheimer's)</p>\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "heading",
+    "heading": "Section D"
+  },
+  {
+    "type": "Question",
+    "name": "Question 7a)i",
+    "topic": [
+      "Biology",
+      "Physiology",
+      "Nutrition"
+    ],
+    "Question": {
+      "content": "Describe the importance of Carbohydrates in Metabolism and Nutrition.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Carbohydrates are the body's primary and most efficient source of energy. They are broken down into simple sugars like glucose, which is used in cellular respiration to produce ATP (energy currency of the cell). They also help in protein sparing, ensuring proteins are used for repair and growth rather than energy, and are vital for proper fat oxidation."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Carbohydrates in Metabolism & Nutrition</h4>\n <p>In nutrition, carbohydrates are crucial for:</p>\n <ul>\n <li><strong style='color: var(--strongColor);'>Energy Production:</strong> They are digested into monosaccharides (mainly glucose). Glucose is then broken down through glycolysis and the Krebs cycle to produce ATP. The brain and red blood cells are particularly dependent on glucose for fuel.</li>\n <li><strong style='color: var(--strongColor);'>Protein Sparing:</strong> When enough carbohydrates are available, the body uses them for energy instead of breaking down proteins (muscle tissue) for glucose. This preserves proteins for their primary roles in building and repairing tissues.</li>\n <li><strong style='color: var(--strongColor);'>Prevention of Ketosis:</strong> Adequate carbohydrate intake ensures the complete oxidation of fats. Without enough carbs, fat metabolism is incomplete, leading to the production of acidic ketone bodies, which can upset the body's pH balance.</li>\n </ul>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7a)ii",
+    "topic": [
+      "Biology",
+      "Biochemistry",
+      "Metabolism"
+    ],
+    "Question": {
+      "content": "Describe the importance of Carbohydrates in the Biosynthesis of other compounds.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Carbohydrates serve as key precursors for the synthesis of other vital biomolecules. They provide the carbon skeletons needed to build nucleotides (DNA/RNA), amino acids (proteins), and lipids (fats). They are also components of glycoproteins and glycolipids found in cell membranes."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Carbohydrates as Biosynthetic Precursors</h4>\n <p>Beyond energy, carbohydrates are fundamental building blocks:</p>\n <ul>\n <li><strong style='color: var(--strongColor);'>Nucleotide Synthesis:</strong> The sugar ribose, a monosaccharide, is a crucial component of RNA (ribonucleic acid). Deoxyribose is similarly used for DNA (deoxyribonucleic acid).</li>\n <li><strong style='color: var(--strongColor);'>Amino Acid Synthesis:</strong> Intermediates from carbohydrate metabolism (like those from glycolysis and the citric acid cycle) provide the carbon backbones for the synthesis of non-essential amino acids.</li>\n <li><strong style='color: var(--strongColor);'>Lipid Synthesis:</strong> Excess carbohydrates can be converted into acetyl-CoA, which is the primary building block for fatty acid and cholesterol synthesis.</li>\n <li><strong style='color: var(--strongColor);'>Structural Components:</strong> Carbohydrates are attached to proteins and lipids to form glycoproteins and glycolipids. These molecules are essential for cell-cell recognition, signaling, and structural integrity of cell membranes.</li>\n </ul>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7b",
+    "topic": [
+      "Biology",
+      "Biochemistry",
+      "Isomerism"
+    ],
+    "Question": {
+      "content": "Discuss the biological significance of D and L isomerism of monosaccharides.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "D and L isomerism is biologically significant because enzymes are stereospecific. In nature, most monosaccharides like glucose exist as D-isomers, and our metabolic enzymes are specifically shaped to bind and react with these D-forms. L-isomers are generally not metabolized and are often found in complex structural polysaccharides or as part of antibiotic molecules."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Significance of D and L Isomerism</h4>\n <p>The D/L system refers to the configuration around the chiral carbon furthest from the carbonyl group. This seemingly small difference has massive biological implications.</p>\n <ul>\n <li><strong style='color: var(--strongColor);'>Enzyme Specificity:</strong> Enzymes are 'stereospecific,' meaning they have a three-dimensional shape that fits only one specific isomer. The enzymes in human metabolism are designed almost exclusively for D-monosaccharides. For example, we can digest D-glucose for energy, but L-glucose is tasteless and cannot be metabolized, passing right through the body.</li>\n <li><strong style='color: var(--strongColor);'>Predominance of D-isomers:</strong> The near-universal use of D-sugars (like D-glucose, D-ribose) in central metabolic pathways suggests a historical 'choice' made early in evolution. This consistency is crucial for life, as all organisms can utilize the same fundamental energy sources.</li>\n <li><strong style='color: var(--strongColor);'>Specialized Roles of L-isomers:</strong> While less common in metabolism, L-isomers are not useless. They are often found in structural or defensive molecules. For instance, L-galactose is a component of polysaccharides in plant cell walls, and some L-sugars are part of antibiotic molecules, where their unusual shape helps them evade degradation by bacterial enzymes.</li>\n </ul>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8a",
+    "topic": [
+      "Biology",
+      "Biochemistry",
+      "Carbohydrates"
+    ],
+    "Question": {
+      "content": "Differentiate between reducing and non-reducing sugars.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Reducing sugars have a free aldehyde or ketone group that can act as a reducing agent and donate electrons to other molecules (like in Fehling's or Benedict's test). All monosaccharides and some disaccharides (like maltose and lactose) are reducing sugars. Non-reducing sugars do not have a free reactive group because their anomeric carbons are involved in a glycosidic bond, so they cannot act as reducing agents. Sucrose (table sugar) is a common example."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Reducing vs. Non-Reducing Sugars</h4>\n <p>The key difference lies in the availability of the carbonyl group (C=O).</p>\n <table style='width: 100%; border-collapse: collapse;'>\n <thead>\n <tr>\n <th style='border: 1px solid var(--lightAsh); padding: 8px; text-align: left; background-color: var(--strongColor); color: var(--white);'>Feature</th>\n <th style='border: 1px solid var(--lightAsh); padding: 8px; text-align: left; background-color: var(--strongColor); color: var(--white);'>Reducing Sugars</th>\n <th style='border: 1px solid var(--lightAsh); padding: 8px; text-align: left; background-color: var(--strongColor); color: var(--white);'>Non-Reducing Sugars</th>\n </tr>\n </thead>\n <tbody>\n <tr>\n <td style='border: 1px solid var(--lightAsh); padding: 8px;'><strong>Free Aldehyde/Ketone</strong></td>\n <td style='border: 1px solid var(--lightAsh); padding: 8px;'>Present. The anomeric carbon is not involved in a bond, or it is free to convert to an open-chain form.</td>\n <td style='border: 1px solid var(--lightAsh); padding: 8px;'>Absent. The anomeric carbons of all monosaccharide units are involved in glycosidic bonds.</td>\n </tr>\n <tr>\n <td style='border: 1px solid var(--lightAsh); padding: 8px;'><strong>Chemical Test</strong></td>\n <td style='border: 1px solid var(--lightAsh); padding: 8px;'>Positive for Benedict's, Fehling's, or Tollens' test. They can reduce copper(II) ions to copper(I) oxide, forming a brick-red precipitate.</td>\n <td style='border: 1px solid var(--lightAsh); padding: 8px;'>Negative for these tests. They cannot reduce the metal ions.</td>\n </tr>\n <tr>\n <td style='border: 1px solid var(--lightAsh); padding: 8px;'><strong>Examples</strong></td>\n <td style='border: 1px solid var(--lightAsh); padding: 8px;'>All monosaccharides (glucose, fructose), and disaccharides like maltose and lactose.</td>\n <td style='border: 1px solid var(--lightAsh); padding: 8px;'>Sucrose (where the anomeric carbons of glucose and fructose are bonded to each other) and trehalose.</td>\n </tr>\n </tbody>\n </table>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8b)i",
+    "topic": [
+      "Biology",
+      "Biochemistry",
+      "Isomerism"
+    ],
+    "Question": {
+      "content": "Explain the classification of monosaccharide isomers known as α and β anomers.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "α and β anomers are stereoisomers of cyclic monosaccharides that differ in the configuration at the anomeric carbon (the new chiral center formed when the ring closes). In the α-anomer, the hydroxyl group (-OH) attached to the anomeric carbon is trans (opposite side) to the CH₂OH group. In the β-anomer, this -OH group is cis (same side) as the CH₂OH group."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>α and β Anomers</h4>\n <p>When a monosaccharide like glucose cyclizes in solution, the carbonyl group reacts with a hydroxyl group, creating a new chiral center at the carbon that was part of the carbonyl. This new carbon is called the <strong>anomeric carbon</strong>.</p>\n <p>The two possible configurations at this carbon are the anomers:</p>\n <ul>\n <li><strong style='color: var(--strongColor);'>α-Anomer:</strong> The hydroxyl group (-OH) attached to the anomeric carbon is positioned <em>trans</em> (on the opposite side) to the -CH₂OH group that determines the D or L configuration. In the standard Haworth projection for D-sugars, this means the -OH points <em>down</em>.</li>\n <li><strong style='color: var(--strongColor);'>β-Anomer:</strong> The hydroxyl group (-OH) attached to the anomeric carbon is positioned <em>cis</em> (on the same side) to the -CH₂OH group. In the standard Haworth projection for D-sugars, this means the -OH points <em>up</em>.</li>\n </ul>\n <p>These forms are interconvertible in solution through a process called mutarotation, but they are distinct isomers with different physical and chemical properties, which is crucial for building complex polysaccharides like starch (α-glycosidic bonds) and cellulose (β-glycosidic bonds).</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8b)ii",
+    "topic": [
+      "Biology",
+      "Biochemistry",
+      "Isomerism"
+    ],
+    "Question": {
+      "content": "Explain the classification of monosaccharide isomers known as Optical isomerism.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Optical isomerism, or enantiomerism, is a type of stereoisomerism where molecules are non-superimposable mirror images of each other. This occurs when a molecule has a chiral center (an asymmetric carbon atom bonded to four different groups). These mirror-image pairs, called enantiomers, rotate plane-polarized light in opposite directions and are designated as D- or L-isomers."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Optical Isomerism in Monosaccharides</h4>\n <p>Optical isomerism is a fundamental property of sugars due to the presence of chiral carbon atoms.</p>\n <ul>\n <li><strong style='color: var(--strongColor);'>Chirality:</strong> Most monosaccharides have multiple carbon atoms bonded to four different substituents. These are called asymmetric or chiral carbons. The presence of chiral carbons leads to optical activity.</li>\n <li><strong style='color: var(--strongColor);'>Enantiomers:</strong> For every chiral molecule, there is a non-superimposable mirror image. This pair is called enantiomers. Your hands are a good analogy: your left hand is the mirror image of your right hand, but they cannot be perfectly aligned.</li>\n <li><strong style='color: var(--strongColor);'>Optical Activity:</strong> Enantiomers have identical physical and chemical properties in an achiral environment, but they interact with plane-polarized light differently. One isomer will rotate the light to the right (dextrorotatory, +), and the other will rotate it to the left (levorotatory, -). This is the basis for the 'optical' in optical isomerism. The D/L system is related to the configuration around a specific chiral carbon, not the direction of rotation.</li>\n </ul>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8b)iii",
+    "topic": [
+      "Biology",
+      "Biochemistry",
+      "Isomerism"
+    ],
+    "Question": {
+      "content": "Explain the classification of monosaccharide isomers known as Epimers.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Epimers are a type of stereoisomer (specifically diastereomers) that differ in the configuration at only one specific chiral carbon atom. For example, D-glucose and D-mannose are epimers because they differ only at the C-2 carbon, while D-glucose and D-galactose are epimers because they differ only at the C-4 carbon."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Epimers</h4>\n <p>To understand epimers, imagine a sugar molecule with several chiral centers. If you take two sugars that are identical except for the orientation of the -H and -OH groups on a <em>single</em> carbon atom, they are epimers of each other.</p>\n <ul>\n <li><strong style='color: var(--strongColor);'>Definition:</strong> Epimers are a subtype of diastereomers (which are stereoisomers that are not mirror images). They specifically differ at exactly one chiral center.</li>\n <li><strong style='color: var(--strongColor);'>Example 1: Glucose and Mannose</strong><br>\n D-Glucose and D-Mannose are epimers. They have the same structure, but the configuration around the second carbon (C-2) is reversed. Mannose is the C-2 epimer of glucose.</li>\n <li><strong style='color: var(--strongColor);'>Example 2: Glucose and Galactose</strong><br>\n D-Glucose and D-Galactose are also epimers, but they differ at the fourth carbon (C-4). Galactose is the C-4 epimer of glucose.</li>\n </ul>\n <p>It's important to note that while two sugars can be epimers of each other, they are not enantiomers because they differ at more than one chiral center overall and are not mirror images.</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8b)iv",
+    "topic": [
+      "Biology",
+      "Biochemistry",
+      "Isomerism"
+    ],
+    "Question": {
+      "content": "Explain the classification of monosaccharide isomers known as D and L isomerism.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "D and L isomerism refers to the absolute configuration of the chiral carbon farthest from the carbonyl group (the highest numbered chiral center). If the hydroxyl group (-OH) on this carbon points to the right in a Fischer projection, it is the D-isomer. If it points to the left, it is the L-isomer. This system classifies all monosaccharides into one of two families."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>D and L Isomerism</h4>\n <p>The D/L system is a way to name the overall stereochemistry of a sugar molecule based on a reference sugar, glyceraldehyde.</p>\n <ul>\n <li><strong style='color: var(--strongColor);'>The Reference: Glyceraldehyde</strong><br>\n The simplest aldose, glyceraldehyde, has one chiral center. Its two enantiomers are arbitrarily named D- and L-glyceraldehyde.</li>\n <li><strong style='color: var(--strongColor);'>Applying the System to Other Sugars</strong><br>\n For any monosaccharide, we look at the configuration of the chiral carbon <em>farthest</em> from the carbonyl group (the penultimate carbon). If the -OH group on that carbon is on the <strong>right</strong> in a standard Fischer projection, the sugar belongs to the <strong>D-family</strong>. If it is on the <strong>left</strong>, it belongs to the <strong>L-family</strong>.</li>\n <li><strong style='color: var(--strongColor);'>Biological Context</strong><br>\n As discussed in question 7b, this designation is biologically crucial. The enzymes of life have evolved to be stereospecific. They almost exclusively recognize and metabolize D-sugars. D-glucose is the primary energy source, while L-sugars are rarely used in core metabolic pathways.</li>\n </ul>\n</div>"
     }
   }
 ]

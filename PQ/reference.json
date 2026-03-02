@@ -97,7 +97,7 @@
 {
  "type": "img",
  "alt": "an image",
- "url": "./icon.png",
+ "content": "./icon.png",
  "Caption": "example image",
  "topic": "the value will a string or an array"
 }
