@@ -1,6 +1,5 @@
 [
-
-{
+  {
     "type": "pageInfo",
     "kind": "subjective",
     "course_title": "General Biohemistry I",
@@ -9,20 +8,13 @@
     "topics": [],
     "time": "90"
   },
-  
-  
   {
     "type": "Instruction",
     "content": "Answer all Questions"
   },
-  
-  
   {
     "type": "heading",
     "heading": "Section A"
   }
-  
-  
-  
   
 ]
