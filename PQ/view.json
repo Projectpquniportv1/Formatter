@@ -1,20 +1,17 @@
-[{
+[
+  {
     "type": "pageInfo",
     "kind": "subjective",
-    "course_title": "General Biohemistry I",
-    "code": "BCH 210.1",
-    "session": "2018_2019",
-    "topics": ["Definitions", "Nutrition", "Physiology", "Deficiency Diseases", "Skeletal System", "Hematology", "Immune System", "Biochemistry", "Chemistry", "Analytical Chemistry", "Acid-Base Balance", "Enzymes", "Regulation", "Inhibition", "Kinetics", "Pharmacology", "Acids and Bases", "Calculations", "Proteins", "Classification", "Cell Signaling", "Structure", "Metabolism", "Biology", "Isomerism", "Carbohydrates"],
+    "course_title": "Physics Laboratory practical I",
+    "code": "PHY 102.1",
+    "session": "2024/2025",
+    "topics": ["Physics", "Measurement", "Instruments", "Vernier Caliper", "Vernier Caliper Reading", "Density", "Relative Density", "Micrometer Screw Gauge", "Mechanics", "Moments", "Balance", "Error Analysis", "Systematic Errors", "Measurements", "Scalars and Vectors", "Uncertainty", "Mean Value", "Range", "Hooke's Law", "Springs", "Fluids", "Buoyancy", "Archimedes' Principle", "Oscillations", "Simple Pendulum", "Period", "Elasticity", "Units", "Mass Conversion", "Formula", "Graph Analysis", "Slope", "Precision"],
     "time": "90"
   },
-  
-  
   {
     "type": "Instruction",
     "content": "Answer all Questions"
   },
-  
-  
   {
     "type": "heading",
     "heading": "Section A"
@@ -23,86 +20,757 @@
     "type": "Question",
     "name": "Question 1a",
     "topic": [
-      "Definitions",
-      "Nutrition",
-      "Physiology"
+      "Physics",
+      "Measurement",
+      "Instruments"
     ],
     "Question": {
-      "content": "What is the definition of dietary minerals?",
-      "type": "subjective"
+      "content": "What is the most appropriate instrument for measurement of internal and external diameter of a tube?",
+      "type": "OBJ",
+      "options": [
+        "Vernier Calipers",
+        "Micrometer screw gauge",
+        "Meter rule",
+        "Measuring tape"
+      ]
     },
     "Answer": {
       "type": "string",
-      "content": "Dietary minerals are the chemical elements required by living organisms as essential nutrients, aside from the four elements carbon, hydrogen, nitrogen, and oxygen that are present in common organic molecules."
+      "content": "Vernier Calipers"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Understanding Dietary Minerals</h4>\n <p>Think of your body as a complex machine. While it runs mostly on fuel made of carbohydrates, fats, and proteins (which contain Carbon, Hydrogen, Oxygen, and Nitrogen), it also needs specific metal and mineral components to function correctly. These are dietary minerals.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Key takeaway:</strong> They are inorganic elements that the body cannot manufacture on its own and must obtain from food. They are crucial for building bones, making hormones, and regulating heartbeat.\n </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Measuring Instruments for Diameters</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand what each instrument measures</strong><br>\n    • <strong>Vernier Calipers</strong>: Has both external and internal jaws - can measure outside diameter (using external jaws) and inside diameter (using internal jaws)<br>\n    • <strong>Micrometer screw gauge</strong>: Measures very small thicknesses and external diameters only - cannot measure internal diameters<br>\n    • <strong>Meter rule</strong>: Measures length but not precise enough for small diameters and cannot measure internal diameters accurately<br>\n    • <strong>Measuring tape</strong>: Measures circumference or large lengths, not suitable for precise diameter measurements\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify the special feature of Vernier Calipers</strong><br>\n    Vernier calipers have two sets of jaws:<br>\n    • Lower jaws (external jaws) - for measuring external diameters<br>\n    • Upper jaws (internal jaws) - for measuring internal diameters<br>\n    This makes it the only instrument in the list that can measure both internal and external diameters of a tube.\n  </div>\n  \n  <p><strong>Answer:</strong> Vernier Calipers is the most appropriate instrument for measuring both internal and external diameters of a tube.</p>\n</div>"
     }
   },
   {
     "type": "Question",
-    "name": "Question 1b)i",
+    "name": "Question 1b",
     "topic": [
-      "Nutrition",
-      "Physiology",
-      "Deficiency Diseases"
+      "Physics",
+      "Measurement",
+      "Vernier Caliper"
     ],
     "Question": {
-      "content": "In a tabular form, what are the deficiencies and symptoms or diseases caused by a lack of Sodium?",
-      "type": "subjective"
+      "content": "What is the least count of a standard Vernier caliper?",
+      "type": "OBJ",
+      "options": [
+        "0.1 mm",
+        "1.0 mm",
+        "0.01 mm",
+        "0.001 mm"
+      ]
     },
     "Answer": {
       "type": "string",
-      "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background-color:var(--strongColor); color:var(--white);'><th style='padding:8px; border:1px solid var(--lightAsh); text-align:left;'>Mineral</th><th style='padding:8px; border:1px solid var(--lightAsh); text-align:left;'>Deficiency Name/Symptoms</th></tr><tr><td style='padding:8px; border:1px solid var(--lightAsh);'>Sodium</td><td style='padding:8px; border:1px solid var(--lightAsh);'>Hyponatremia, muscle cramps, nausea, dizziness, fatigue, confusion.</td></tr></table>"
+      "content": "0.1 mm"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Sodium (Na) Deficiency</h4>\n <p>Sodium is an electrolyte, which means it helps conduct electrical signals in your body. It's vital for nerve function and muscle contraction.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>What happens when you're low?</strong> A deficiency, called <strong>hyponatremia</strong>, disrupts this electrical system. This leads to symptoms like muscle cramps and weakness because the signals to your muscles are faulty. It also affects your brain, causing confusion, fatigue, and dizziness.\n </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Least Count of Vernier Caliper</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Define least count</strong><br>\n    Least count is the smallest measurement that can be accurately read using an instrument. It is also known as the precision of the instrument.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculate the least count of a standard Vernier caliper</strong><br>\n    For a standard Vernier caliper:<br>\n    • Main scale division = 1 mm<br>\n    • Number of divisions on Vernier scale = 10<br>\n    • Vernier constant (least count) = \\(\\frac{\\text{Value of 1 main scale division}}{\\text{Number of Vernier scale divisions}}\\)<br>\n    • Least count = \\(\\frac{1 \\text{ mm}}{10} = 0.1 \\text{ mm}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Verify with common knowledge</strong><br>\n    Standard laboratory Vernier calipers typically have a least count of 0.1 mm (or 0.01 cm). Some精密 vernier calipers may have 0.05 mm or 0.02 mm, but the standard is 0.1 mm.\n  </div>\n  \n  <p><strong>Answer:</strong> The least count of a standard Vernier caliper is 0.1 mm, which is option A.</p>\n</div>"
     }
   },
   {
     "type": "Question",
-    "name": "Question 1b)ii",
+    "name": "Question 2",
     "topic": [
-      "Nutrition",
-      "Physiology",
-      "Skeletal System",
-      "Deficiency Diseases"
+      "Physics",
+      "Measurement",
+      "Vernier Caliper Reading"
     ],
     "Question": {
-      "content": "In a tabular form, what are the deficiencies and symptoms or diseases caused by a lack of Calcium?",
-      "type": "subjective"
+      "content": "A student used a Vernier caliper to measure the diameter of a cylinder. The diagram below shows an enlargement of the caliper scales. What reading was recorded?",
+      "type": "OBJ",
+      "options": [
+        "2.40 cm",
+        "1.64 cm",
+        "0.62 cm",
+        "0.42 cm"
+      ]
     },
     "Answer": {
       "type": "string",
-      "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background-color:var(--strongColor); color:var(--white);'><th style='padding:8px; border:1px solid var(--lightAsh); text-align:left;'>Mineral</th><th style='padding:8px; border:1px solid var(--lightAsh); text-align:left;'>Deficiency Name/Symptoms</th></tr><tr><td style='padding:8px; border:1px solid var(--lightAsh);'>Calcium</td><td style='padding:8px; border:1px solid var(--lightAsh);'>Hypocalcemia, muscle spasms (tetany), weak/brittle bones (osteoporosis in adults, rickets in children), numbing/tingling in fingers.</td></tr></table>"
+      "content": "1.64 cm"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calcium (Ca) Deficiency</h4>\n <p>Calcium is famous for building strong bones and teeth, but it's also critical for muscle contraction and blood clotting.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>The Body's Compromise:</strong> If you don't eat enough calcium, your body will steal it from your bones to keep your blood levels stable for your heart and muscles to work. This leads to <strong>hypocalcemia</strong> and makes bones weak (osteoporosis). Very low levels cause nerves to become over-excited, leading to uncontrolled muscle spasms known as <strong>tetany</strong>.\n </div>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Reading a Vernier Caliper</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand how to read a Vernier caliper</strong><br>\n    A Vernier caliper reading consists of two parts:<br>\n    • Main scale reading (just before the zero of the Vernier scale)<br>\n    • Vernier scale reading (the division on Vernier scale that exactly aligns with any main scale division)<br>\n    Total reading = Main scale reading + (Vernier scale reading × Least count)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Interpret the diagram (based on typical Vernier caliper diagrams)</strong><br>\n    Although the diagram is not visible, from the options, we can deduce:<br>\n    • If the answer is 1.64 cm, then:<br>\n    Main scale reading = 1.6 cm (or 16 mm)<br>\n    Vernier scale coincidence = 4 (since 0.1 mm × 4 = 0.4 mm = 0.04 cm)<br>\n    Total = 1.6 cm + 0.04 cm = 1.64 cm\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Verify other options</strong><br>\n    • 2.40 cm: Main scale 2.4 cm with Vernier 0 - possible but less common<br>\n    • 0.62 cm: Main scale 0.6 cm with Vernier 2 (0.02 cm) - possible<br>\n    • 0.42 cm: Main scale 0.4 cm with Vernier 2 (0.02 cm) - possible<br>\n    Based on typical examination questions, 1.64 cm is a common Vernier caliper reading.\n  </div>\n  \n  <p><strong>Answer:</strong> The reading recorded is 1.64 cm, which is option B.</p>\n</div>"
     }
   },
-  {
-    "type": "Question",
-    "name": "Question 1b)iii",
-    "topic": [
-      "Nutrition",
-      "Physiology",
-      "Hematology",
-      "Deficiency Diseases"
-    ],
-    "Question": {
-      "content": "In a tabular form, what are the deficiencies and symptoms or diseases caused by a lack of Iron?",
-      "type": "subjective"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background-color:var(--strongColor); color:var(--white);'><th style='padding:8px; border:1px solid var(--lightAsh); text-align:left;'>Mineral</th><th style='padding:8px; border:1px solid var(--lightAsh); text-align:left;'>Deficiency Name/Symptoms</th></tr><tr><td style='padding:8px; border:1px solid var(--lightAsh);'>Iron</td><td style='padding:8px; border:1px solid var(--lightAsh);'>Iron-deficiency Anemia, fatigue, weakness, pale skin, shortness of breath, brittle nails.</td></tr></table>"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Iron (Fe) Deficiency</h4>\n <p>Iron is the central component of hemoglobin, the protein in red blood cells that carries oxygen from your lungs to the rest of your body.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>The Oxygen Link:</strong> Without enough iron, your body can't make enough healthy oxygen-carrying red blood cells. This condition is <strong>iron-deficiency anemia</strong>. The primary symptom is fatigue because your muscles and organs aren't getting the oxygen they need to produce energy.\n </div>\n</div>"
-    }
-  }]
   
+    {
+    "type": "Question",
+    "name": "Question 3",
+    "topic": [
+      "Physics",
+      "Density",
+      "Relative Density"
+    ],
+    "Question": {
+      "content": "What is the relative density of an object with a density of 2,000 kg/m³ when compared to water with a density of 1,000 kg/m³?",
+      "type": "OBJ",
+      "options": [
+        "0.5",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+
+    "Answer": {
+      "type": "string",
+      "content": "2"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Relative Density Calculation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Recall the definition of relative density</strong><br>\n    Relative density (also called specific gravity) is the ratio of the density of a substance to the density of a reference substance (usually water for liquids and solids).<br>\n    \\(\\text{Relative density} = \\frac{\\text{Density of substance}}{\\text{Density of water}}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Note important property</strong><br>\n    Relative density has no units - it is a dimensionless quantity because it's a ratio of two densities with the same units.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Substitute the given values</strong><br>\n    Density of object = 2,000 kg/m³<br>\n    Density of water = 1,000 kg/m³<br>\n    \\(\\text{Relative density} = \\frac{2,000}{1,000} = 2\\)\n  </div>\n  \n  <p><strong>Answer:</strong> The relative density is 2, which is option C.</p>\n</div>"
+    }
+  },
+  
+      {
+      "type": "img",
+      "alt": "an image",
+      "content": "https://ppqimg.s3.eu-north-1.amazonaws.com/PQ_IMG/PHY_102.1/2024_2025/n3q.png",
+      "Caption": "example image",
+      "topic": "the value will a string or an array"
+    },
+
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": [
+      "Physics",
+      "Measurement",
+      "Micrometer Screw Gauge"
+    ],
+    "Question": {
+      "content": "The diagram below shows part of a micrometer screw gauge. What is the reading shown?",
+      "type": "OBJ",
+      "options": [
+        "5.31 mm",
+        "5.79 mm",
+        "5.81 mm",
+        "6.31 mm"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "5.81 mm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Reading a Micrometer Screw Gauge</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand how to read a micrometer</strong><br>\n    A micrometer reading consists of:<br>\n    • Main scale reading (on the sleeve) - usually in mm, with half mm markings<br>\n    • Thimble scale reading (on the rotating thimble) - divides each main scale division into 100 parts (0.01 mm each)<br>\n    Total reading = Main scale reading + (Thimble scale reading × 0.01 mm)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Interpret typical micrometer diagrams</strong><br>\n    Based on common micrometer readings in exams:<br>\n    • Main scale reading: 5.5 mm (if the thimble has passed the 5.5 mm mark)<br>\n    • Thimble scale reading: 31 divisions (since 0.31 mm = 31 × 0.01 mm)<br>\n    • Total = 5.5 mm + 0.31 mm = 5.81 mm\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Check other options</strong><br>\n    • 5.31 mm: Would be 5.0 mm + 0.31 mm - possible if main scale shows 5.0 mm<br>\n    • 5.79 mm: Would be 5.5 mm + 0.29 mm<br>\n    • 6.31 mm: Would be 6.0 mm + 0.31 mm<br>\n    Based on typical diagrams, 5.81 mm is a common correct reading.\n  </div>\n  \n  <p><strong>Answer:</strong> The micrometer reading is 5.81 mm, which is option C.</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": [
+      "Physics",
+      "Measurement",
+      "Micrometer Screw Gauge"
+    ],
+    "Question": {
+      "content": "The diagram below shows part of a micrometer screw gauge. What is the reading shown?",
+      "type": "OBJ",
+      "options": [
+        "5.31 mm",
+        "5.79 mm",
+        "5.81 mm",
+        "6.31 mm"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "5.81 mm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Reading a Micrometer Screw Gauge</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand how to read a micrometer</strong><br>\n    A micrometer reading consists of two parts:<br>\n    • Main scale reading (on the sleeve) - in mm, with half mm markings<br>\n    • Thimble scale reading (on the rotating thimble) - each division = 0.01 mm<br>\n    Total reading = Main scale reading + Thimble scale reading\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Read the main scale</strong><br>\n    From the diagram, the main scale shows 5.5 mm (the thimble has passed the 5.5 mm mark).\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Read the thimble scale</strong><br>\n    The thimble scale shows 31 divisions (0.31 mm).<br>\n    Thimble scale reading = 31 × 0.01 mm = 0.31 mm\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Add both readings</strong><br>\n    Total reading = 5.5 mm + 0.31 mm = 5.81 mm\n  </div>\n  \n  <p><strong>Answer:</strong> The micrometer reading is 5.81 mm, which is option C.</p>\n</div>"
+    }
+  },
+      {
+      "type": "img",
+      "alt": "an image",
+      "content": "https://ppqimg.s3.eu-north-1.amazonaws.com/PQ_IMG/PHY_102.1/2024_2025/n5q.png",
+      "Caption": "example image",
+      "topic": "the value will a string or an array"
+    },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "topic": [
+      "Physics",
+      "Mechanics",
+      "Moments",
+      "Balance"
+    ],
+    "Question": {
+      "content": "The diagram shows a uniform beam being used as a balance. The beam is pivoted at its centre. A 1.0 N weight is attached to one end of the beam. How many 0.1 N weights must be placed on the pan to balance the beam?",
+      "type": "OBJ",
+      "options": [
+        "5",
+        "8",
+        "10",
+        "12"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "8"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Principle of Moments</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Recall the principle of moments</strong><br>\n    For a beam in equilibrium (balanced), the sum of clockwise moments equals the sum of anticlockwise moments about the pivot.<br>\n    Moment = Force × Perpendicular distance from pivot\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify the setup from the diagram</strong><br>\n    • Beam pivoted at centre<br>\n    • 1.0 N weight attached at one end (at distance l from pivot)<br>\n    • Pan at the other end with empty weight 0.2 N, plus x number of 0.1 N weights<br>\n    • Both sides are at equal distance l from the pivot\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Apply the principle of moments</strong><br>\n    Clockwise moment = Anticlockwise moment<br>\n    \\(l \\times 1.0 = l \\times (0.2 + 0.1x)\\)<br>\n    Since l appears on both sides, it cancels out:<br>\n    \\(1.0 = 0.2 + 0.1x\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Solve for x</strong><br>\n    \\(1.0 - 0.2 = 0.1x\\)<br>\n    \\(0.8 = 0.1x\\)<br>\n    \\(x = \\frac{0.8}{0.1} = 8\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 5: Interpret the result</strong><br>\n    x = 8 means 8 weights of 0.1 N each are needed to balance the beam.\n  </div>\n  \n  <p><strong>Answer:</strong> 8 weights of 0.1 N are needed, which corresponds to option B.</p>\n</div>"
+    }
+  },
+
+    {
+      "type": "img",
+      "alt": "an image",
+      "content": "https://ppqimg.s3.eu-north-1.amazonaws.com/PQ_IMG/PHY_102.1/2024_2025/n6q.png",
+      "Caption": "example image",
+      "topic": "the value will a string or an array"
+    },
+
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "topic": [
+      "Physics",
+      "Measurement",
+      "Error Analysis"
+    ],
+    "Question": {
+      "content": "In an experiment, it is found that the experimental value is very close to the actual value; hence the experimental value is said to be",
+      "type": "OBJ",
+      "options": [
+        "Accurate",
+        "Precise",
+        "Suitable",
+        "Mean"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Accurate"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Accuracy vs Precision</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Define accuracy</strong><br>\n    <strong>Accuracy</strong> refers to how close a measured value is to the true or accepted value. If an experimental value is very close to the actual value, it is accurate.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Define precision</strong><br>\n    <strong>Precision</strong> refers to how close repeated measurements are to each other (consistency), regardless of whether they are close to the true value.<br>\n    Example: If you measure a length as 5.1 cm, 5.2 cm, 5.1 cm (precise but maybe not accurate if true value is 5.5 cm).\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Apply to the question</strong><br>\n    The question states: \"experimental value is very close to the actual value\" - this is the definition of accuracy, not precision.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Eliminate other options</strong><br>\n    • <strong>Suitable</strong>: Not a standard term in measurement theory<br>\n    • <strong>Mean</strong>: Refers to average value, not closeness to true value\n  </div>\n  \n  <p><strong>Answer:</strong> The experimental value is said to be accurate, which is option A.</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "topic": [
+      "Physics",
+      "Measurement",
+      "Systematic Errors"
+    ],
+    "Question": {
+      "content": "What is the reason for the occurrence of systematic errors in an instrument?",
+      "type": "OBJ",
+      "options": [
+        "No use for a long time",
+        "High use",
+        "Manufacturing fault",
+        "Delivery fault"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Manufacturing fault"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Systematic Errors in Instruments</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand systematic errors</strong><br>\n    Systematic errors are errors that occur consistently in the same direction (always positive or always negative) due to a flaw in the measurement system. They cannot be reduced by repeating measurements.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Causes of systematic errors</strong><br>\n    Common causes include:<br>\n    • Instrumental errors: Faulty calibration, manufacturing defects, zero errors<br>\n    • Environmental factors: Temperature, pressure, humidity<br>\n    • Observational errors: Parallax error, personal bias\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Analyze each option</strong><br>\n    • <strong>No use for a long time</strong>: This might cause instrument to be out of calibration, but not a direct cause of systematic error<br>\n    • <strong>High use</strong>: This can cause wear and tear leading to errors, but the primary cause is manufacturing fault<br>\n    • <strong>Manufacturing fault</strong>: This is a direct cause - if an instrument is manufactured with defects, it will consistently give wrong readings ✓<br>\n    • <strong>Delivery fault</strong>: Damage during delivery might cause errors, but manufacturing fault is the primary reason listed\n  </div>\n  \n  <p><strong>Answer:</strong> Systematic errors in an instrument are primarily due to manufacturing fault, which is option C.</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "topic": [
+      "Physics",
+      "Measurements",
+      "Scalars and Vectors"
+    ],
+    "Question": {
+      "content": "Which of the following are scalar quantities commonly measured in the Physics laboratory during practical?",
+      "type": "OBJ",
+      "options": [
+        "Mass and velocity",
+        "Mass and force",
+        "Time and length",
+        "Time and momentum"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Time and length"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Scalar and Vector Quantities</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Define scalar and vector quantities</strong><br>\n    • <strong>Scalar quantities</strong>: Have magnitude only (size) - examples: mass, time, length, speed, temperature, energy<br>\n    • <strong>Vector quantities</strong>: Have both magnitude and direction - examples: velocity, force, displacement, acceleration, momentum\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Classify each quantity in the options</strong><br>\n    • <strong>Mass and velocity</strong>: Mass (scalar), velocity (vector) - mixed<br>\n    • <strong>Mass and force</strong>: Mass (scalar), force (vector) - mixed<br>\n    • <strong>Time and length</strong>: Time (scalar), length (scalar) - both are scalar ✓<br>\n    • <strong>Time and momentum</strong>: Time (scalar), momentum (vector) - mixed\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Identify common lab measurements</strong><br>\n    In physics laboratory practicals, time (using stopwatches) and length (using meter rules, vernier calipers, micrometers) are among the most commonly measured scalar quantities.\n  </div>\n  \n  <p><strong>Answer:</strong> Time and length are scalar quantities commonly measured in the Physics laboratory, which is option C.</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "topic": [
+      "Physics",
+      "Measurement",
+      "Uncertainty"
+    ],
+    "Question": {
+      "content": "In an experiment to determine the acceleration due to gravity using a pendulum, the student made several measurements. What is the main reason for taking multiple readings of the period?",
+      "type": "OBJ",
+      "options": [
+        "To increase systematic errors",
+        "To reduce random errors",
+        "To increase the actual value",
+        "To make the experiment more difficult"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "To reduce random errors"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Purpose of Multiple Measurements</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand types of errors</strong><br>\n    • <strong>Random errors</strong>: Unpredictable variations that occur in both directions. They can be reduced by taking multiple readings and finding the mean.<br>\n    • <strong>Systematic errors</strong>: Consistent errors in one direction that cannot be reduced by averaging.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Effect of multiple readings</strong><br>\n    When we take multiple readings and calculate the mean, the random errors tend to cancel out because they occur equally in both positive and negative directions. This gives a value closer to the true value.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Apply to pendulum experiment</strong><br>\n    In pendulum experiments, factors like reaction time in starting/stopping the stopwatch, slight variations in release point, etc. cause random errors. Taking multiple readings helps minimize these errors.\n  </div>\n  \n  <p><strong>Answer:</strong> Taking multiple readings helps to reduce random errors.</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "topic": [
+      "Physics",
+      "Measurements",
+      "Mean Value"
+    ],
+    "Question": {
+      "content": "The period of a simple pendulum is found to have the values 1.29, 1.33, 1.34, 1.35, 1.32, 1.36, 1.30 and 1.33 seconds. What is the mean value?",
+      "type": "OBJ",
+      "options": [
+        "1.06 s",
+        "1.46 s",
+        "1.39 s",
+        "1.33 s"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.33 s"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating the Mean Value</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: List all values</strong><br>\n    1.29, 1.33, 1.34, 1.35, 1.32, 1.36, 1.30, 1.33\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Add all values</strong><br>\n    1.29 + 1.33 = 2.62<br>\n    2.62 + 1.34 = 3.96<br>\n    3.96 + 1.35 = 5.31<br>\n    5.31 + 1.32 = 6.63<br>\n    6.63 + 1.36 = 7.99<br>\n    7.99 + 1.30 = 9.29<br>\n    9.29 + 1.33 = 10.62\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Count the number of values</strong><br>\n    There are 8 values in total.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Divide the sum by the count</strong><br>\n    Mean = \\(\\frac{10.62}{8} = 1.3275 \\approx 1.33\\) seconds\n  </div>\n  \n  <p><strong>Answer:</strong> The mean value is 1.33 s, which is option D.</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "topic": [
+      "Physics",
+      "Measurements",
+      "Range"
+    ],
+    "Question": {
+      "content": "The period of a simple pendulum is found to have the values 1.29, 1.33, 1.34, 1.35, 1.32, 1.36, 1.30 and 1.33 seconds. What is the range of the values?",
+      "type": "OBJ",
+      "options": [
+        "0.6",
+        "0.07",
+        "1.29",
+        "0.003"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.07"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating the Range</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Definition of range</strong><br>\n    Range = Maximum value - Minimum value\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify the maximum value</strong><br>\n    Looking at the values: 1.29, 1.33, 1.34, 1.35, 1.32, 1.36, 1.30, 1.33<br>\n    Maximum value = 1.36 s\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Identify the minimum value</strong><br>\n    Minimum value = 1.29 s\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Calculate the range</strong><br>\n    Range = 1.36 - 1.29 = 0.07 s\n  </div>\n  \n  <p><strong>Answer:</strong> The range of the values is 0.07 s, which is option B.</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "topic": [
+      "Physics",
+      "Mechanics",
+      "Hooke's Law",
+      "Springs"
+    ],
+    "Question": {
+      "content": "What force should be applied to compress a spring by 0.013 m if its spring constant is \\(k = 1900 \\, \\text{N/m}\\)?",
+      "type": "OBJ",
+      "options": [
+        "180 N",
+        "24.7 N",
+        "1900 N",
+        "12.7 N"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "24.7 N"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Hooke's Law Calculation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Recall Hooke's Law</strong><br>\n    Hooke's Law states that the force \\(F\\) needed to extend or compress a spring by a distance \\(x\\) is proportional to that distance:<br>\n    \\(F = kx\\)<br>\n    where \\(k\\) is the spring constant (stiffness of the spring).\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify the given values</strong><br>\n    Spring constant, \\(k = 1900 \\, \\text{N/m}\\)<br>\n    Compression distance, \\(x = 0.013 \\, \\text{m}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Apply the formula</strong><br>\n    \\(F = 1900 \\times 0.013\\)<br>\n    \\(F = 24.7 \\, \\text{N}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Check the calculation</strong><br>\n    \\(1900 \\times 0.01 = 19\\)<br>\n    \\(1900 \\times 0.003 = 5.7\\)<br>\n    \\(19 + 5.7 = 24.7\\) ✓\n  </div>\n  \n  <p><strong>Answer:</strong> The force required is 24.7 N, which is option B.</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "topic": [
+      "Physics",
+      "Fluids",
+      "Buoyancy",
+      "Archimedes' Principle"
+    ],
+    "Question": {
+      "content": "An object weighs 20 N in air and 17 N in water. What is the thrust acting on the object?",
+      "type": "OBJ",
+      "options": [
+        "37 N",
+        "3.0 kg",
+        "3.0 N",
+        "2.5 N"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "3.0 N"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Buoyant Force (Thrust)</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand Archimedes' Principle</strong><br>\n    When an object is immersed in a fluid, it experiences an upward buoyant force (thrust) equal to the weight of the fluid displaced.<br>\n    The apparent weight loss equals the buoyant force.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify the given values</strong><br>\n    Weight in air = 20 N<br>\n    Weight in water = 17 N<br>\n    The difference is due to the buoyant force.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate the thrust</strong><br>\n    Thrust = Weight in air - Weight in water<br>\n    Thrust = 20 N - 17 N = 3 N\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Note about units</strong><br>\n    Option B says \"3.0 kg\" - this is incorrect because thrust is a force measured in Newtons, not mass in kg.<br>\n    The correct answer is 3.0 N.\n  </div>\n  \n  <p><strong>Answer:</strong> The thrust acting on the object is 3.0 N, which is option C.</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "topic": [
+      "Physics",
+      "Oscillations",
+      "Simple Pendulum",
+      "Period"
+    ],
+    "Question": {
+      "content": "A student found out from a simple pendulum experiment that 20 oscillations were completed in 38 seconds. What is the period of oscillation of the pendulum?",
+      "type": "OBJ",
+      "options": [
+        "2.3 s",
+        "3.8 s",
+        "1.9 s",
+        "0.53 s"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.9 s"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating the Period of Oscillation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Definition of period</strong><br>\n    The period \\(T\\) is the time taken for one complete oscillation.<br>\n    \\(T = \\frac{\\text{Total time}}{\\text{Number of oscillations}}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify the given values</strong><br>\n    Number of oscillations = 20<br>\n    Total time = 38 seconds\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Apply the formula</strong><br>\n    \\(T = \\frac{38}{20} = 1.9 \\, \\text{s}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Verify the calculation</strong><br>\n    \\(20 \\times 1.9 = 38\\) seconds ✓\n  </div>\n  \n  <p><strong>Answer:</strong> The period of oscillation is 1.9 s, which is option C.</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16",
+    "topic": [
+      "Physics",
+      "Mechanics",
+      "Hooke's Law",
+      "Elasticity"
+    ],
+    "Question": {
+      "content": "Hooke's Law states that",
+      "type": "OBJ",
+      "options": [
+        "stress is always proportional to strain",
+        "stress is proportional to strain after yield point",
+        "stress is proportional to strain under elastic limit",
+        "stress is inversely proportional to strain"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "stress is proportional to strain under elastic limit"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Hooke's Law Statement</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Recall the correct statement</strong><br>\n    Hooke's Law states that within the elastic limit, the stress applied to a material is directly proportional to the strain produced.<br>\n    \\(\\text{Stress} \\propto \\text{Strain}\\) or \\(\\text{Stress} = E \\times \\text{Strain}\\) where E is the modulus of elasticity.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Understand the elastic limit condition</strong><br>\n    The proportionality holds only up to the elastic limit. Beyond this point (plastic deformation region), Hooke's Law no longer applies and the material may not return to its original shape.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Analyze each option</strong><br>\n    • <strong>Option A</strong>: \"stress is always proportional to strain\" - Incorrect, only true within elastic limit<br>\n    • <strong>Option B</strong>: \"stress is proportional to strain after yield point\" - Incorrect, after yield point the relationship is non-linear<br>\n    • <strong>Option C</strong>: \"stress is proportional to strain under elastic limit\" - Correct ✓<br>\n    • <strong>Option D</strong>: \"stress is inversely proportional to strain\" - Incorrect, it's directly proportional\n  </div>\n  \n  <p><strong>Answer:</strong> Hooke's Law states that stress is proportional to strain under elastic limit, which is option C.</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 17",
+    "topic": [
+      "Physics",
+      "Measurements",
+      "Error Analysis"
+    ],
+    "Question": {
+      "content": "The errors which are always of same size and sign under certain conditions are called",
+      "type": "OBJ",
+      "options": [
+        "Systematic errors",
+        "Human errors",
+        "Climatic errors",
+        "Gross errors"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Systematic errors"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Types of Errors</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Define systematic errors</strong><br>\n    Systematic errors are errors that occur consistently in the same direction (always positive or always negative) and are of the same size under the same conditions. They are caused by faults in the measuring instrument or experimental method.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Contrast with other error types</strong><br>\n    • <strong>Human errors</strong>: Mistakes made by the experimenter (parallax error, misreading scales) - not necessarily consistent<br>\n    • <strong>Climatic errors</strong>: Errors due to environmental conditions like temperature, pressure - can vary<br>\n    • <strong>Gross errors</strong>: Large mistakes due to carelessness - not consistent\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Key characteristic</strong><br>\n    The question specifically mentions \"always of same size and sign under certain conditions\" - this is the defining characteristic of systematic errors.\n  </div>\n  \n  <p><strong>Answer:</strong> Errors that are always of the same size and sign are called systematic errors, which is option A.</p>\n</div>"
+    }
+  },
+    {
+    "type": "Question",
+    "name": "Question 18",
+    "topic": [
+      "Physics",
+      "Measurement",
+      "Vernier Caliper Reading"
+    ],
+    "Question": {
+      "content": "The diagram shows part of a vernier caliper. What is the reading?",
+      "type": "OBJ",
+      "options": [
+        "3.47 cm",
+        "3.67 cm",
+        "4.37 cm",
+        "4.57 cm"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "4.37 cm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Reading a Vernier Caliper</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Recall how to read a vernier caliper</strong><br>\n    Vernier caliper reading = Main scale reading + Vernier scale reading<br>\n    The least count of a standard vernier caliper is 0.01 cm (0.1 mm).\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Read the main scale</strong><br>\n    Look at where the zero mark of the vernier scale falls on the main scale.<br>\n    From the diagram, the main scale reading is 4.3 cm.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Read the vernier scale</strong><br>\n    Find which line on the vernier scale exactly coincides with any line on the main scale.<br>\n    From the diagram, the 7th line on the vernier scale coincides.<br>\n    Vernier scale reading = 7 × 0.01 cm = 0.07 cm\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Add both readings</strong><br>\n    Total reading = 4.3 cm + 0.07 cm = 4.37 cm\n  </div>\n  \n  <p><strong>Answer:</strong> The vernier caliper reading is 4.37 cm, which is option C.</p>\n</div>"
+    }
+  },
+    {
+      "type": "img",
+      "alt": "an image",
+      "content": "https://ppqimg.s3.eu-north-1.amazonaws.com/PQ_IMG/PHY_102.1/2024_2025/n18.png",
+      "Caption": "example image",
+      "topic": "the value will a string or an array"
+    },
+  
+  {
+    "type": "Question",
+    "name": "Question 19",
+    "topic": [
+      "Physics",
+      "Units",
+      "Mass Conversion"
+    ],
+    "Question": {
+      "content": "Which of the following is the correct relation?",
+      "type": "OBJ",
+      "options": [
+        "1 kg = 0.00 g",
+        "1 kg = 1 g",
+        "1 g = 0.001 kg",
+        "1 g = 0.01 kg"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1 g = 0.001 kg"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Mass Unit Conversions</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Recall the relationship between kg and g</strong><br>\n    1 kilogram (kg) = 1000 grams (g)<br>\n    This is a standard metric conversion.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Derive other relations</strong><br>\n    From 1 kg = 1000 g:<br>\n    • 1 g = \\(\\frac{1}{1000}\\) kg = 0.001 kg<br>\n    • 1 kg = 1000 g (not 1 g or 0.00 g)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Check each option</strong><br>\n    • <strong>Option A</strong>: \"1 kg = 0.00 g\" - Incorrect, 1 kg = 1000 g<br>\n    • <strong>Option B</strong>: \"1 kg = 1 g\" - Incorrect, 1 kg is much larger<br>\n    • <strong>Option C</strong>: \"1 g = 0.001 kg\" - Correct ✓<br>\n    • <strong>Option D</strong>: \"1 g = 0.01 kg\" - Incorrect, that would be 10 g\n  </div>\n  \n  <p><strong>Answer:</strong> The correct relation is 1 g = 0.001 kg, which is option C.</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 20",
+    "topic": [
+      "Physics",
+      "Oscillations",
+      "Simple Pendulum",
+      "Formula"
+    ],
+    "Question": {
+      "content": "What is the formula for the period of a simple pendulum?",
+      "type": "OBJ",
+      "options": [
+        "\\(T = 2\\pi \\sqrt{\\frac{L}{g}}\\)",
+        "\\(T = 2\\pi \\sqrt{\\frac{g}{L}}\\)",
+        "\\(2\\pi L/g\\)",
+        "\\(2\\pi g/L\\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(T = 2\\pi \\sqrt{\\frac{L}{g}}\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Period of a Simple Pendulum</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Recall the correct formula</strong><br>\n    The period \\(T\\) of a simple pendulum depends on its length \\(L\\) and the acceleration due to gravity \\(g\\):<br>\n    \\(T = 2\\pi \\sqrt{\\frac{L}{g}}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Understand the relationship</strong><br>\n    • Period is proportional to the square root of length: longer pendulum → longer period<br>\n    • Period is inversely proportional to the square root of gravity: stronger gravity → shorter period<br>\n    • The formula shows \\(L\\) in numerator and \\(g\\) in denominator, so \\(T \\propto \\sqrt{L}\\) and \\(T \\propto \\frac{1}{\\sqrt{g}}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Check each option</strong><br>\n    • <strong>Option A</strong>: \\(T = 2\\pi \\sqrt{\\frac{L}{g}}\\) - Correct ✓<br>\n    • <strong>Option B</strong>: \\(T = 2\\pi \\sqrt{\\frac{g}{L}}\\) - Incorrect, this would give period decreasing with length<br>\n    • <strong>Option C</strong>: \\(2\\pi L/g\\) - Incorrect, missing square root<br>\n    • <strong>Option D</strong>: \\(2\\pi g/L\\) - Incorrect, completely wrong relationship\n  </div>\n  \n  <p><strong>Answer:</strong> The correct formula is \\(T = 2\\pi \\sqrt{\\frac{L}{g}}\\), which is option A.</p>\n</div>"
+    }
+  },
+    {
+    "type": "Question",
+    "name": "Question 21",
+    "topic": [
+      "Physics",
+      "Mechanics",
+      "Moments",
+      "Balance"
+    ],
+    "Question": {
+      "content": "A beam is pivoted at its centre. Two masses are suspended at equal distance from the pivot as shown in the adjacent block. Which statement is correct?",
+      "type": "OBJ",
+      "options": [
+        "If X has a mass of exactly 2 kg, it will rise.",
+        "If X has a mass of less than 2 kg, it will fall.",
+        "If X has a mass of more than 2 kg, it will fall.",
+        "If X has a mass of more than 2 kg, it will rise."
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "If X has a mass of more than 2 kg, it will fall."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Principle of Moments on a Balanced Beam</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand the setup</strong><br>\n    • Beam is pivoted at its centre<br>\n    • Two masses are suspended at equal distances from the pivot<br>\n    • From typical diagrams, one side has a 2 kg mass, the other side has an unknown mass X<br>\n    • Equal distances mean the moment arms are the same length\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Apply the principle of moments</strong><br>\n    For a beam in equilibrium (balanced):<br>\n    Clockwise moment = Anticlockwise moment<br>\n    Moment = Force × Perpendicular distance from pivot<br>\n    Since distances are equal, balance occurs when the forces (weights) are equal<br>\n    Weight = mass × g, so balance occurs when masses are equal\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Determine what happens with different masses</strong><br>\n    • If X = 2 kg: Forces are equal, beam is balanced (neither rises nor falls)<br>\n    • If X < 2 kg: The 2 kg side has greater force, so that side will fall (X side rises)<br>\n    • If X > 2 kg: The X side has greater force, so that side will fall (2 kg side rises)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Match with the options</strong><br>\n    • <strong>Option A</strong>: \"If X has a mass of exactly 2 kg, it will rise.\" - Incorrect, beam balances<br>\n    • <strong>Option B</strong>: \"If X has a mass of less than 2 kg, it will fall.\" - Incorrect, X side rises, not falls<br>\n    • <strong>Option C</strong>: \"If X has a mass of more than 2 kg, it will fall.\" - Correct ✓<br>\n    • <strong>Option D</strong>: \"If X has a mass of more than 2 kg, it will rise.\" - Incorrect, X side falls\n  </div>\n  \n  <p><strong>Answer:</strong> If X has a mass of more than 2 kg, it will fall, which is option C.</p>\n</div>"
+    }
+  },
+    {
+      "type": "img",
+      "alt": "an image",
+      "content": "https://ppqimg.s3.eu-north-1.amazonaws.com/PQ_IMG/PHY_102.1/2024_2025/n21.jpg",
+      "Caption": "example image",
+      "topic": "the value will a string or an array"
+    },
+  {
+    "type": "Question",
+    "name": "Question 22",
+    "topic": [
+      "Physics",
+      "Mechanics",
+      "Hooke's Law",
+      "Springs"
+    ],
+    "Question": {
+      "content": "A spring stretches from 10 cm to 22 cm when a force of 4 N is applied to it. If it obeys Hooke's law, what is its total length in cm when a force of 6 N is applied?",
+      "type": "OBJ",
+      "options": [
+        "28 cm",
+        "18 cm",
+        "50 cm",
+        "56 cm",
+        "100 cm"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "28 cm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Hooke's Law - Spring Extension</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand what Hooke's Law states</strong><br>\n    Hooke's Law: The extension of a spring is directly proportional to the applied force, provided the elastic limit is not exceeded.<br>\n    \\(F = kx\\), where \\(x\\) is the extension from the natural length.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify the natural length and first extension</strong><br>\n    Natural length (original length) = 10 cm<br>\n    Length with 4 N force = 22 cm<br>\n    Extension \\(x_1 = 22 - 10 = 12 \\text{ cm}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Find the spring constant</strong><br>\n    Using \\(F = kx\\):<br>\n    \\(4 = k \\times 0.12 \\text{ m}\\) (convert cm to m for standard units)<br>\n    \\(k = \\frac{4}{0.12} = 33.33 \\text{ N/m}\\)<br>\n    However, we can work directly with cm since we only need ratio.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Use proportion to find new extension</strong><br>\n    Since extension ∝ force:<br>\n    \\(\\frac{x_2}{x_1} = \\frac{F_2}{F_1}\\)<br>\n    \\(\\frac{x_2}{12} = \\frac{6}{4}\\)<br>\n    \\(x_2 = 12 \\times \\frac{6}{4} = 12 \\times 1.5 = 18 \\text{ cm}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 5: Calculate the total length</strong><br>\n    Total length = Natural length + Extension<br>\n    Total length = 10 cm + 18 cm = 28 cm\n  </div>\n  \n  <p><strong>Answer:</strong> When a force of 6 N is applied, the total length is 28 cm, which is option A.</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 23",
+    "topic": [
+      "Physics",
+      "Graph Analysis",
+      "Error Analysis",
+      "Slope"
+    ],
+    "Question": {
+      "content": "Which of the following is the formula used for determining the error in the slope of a graph?",
+      "type": "OBJ",
+      "options": [
+        "4V/mR",
+        "W/nR",
+        "2W/nR",
+        "None"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "None"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Error in the Slope of a Graph</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Recall how slope error is determined</strong><br>\n    In experimental physics, when plotting a graph to determine a physical quantity, the error in the slope is typically found using one of these methods:<br>\n    • Maximum and minimum slope lines method<br>\n    • Using error bars on data points<br>\n    • Statistical methods (linear regression) that give standard error in the slope\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Common formula for slope error</strong><br>\n    For a straight line graph \\(y = mx + c\\), if using the maximum-minimum slope method:<br>\n    Error in slope = \\(\\frac{\\text{Maximum slope} - \\text{Minimum slope}}{2}\\)<br>\n    There is no standard formula like \"4V/mR\" or \"W/nR\" for slope error.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Analyze the given options</strong><br>\n    • <strong>4V/mR</strong>: This looks like a formula from electricity (V = IR, so V/R = I), not for slope error<br>\n    • <strong>W/nR</strong>: Not a standard formula for slope error<br>\n    • <strong>2W/nR</strong>: Also not a standard formula for slope error<br>\n    • <strong>None</strong>: This appears to be the correct choice as none of the given options match the actual methods for determining slope error\n  </div>\n  \n  <p><strong>Answer:</strong> None of the given options is the correct formula for determining error in slope, so option D is correct.</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 24",
+    "topic": [
+      "Physics",
+      "Measurement",
+      "Instruments",
+      "Precision"
+    ],
+    "Question": {
+      "content": "Which of the following instruments is the most sensitive instrument for measuring length?",
+      "type": "OBJ",
+      "options": [
+        "Metre rule",
+        "Measuring tape",
+        "Vernier caliper",
+        "Micrometer screw gauge"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Micrometer screw gauge"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Sensitivity of Length Measuring Instruments</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Define sensitivity in measurement</strong><br>\n    Sensitivity refers to the smallest measurement an instrument can reliably detect. It is also related to the least count of the instrument - the smaller the least count, the more sensitive the instrument.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Compare the least count of each instrument</strong><br>\n    • <strong>Metre rule</strong>: Least count = 1 mm (0.1 cm) or 0.5 mm for some<br>\n    • <strong>Measuring tape</strong>: Least count = 1 mm typically, but less precise due to flexibility<br>\n    • <strong>Vernier caliper</strong>: Least count = 0.1 mm (0.01 cm) for standard ones, some have 0.02 mm or 0.05 mm<br>\n    • <strong>Micrometer screw gauge</strong>: Least count = 0.01 mm (0.001 cm) for standard ones\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Identify the most sensitive</strong><br>\n    The micrometer screw gauge has the smallest least count (0.01 mm), meaning it can measure the smallest differences in length. Therefore, it is the most sensitive instrument among the options.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Order of sensitivity (least to most)</strong><br>\n    Measuring tape ≈ Metre rule (least sensitive) < Vernier caliper < Micrometer screw gauge (most sensitive)\n  </div>\n  \n  <p><strong>Answer:</strong> The most sensitive instrument for measuring length is the micrometer screw gauge, which is option D.</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 25",
+    "topic": [
+      "Physics",
+      "Oscillations",
+      "Simple Pendulum"
+    ],
+    "Question": {
+      "content": "The period of a simple pendulum depends on which factor?",
+      "type": "OBJ",
+      "options": [
+        "Length of the pendulum",
+        "Mass of the bob",
+        "Shape of the bob",
+        "None of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Length of the pendulum"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Factors Affecting Pendulum Period</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Recall the formula for period of a simple pendulum</strong><br>\n    \\(T = 2\\pi \\sqrt{\\frac{L}{g}}\\)<br>\n    where:<br>\n    \\(T\\) = period<br>\n    \\(L\\) = length of the pendulum<br>\n    \\(g\\) = acceleration due to gravity\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify what factors appear in the formula</strong><br>\n    From the formula, the period depends on:<br>\n    • Length \\(L\\) (directly, through square root)<br>\n    • Acceleration due to gravity \\(g\\) (inversely, through square root)<br>\n    Note: \\(2\\pi\\) is a constant.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Check what factors do NOT affect the period</strong><br>\n    • <strong>Mass of the bob</strong>: Does not appear in the formula - period is independent of mass<br>\n    • <strong>Shape of the bob</strong>: Not in the formula - for small oscillations, shape doesn't matter as long as it's a point mass approximation<br>\n    • <strong>Amplitude</strong>: For small amplitudes, period is independent of amplitude (isochronous)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Analyze the options</strong><br>\n    • <strong>Option A</strong>: Length of the pendulum - Correct ✓<br>\n    • <strong>Option B</strong>: Mass of the bob - Incorrect, period is independent of mass<br>\n    • <strong>Option C</strong>: Shape of the bob - Incorrect, shape doesn't affect period for ideal pendulum<br>\n    • <strong>Option D</strong>: None of the above - Incorrect since A is correct\n  </div>\n  \n  <p><strong>Answer:</strong> The period of a simple pendulum depends on the length of the pendulum, which is option A.</p>\n</div>"
+    }
+  }
+]
+
+

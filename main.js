@@ -440,6 +440,10 @@ function enableLigtTheme() {
     ans = `<img class = 'imgAns thumbnail' src='${line.Answer.content}' alt='${ line.Answer.alt}'/>`;
    }
    
+   
+
+
+   
    QuizAnswers.push(ans);
    
    let explainBtn = document.createElement('button');

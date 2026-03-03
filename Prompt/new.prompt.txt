@@ -1,4 +1,4 @@
-From the image I sent return an array of JSON objects that match the scheme.
+From the image I sent return an array of JSON objects that I can copy and matches the scheme.
 Make the explanation easy to understand by newbies.
 Give step by step detailed and easy to understand explanations that students who don't attend classes will understand with ease.
 

@@ -1,0 +1,1 @@
+const img = "<img class = 'imgAns thumbnail' src='https://ppqimg.s3.eu-north-1.amazonaws.com/PQ_IMG/MDS_220.1/2019_2020/n6e.jpg' alt='Diagram of a Sarcomere'/>"
