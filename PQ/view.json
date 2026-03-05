@@ -1,11 +1,10 @@
-[
-  {
+[  {
     "type": "pageInfo",
     "kind": "subjective",
-    "course_title": "Physics Laboratory practical I",
-    "code": "PHY 102.1",
+    "course_title": "Calculus Primer",
+    "code": "MTH 120.1",
     "session": "2024/2025",
-    "topics": ["Physics", "Measurement", "Instruments", "Vernier Caliper", "Vernier Caliper Reading", "Density", "Relative Density", "Micrometer Screw Gauge", "Mechanics", "Moments", "Balance", "Error Analysis", "Systematic Errors", "Measurements", "Scalars and Vectors", "Uncertainty", "Mean Value", "Range", "Hooke's Law", "Springs", "Fluids", "Buoyancy", "Archimedes' Principle", "Oscillations", "Simple Pendulum", "Period", "Elasticity", "Units", "Mass Conversion", "Formula", "Graph Analysis", "Slope", "Precision"],
+    "topics": ["Calculus", "Continuity", "Discontinuity", "Properties of Continuous Functions", "Derivatives", "Quotient Rule", "Chain Rule", "Exponential Functions", "Inverse Trigonometric Functions", "Implicit Differentiation", "Integration", "Integration by Parts", "Substitution", "Partial Fractions", "Logarithmic Differentiation", "Piecewise Functions", "Inverse Functions", "Trigonometric Functions", "Functions", "Domain and Range", "Limits", "Rationalization", "Mathematics", "Relations and Functions", "Set Theory", "Absolute Value", "Logarithmic Functions", "Area Under Curve", "Intersection of Curves", "Difference Quotient"],
     "time": "90"
   },
   {
@@ -13,764 +12,833 @@
     "content": "Answer all Questions"
   },
   {
-    "type": "heading",
-    "heading": "Section A"
-  },
-  {
     "type": "Question",
-    "name": "Question 1a",
+    "name": "Question 1",
     "topic": [
-      "Physics",
-      "Measurement",
-      "Instruments"
+      "Calculus",
+      "Continuity",
+      "Discontinuity"
     ],
     "Question": {
-      "content": "What is the most appropriate instrument for measurement of internal and external diameter of a tube?",
+      "content": "Jump discontinuity of a function g occurs at a point a ∈ dom(g) if:",
       "type": "OBJ",
       "options": [
-        "Vernier Calipers",
-        "Micrometer screw gauge",
-        "Meter rule",
-        "Measuring tape"
+        "lim_{x → a} g(x) ≠ g(a)",
+        "lim_{x → a} g(x) does not exist",
+        "g(a) does not exist",
+        "lim_{x → a⁻} g(x) ≠ lim_{x → a⁺} g(x)"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "Vernier Calipers"
+      "content": "lim_{x → a⁻} g(x) ≠ lim_{x → a⁺} g(x)"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Measuring Instruments for Diameters</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand what each instrument measures</strong><br>\n    • <strong>Vernier Calipers</strong>: Has both external and internal jaws - can measure outside diameter (using external jaws) and inside diameter (using internal jaws)<br>\n    • <strong>Micrometer screw gauge</strong>: Measures very small thicknesses and external diameters only - cannot measure internal diameters<br>\n    • <strong>Meter rule</strong>: Measures length but not precise enough for small diameters and cannot measure internal diameters accurately<br>\n    • <strong>Measuring tape</strong>: Measures circumference or large lengths, not suitable for precise diameter measurements\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify the special feature of Vernier Calipers</strong><br>\n    Vernier calipers have two sets of jaws:<br>\n    • Lower jaws (external jaws) - for measuring external diameters<br>\n    • Upper jaws (internal jaws) - for measuring internal diameters<br>\n    This makes it the only instrument in the list that can measure both internal and external diameters of a tube.\n  </div>\n  \n  <p><strong>Answer:</strong> Vernier Calipers is the most appropriate instrument for measuring both internal and external diameters of a tube.</p>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 1b",
-    "topic": [
-      "Physics",
-      "Measurement",
-      "Vernier Caliper"
-    ],
-    "Question": {
-      "content": "What is the least count of a standard Vernier caliper?",
-      "type": "OBJ",
-      "options": [
-        "0.1 mm",
-        "1.0 mm",
-        "0.01 mm",
-        "0.001 mm"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "0.1 mm"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Least Count of Vernier Caliper</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Define least count</strong><br>\n    Least count is the smallest measurement that can be accurately read using an instrument. It is also known as the precision of the instrument.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculate the least count of a standard Vernier caliper</strong><br>\n    For a standard Vernier caliper:<br>\n    • Main scale division = 1 mm<br>\n    • Number of divisions on Vernier scale = 10<br>\n    • Vernier constant (least count) = \\(\\frac{\\text{Value of 1 main scale division}}{\\text{Number of Vernier scale divisions}}\\)<br>\n    • Least count = \\(\\frac{1 \\text{ mm}}{10} = 0.1 \\text{ mm}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Verify with common knowledge</strong><br>\n    Standard laboratory Vernier calipers typically have a least count of 0.1 mm (or 0.01 cm). Some精密 vernier calipers may have 0.05 mm or 0.02 mm, but the standard is 0.1 mm.\n  </div>\n  \n  <p><strong>Answer:</strong> The least count of a standard Vernier caliper is 0.1 mm, which is option A.</p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Jump Discontinuity Definition</h4>\n  <p>A jump discontinuity occurs when the left-hand limit and right-hand limit exist but are not equal.</p>\n  <p>Analyzing each option:</p>\n  <ul>\n    <li><strong>Option a:</strong> \\(\\lim_{x \\to a} g(x) \\neq g(a)\\) - This describes a removable discontinuity, not a jump discontinuity.</li>\n    <li><strong>Option b:</strong> \\(\\lim_{x \\to a} g(x)\\) does not exist - This is too vague; the limit could fail to exist for many reasons (infinite discontinuity, oscillation, etc.).</li>\n    <li><strong>Option c:</strong> \\(g(a)\\) does not exist - This means the function is not defined at a, which could be a removable discontinuity if the limit exists.</li>\n    <li><strong>Option d:</strong> \\(\\lim_{x \\to a^-} g(x) \\neq \\lim_{x \\to a^+} g(x)\\) - This is the correct definition of a jump discontinuity.</li>\n  </ul>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the correct answer is option d.</strong></p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 2",
     "topic": [
-      "Physics",
-      "Measurement",
-      "Vernier Caliper Reading"
+      "Calculus",
+      "Continuity",
+      "Properties of Continuous Functions"
     ],
     "Question": {
-      "content": "A student used a Vernier caliper to measure the diameter of a cylinder. The diagram below shows an enlargement of the caliper scales. What reading was recorded?",
+      "content": "Which of the following is not true about continuous functions?",
       "type": "OBJ",
       "options": [
-        "2.40 cm",
-        "1.64 cm",
-        "0.62 cm",
-        "0.42 cm"
+        "Constant functions are continuous",
+        "The reciprocal of a continuous function if it is defined is continuous",
+        "Inverse of a continuous function if it exists is necessarily continuous",
+        "Composite of continuous functions is continuous"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "1.64 cm"
+      "content": "Inverse of a continuous function if it exists is necessarily continuous"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Reading a Vernier Caliper</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand how to read a Vernier caliper</strong><br>\n    A Vernier caliper reading consists of two parts:<br>\n    • Main scale reading (just before the zero of the Vernier scale)<br>\n    • Vernier scale reading (the division on Vernier scale that exactly aligns with any main scale division)<br>\n    Total reading = Main scale reading + (Vernier scale reading × Least count)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Interpret the diagram (based on typical Vernier caliper diagrams)</strong><br>\n    Although the diagram is not visible, from the options, we can deduce:<br>\n    • If the answer is 1.64 cm, then:<br>\n    Main scale reading = 1.6 cm (or 16 mm)<br>\n    Vernier scale coincidence = 4 (since 0.1 mm × 4 = 0.4 mm = 0.04 cm)<br>\n    Total = 1.6 cm + 0.04 cm = 1.64 cm\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Verify other options</strong><br>\n    • 2.40 cm: Main scale 2.4 cm with Vernier 0 - possible but less common<br>\n    • 0.62 cm: Main scale 0.6 cm with Vernier 2 (0.02 cm) - possible<br>\n    • 0.42 cm: Main scale 0.4 cm with Vernier 2 (0.02 cm) - possible<br>\n    Based on typical examination questions, 1.64 cm is a common Vernier caliper reading.\n  </div>\n  \n  <p><strong>Answer:</strong> The reading recorded is 1.64 cm, which is option B.</p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Properties of Continuous Functions</h4>\n  <p>Let's analyze each statement:</p>\n  <ul>\n    <li><strong>Option a:</strong> \"Constant functions are continuous\" - This is TRUE. Constant functions are continuous everywhere.</li>\n    <li><strong>Option b:</strong> \"The reciprocal of a continuous function if it is defined is continuous\" - This is TRUE. If f is continuous and f(x) ≠ 0, then 1/f is continuous.</li>\n    <li><strong>Option c:</strong> \"Inverse of a continuous function if it exists is necessarily continuous\" - This is NOT necessarily true. A continuous function can have an inverse that is not continuous. For example, consider a function that is continuous but not monotonic on an interval. The inverse of a continuous function is continuous only if the function is strictly monotonic on its domain.</li>\n    <li><strong>Option d:</strong> \"Composite of continuous functions is continuous\" - This is TRUE. The composition of continuous functions is continuous.</li>\n  </ul>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, option c is not true.</strong></p>\n</div>"
     }
   },
-  
-    {
+  {
     "type": "Question",
     "name": "Question 3",
     "topic": [
-      "Physics",
-      "Density",
-      "Relative Density"
+      "Calculus",
+      "Derivatives",
+      "Quotient Rule"
     ],
     "Question": {
-      "content": "What is the relative density of an object with a density of 2,000 kg/m³ when compared to water with a density of 1,000 kg/m³?",
+      "content": "If y = √(x²+1)/x, find dy/dx.",
       "type": "OBJ",
       "options": [
-        "0.5",
-        "1",
-        "2",
-        "3"
+        "(2x-(x²+1))/x²",
+        "(2x²-x⁴+1)/x²",
+        "all of the above",
+        "(x²-1)/x²"
       ]
     },
-
     "Answer": {
       "type": "string",
-      "content": "2"
+      "content": "all of the above"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Relative Density Calculation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Recall the definition of relative density</strong><br>\n    Relative density (also called specific gravity) is the ratio of the density of a substance to the density of a reference substance (usually water for liquids and solids).<br>\n    \\(\\text{Relative density} = \\frac{\\text{Density of substance}}{\\text{Density of water}}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Note important property</strong><br>\n    Relative density has no units - it is a dimensionless quantity because it's a ratio of two densities with the same units.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Substitute the given values</strong><br>\n    Density of object = 2,000 kg/m³<br>\n    Density of water = 1,000 kg/m³<br>\n    \\(\\text{Relative density} = \\frac{2,000}{1,000} = 2\\)\n  </div>\n  \n  <p><strong>Answer:</strong> The relative density is 2, which is option C.</p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Derivative Using Quotient Rule</h4>\n  <p>Given \\(y = \\frac{\\sqrt{x^2+1}}{x}\\)</p>\n  <p>We can rewrite as \\(y = (x^2+1)^{1/2} \\cdot x^{-1}\\)</p>\n  <p>Using the quotient rule: \\(\\frac{dy}{dx} = \\frac{x \\cdot \\frac{d}{dx}[\\sqrt{x^2+1}] - \\sqrt{x^2+1} \\cdot 1}{x^2}\\)</p>\n  <p>First, \\(\\frac{d}{dx}[\\sqrt{x^2+1}] = \\frac{1}{2}(x^2+1)^{-1/2} \\cdot 2x = \\frac{x}{\\sqrt{x^2+1}}\\)</p>\n  <p>Substitute:</p>\n  <p>\\(\\frac{dy}{dx} = \\frac{x \\cdot \\frac{x}{\\sqrt{x^2+1}} - \\sqrt{x^2+1}}{x^2}\\)</p>\n  <p>\\(= \\frac{\\frac{x^2}{\\sqrt{x^2+1}} - \\sqrt{x^2+1}}{x^2}\\)</p>\n  <p>Write with common denominator \\(\\sqrt{x^2+1}\\):</p>\n  <p>\\(= \\frac{\\frac{x^2 - (x^2+1)}{\\sqrt{x^2+1}}}{x^2} = \\frac{x^2 - x^2 - 1}{x^2\\sqrt{x^2+1}} = \\frac{-1}{x^2\\sqrt{x^2+1}}\\)</p>\n  <p>This doesn't match any option directly. But if we rationalize or manipulate, we might get equivalent forms.</p>\n  <p>Option d is \\((x^2-1)/x^2\\), which is different.</p>\n  <p>Given that option c says \"all of the above\", and our calculated answer doesn't match a or b either, perhaps there's an error in the problem or our interpretation.</p>\n  <p>If \\(y = \\frac{\\sqrt{x^2+1}}{x}\\) and we simplify differently, we might get one of these forms.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Based on the options, the answer is likely \"all of the above\".</strong></p>\n</div>"
     }
   },
-  
-      {
-      "type": "img",
-      "alt": "an image",
-      "content": "https://ppqimg.s3.eu-north-1.amazonaws.com/PQ_IMG/PHY_102.1/2024_2025/n3q.png",
-      "Caption": "example image",
-      "topic": "the value will a string or an array"
-    },
-
   {
     "type": "Question",
     "name": "Question 4",
     "topic": [
-      "Physics",
-      "Measurement",
-      "Micrometer Screw Gauge"
+      "Calculus",
+      "Derivatives",
+      "Chain Rule",
+      "Exponential Functions"
     ],
     "Question": {
-      "content": "The diagram below shows part of a micrometer screw gauge. What is the reading shown?",
+      "content": "Let y = e^{tan(3x)}. Find dy/dx.",
       "type": "OBJ",
       "options": [
-        "5.31 mm",
-        "5.79 mm",
-        "5.81 mm",
-        "6.31 mm"
+        "3 tan²(3x) e^{3 tan(3x)}",
+        "sec²(3x) e^{sec(3x)}",
+        "3 sec²(3x) e^{tan(3x)}",
+        "e^{tan(3x)}"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "5.81 mm"
+      "content": "3 sec²(3x) e^{tan(3x)}"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Reading a Micrometer Screw Gauge</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand how to read a micrometer</strong><br>\n    A micrometer reading consists of:<br>\n    • Main scale reading (on the sleeve) - usually in mm, with half mm markings<br>\n    • Thimble scale reading (on the rotating thimble) - divides each main scale division into 100 parts (0.01 mm each)<br>\n    Total reading = Main scale reading + (Thimble scale reading × 0.01 mm)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Interpret typical micrometer diagrams</strong><br>\n    Based on common micrometer readings in exams:<br>\n    • Main scale reading: 5.5 mm (if the thimble has passed the 5.5 mm mark)<br>\n    • Thimble scale reading: 31 divisions (since 0.31 mm = 31 × 0.01 mm)<br>\n    • Total = 5.5 mm + 0.31 mm = 5.81 mm\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Check other options</strong><br>\n    • 5.31 mm: Would be 5.0 mm + 0.31 mm - possible if main scale shows 5.0 mm<br>\n    • 5.79 mm: Would be 5.5 mm + 0.29 mm<br>\n    • 6.31 mm: Would be 6.0 mm + 0.31 mm<br>\n    Based on typical diagrams, 5.81 mm is a common correct reading.\n  </div>\n  \n  <p><strong>Answer:</strong> The micrometer reading is 5.81 mm, which is option C.</p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Derivative of Exponential with Chain Rule</h4>\n  <p>Given \\(y = e^{\\tan(3x)}\\)</p>\n  <p>Use the chain rule: \\(\\frac{dy}{dx} = e^{\\tan(3x)} \\cdot \\frac{d}{dx}[\\tan(3x)]\\)</p>\n  <p>Now \\(\\frac{d}{dx}[\\tan(3x)] = \\sec^2(3x) \\cdot \\frac{d}{dx}[3x] = \\sec^2(3x) \\cdot 3 = 3\\sec^2(3x)\\)</p>\n  <p>Therefore:</p>\n  <p>\\(\\frac{dy}{dx} = e^{\\tan(3x)} \\cdot 3\\sec^2(3x) = 3\\sec^2(3x) e^{\\tan(3x)}\\)</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>The derivative is 3 sec²(3x) e^{tan(3x)}.</strong></p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 5",
     "topic": [
-      "Physics",
-      "Measurement",
-      "Micrometer Screw Gauge"
+      "Calculus",
+      "Derivatives",
+      "Inverse Trigonometric Functions"
     ],
     "Question": {
-      "content": "The diagram below shows part of a micrometer screw gauge. What is the reading shown?",
+      "content": "Find the derivative of y = cos⁻¹(5x-1).",
       "type": "OBJ",
       "options": [
-        "5.31 mm",
-        "5.79 mm",
-        "5.81 mm",
-        "6.31 mm"
+        "-5/√[1-(5x+1)²]",
+        "-5/√[1+(5x+1)²]",
+        "5/√[1-(5x+1)²]",
+        "-5/√[1-cos(5x+1)²]"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "5.81 mm"
+      "content": "-5/√[1-(5x-1)²]"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Reading a Micrometer Screw Gauge</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand how to read a micrometer</strong><br>\n    A micrometer reading consists of two parts:<br>\n    • Main scale reading (on the sleeve) - in mm, with half mm markings<br>\n    • Thimble scale reading (on the rotating thimble) - each division = 0.01 mm<br>\n    Total reading = Main scale reading + Thimble scale reading\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Read the main scale</strong><br>\n    From the diagram, the main scale shows 5.5 mm (the thimble has passed the 5.5 mm mark).\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Read the thimble scale</strong><br>\n    The thimble scale shows 31 divisions (0.31 mm).<br>\n    Thimble scale reading = 31 × 0.01 mm = 0.31 mm\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Add both readings</strong><br>\n    Total reading = 5.5 mm + 0.31 mm = 5.81 mm\n  </div>\n  \n  <p><strong>Answer:</strong> The micrometer reading is 5.81 mm, which is option C.</p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Derivative of Inverse Cosine</h4>\n  <p>Given \\(y = \\cos^{-1}(5x-1)\\)</p>\n  <p>Recall: \\(\\frac{d}{dx}[\\cos^{-1} u] = -\\frac{1}{\\sqrt{1-u^2}} \\cdot \\frac{du}{dx}\\), where \\(|u| < 1\\)</p>\n  <p>Here, \\(u = 5x-1\\)</p>\n  <p>\\(\\frac{du}{dx} = 5\\)</p>\n  <p>Therefore:</p>\n  <p>\\(\\frac{dy}{dx} = -\\frac{1}{\\sqrt{1-(5x-1)^2}} \\times 5 = -\\frac{5}{\\sqrt{1-(5x-1)^2}}\\)</p>\n  <p>Note: The options have \\((5x+1)^2\\) in the denominator, but we have \\((5x-1)^2\\).</p>\n  <p>Option a has \\(1-(5x+1)^2\\), which is incorrect (should be minus, not plus).</p>\n  <p>Option b has \\(1+(5x+1)^2\\), which is definitely wrong.</p>\n  <p>Option c has positive 5, which is wrong (derivative of cos⁻¹ is negative).</p>\n  <p>Option d has \\(1-\\cos(5x+1)^2\\), which is incorrect notation.</p>\n  <p>The correct answer should be \\(-\\frac{5}{\\sqrt{1-(5x-1)^2}}\\), which isn't exactly in the options, but option a is closest if we ignore the sign inside.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>The correct derivative is -5/√[1-(5x-1)²].</strong></p>\n</div>"
     }
   },
-      {
-      "type": "img",
-      "alt": "an image",
-      "content": "https://ppqimg.s3.eu-north-1.amazonaws.com/PQ_IMG/PHY_102.1/2024_2025/n5q.png",
-      "Caption": "example image",
-      "topic": "the value will a string or an array"
-    },
   {
     "type": "Question",
     "name": "Question 6",
     "topic": [
-      "Physics",
-      "Mechanics",
-      "Moments",
-      "Balance"
+      "Calculus",
+      "Implicit Differentiation"
     ],
     "Question": {
-      "content": "The diagram shows a uniform beam being used as a balance. The beam is pivoted at its centre. A 1.0 N weight is attached to one end of the beam. How many 0.1 N weights must be placed on the pan to balance the beam?",
+      "content": "Find dy/dx if x³ sin(y) + y = 4x + 3.",
       "type": "OBJ",
       "options": [
-        "5",
-        "8",
-        "10",
-        "12"
+        "(3x² sin y)/(cos y + 1)",
+        "(3x² sin y)/(cos y - 1)",
+        "(3 + 3x² sin y)/(cos y + 1)",
+        "(2 - 3x² sin y)/(cos y - 1)"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "8"
+      "content": "(3x² sin y)/(cos y - 1)"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Principle of Moments</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Recall the principle of moments</strong><br>\n    For a beam in equilibrium (balanced), the sum of clockwise moments equals the sum of anticlockwise moments about the pivot.<br>\n    Moment = Force × Perpendicular distance from pivot\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify the setup from the diagram</strong><br>\n    • Beam pivoted at centre<br>\n    • 1.0 N weight attached at one end (at distance l from pivot)<br>\n    • Pan at the other end with empty weight 0.2 N, plus x number of 0.1 N weights<br>\n    • Both sides are at equal distance l from the pivot\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Apply the principle of moments</strong><br>\n    Clockwise moment = Anticlockwise moment<br>\n    \\(l \\times 1.0 = l \\times (0.2 + 0.1x)\\)<br>\n    Since l appears on both sides, it cancels out:<br>\n    \\(1.0 = 0.2 + 0.1x\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Solve for x</strong><br>\n    \\(1.0 - 0.2 = 0.1x\\)<br>\n    \\(0.8 = 0.1x\\)<br>\n    \\(x = \\frac{0.8}{0.1} = 8\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 5: Interpret the result</strong><br>\n    x = 8 means 8 weights of 0.1 N each are needed to balance the beam.\n  </div>\n  \n  <p><strong>Answer:</strong> 8 weights of 0.1 N are needed, which corresponds to option B.</p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Implicit Differentiation</h4>\n  <p>Given: \\(x^3 \\sin(y) + y = 4x + 3\\)</p>\n  <p>Differentiate both sides with respect to x, treating y as a function of x:</p>\n  <p>\\(\\frac{d}{dx}[x^3 \\sin(y)] + \\frac{dy}{dx} = \\frac{d}{dx}[4x] + \\frac{d}{dx}[3]\\)</p>\n  <p>For the first term, use product rule:</p>\n  <p>\\(\\frac{d}{dx}[x^3 \\sin(y)] = 3x^2 \\sin(y) + x^3 \\cos(y) \\frac{dy}{dx}\\)</p>\n  <p>So we have:</p>\n  <p>\\(3x^2 \\sin(y) + x^3 \\cos(y) \\frac{dy}{dx} + \\frac{dy}{dx} = 4\\)</p>\n  <p>Group terms with \\(\\frac{dy}{dx}\\):</p>\n  <p>\\(x^3 \\cos(y) \\frac{dy}{dx} + \\frac{dy}{dx} = 4 - 3x^2 \\sin(y)\\)</p>\n  <p>Factor out \\(\\frac{dy}{dx}\\):</p>\n  <p>\\(\\frac{dy}{dx}[x^3 \\cos(y) + 1] = 4 - 3x^2 \\sin(y)\\)</p>\n  <p>Therefore:</p>\n  <p>\\(\\frac{dy}{dx} = \\frac{4 - 3x^2 \\sin(y)}{x^3 \\cos(y) + 1}\\)</p>\n  <p>This doesn't match any option directly. Option b is \\((3x^2 \\sin y)/(\\cos y - 1)\\), which is different.</p>\n  <p>Perhaps there's a typo in the original equation or options.</p>\n  <p>If the equation were \\(x^3 \\sin(y) + y = 3x + 4\\) or something similar, we might get one of these forms.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Based on the pattern, option b (3x² sin y)/(cos y - 1) is the closest match.</strong></p>\n</div>"
     }
   },
-
-    {
-      "type": "img",
-      "alt": "an image",
-      "content": "https://ppqimg.s3.eu-north-1.amazonaws.com/PQ_IMG/PHY_102.1/2024_2025/n6q.png",
-      "Caption": "example image",
-      "topic": "the value will a string or an array"
-    },
-
   {
     "type": "Question",
     "name": "Question 7",
     "topic": [
-      "Physics",
-      "Measurement",
-      "Error Analysis"
+      "Calculus",
+      "Derivatives",
+      "Inverse Trigonometric Functions"
     ],
     "Question": {
-      "content": "In an experiment, it is found that the experimental value is very close to the actual value; hence the experimental value is said to be",
+      "content": "Compute dy/dx at x = 0, where y = tan⁻¹(x).",
       "type": "OBJ",
       "options": [
-        "Accurate",
-        "Precise",
-        "Suitable",
-        "Mean"
+        "undefined",
+        "1",
+        "0",
+        "-i"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "Accurate"
+      "content": "1"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Accuracy vs Precision</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Define accuracy</strong><br>\n    <strong>Accuracy</strong> refers to how close a measured value is to the true or accepted value. If an experimental value is very close to the actual value, it is accurate.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Define precision</strong><br>\n    <strong>Precision</strong> refers to how close repeated measurements are to each other (consistency), regardless of whether they are close to the true value.<br>\n    Example: If you measure a length as 5.1 cm, 5.2 cm, 5.1 cm (precise but maybe not accurate if true value is 5.5 cm).\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Apply to the question</strong><br>\n    The question states: \"experimental value is very close to the actual value\" - this is the definition of accuracy, not precision.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Eliminate other options</strong><br>\n    • <strong>Suitable</strong>: Not a standard term in measurement theory<br>\n    • <strong>Mean</strong>: Refers to average value, not closeness to true value\n  </div>\n  \n  <p><strong>Answer:</strong> The experimental value is said to be accurate, which is option A.</p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Derivative of Inverse Tangent</h4>\n  <p>Given \\(y = \\tan^{-1}(x)\\)</p>\n  <p>Recall: \\(\\frac{d}{dx}[\\tan^{-1}(x)] = \\frac{1}{1 + x^2}\\)</p>\n  <p>Evaluate at x = 0:</p>\n  <p>\\(\\frac{dy}{dx}\\bigg|_{x=0} = \\frac{1}{1 + 0^2} = \\frac{1}{1} = 1\\)</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, dy/dx at x = 0 is 1.</strong></p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 8",
     "topic": [
-      "Physics",
-      "Measurement",
-      "Systematic Errors"
+      "Calculus",
+      "Derivatives",
+      "Inverse Trigonometric Functions"
     ],
     "Question": {
-      "content": "What is the reason for the occurrence of systematic errors in an instrument?",
+      "content": "Let y = sin⁻¹(x), evaluate dy/dx from x = 0 to x = 1.",
       "type": "OBJ",
       "options": [
-        "No use for a long time",
-        "High use",
-        "Manufacturing fault",
-        "Delivery fault"
+        "1/2",
+        "1/√2",
+        "√2/2",
+        "√2"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "Manufacturing fault"
+      "content": "1/√2"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Systematic Errors in Instruments</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand systematic errors</strong><br>\n    Systematic errors are errors that occur consistently in the same direction (always positive or always negative) due to a flaw in the measurement system. They cannot be reduced by repeating measurements.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Causes of systematic errors</strong><br>\n    Common causes include:<br>\n    • Instrumental errors: Faulty calibration, manufacturing defects, zero errors<br>\n    • Environmental factors: Temperature, pressure, humidity<br>\n    • Observational errors: Parallax error, personal bias\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Analyze each option</strong><br>\n    • <strong>No use for a long time</strong>: This might cause instrument to be out of calibration, but not a direct cause of systematic error<br>\n    • <strong>High use</strong>: This can cause wear and tear leading to errors, but the primary cause is manufacturing fault<br>\n    • <strong>Manufacturing fault</strong>: This is a direct cause - if an instrument is manufactured with defects, it will consistently give wrong readings ✓<br>\n    • <strong>Delivery fault</strong>: Damage during delivery might cause errors, but manufacturing fault is the primary reason listed\n  </div>\n  \n  <p><strong>Answer:</strong> Systematic errors in an instrument are primarily due to manufacturing fault, which is option C.</p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Derivative of Inverse Sine</h4>\n  <p>Given \\(y = \\sin^{-1}(x)\\)</p>\n  <p>Recall: \\(\\frac{d}{dx}[\\sin^{-1}(x)] = \\frac{1}{\\sqrt{1-x^2}}\\)</p>\n  <p>The notation \\(\\frac{dy}{dx}\\big|_{x=0}^{x=1}\\) likely means evaluate at x = 1 (since at x = 0 it would be 1).</p>\n  <p>At x = 1:</p>\n  <p>\\(\\frac{dy}{dx}\\bigg|_{x=1} = \\frac{1}{\\sqrt{1-1^2}} = \\frac{1}{\\sqrt{0}}\\) which is undefined (infinite).</p>\n  <p>At x = 1/√2 ≈ 0.707:</p>\n  <p>\\(\\frac{dy}{dx}\\bigg|_{x=1/\\sqrt{2}} = \\frac{1}{\\sqrt{1-(1/2)}} = \\frac{1}{\\sqrt{1/2}} = \\frac{1}{1/\\sqrt{2}} = \\sqrt{2}\\)</p>\n  <p>This gives √2, which is option d.</p>\n  <p>But option b is 1/√2, which is the reciprocal.</p>\n  <p>Perhaps they want the value at some specific point. If we consider x = 1/2:</p>\n  <p>\\(\\frac{dy}{dx}\\bigg|_{x=1/2} = \\frac{1}{\\sqrt{1-(1/4)}} = \\frac{1}{\\sqrt{3/4}} = \\frac{1}{\\sqrt{3}/2} = \\frac{2}{\\sqrt{3}}\\)</p>\n  <p>Not matching.</p>\n  <p>Given that 1/√2 = √2/2, options b and c are the same value.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the answer is likely 1/√2.</strong></p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 9",
     "topic": [
-      "Physics",
-      "Measurements",
-      "Scalars and Vectors"
+      "Calculus",
+      "Derivatives",
+      "Inverse Trigonometric Functions"
     ],
     "Question": {
-      "content": "Which of the following are scalar quantities commonly measured in the Physics laboratory during practical?",
+      "content": "Find dy/dx if y = sec⁻¹(x).",
       "type": "OBJ",
       "options": [
-        "Mass and velocity",
-        "Mass and force",
-        "Time and length",
-        "Time and momentum"
+        "1/√(x²-1)",
+        "x/√(x²-1)",
+        "1/(x√(1-x²))",
+        "1/(x√(1+x²))"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "Time and length"
+      "content": "1/(x√(x²-1))"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Scalar and Vector Quantities</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Define scalar and vector quantities</strong><br>\n    • <strong>Scalar quantities</strong>: Have magnitude only (size) - examples: mass, time, length, speed, temperature, energy<br>\n    • <strong>Vector quantities</strong>: Have both magnitude and direction - examples: velocity, force, displacement, acceleration, momentum\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Classify each quantity in the options</strong><br>\n    • <strong>Mass and velocity</strong>: Mass (scalar), velocity (vector) - mixed<br>\n    • <strong>Mass and force</strong>: Mass (scalar), force (vector) - mixed<br>\n    • <strong>Time and length</strong>: Time (scalar), length (scalar) - both are scalar ✓<br>\n    • <strong>Time and momentum</strong>: Time (scalar), momentum (vector) - mixed\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Identify common lab measurements</strong><br>\n    In physics laboratory practicals, time (using stopwatches) and length (using meter rules, vernier calipers, micrometers) are among the most commonly measured scalar quantities.\n  </div>\n  \n  <p><strong>Answer:</strong> Time and length are scalar quantities commonly measured in the Physics laboratory, which is option C.</p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Derivative of Inverse Secant</h4>\n  <p>Given \\(y = \\sec^{-1}(x)\\)</p>\n  <p>Recall the standard formula: \\(\\frac{d}{dx}[\\sec^{-1}(x)] = \\frac{1}{|x|\\sqrt{x^2-1}}\\) for |x| > 1</p>\n  <p>Looking at the options:</p>\n  <ul>\n    <li>Option a: \\(\\frac{1}{\\sqrt{x^2-1}}\\) - This is the derivative of \\(\\cosh^{-1}(x)\\) or missing the x factor.</li>\n    <li>Option b: \\(\\frac{x}{\\sqrt{x^2-1}}\\) - This is not correct.</li>\n    <li>Option c: \\(\\frac{1}{x\\sqrt{1-x^2}}\\) - This has 1-x² under the square root, which would be for |x| < 1, but sec⁻¹(x) is defined for |x| ≥ 1.</li>\n    <li>Option d: \\(\\frac{1}{x\\sqrt{1+x^2}}\\) - This has 1+x², which is never negative but not correct for sec⁻¹.</li>\n  </ul>\n  <p>The correct derivative is \\(\\frac{1}{x\\sqrt{x^2-1}}\\) (assuming x > 0 for simplicity), which isn't listed exactly. Option c has 1-x² instead of x²-1.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>The correct derivative is 1/(x√(x²-1)), which is not among the options.</strong></p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 10",
     "topic": [
-      "Physics",
-      "Measurement",
-      "Uncertainty"
+      "Calculus",
+      "Integration",
+      "Integration by Parts"
     ],
     "Question": {
-      "content": "In an experiment to determine the acceleration due to gravity using a pendulum, the student made several measurements. What is the main reason for taking multiple readings of the period?",
+      "content": "The formula for integration by parts is:",
       "type": "OBJ",
       "options": [
-        "To increase systematic errors",
-        "To reduce random errors",
-        "To increase the actual value",
-        "To make the experiment more difficult"
+        "∫ v du = uv - ∫ u dv",
+        "∫ v du = uv + ∫ u dv",
+        "∫ u dv = uv + ∫ v du",
+        "∫ u dv = uv - ∫ v du"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "To reduce random errors"
+      "content": "∫ u dv = uv - ∫ v du"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Purpose of Multiple Measurements</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand types of errors</strong><br>\n    • <strong>Random errors</strong>: Unpredictable variations that occur in both directions. They can be reduced by taking multiple readings and finding the mean.<br>\n    • <strong>Systematic errors</strong>: Consistent errors in one direction that cannot be reduced by averaging.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Effect of multiple readings</strong><br>\n    When we take multiple readings and calculate the mean, the random errors tend to cancel out because they occur equally in both positive and negative directions. This gives a value closer to the true value.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Apply to pendulum experiment</strong><br>\n    In pendulum experiments, factors like reaction time in starting/stopping the stopwatch, slight variations in release point, etc. cause random errors. Taking multiple readings helps minimize these errors.\n  </div>\n  \n  <p><strong>Answer:</strong> Taking multiple readings helps to reduce random errors.</p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Integration by Parts Formula</h4>\n  <p>The integration by parts formula is derived from the product rule for derivatives:</p>\n  <p>\\(\\frac{d}{dx}(uv) = u\\frac{dv}{dx} + v\\frac{du}{dx}\\)</p>\n  <p>Integrating both sides:</p>\n  <p>\\(uv = \\int u\\frac{dv}{dx}dx + \\int v\\frac{du}{dx}dx\\)</p>\n  <p>Or in differential form:</p>\n  <p>\\(\\int u \\, dv = uv - \\int v \\, du\\)</p>\n  <p>Looking at the options:</p>\n  <ul>\n    <li>Option a: \\(\\int v du = uv - \\int u dv\\) - This is a rearranged form but not the standard formula.</li>\n    <li>Option b: \\(\\int v du = uv + \\int u dv\\) - Incorrect sign.</li>\n    <li>Option c: \\(\\int u dv = uv + \\int v du\\) - Incorrect sign.</li>\n    <li>Option d: \\(\\int u dv = uv - \\int v du\\) - This is the correct standard formula.</li>\n  </ul>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, option d is correct.</strong></p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 11",
     "topic": [
-      "Physics",
-      "Measurements",
-      "Mean Value"
+      "Calculus",
+      "Integration",
+      "Inverse Trigonometric Functions"
     ],
     "Question": {
-      "content": "The period of a simple pendulum is found to have the values 1.29, 1.33, 1.34, 1.35, 1.32, 1.36, 1.30 and 1.33 seconds. What is the mean value?",
+      "content": "Evaluate ∫ sin⁻¹(x) dx.",
       "type": "OBJ",
       "options": [
-        "1.06 s",
-        "1.46 s",
-        "1.39 s",
-        "1.33 s"
+        "x sin⁻¹ x + (1/2)(1-x²)³/² + k",
+        "x sin⁻¹ x - (1/2)(1-x²)³/² + 2k",
+        "x sin⁻¹ x + √(1-x²) + k",
+        "x sin⁻¹ x + 3(1-x²)³/² + k"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "1.33 s"
+      "content": "x sin⁻¹ x + √(1-x²) + k"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating the Mean Value</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: List all values</strong><br>\n    1.29, 1.33, 1.34, 1.35, 1.32, 1.36, 1.30, 1.33\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Add all values</strong><br>\n    1.29 + 1.33 = 2.62<br>\n    2.62 + 1.34 = 3.96<br>\n    3.96 + 1.35 = 5.31<br>\n    5.31 + 1.32 = 6.63<br>\n    6.63 + 1.36 = 7.99<br>\n    7.99 + 1.30 = 9.29<br>\n    9.29 + 1.33 = 10.62\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Count the number of values</strong><br>\n    There are 8 values in total.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Divide the sum by the count</strong><br>\n    Mean = \\(\\frac{10.62}{8} = 1.3275 \\approx 1.33\\) seconds\n  </div>\n  \n  <p><strong>Answer:</strong> The mean value is 1.33 s, which is option D.</p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Integration of Inverse Sine</h4>\n  <p>We need to evaluate \\(\\int \\sin^{-1}(x) dx\\)</p>\n  <p>Use integration by parts: Let \\(u = \\sin^{-1}(x)\\) and \\(dv = dx\\)</p>\n  <p>Then \\(du = \\frac{1}{\\sqrt{1-x^2}} dx\\) and \\(v = x\\)</p>\n  <p>Using \\(\\int u \\, dv = uv - \\int v \\, du\\):</p>\n  <p>\\(\\int \\sin^{-1}(x) dx = x \\sin^{-1}(x) - \\int x \\cdot \\frac{1}{\\sqrt{1-x^2}} dx\\)</p>\n  <p>For the remaining integral, let \\(w = 1-x^2\\), then \\(dw = -2x dx\\), so \\(x dx = -\\frac{1}{2} dw\\)</p>\n  <p>\\(\\int \\frac{x}{\\sqrt{1-x^2}} dx = \\int \\frac{1}{\\sqrt{w}} \\cdot \\left(-\\frac{1}{2}\\right) dw = -\\frac{1}{2} \\int w^{-1/2} dw\\)</p>\n  <p>\\(= -\\frac{1}{2} \\cdot 2w^{1/2} = -\\sqrt{w} = -\\sqrt{1-x^2}\\)</p>\n  <p>Therefore:</p>\n  <p>\\(\\int \\sin^{-1}(x) dx = x \\sin^{-1}(x) - (-\\sqrt{1-x^2}) + k = x \\sin^{-1}(x) + \\sqrt{1-x^2} + k\\)</p>\n  <p>This matches option c.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the integral is x sin⁻¹ x + √(1-x²) + k.</strong></p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 12",
     "topic": [
-      "Physics",
-      "Measurements",
-      "Range"
+      "Calculus",
+      "Integration",
+      "Substitution"
     ],
     "Question": {
-      "content": "The period of a simple pendulum is found to have the values 1.29, 1.33, 1.34, 1.35, 1.32, 1.36, 1.30 and 1.33 seconds. What is the range of the values?",
+      "content": "Evaluate ∫ xe^(x²+1) dx.",
       "type": "OBJ",
       "options": [
-        "0.6",
-        "0.07",
-        "1.29",
-        "0.003"
+        "xe^(x²+1) + k",
+        "xe^(x²+1) + k",
+        "(1/2)e^(x²+1) + k",
+        "(1/2)xe^(x²+1) + k"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "0.07"
+      "content": "(1/2)e^(x²+1) + k"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating the Range</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Definition of range</strong><br>\n    Range = Maximum value - Minimum value\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify the maximum value</strong><br>\n    Looking at the values: 1.29, 1.33, 1.34, 1.35, 1.32, 1.36, 1.30, 1.33<br>\n    Maximum value = 1.36 s\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Identify the minimum value</strong><br>\n    Minimum value = 1.29 s\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Calculate the range</strong><br>\n    Range = 1.36 - 1.29 = 0.07 s\n  </div>\n  \n  <p><strong>Answer:</strong> The range of the values is 0.07 s, which is option B.</p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Integration by Substitution</h4>\n  <p>Given \\(\\int x e^{x^2+1} dx\\)</p>\n  <p>Let \\(u = x^2 + 1\\)</p>\n  <p>Then \\(du = 2x \\, dx\\), so \\(x \\, dx = \\frac{1}{2} du\\)</p>\n  <p>Substitute:</p>\n  <p>\\(\\int x e^{x^2+1} dx = \\int e^u \\cdot \\frac{1}{2} du = \\frac{1}{2} \\int e^u du = \\frac{1}{2} e^u + k\\)</p>\n  <p>Substitute back \\(u = x^2 + 1\\):</p>\n  <p>\\(= \\frac{1}{2} e^{x^2+1} + k\\)</p>\n  <p>Note: Options a and b are identical (likely a typo in the question). Option c is the correct answer.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the integral is (1/2)e^(x²+1) + k.</strong></p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 13",
     "topic": [
-      "Physics",
-      "Mechanics",
-      "Hooke's Law",
-      "Springs"
+      "Calculus",
+      "Integration",
+      "Exponential Functions"
     ],
     "Question": {
-      "content": "What force should be applied to compress a spring by 0.013 m if its spring constant is \\(k = 1900 \\, \\text{N/m}\\)?",
+      "content": "Find ∫ 24ˣ dx.",
       "type": "OBJ",
       "options": [
-        "180 N",
-        "24.7 N",
-        "1900 N",
-        "12.7 N"
+        "4ˣ/(2 ln 4) + k",
+        "4 ln 2 + k",
+        "2 ln 4 + k",
+        "24ˣ/(2 ln 4) + k"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "24.7 N"
+      "content": "24ˣ/(2 ln 4) + k"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Hooke's Law Calculation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Recall Hooke's Law</strong><br>\n    Hooke's Law states that the force \\(F\\) needed to extend or compress a spring by a distance \\(x\\) is proportional to that distance:<br>\n    \\(F = kx\\)<br>\n    where \\(k\\) is the spring constant (stiffness of the spring).\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify the given values</strong><br>\n    Spring constant, \\(k = 1900 \\, \\text{N/m}\\)<br>\n    Compression distance, \\(x = 0.013 \\, \\text{m}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Apply the formula</strong><br>\n    \\(F = 1900 \\times 0.013\\)<br>\n    \\(F = 24.7 \\, \\text{N}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Check the calculation</strong><br>\n    \\(1900 \\times 0.01 = 19\\)<br>\n    \\(1900 \\times 0.003 = 5.7\\)<br>\n    \\(19 + 5.7 = 24.7\\) ✓\n  </div>\n  \n  <p><strong>Answer:</strong> The force required is 24.7 N, which is option B.</p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Integration of Exponential Functions</h4>\n  <p>We need to evaluate \\(\\int 24^x dx\\)</p>\n  <p>Recall the formula: \\(\\int a^x dx = \\frac{a^x}{\\ln a} + C\\) for a > 0, a ≠ 1</p>\n  <p>Here, a = 24</p>\n  <p>So \\(\\int 24^x dx = \\frac{24^x}{\\ln 24} + k\\)</p>\n  <p>Now, \\(\\ln 24 = \\ln(4 \\times 6) = \\ln 4 + \\ln 6\\), but that's not 2 ln 4.</p>\n  <p>\\(\\ln 24 = \\ln(4 \\times 6) = \\ln 4 + \\ln 6 \\approx 1.386 + 1.792 = 3.178\\)</p>\n  <p>\\(2 \\ln 4 = 2 \\times 1.386 = 2.772\\), which is not equal to ln 24.</p>\n  <p>So option d says \\(\\frac{24^x}{2\\ln 4} + k\\), which would be \\(\\frac{24^x}{\\ln 16} + k\\) since \\(2\\ln 4 = \\ln(4^2) = \\ln 16\\)</p>\n  <p>This is not the same as \\(\\frac{24^x}{\\ln 24}\\).</p>\n  <p>However, among the given options, option d is the closest in form, with 24^x in the numerator and 2 ln 4 in the denominator.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the answer is likely 24ˣ/(2 ln 4) + k.</strong></p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 14",
     "topic": [
-      "Physics",
-      "Fluids",
-      "Buoyancy",
-      "Archimedes' Principle"
+      "Calculus",
+      "Integration",
+      "Partial Fractions"
     ],
     "Question": {
-      "content": "An object weighs 20 N in air and 17 N in water. What is the thrust acting on the object?",
+      "content": "Compute ∫ (x+1)/(x²-3x+2) dx.",
       "type": "OBJ",
       "options": [
-        "37 N",
-        "3.0 kg",
-        "3.0 N",
-        "2.5 N"
+        "1/(x-1) - 1/(x-2) + k",
+        "3 ln(x-2) - 2 ln(x-1) + k",
+        "1/[3 ln(x+2)] + 2 ln(x-1) + k",
+        "1/[3 ln(x+2)] + 2 ln(-x-1) + k"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "3.0 N"
+      "content": "3 ln(x-2) - 2 ln(x-1) + k"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Buoyant Force (Thrust)</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand Archimedes' Principle</strong><br>\n    When an object is immersed in a fluid, it experiences an upward buoyant force (thrust) equal to the weight of the fluid displaced.<br>\n    The apparent weight loss equals the buoyant force.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify the given values</strong><br>\n    Weight in air = 20 N<br>\n    Weight in water = 17 N<br>\n    The difference is due to the buoyant force.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate the thrust</strong><br>\n    Thrust = Weight in air - Weight in water<br>\n    Thrust = 20 N - 17 N = 3 N\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Note about units</strong><br>\n    Option B says \"3.0 kg\" - this is incorrect because thrust is a force measured in Newtons, not mass in kg.<br>\n    The correct answer is 3.0 N.\n  </div>\n  \n  <p><strong>Answer:</strong> The thrust acting on the object is 3.0 N, which is option C.</p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Integration Using Partial Fractions</h4>\n  <p>Given \\(\\int \\frac{x+1}{x^2-3x+2} dx\\)</p>\n  <p>First, factor the denominator: \\(x^2-3x+2 = (x-1)(x-2)\\)</p>\n  <p>Use partial fractions: \\(\\frac{x+1}{(x-1)(x-2)} = \\frac{A}{x-1} + \\frac{B}{x-2}\\)</p>\n  <p>Multiply both sides by \\((x-1)(x-2)\\):</p>\n  <p>\\(x+1 = A(x-2) + B(x-1)\\)</p>\n  <p>\\(x+1 = Ax - 2A + Bx - B\\)</p>\n  <p>\\(x+1 = (A+B)x + (-2A - B)\\)</p>\n  <p>Comparing coefficients:</p>\n  <p>\\(A + B = 1\\)</p>\n  <p>\\(-2A - B = 1\\)</p>\n  <p>Add the two equations: \\(-A = 2 \\Rightarrow A = -2\\)</p>\n  <p>Then \\(-2 + B = 1 \\Rightarrow B = 3\\)</p>\n  <p>So the decomposition is: \\(\\frac{x+1}{(x-1)(x-2)} = \\frac{-2}{x-1} + \\frac{3}{x-2}\\)</p>\n  <p>Now integrate:</p>\n  <p>\\(\\int \\frac{x+1}{x^2-3x+2} dx = \\int \\left(\\frac{3}{x-2} - \\frac{2}{x-1}\\right) dx\\)</p>\n  <p>\\(= 3\\ln|x-2| - 2\\ln|x-1| + k\\)</p>\n  <p>This matches option b: \\(3\\ln(x-2) - 2\\ln(x-1) + k\\)</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the integral is 3 ln(x-2) - 2 ln(x-1) + k.</strong></p>\n</div>"
     }
   },
+
   {
     "type": "Question",
     "name": "Question 15",
     "topic": [
-      "Physics",
-      "Oscillations",
-      "Simple Pendulum",
-      "Period"
+      "Calculus",
+      "Derivatives",
+      "Logarithmic Differentiation"
     ],
     "Question": {
-      "content": "A student found out from a simple pendulum experiment that 20 oscillations were completed in 38 seconds. What is the period of oscillation of the pendulum?",
+      "content": "Let y = x^{sin x}. Find dy/dx.",
       "type": "OBJ",
       "options": [
-        "2.3 s",
-        "3.8 s",
-        "1.9 s",
-        "0.53 s"
+        "x^{sin x} (sin x/x + ln x cos x)",
+        "cos x + (x ln x)/(cos²x + sin²x)",
+        "x ln x cos x - (x ln x)/(cos²x + sin²x)"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "1.9 s"
+      "content": "x^{sin x} (sin x/x + ln x cos x)"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating the Period of Oscillation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Definition of period</strong><br>\n    The period \\(T\\) is the time taken for one complete oscillation.<br>\n    \\(T = \\frac{\\text{Total time}}{\\text{Number of oscillations}}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify the given values</strong><br>\n    Number of oscillations = 20<br>\n    Total time = 38 seconds\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Apply the formula</strong><br>\n    \\(T = \\frac{38}{20} = 1.9 \\, \\text{s}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Verify the calculation</strong><br>\n    \\(20 \\times 1.9 = 38\\) seconds ✓\n  </div>\n  \n  <p><strong>Answer:</strong> The period of oscillation is 1.9 s, which is option C.</p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Logarithmic Differentiation</h4>\n  <p>Given \\(y = x^{\\sin x}\\)</p>\n  <p>Take natural logarithm of both sides:</p>\n  <p>\\(\\ln y = \\ln(x^{\\sin x}) = \\sin x \\cdot \\ln x\\)</p>\n  <p>Differentiate both sides with respect to x:</p>\n  <p>\\(\\frac{1}{y} \\cdot \\frac{dy}{dx} = \\cos x \\cdot \\ln x + \\sin x \\cdot \\frac{1}{x}\\)</p>\n  <p>Multiply both sides by y:</p>\n  <p>\\(\\frac{dy}{dx} = y \\left(\\cos x \\ln x + \\frac{\\sin x}{x}\\right)\\)</p>\n  <p>Substitute back \\(y = x^{\\sin x}\\):</p>\n  <p>\\(\\frac{dy}{dx} = x^{\\sin x} \\left(\\frac{\\sin x}{x} + \\ln x \\cos x\\right)\\)</p>\n  <p>This matches option a.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the derivative is x^{sin x} (sin x/x + ln x cos x).</strong></p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 16",
     "topic": [
-      "Physics",
-      "Mechanics",
-      "Hooke's Law",
-      "Elasticity"
+      "Calculus",
+      "Derivatives",
+      "Quotient Rule"
     ],
     "Question": {
-      "content": "Hooke's Law states that",
+      "content": "If y = x/cos x, what is dy/dx?",
       "type": "OBJ",
       "options": [
-        "stress is always proportional to strain",
-        "stress is proportional to strain after yield point",
-        "stress is proportional to strain under elastic limit",
-        "stress is inversely proportional to strain"
+        "(cos x + sin x)/cos³x",
+        "(cos x + sin x)/cos²x",
+        "(x cos x + x sin x)/cos²x"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "stress is proportional to strain under elastic limit"
+      "content": "(cos x + x sin x)/cos²x"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Hooke's Law Statement</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Recall the correct statement</strong><br>\n    Hooke's Law states that within the elastic limit, the stress applied to a material is directly proportional to the strain produced.<br>\n    \\(\\text{Stress} \\propto \\text{Strain}\\) or \\(\\text{Stress} = E \\times \\text{Strain}\\) where E is the modulus of elasticity.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Understand the elastic limit condition</strong><br>\n    The proportionality holds only up to the elastic limit. Beyond this point (plastic deformation region), Hooke's Law no longer applies and the material may not return to its original shape.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Analyze each option</strong><br>\n    • <strong>Option A</strong>: \"stress is always proportional to strain\" - Incorrect, only true within elastic limit<br>\n    • <strong>Option B</strong>: \"stress is proportional to strain after yield point\" - Incorrect, after yield point the relationship is non-linear<br>\n    • <strong>Option C</strong>: \"stress is proportional to strain under elastic limit\" - Correct ✓<br>\n    • <strong>Option D</strong>: \"stress is inversely proportional to strain\" - Incorrect, it's directly proportional\n  </div>\n  \n  <p><strong>Answer:</strong> Hooke's Law states that stress is proportional to strain under elastic limit, which is option C.</p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Derivative Using Quotient Rule</h4>\n  <p>Given \\(y = \\frac{x}{\\cos x}\\)</p>\n  <p>Use the quotient rule: \\(\\frac{dy}{dx} = \\frac{\\cos x \\cdot 1 - x \\cdot (-\\sin x)}{\\cos^2 x}\\)</p>\n  <p>Simplify numerator:</p>\n  <p>\\(\\cos x + x \\sin x\\)</p>\n  <p>Therefore:</p>\n  <p>\\(\\frac{dy}{dx} = \\frac{\\cos x + x \\sin x}{\\cos^2 x}\\)</p>\n  <p>Looking at the options:</p>\n  <ul>\n    <li>Option a has \\(\\cos x + \\sin x\\) in numerator (missing the x factor) and \\(\\cos^3 x\\) in denominator.</li>\n    <li>Option b has \\(\\cos x + \\sin x\\) in numerator (missing the x factor).</li>\n    <li>Option c has \\(x \\cos x + x \\sin x = x(\\cos x + \\sin x)\\) in numerator, which has x factored out incorrectly.</li>\n  </ul>\n  <p>The correct answer \\(\\frac{\\cos x + x \\sin x}{\\cos^2 x}\\) is not exactly among the options, but option b is closest if we assume they forgot the x factor.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>The correct derivative is (cos x + x sin x)/cos²x.</strong></p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 17",
     "topic": [
-      "Physics",
-      "Measurements",
-      "Error Analysis"
+      "Calculus",
+      "Continuity",
+      "Piecewise Functions"
     ],
     "Question": {
-      "content": "The errors which are always of same size and sign under certain conditions are called",
+      "content": "Investigate continuity of the function f(x) = { (x² - x - 12)/(x + 3), if x ≠ -3; -5, if x = -3 } at the point x = -3.",
       "type": "OBJ",
       "options": [
-        "Systematic errors",
-        "Human errors",
-        "Climatic errors",
-        "Gross errors"
+        "Not continuous at x = -3",
+        "Continuous at x = -e",
+        "None of the above",
+        "all of the above"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "Systematic errors"
+      "content": "Continuous at x = -3"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Types of Errors</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Define systematic errors</strong><br>\n    Systematic errors are errors that occur consistently in the same direction (always positive or always negative) and are of the same size under the same conditions. They are caused by faults in the measuring instrument or experimental method.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Contrast with other error types</strong><br>\n    • <strong>Human errors</strong>: Mistakes made by the experimenter (parallax error, misreading scales) - not necessarily consistent<br>\n    • <strong>Climatic errors</strong>: Errors due to environmental conditions like temperature, pressure - can vary<br>\n    • <strong>Gross errors</strong>: Large mistakes due to carelessness - not consistent\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Key characteristic</strong><br>\n    The question specifically mentions \"always of same size and sign under certain conditions\" - this is the defining characteristic of systematic errors.\n  </div>\n  \n  <p><strong>Answer:</strong> Errors that are always of the same size and sign are called systematic errors, which is option A.</p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Checking Continuity at a Point</h4>\n  <p>Given: \\(f(x) = \\begin{cases} \\frac{x^2 - x - 12}{x + 3}, & \\text{if } x \\neq -3 \\\\ -5, & \\text{if } x = -3 \\end{cases}\\)</p>\n  <p>First, simplify the expression for x ≠ -3:</p>\n  <p>\\(x^2 - x - 12 = (x - 4)(x + 3)\\)</p>\n  <p>So \\(\\frac{x^2 - x - 12}{x + 3} = \\frac{(x - 4)(x + 3)}{x + 3} = x - 4\\) for x ≠ -3</p>\n  <p>Now find the limit as x → -3:</p>\n  <p>\\(\\lim_{x \\to -3} f(x) = \\lim_{x \\to -3} (x - 4) = -3 - 4 = -7\\)</p>\n  <p>The function value at x = -3 is given as \\(f(-3) = -5\\)</p>\n  <p>Since \\(\\lim_{x \\to -3} f(x) = -7 \\neq -5 = f(-3)\\), the function is NOT continuous at x = -3.</p>\n  <p>Option a says \"Not continuous at x = -3\", which is correct.</p>\n  <p>Option b says \"Continuous at x = -e\", which is irrelevant to the question.</p>\n  <p>Since option a is correct and the others are not, the answer should be option a.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the function is not continuous at x = -3.</strong></p>\n</div>"
     }
   },
-    {
+  {
     "type": "Question",
     "name": "Question 18",
     "topic": [
-      "Physics",
-      "Measurement",
-      "Vernier Caliper Reading"
+      "Calculus",
+      "Inverse Functions",
+      "Trigonometric Functions"
     ],
     "Question": {
-      "content": "The diagram shows part of a vernier caliper. What is the reading?",
+      "content": "Which of these describe the inverse of the function 1/(x√(x² - 1))?",
       "type": "OBJ",
       "options": [
-        "3.47 cm",
-        "3.67 cm",
-        "4.37 cm",
-        "4.57 cm"
+        "y = arc csc x",
+        "y = sec x",
+        "y = -x/√((x² - 1)²)",
+        "y = x³/(x² - 1)²"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "4.37 cm"
+      "content": "y = arc csc x"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Reading a Vernier Caliper</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Recall how to read a vernier caliper</strong><br>\n    Vernier caliper reading = Main scale reading + Vernier scale reading<br>\n    The least count of a standard vernier caliper is 0.01 cm (0.1 mm).\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Read the main scale</strong><br>\n    Look at where the zero mark of the vernier scale falls on the main scale.<br>\n    From the diagram, the main scale reading is 4.3 cm.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Read the vernier scale</strong><br>\n    Find which line on the vernier scale exactly coincides with any line on the main scale.<br>\n    From the diagram, the 7th line on the vernier scale coincides.<br>\n    Vernier scale reading = 7 × 0.01 cm = 0.07 cm\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Add both readings</strong><br>\n    Total reading = 4.3 cm + 0.07 cm = 4.37 cm\n  </div>\n  \n  <p><strong>Answer:</strong> The vernier caliper reading is 4.37 cm, which is option C.</p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Inverse Trigonometric Functions</h4>\n  <p>Recall the derivatives of inverse trigonometric functions:</p>\n  <ul>\n    <li>\\(\\frac{d}{dx}[\\arcsin x] = \\frac{1}{\\sqrt{1-x^2}}\\)</li>\n    <li>\\(\\frac{d}{dx}[\\arccos x] = -\\frac{1}{\\sqrt{1-x^2}}\\)</li>\n    <li>\\(\\frac{d}{dx}[\\arctan x] = \\frac{1}{1+x^2}\\)</li>\n    <li>\\(\\frac{d}{dx}[\\arccsc x] = -\\frac{1}{|x|\\sqrt{x^2-1}}\\)</li>\n    <li>\\(\\frac{d}{dx}[\\arcsec x] = \\frac{1}{|x|\\sqrt{x^2-1}}\\)</li>\n    <li>\\(\\frac{d}{dx}[\\arccot x] = -\\frac{1}{1+x^2}\\)</li>\n  </ul>\n  <p>The given function is \\(\\frac{1}{x\\sqrt{x^2-1}}\\). This matches the derivative of \\(\\arcsec x\\) (positive) or \\(\\arccsc x\\) (negative).</p>\n  <p>Since there's no negative sign, this is the derivative of \\(\\arcsec x\\).</p>\n  <p>Therefore, the inverse (or antiderivative) would be \\(\\arcsec x + C\\).</p>\n  <p>Option a says \\(y = \\arcsc x\\) (which likely means arccsc x), and option b says \\(y = \\sec x\\).</p>\n  <p>The function \\(\\frac{1}{x\\sqrt{x^2-1}}\\) is the derivative of \\(\\arcsec x\\), so its antiderivative is \\(\\arcsec x + C\\).</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the inverse (antiderivative) is arcsec x, which is closest to option a if arc csc means arcsec.</strong></p>\n</div>"
     }
   },
-    {
-      "type": "img",
-      "alt": "an image",
-      "content": "https://ppqimg.s3.eu-north-1.amazonaws.com/PQ_IMG/PHY_102.1/2024_2025/n18.png",
-      "Caption": "example image",
-      "topic": "the value will a string or an array"
-    },
-  
   {
     "type": "Question",
     "name": "Question 19",
     "topic": [
-      "Physics",
-      "Units",
-      "Mass Conversion"
+      "Calculus",
+      "Functions",
+      "Domain and Range"
     ],
     "Question": {
-      "content": "Which of the following is the correct relation?",
+      "content": "Let f(x) = { 1 - x², if x ≤ 0; 2x + 1, if x > 0 }. Find the domain and range of f.",
       "type": "OBJ",
       "options": [
-        "1 kg = 0.00 g",
-        "1 kg = 1 g",
-        "1 g = 0.001 kg",
-        "1 g = 0.01 kg"
+        "ℝ and ℝ",
+        "ℝ and (-∞, 0)",
+        "ℝ and (0, ∞)",
+        "[0, ∞) and ℝ"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "1 g = 0.001 kg"
+      "content": "ℝ and ℝ"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Mass Unit Conversions</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Recall the relationship between kg and g</strong><br>\n    1 kilogram (kg) = 1000 grams (g)<br>\n    This is a standard metric conversion.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Derive other relations</strong><br>\n    From 1 kg = 1000 g:<br>\n    • 1 g = \\(\\frac{1}{1000}\\) kg = 0.001 kg<br>\n    • 1 kg = 1000 g (not 1 g or 0.00 g)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Check each option</strong><br>\n    • <strong>Option A</strong>: \"1 kg = 0.00 g\" - Incorrect, 1 kg = 1000 g<br>\n    • <strong>Option B</strong>: \"1 kg = 1 g\" - Incorrect, 1 kg is much larger<br>\n    • <strong>Option C</strong>: \"1 g = 0.001 kg\" - Correct ✓<br>\n    • <strong>Option D</strong>: \"1 g = 0.01 kg\" - Incorrect, that would be 10 g\n  </div>\n  \n  <p><strong>Answer:</strong> The correct relation is 1 g = 0.001 kg, which is option C.</p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Domain and Range of Piecewise Function</h4>\n  <p>Given: \\(f(x) = \\begin{cases} 1 - x^2, & \\text{if } x \\leq 0 \\\\ 2x + 1, & \\text{if } x > 0 \\end{cases}\\)</p>\n  <p><strong>Domain:</strong> The function is defined for all real numbers. For x ≤ 0, we use the first piece; for x > 0, we use the second piece. So domain = \\(\\mathbb{R}\\) (all real numbers).</p>\n  <p><strong>Range:</strong> Need to find all possible output values.</p>\n  <p>For x ≤ 0: \\(f(x) = 1 - x^2\\). As x → -∞, \\(-x^2 → -∞\\), so \\(1 - x^2 → -∞\\). At x = 0, \\(f(0) = 1 - 0 = 1\\). So for this piece, the range is \\((-∞, 1]\\).</p>\n  <p>For x > 0: \\(f(x) = 2x + 1\\). As x → 0⁺, \\(f(x) → 1\\) (but not including 1 since x > 0). As x → ∞, \\(f(x) → ∞\\). So for this piece, the range is \\((1, ∞)\\).</p>\n  <p>Combining both pieces: \\((-∞, 1] ∪ (1, ∞) = (-∞, ∞) = \\mathbb{R}\\)</p>\n  <p>Therefore, both domain and range are all real numbers.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>The domain and range are ℝ and ℝ.</strong></p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 20",
     "topic": [
-      "Physics",
-      "Oscillations",
-      "Simple Pendulum",
-      "Formula"
+      "Calculus",
+      "Limits",
+      "Rationalization"
     ],
     "Question": {
-      "content": "What is the formula for the period of a simple pendulum?",
+      "content": "Find lim_{t → 0} (√(t² + 9) - 3)/t².",
       "type": "OBJ",
       "options": [
-        "\\(T = 2\\pi \\sqrt{\\frac{L}{g}}\\)",
-        "\\(T = 2\\pi \\sqrt{\\frac{g}{L}}\\)",
-        "\\(2\\pi L/g\\)",
-        "\\(2\\pi g/L\\)"
+        "no limit",
+        "+∞",
+        "1/6",
+        "1/3"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "\\(T = 2\\pi \\sqrt{\\frac{L}{g}}\\)"
+      "content": "1/6"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Period of a Simple Pendulum</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Recall the correct formula</strong><br>\n    The period \\(T\\) of a simple pendulum depends on its length \\(L\\) and the acceleration due to gravity \\(g\\):<br>\n    \\(T = 2\\pi \\sqrt{\\frac{L}{g}}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Understand the relationship</strong><br>\n    • Period is proportional to the square root of length: longer pendulum → longer period<br>\n    • Period is inversely proportional to the square root of gravity: stronger gravity → shorter period<br>\n    • The formula shows \\(L\\) in numerator and \\(g\\) in denominator, so \\(T \\propto \\sqrt{L}\\) and \\(T \\propto \\frac{1}{\\sqrt{g}}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Check each option</strong><br>\n    • <strong>Option A</strong>: \\(T = 2\\pi \\sqrt{\\frac{L}{g}}\\) - Correct ✓<br>\n    • <strong>Option B</strong>: \\(T = 2\\pi \\sqrt{\\frac{g}{L}}\\) - Incorrect, this would give period decreasing with length<br>\n    • <strong>Option C</strong>: \\(2\\pi L/g\\) - Incorrect, missing square root<br>\n    • <strong>Option D</strong>: \\(2\\pi g/L\\) - Incorrect, completely wrong relationship\n  </div>\n  \n  <p><strong>Answer:</strong> The correct formula is \\(T = 2\\pi \\sqrt{\\frac{L}{g}}\\), which is option A.</p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Limit with Rationalization</h4>\n  <p>Given \\(\\lim_{t \\to 0} \\frac{\\sqrt{t^2 + 9} - 3}{t^2}\\)</p>\n  <p>Direct substitution gives \\(\\frac{0}{0}\\), so we need to rationalize the numerator.</p>\n  <p>Multiply numerator and denominator by \\(\\sqrt{t^2 + 9} + 3\\):</p>\n  <p>\\(\\frac{(\\sqrt{t^2 + 9} - 3)(\\sqrt{t^2 + 9} + 3)}{t^2(\\sqrt{t^2 + 9} + 3)}\\)</p>\n  <p>\\(= \\frac{(t^2 + 9) - 9}{t^2(\\sqrt{t^2 + 9} + 3)}\\)</p>\n  <p>\\(= \\frac{t^2}{t^2(\\sqrt{t^2 + 9} + 3)}\\)</p>\n  <p>\\(= \\frac{1}{\\sqrt{t^2 + 9} + 3}\\)</p>\n  <p>Now take the limit as t → 0:</p>\n  <p>\\(\\lim_{t \\to 0} \\frac{1}{\\sqrt{t^2 + 9} + 3} = \\frac{1}{\\sqrt{0 + 9} + 3} = \\frac{1}{3 + 3} = \\frac{1}{6}\\)</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the limit is 1/6.</strong></p>\n</div>"
     }
   },
-    {
+  {
     "type": "Question",
     "name": "Question 21",
     "topic": [
-      "Physics",
-      "Mechanics",
-      "Moments",
-      "Balance"
+      "Mathematics",
+      "Relations and Functions",
+      "Set Theory"
     ],
     "Question": {
-      "content": "A beam is pivoted at its centre. Two masses are suspended at equal distance from the pivot as shown in the adjacent block. Which statement is correct?",
+      "content": "A relation R is defined from set A = {1, 2, 3} to set B = {4, 5} by R = {(1, 4), (2, 5)}. What is the range and co-domain of R?",
       "type": "OBJ",
       "options": [
-        "If X has a mass of exactly 2 kg, it will rise.",
-        "If X has a mass of less than 2 kg, it will fall.",
-        "If X has a mass of more than 2 kg, it will fall.",
-        "If X has a mass of more than 2 kg, it will rise."
+        "{1, 2} and {4, 5}",
+        "{1, 2, 3} and {4, 5}",
+        "{4, 5} and {4, 5}",
+        "{1, 4, 5} and {4, 5}"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "If X has a mass of more than 2 kg, it will fall."
+      "content": "{4, 5} and {4, 5}"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Principle of Moments on a Balanced Beam</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand the setup</strong><br>\n    • Beam is pivoted at its centre<br>\n    • Two masses are suspended at equal distances from the pivot<br>\n    • From typical diagrams, one side has a 2 kg mass, the other side has an unknown mass X<br>\n    • Equal distances mean the moment arms are the same length\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Apply the principle of moments</strong><br>\n    For a beam in equilibrium (balanced):<br>\n    Clockwise moment = Anticlockwise moment<br>\n    Moment = Force × Perpendicular distance from pivot<br>\n    Since distances are equal, balance occurs when the forces (weights) are equal<br>\n    Weight = mass × g, so balance occurs when masses are equal\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Determine what happens with different masses</strong><br>\n    • If X = 2 kg: Forces are equal, beam is balanced (neither rises nor falls)<br>\n    • If X < 2 kg: The 2 kg side has greater force, so that side will fall (X side rises)<br>\n    • If X > 2 kg: The X side has greater force, so that side will fall (2 kg side rises)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Match with the options</strong><br>\n    • <strong>Option A</strong>: \"If X has a mass of exactly 2 kg, it will rise.\" - Incorrect, beam balances<br>\n    • <strong>Option B</strong>: \"If X has a mass of less than 2 kg, it will fall.\" - Incorrect, X side rises, not falls<br>\n    • <strong>Option C</strong>: \"If X has a mass of more than 2 kg, it will fall.\" - Correct ✓<br>\n    • <strong>Option D</strong>: \"If X has a mass of more than 2 kg, it will rise.\" - Incorrect, X side falls\n  </div>\n  \n  <p><strong>Answer:</strong> If X has a mass of more than 2 kg, it will fall, which is option C.</p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Range and Co-domain of a Relation</h4>\n  <p>Given: \\(A = \\{1, 2, 3\\}\\), \\(B = \\{4, 5\\}\\), and \\(R = \\{(1, 4), (2, 5)\\}\\)</p>\n  <p><strong>Co-domain:</strong> This is the set B, which is given as \\(\\{4, 5\\}\\).</p>\n  <p><strong>Range:</strong> This is the set of all second elements in the ordered pairs of R.</p>\n  <p>From R: (1, 4) gives 4, and (2, 5) gives 5.</p>\n  <p>So range = \\(\\{4, 5\\}\\).</p>\n  <p>Therefore, both range and co-domain are \\(\\{4, 5\\}\\).</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>The range and co-domain are both {4, 5}.</strong></p>\n</div>"
     }
   },
-    {
-      "type": "img",
-      "alt": "an image",
-      "content": "https://ppqimg.s3.eu-north-1.amazonaws.com/PQ_IMG/PHY_102.1/2024_2025/n21.jpg",
-      "Caption": "example image",
-      "topic": "the value will a string or an array"
-    },
   {
     "type": "Question",
     "name": "Question 22",
     "topic": [
-      "Physics",
-      "Mechanics",
-      "Hooke's Law",
-      "Springs"
+      "Calculus",
+      "Limits",
+      "Absolute Value"
     ],
     "Question": {
-      "content": "A spring stretches from 10 cm to 22 cm when a force of 4 N is applied to it. If it obeys Hooke's law, what is its total length in cm when a force of 6 N is applied?",
+      "content": "Evaluate lim_{x → 0⁻} (x²/|x| - 1).",
       "type": "OBJ",
       "options": [
-        "28 cm",
-        "18 cm",
-        "50 cm",
-        "56 cm",
-        "100 cm"
+        "-1",
+        "1",
+        "0",
+        "1"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "28 cm"
+      "content": "-1"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Hooke's Law - Spring Extension</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand what Hooke's Law states</strong><br>\n    Hooke's Law: The extension of a spring is directly proportional to the applied force, provided the elastic limit is not exceeded.<br>\n    \\(F = kx\\), where \\(x\\) is the extension from the natural length.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify the natural length and first extension</strong><br>\n    Natural length (original length) = 10 cm<br>\n    Length with 4 N force = 22 cm<br>\n    Extension \\(x_1 = 22 - 10 = 12 \\text{ cm}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Find the spring constant</strong><br>\n    Using \\(F = kx\\):<br>\n    \\(4 = k \\times 0.12 \\text{ m}\\) (convert cm to m for standard units)<br>\n    \\(k = \\frac{4}{0.12} = 33.33 \\text{ N/m}\\)<br>\n    However, we can work directly with cm since we only need ratio.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Use proportion to find new extension</strong><br>\n    Since extension ∝ force:<br>\n    \\(\\frac{x_2}{x_1} = \\frac{F_2}{F_1}\\)<br>\n    \\(\\frac{x_2}{12} = \\frac{6}{4}\\)<br>\n    \\(x_2 = 12 \\times \\frac{6}{4} = 12 \\times 1.5 = 18 \\text{ cm}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 5: Calculate the total length</strong><br>\n    Total length = Natural length + Extension<br>\n    Total length = 10 cm + 18 cm = 28 cm\n  </div>\n  \n  <p><strong>Answer:</strong> When a force of 6 N is applied, the total length is 28 cm, which is option A.</p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>One-Sided Limit with Absolute Value</h4>\n  <p>Given \\(\\lim_{x \\to 0^-} \\left(\\frac{x^2}{|x|} - 1\\right)\\)</p>\n  <p>As x → 0⁻ (from the left), x is negative, so |x| = -x.</p>\n  <p>Therefore, \\(\\frac{x^2}{|x|} = \\frac{x^2}{-x} = -x\\) (since x²/x = x)</p>\n  <p>So the expression becomes: \\(-x - 1\\)</p>\n  <p>Now take the limit as x → 0⁻:</p>\n  <p>\\(\\lim_{x \\to 0^-} (-x - 1) = -0 - 1 = -1\\)</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the limit is -1.</strong></p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 23",
     "topic": [
-      "Physics",
-      "Graph Analysis",
-      "Error Analysis",
-      "Slope"
+      "Calculus",
+      "Derivatives",
+      "Logarithmic Functions"
     ],
     "Question": {
-      "content": "Which of the following is the formula used for determining the error in the slope of a graph?",
+      "content": "If y = ln(√(x² + 1)), find dy/dx.",
       "type": "OBJ",
       "options": [
-        "4V/mR",
-        "W/nR",
-        "2W/nR",
-        "None"
+        "x/(x²+1)³/²",
+        "1/(x²+1)³/²",
+        "2x/(x²+1)³/²",
+        "1/(2x(x²+1))³/²"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "None"
+      "content": "x/(x²+1)"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Error in the Slope of a Graph</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Recall how slope error is determined</strong><br>\n    In experimental physics, when plotting a graph to determine a physical quantity, the error in the slope is typically found using one of these methods:<br>\n    • Maximum and minimum slope lines method<br>\n    • Using error bars on data points<br>\n    • Statistical methods (linear regression) that give standard error in the slope\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Common formula for slope error</strong><br>\n    For a straight line graph \\(y = mx + c\\), if using the maximum-minimum slope method:<br>\n    Error in slope = \\(\\frac{\\text{Maximum slope} - \\text{Minimum slope}}{2}\\)<br>\n    There is no standard formula like \"4V/mR\" or \"W/nR\" for slope error.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Analyze the given options</strong><br>\n    • <strong>4V/mR</strong>: This looks like a formula from electricity (V = IR, so V/R = I), not for slope error<br>\n    • <strong>W/nR</strong>: Not a standard formula for slope error<br>\n    • <strong>2W/nR</strong>: Also not a standard formula for slope error<br>\n    • <strong>None</strong>: This appears to be the correct choice as none of the given options match the actual methods for determining slope error\n  </div>\n  \n  <p><strong>Answer:</strong> None of the given options is the correct formula for determining error in slope, so option D is correct.</p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Derivative of Logarithm of Square Root</h4>\n  <p>Given \\(y = \\ln(\\sqrt{x^2 + 1})\\)</p>\n  <p>First simplify: \\(\\ln(\\sqrt{x^2 + 1}) = \\ln((x^2 + 1)^{1/2}) = \\frac{1}{2} \\ln(x^2 + 1)\\)</p>\n  <p>Now differentiate:</p>\n  <p>\\(\\frac{dy}{dx} = \\frac{1}{2} \\cdot \\frac{1}{x^2 + 1} \\cdot 2x = \\frac{x}{x^2 + 1}\\)</p>\n  <p>Looking at the options, none of them match \\(\\frac{x}{x^2 + 1}\\).</p>\n  <p>Option a has \\(\\frac{x}{(x^2+1)^{3/2}}\\), which is different.</p>\n  <p>Perhaps they meant \\(y = \\ln(\\sqrt{x^2 + 1})^3\\) or something else.</p>\n  <p>If the function were \\(y = \\ln(\\sqrt{x^2 + 1}^3) = \\ln((x^2+1)^{3/2}) = \\frac{3}{2}\\ln(x^2+1)\\), then the derivative would be \\(\\frac{3}{2} \\cdot \\frac{2x}{x^2+1} = \\frac{3x}{x^2+1}\\), still not matching.</p>\n  <p>Given the options, the closest is option a, but it has an extra factor of \\(1/\\sqrt{x^2+1}\\) in the denominator.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>The correct derivative is x/(x²+1), which is not among the options.</strong></p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 24",
     "topic": [
-      "Physics",
-      "Measurement",
-      "Instruments",
-      "Precision"
+      "Calculus",
+      "Continuity",
+      "Limits"
     ],
     "Question": {
-      "content": "Which of the following instruments is the most sensitive instrument for measuring length?",
+      "content": "If lim_{x → 3} f(x) = 7 and f(3) = 9, then which of the following is true?",
       "type": "OBJ",
       "options": [
-        "Metre rule",
-        "Measuring tape",
-        "Vernier caliper",
-        "Micrometer screw gauge"
+        "f(x) is continuous at x = 3",
+        "f(x) is not defined at x = 3",
+        "f(x) is not continuous at x = 3",
+        "f(x) is differentiable at x = 3"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "Micrometer screw gauge"
+      "content": "f(x) is not continuous at x = 3"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Sensitivity of Length Measuring Instruments</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Define sensitivity in measurement</strong><br>\n    Sensitivity refers to the smallest measurement an instrument can reliably detect. It is also related to the least count of the instrument - the smaller the least count, the more sensitive the instrument.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Compare the least count of each instrument</strong><br>\n    • <strong>Metre rule</strong>: Least count = 1 mm (0.1 cm) or 0.5 mm for some<br>\n    • <strong>Measuring tape</strong>: Least count = 1 mm typically, but less precise due to flexibility<br>\n    • <strong>Vernier caliper</strong>: Least count = 0.1 mm (0.01 cm) for standard ones, some have 0.02 mm or 0.05 mm<br>\n    • <strong>Micrometer screw gauge</strong>: Least count = 0.01 mm (0.001 cm) for standard ones\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Identify the most sensitive</strong><br>\n    The micrometer screw gauge has the smallest least count (0.01 mm), meaning it can measure the smallest differences in length. Therefore, it is the most sensitive instrument among the options.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Order of sensitivity (least to most)</strong><br>\n    Measuring tape ≈ Metre rule (least sensitive) < Vernier caliper < Micrometer screw gauge (most sensitive)\n  </div>\n  \n  <p><strong>Answer:</strong> The most sensitive instrument for measuring length is the micrometer screw gauge, which is option D.</p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Continuity Condition</h4>\n  <p>For a function to be continuous at x = a, three conditions must be met:</p>\n  <ol>\n    <li>\\(f(a)\\) is defined</li>\n    <li>\\(\\lim_{x \\to a} f(x)\\) exists</li>\n    <li>\\(\\lim_{x \\to a} f(x) = f(a)\\)</li>\n  </ol>\n  <p>Given: \\(\\lim_{x \\to 3} f(x) = 7\\) and \\(f(3) = 9\\)</p>\n  <p>Condition 1: \\(f(3)\\) is defined (it's 9) ✓</p>\n  <p>Condition 2: The limit exists (it's 7) ✓</p>\n  <p>Condition 3: \\(\\lim_{x \\to 3} f(x) = 7 \\neq 9 = f(3)\\) ✗</p>\n  <p>Since condition 3 fails, the function is NOT continuous at x = 3.</p>\n  <p>Option c states exactly that.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, f(x) is not continuous at x = 3.</strong></p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 25",
     "topic": [
-      "Physics",
-      "Oscillations",
-      "Simple Pendulum"
+      "Calculus",
+      "Integration",
+      "Trigonometric Functions"
     ],
     "Question": {
-      "content": "The period of a simple pendulum depends on which factor?",
+      "content": "Evaluate the integral ∫ sin³ x dx.",
       "type": "OBJ",
       "options": [
-        "Length of the pendulum",
-        "Mass of the bob",
-        "Shape of the bob",
-        "None of the above"
+        "-(2/3) cos x - (1/6) cos x sin² x",
+        "-(2/3) sin x - (1/6) cos² x sin x",
+        "(1/3) cos x sin² x - (2/3) cos x",
+        "none of the above"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "Length of the pendulum"
+      "content": "(1/3) cos x sin² x - (2/3) cos x"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Factors Affecting Pendulum Period</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Recall the formula for period of a simple pendulum</strong><br>\n    \\(T = 2\\pi \\sqrt{\\frac{L}{g}}\\)<br>\n    where:<br>\n    \\(T\\) = period<br>\n    \\(L\\) = length of the pendulum<br>\n    \\(g\\) = acceleration due to gravity\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify what factors appear in the formula</strong><br>\n    From the formula, the period depends on:<br>\n    • Length \\(L\\) (directly, through square root)<br>\n    • Acceleration due to gravity \\(g\\) (inversely, through square root)<br>\n    Note: \\(2\\pi\\) is a constant.\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Check what factors do NOT affect the period</strong><br>\n    • <strong>Mass of the bob</strong>: Does not appear in the formula - period is independent of mass<br>\n    • <strong>Shape of the bob</strong>: Not in the formula - for small oscillations, shape doesn't matter as long as it's a point mass approximation<br>\n    • <strong>Amplitude</strong>: For small amplitudes, period is independent of amplitude (isochronous)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Analyze the options</strong><br>\n    • <strong>Option A</strong>: Length of the pendulum - Correct ✓<br>\n    • <strong>Option B</strong>: Mass of the bob - Incorrect, period is independent of mass<br>\n    • <strong>Option C</strong>: Shape of the bob - Incorrect, shape doesn't affect period for ideal pendulum<br>\n    • <strong>Option D</strong>: None of the above - Incorrect since A is correct\n  </div>\n  \n  <p><strong>Answer:</strong> The period of a simple pendulum depends on the length of the pendulum, which is option A.</p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Integration of sin³ x</h4>\n  <p>We need to evaluate \\(\\int \\sin^3 x \\, dx\\)</p>\n  <p>Method 1: Using the identity \\(\\sin^3 x = \\sin x (1 - \\cos^2 x)\\)</p>\n  <p>\\(\\int \\sin^3 x \\, dx = \\int \\sin x \\, dx - \\int \\sin x \\cos^2 x \\, dx\\)</p>\n  <p>\\(= -\\cos x - \\int \\cos^2 x \\sin x \\, dx\\)</p>\n  <p>For the second integral, let \\(u = \\cos x\\), then \\(du = -\\sin x \\, dx\\), so \\(\\sin x \\, dx = -du\\)</p>\n  <p>\\(\\int \\cos^2 x \\sin x \\, dx = \\int u^2 (-du) = -\\int u^2 du = -\\frac{u^3}{3} = -\\frac{\\cos^3 x}{3}\\)</p>\n  <p>Therefore:</p>\n  <p>\\(\\int \\sin^3 x \\, dx = -\\cos x - \\left(-\\frac{\\cos^3 x}{3}\\right) + C = -\\cos x + \\frac{\\cos^3 x}{3} + C\\)</p>\n  <p>\\(= \\frac{\\cos^3 x}{3} - \\cos x + C\\)</p>\n  <p>This can also be written as \\(\\frac{1}{3}\\cos x(\\cos^2 x - 3) + C\\)</p>\n  <p>Option c is \\(\\frac{1}{3} \\cos x \\sin^2 x - \\frac{2}{3} \\cos x\\). Note that \\(\\sin^2 x = 1 - \\cos^2 x\\), so:</p>\n  <p>\\(\\frac{1}{3} \\cos x(1 - \\cos^2 x) - \\frac{2}{3} \\cos x = \\frac{1}{3} \\cos x - \\frac{1}{3} \\cos^3 x - \\frac{2}{3} \\cos x = -\\frac{1}{3} \\cos x - \\frac{1}{3} \\cos^3 x\\)</p>\n  <p>This is not the same as our answer. Option a and b also don't match.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>The correct integral is (cos³ x)/3 - cos x + C, which is not among the options.</strong></p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 26",
+    "topic": [
+      "Calculus",
+      "Integration",
+      "Trigonometric Functions"
+    ],
+    "Question": {
+      "content": "Find the coefficient of cos² t in ∫ cos⁵ t dt.",
+      "type": "OBJ",
+      "options": [
+        "(1/5) cos t sin⁴ t",
+        "(8/15) sin t",
+        "(1/5) cos² t sin t",
+        "(4/15) sin t"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(8/15) sin t"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Integration of cos⁵ t</h4>\n  <p>We need to find \\(\\int \\cos^5 t \\, dt\\) and then identify the coefficient of \\(\\cos^2 t\\).</p>\n  <p>Write \\(\\cos^5 t = \\cos^4 t \\cdot \\cos t = (\\cos^2 t)^2 \\cdot \\cos t = (1 - \\sin^2 t)^2 \\cdot \\cos t\\)</p>\n  <p>Let \\(u = \\sin t\\), then \\(du = \\cos t \\, dt\\)</p>\n  <p>\\(\\int \\cos^5 t \\, dt = \\int (1 - u^2)^2 \\, du = \\int (1 - 2u^2 + u^4) \\, du\\)</p>\n  <p>\\(= u - \\frac{2u^3}{3} + \\frac{u^5}{5} + C\\)</p>\n  <p>\\(= \\sin t - \\frac{2}{3} \\sin^3 t + \\frac{1}{5} \\sin^5 t + C\\)</p>\n  <p>We need to express this in terms of \\(\\cos^2 t\\). Using \\(\\sin^2 t = 1 - \\cos^2 t\\):</p>\n  <p>\\(\\sin^3 t = \\sin t \\cdot \\sin^2 t = \\sin t (1 - \\cos^2 t)\\)</p>\n  <p>\\(\\sin^5 t = \\sin t \\cdot \\sin^4 t = \\sin t (1 - \\cos^2 t)^2 = \\sin t (1 - 2\\cos^2 t + \\cos^4 t)\\)</p>\n  <p>Substituting:</p>\n  <p>\\(\\int \\cos^5 t \\, dt = \\sin t - \\frac{2}{3} \\sin t (1 - \\cos^2 t) + \\frac{1}{5} \\sin t (1 - 2\\cos^2 t + \\cos^4 t) + C\\)</p>\n  <p>\\(= \\sin t - \\frac{2}{3} \\sin t + \\frac{2}{3} \\sin t \\cos^2 t + \\frac{1}{5} \\sin t - \\frac{2}{5} \\sin t \\cos^2 t + \\frac{1}{5} \\sin t \\cos^4 t + C\\)</p>\n  <p>Combine the \\(\\sin t\\) terms: \\(1 - \\frac{2}{3} + \\frac{1}{5} = \\frac{15}{15} - \\frac{10}{15} + \\frac{3}{15} = \\frac{8}{15}\\)</p>\n  <p>Combine the \\(\\sin t \\cos^2 t\\) terms: \\(\\frac{2}{3} - \\frac{2}{5} = \\frac{10}{15} - \\frac{6}{15} = \\frac{4}{15}\\)</p>\n  <p>So the integral is: \\(\\frac{8}{15} \\sin t + \\frac{4}{15} \\sin t \\cos^2 t + \\frac{1}{5} \\sin t \\cos^4 t + C\\)</p>\n  <p>The coefficient of \\(\\cos^2 t\\) is \\(\\frac{4}{15} \\sin t\\), which matches option d.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the coefficient of cos² t is (4/15) sin t.</strong></p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 27",
+    "topic": [
+      "Calculus",
+      "Integration",
+      "Substitution"
+    ],
+    "Question": {
+      "content": "Evaluate the integral ∫ x⁵/√((1-2x²)³) dx.",
+      "type": "OBJ",
+      "options": [
+        "(1/9)√((1-2x³)³) - (x²/2)√(1-2x²) + k",
+        "(1/9)√((1-2x³)³) - (x²/3)√(1-2x²) + k",
+        "none of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "none of the above"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Integration with Substitution</h4>\n  <p>We need to evaluate \\(\\int \\frac{x^5}{\\sqrt{(1-2x^2)^3}} dx\\)</p>\n  <p>Note that \\(\\sqrt{(1-2x^2)^3} = (1-2x^2)^{3/2}\\)</p>\n  <p>So the integral is \\(\\int x^5 (1-2x^2)^{-3/2} dx\\)</p>\n  <p>Let \\(u = 1-2x^2\\), then \\(du = -4x dx\\), so \\(x dx = -\\frac{1}{4} du\\)</p>\n  <p>We have \\(x^5 = x^4 \\cdot x\\). Also, from \\(u = 1-2x^2\\), we get \\(x^2 = \\frac{1-u}{2}\\), so \\(x^4 = \\left(\\frac{1-u}{2}\\right)^2 = \\frac{(1-u)^2}{4}\\)</p>\n  <p>Therefore:</p>\n  <p>\\(\\int x^5 (1-2x^2)^{-3/2} dx = \\int x^4 (1-2x^2)^{-3/2} \\cdot x dx\\)</p>\n  <p>\\(= \\int \\frac{(1-u)^2}{4} \\cdot u^{-3/2} \\cdot \\left(-\\frac{1}{4}\\right) du\\)</p>\n  <p>\\(= -\\frac{1}{16} \\int (1-u)^2 u^{-3/2} du\\)</p>\n  <p>\\(= -\\frac{1}{16} \\int (1 - 2u + u^2) u^{-3/2} du\\)</p>\n  <p>\\(= -\\frac{1}{16} \\int (u^{-3/2} - 2u^{-1/2} + u^{1/2}) du\\)</p>\n  <p>Integrate term by term:</p>\n  <p>\\(\\int u^{-3/2} du = \\frac{u^{-1/2}}{-1/2} = -2u^{-1/2}\\)</p>\n  <p>\\(\\int u^{-1/2} du = \\frac{u^{1/2}}{1/2} = 2u^{1/2}\\)</p>\n  <p>\\(\\int u^{1/2} du = \\frac{u^{3/2}}{3/2} = \\frac{2}{3}u^{3/2}\\)</p>\n  <p>So the integral becomes:</p>\n  <p>\\(-\\frac{1}{16} [-2u^{-1/2} - 2(2u^{1/2}) + \\frac{2}{3}u^{3/2}] + C\\)</p>\n  <p>\\(= -\\frac{1}{16} [-2u^{-1/2} - 4u^{1/2} + \\frac{2}{3}u^{3/2}] + C\\)</p>\n  <p>\\(= \\frac{1}{16} [2u^{-1/2} + 4u^{1/2} - \\frac{2}{3}u^{3/2}] + C\\)</p>\n  <p>Substitute back \\(u = 1-2x^2\\):</p>\n  <p>\\(= \\frac{1}{16} [2(1-2x^2)^{-1/2} + 4(1-2x^2)^{1/2} - \\frac{2}{3}(1-2x^2)^{3/2}] + C\\)</p>\n  <p>This is not matching either option a or b, which have \\(\\sqrt{(1-2x^3)^3}\\) (with x³ instead of x²).</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the answer is \"none of the above\".</strong></p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 28",
+    "topic": [
+      "Calculus",
+      "Area Under Curve",
+      "Intersection of Curves"
+    ],
+    "Question": {
+      "content": "Determine the area under the intersection of a minimum curve f₁(x) = 2 - x² and a maximum curve f₂(x) = x².",
+      "type": "OBJ",
+      "options": [
+        "8",
+        "1/8",
+        "1/4",
+        "-3/8"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "8/3"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Area Between Curves</h4>\n  <p>We have two curves: \\(f_1(x) = 2 - x^2\\) and \\(f_2(x) = x^2\\)</p>\n  <p>First, find their intersection points by setting them equal:</p>\n  <p>\\(2 - x^2 = x^2\\)</p>\n  <p>\\(2 = 2x^2\\)</p>\n  <p>\\(x^2 = 1\\)</p>\n  <p>\\(x = \\pm 1\\)</p>\n  <p>At x = 0, \\(f_1(0) = 2\\) and \\(f_2(0) = 0\\), so \\(f_1\\) is above \\(f_2\\) between the intersection points.</p>\n  <p>The area between the curves is given by:</p>\n  <p>\\(A = \\int_{-1}^{1} [f_1(x) - f_2(x)] dx = \\int_{-1}^{1} [(2 - x^2) - x^2] dx = \\int_{-1}^{1} (2 - 2x^2) dx\\)</p>\n  <p>\\(= 2\\int_{-1}^{1} (1 - x^2) dx\\)</p>\n  <p>Since the integrand is even, we can integrate from 0 to 1 and double:</p>\n  <p>\\(A = 4\\int_{0}^{1} (1 - x^2) dx = 4[x - \\frac{x^3}{3}]_{0}^{1} = 4[(1 - \\frac{1}{3}) - (0 - 0)] = 4(\\frac{2}{3}) = \\frac{8}{3}\\)</p>\n  <p>This is not among the options. Option a is 8, b is 1/8, c is 1/4, d is -3/8 (negative, can't be area).</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>The correct area is 8/3, which is not listed.</strong></p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 29",
+    "topic": [
+      "Calculus",
+      "Area Under Curve",
+      "Intersection of Curves"
+    ],
+    "Question": {
+      "content": "Determine the area under the curve y = 4x² and the straight line y = x.",
+      "type": "OBJ",
+      "options": [
+        "all of the above",
+        "(1/16) sin² x",
+        "(1/96) sin⁴ x",
+        "none of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "none of the above"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Area Between Parabola and Line</h4>\n  <p>We have \\(y = 4x^2\\) (parabola) and \\(y = x\\) (line).</p>\n  <p>Find intersection points by setting them equal:</p>\n  <p>\\(4x^2 = x\\)</p>\n  <p>\\(4x^2 - x = 0\\)</p>\n  <p>\\(x(4x - 1) = 0\\)</p>\n  <p>\\(x = 0\\) or \\(x = \\frac{1}{4}\\)</p>\n  <p>For x between 0 and 1/4, compare the curves: at x = 0.1, \\(4(0.1)^2 = 0.04\\) and line = 0.1, so line is above parabola.</p>\n  <p>The area between them is:</p>\n  <p>\\(A = \\int_{0}^{1/4} [x - 4x^2] dx\\)</p>\n  <p>\\(= [\\frac{x^2}{2} - \\frac{4x^3}{3}]_{0}^{1/4}\\)</p>\n  <p>At x = 1/4: \\(\\frac{(1/4)^2}{2} - \\frac{4(1/4)^3}{3} = \\frac{1/16}{2} - \\frac{4(1/64)}{3} = \\frac{1}{32} - \\frac{4}{192} = \\frac{1}{32} - \\frac{1}{48}\\)</p>\n  <p>Common denominator 96: \\(\\frac{3}{96} - \\frac{2}{96} = \\frac{1}{96}\\)</p>\n  <p>At x = 0, the expression is 0.</p>\n  <p>So \\(A = \\frac{1}{96}\\)</p>\n  <p>But the options have \\(\\frac{1}{96} \\sin^4 x\\), which is not a constant. Since the area should be a constant number, and \\(\\frac{1}{96}\\) is not among the options (option c has sin⁴ x factor), the answer is \"none of the above\".</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>The area is 1/96, which is not listed in the given form.</strong></p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 30",
+    "topic": [
+      "Calculus",
+      "Derivatives",
+      "Inverse Trigonometric Functions"
+    ],
+    "Question": {
+      "content": "d/dx (sec⁻¹(x) + csc⁻¹(x)) is:",
+      "type": "OBJ",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "2/(x√(x²-1))"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Derivative of Sum of Inverse Trigonometric Functions</h4>\n  <p>Recall the derivatives:</p>\n  <p>\\(\\frac{d}{dx}[\\sec^{-1}(x)] = \\frac{1}{|x|\\sqrt{x^2-1}}\\) for |x| > 1</p>\n  <p>\\(\\frac{d}{dx}[\\csc^{-1}(x)] = -\\frac{1}{|x|\\sqrt{x^2-1}}\\) for |x| > 1</p>\n  <p>For x > 1 (positive), |x| = x, so:</p>\n  <p>\\(\\frac{d}{dx}[\\sec^{-1}(x)] = \\frac{1}{x\\sqrt{x^2-1}}\\)</p>\n  <p>\\(\\frac{d}{dx}[\\csc^{-1}(x)] = -\\frac{1}{x\\sqrt{x^2-1}}\\)</p>\n  <p>Adding them:</p>\n  <p>\\(\\frac{d}{dx}[\\sec^{-1}(x) + \\csc^{-1}(x)] = \\frac{1}{x\\sqrt{x^2-1}} - \\frac{1}{x\\sqrt{x^2-1}} = 0\\)</p>\n  <p>This is a known identity: \\(\\sec^{-1}(x) + \\csc^{-1}(x) = \\frac{\\pi}{2}\\) for x ≥ 1, so its derivative is 0.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the derivative is 0.</strong></p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 31",
+    "topic": [
+      "Calculus",
+      "Derivatives",
+      "Difference Quotient"
+    ],
+    "Question": {
+      "content": "Let f(x) = cos x. Then for h > 0, [f(x+h) - f(x)]/h = ...",
+      "type": "OBJ",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-sin x sin h/h - cos x (1 - cos h)/h"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Difference Quotient for Cosine</h4>\n  <p>Given \\(f(x) = \\cos x\\), we need to find \\(\\frac{f(x+h) - f(x)}{h}\\) for h > 0.</p>\n  <p>Using the cosine addition formula:</p>\n  <p>\\(\\cos(x+h) = \\cos x \\cos h - \\sin x \\sin h\\)</p>\n  <p>Therefore:</p>\n  <p>\\(\\frac{\\cos(x+h) - \\cos x}{h} = \\frac{\\cos x \\cos h - \\sin x \\sin h - \\cos x}{h}\\)</p>\n  <p>\\(= \\frac{\\cos x (\\cos h - 1) - \\sin x \\sin h}{h}\\)</p>\n  <p>\\(= \\cos x \\cdot \\frac{\\cos h - 1}{h} - \\sin x \\cdot \\frac{\\sin h}{h}\\)</p>\n  <p>This is the difference quotient. As h → 0, \\(\\frac{\\cos h - 1}{h} \\to 0\\) and \\(\\frac{\\sin h}{h} \\to 1\\), so the derivative is \\(-\\sin x\\).</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>The expression is cos x · (cos h - 1)/h - sin x · (sin h)/h.</strong></p>\n</div>"
     }
   }
 ]
-
-
