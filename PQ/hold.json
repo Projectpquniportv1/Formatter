@@ -1,0 +1,248 @@
+[
+  
+  
+  
+  
+  {
+    "type": "pageInfo",
+    "kind": "subjective",
+    "course_title": "General Biohemistry I",
+    "code": "KHE 100.1",
+    "session": "2020/2019",
+    "topics": [],
+    "time": "90"
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer Question 4 ,5 and any other one"
+  },
+  {
+    "type": "heading",
+    "heading": "Section A"
+  },
+  
+  
+
+
+
+
+
+  
+  {
+    "type": "pageInfo",
+    "kind": "theory",
+    "course_title": "personal health education",
+    "code": "HED 103.1",
+    "session": "2020/2021",
+    "topics": ["Health Education", "Definition of Health", "WHO", "Determinants of Health", "Personal Hygiene", "Hand Hygiene", "Body Care", "Dressing", "Dimensions of Health", "Eye Care", "Domestic Hygiene", "Environmental Health", "Nutrition", "Food Pyramid"],
+    "time": "90"
+  },
+  {
+    "type": "instruction",
+    "content": "Attempt all questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": [
+      "Health Education",
+      "Definition of Health",
+      "WHO"
+    ],
+    "Question": {
+      "content": "Give the WHO's definition of health.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>WHO Definition of Health</h4>\n \n <div style='margin-bottom: 12px;'>\n   <strong style='color: var(--strongColor);'>The Definition:</strong><br>\n   The World Health Organization (WHO) defined health in its 1948 constitution as:\n   \n   <div style='background: rgba(0,0,0,0.05); padding: 15px; border-radius: 5px; margin: 15px 0; font-style: italic;'>\n     \"Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.\"\n   </div>\n </div>\n\n <div style='margin-bottom: 12px;'>\n   <strong style='color: var(--strongColor);'>Key Components:</strong><br>\n   This definition emphasizes three important dimensions:\n   <ul>\n     <li><strong>Physical well-being:</strong> The body functioning properly without disease</li>\n     <li><strong>Mental well-being:</strong> Emotional and psychological health</li>\n     <li><strong>Social well-being:</strong> Ability to interact and form relationships</li>\n   </ul>\n </div>\n\n <div style='margin-bottom: 12px;'>\n   <strong style='color: var(--strongColor);'>Why This Definition is Important:</strong><br>\n   It was revolutionary because it expanded the concept of health beyond just \"not being sick\" to include overall quality of life and well-being.\n </div>\n\n <div style='background: var(--greenBgL); color: var(--greenText); padding: 15px; border-radius: 6px; border-left: 4px solid var(--greenBg); margin-top: 15px;'>\n   <strong>✓ Final Answer:</strong> Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "topic": [
+      "Health Education",
+      "Determinants of Health"
+    ],
+    "Question": {
+      "content": "List any three determinants of health.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Income and social status. 2. Education and literacy. 3. Physical environment. (Also acceptable: Biology/genetics, Health services, Gender, Culture, Social support networks)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Determinants of Health</h4>\n \n <div style='margin-bottom: 12px;'>\n   <strong style='color: var(--strongColor);'>What are Determinants of Health?</strong><br>\n   These are factors that influence or determine a person's health status. They can be personal, social, economic, or environmental factors.\n </div>\n\n <div style='background: rgba(0,0,0,0.05); padding: 15px; border-radius: 5px; margin: 15px 0;'>\n   <strong style='color: var(--strongColor);'>Common Determinants of Health:</strong><br>\n   \n   <ul>\n     <li><strong>Income and social status:</strong> Higher income and social status are linked to better health</li>\n     <li><strong>Education and literacy:</strong> Higher education levels lead to better health outcomes</li>\n     <li><strong>Physical environment:</strong> Safe water, clean air, healthy workplaces, safe housing</li>\n     <li><strong>Social support networks:</strong> Family, friends, community support</li>\n     <li><strong>Biology and genetics:</strong> Inherited traits and conditions</li>\n     <li><strong>Health services:</strong> Access to and quality of healthcare</li>\n     <li><strong>Gender:</strong> Different health risks and conditions affect men and women differently</li>\n     <li><strong>Culture:</strong> Customs, traditions, and beliefs affect health practices</li>\n   </ul>\n </div>\n\n <div style='margin-bottom: 12px;'>\n   <strong style='color: var(--strongColor);'>Any three from the above are acceptable answers.</strong>\n </div>\n\n <div style='background: var(--greenBgL); color: var(--greenText); padding: 15px; border-radius: 6px; border-left: 4px solid var(--greenBg); margin-top: 15px;'>\n   <strong>✓ Final Answer:</strong> Income and social status, Education and literacy, Physical environment. (Or any three valid determinants)\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "topic": [
+      "Personal Hygiene",
+      "Health Education"
+    ],
+    "Question": {
+      "content": "State any three rationales for maintaining personal hygiene.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Prevents the spread of diseases and infections. 2. Promotes good health and well-being. 3. Improves self-esteem and social acceptance."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Rationales for Maintaining Personal Hygiene</h4>\n \n <div style='margin-bottom: 12px;'>\n   <strong style='color: var(--strongColor);'>Why Personal Hygiene Matters:</strong><br>\n   Personal hygiene refers to keeping the body clean and maintaining healthy practices.\n </div>\n\n <div style='background: rgba(0,0,0,0.05); padding: 15px; border-radius: 5px; margin: 15px 0;'>\n   <strong style='color: var(--strongColor);'>Key Rationales:</strong><br>\n   \n   <ol>\n     <li><strong>Prevents diseases and infections:</strong> Regular cleaning removes germs, bacteria, and viruses that cause illness</li>\n     <li><strong>Promotes good health:</strong> Clean body functions better, skin breathes, and overall physical health improves</li>\n     <li><strong>Improves self-esteem:</strong> Feeling clean and fresh boosts confidence and mental well-being</li>\n     <li><strong>Social acceptance:</strong> Others are more comfortable around clean people; prevents body odor</li>\n     <li><strong>Prevents skin problems:</strong> Regular washing prevents acne, rashes, and skin infections</li>\n     <li><strong>Oral health:</strong> Brushing teeth prevents cavities, gum disease, and bad breath</li>\n   </ol>\n </div>\n\n <div style='margin-bottom: 12px;'>\n   <strong style='color: var(--strongColor);'>Any three from the above are acceptable.</strong>\n </div>\n\n <div style='background: var(--greenBgL); color: var(--greenText); padding: 15px; border-radius: 6px; border-left: 4px solid var(--greenBg); margin-top: 15px;'>\n   <strong>✓ Final Answer:</strong> 1. Prevents spread of diseases. 2. Promotes good health. 3. Improves self-esteem and social acceptance.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": [
+      "Hand Hygiene",
+      "Personal Hygiene"
+    ],
+    "Question": {
+      "content": "Identify four occasions when hand washing is necessary.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Before eating or handling food. 2. After using the toilet. 3. After coughing, sneezing, or blowing nose. 4. After touching garbage or waste."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>When Hand Washing is Necessary</h4>\n \n <div style='margin-bottom: 12px;'>\n   <strong style='color: var(--strongColor);'>Key Times to Wash Hands:</strong><br>\n   Hand washing is one of the most effective ways to prevent the spread of germs.\n </div>\n\n <div style='background: rgba(0,0,0,0.05); padding: 15px; border-radius: 5px; margin: 15px 0;'>\n   <strong style='color: var(--strongColor);'>Critical Occasions:</strong><br>\n   \n   <ol>\n     <li><strong>Before eating or handling food:</strong> Prevents consuming germs that could cause foodborne illness</li>\n     <li><strong>After using the toilet:</strong> Removes fecal bacteria and prevents spread to others</li>\n     <li><strong>After coughing, sneezing, or blowing nose:</strong> Removes respiratory germs from hands</li>\n     <li><strong>After touching garbage or waste:</strong> Prevents spread of germs from waste materials</li>\n     <li><strong>Before and after caring for someone who is sick:</strong> Protects both the caregiver and the patient</li>\n     <li><strong>After touching animals or animal waste:</strong> Prevents zoonotic diseases</li>\n     <li><strong>Before inserting or removing contact lenses:</strong> Prevents eye infections</li>\n     <li><strong>After changing diapers:</strong> Removes harmful bacteria</li>\n   </ol>\n </div>\n\n <div style='margin-bottom: 12px;'>\n   <strong style='color: var(--strongColor);'>Any four from the above are acceptable.</strong>\n </div>\n\n <div style='background: var(--greenBgL); color: var(--greenText); padding: 15px; border-radius: 6px; border-left: 4px solid var(--greenBg); margin-top: 15px;'>\n   <strong>✓ Final Answer:</strong> 1. Before eating. 2. After using toilet. 3. After coughing/sneezing. 4. After touching garbage.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": [
+      "Hand Hygiene",
+      "Personal Hygiene"
+    ],
+    "Question": {
+      "content": "Describe the hand washing procedure or steps.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Wet hands with clean running water. 2. Apply soap. 3. Rub hands together to lather (backs of hands, between fingers, under nails). 4. Scrub for at least 20 seconds. 5. Rinse thoroughly under running water. 6. Dry with clean towel or air dry."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Proper Hand Washing Procedure</h4>\n \n <div style='margin-bottom: 12px;'>\n   <strong style='color: var(--strongColor);'>WHO Recommended Steps:</strong><br>\n   Following these steps ensures thorough cleaning.\n </div>\n\n <div style='background: rgba(0,0,0,0.05); padding: 15px; border-radius: 5px; margin: 15px 0;'>\n   <ol>\n     <li><strong>Wet hands:</strong> Use clean, running water (warm or cold)</li>\n     <li><strong>Apply soap:</strong> Enough to cover all hand surfaces</li>\n     <li><strong>Lather and scrub:</strong> Rub hands palm to palm, then:\n       <ul>\n         <li>Back of both hands</li>\n         <li>Between fingers</li>\n         <li>Under fingernails</li>\n         <li>Thumbs</li>\n         <li>Wrists</li>\n       </ul>\n     </li>\n     <li><strong>Scrub for 20 seconds:</strong> About the time it takes to sing \"Happy Birthday\" twice</li>\n     <li><strong>Rinse thoroughly:</strong> Under clean running water</li>\n     <li><strong>Dry hands:</strong> Use clean towel, paper towel, or air dryer</li>\n     <li><strong>Turn off tap:</strong> Use towel to turn off tap if possible to avoid recontamination</li>\n   </ol>\n </div>\n\n <div style='background: var(--infoBg); padding: 10px; border-radius: 5px; margin: 15px 0;'>\n   <strong>💡 Important:</strong> Hand sanitizer (60%+ alcohol) can be used when soap and water aren't available, but hand washing is more effective for certain germs.\n </div>\n\n <div style='background: var(--greenBgL); color: var(--greenText); padding: 15px; border-radius: 6px; border-left: 4px solid var(--greenBg); margin-top: 15px;'>\n   <strong>✓ Final Answer:</strong> Wet hands, apply soap, lather all surfaces for 20 seconds, rinse, dry thoroughly.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "topic": [
+      "Personal Hygiene",
+      "Body Care",
+      "Dressing"
+    ],
+    "Question": {
+      "content": "What three important points would you emphasize when caring for the body with regards to dressing?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Wear clean clothes. 2. Wear appropriate clothing for weather/activity. 3. Wear properly fitting clothes that are comfortable."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Important Points About Dressing</h4>\n \n <div style='margin-bottom: 12px;'>\n   <strong style='color: var(--strongColor);'>Dressing and Health:</strong><br>\n   What we wear affects our health, comfort, and how others perceive us.\n </div>\n\n <div style='background: rgba(0,0,0,0.05); padding: 15px; border-radius: 5px; margin: 15px 0;'>\n   <strong style='color: var(--strongColor);'>Key Points:</strong><br>\n   \n   <ol>\n     <li><strong>Cleanliness:</strong> Always wear clean clothes to prevent skin infections and body odor</li>\n     <li><strong>Appropriateness:</strong> \n       <ul>\n         <li>Wear warm clothes in cold weather to prevent hypothermia</li>\n         <li>Wear light, breathable fabrics in hot weather to prevent heat stress</li>\n         <li>Wear appropriate attire for activities (sports, work, formal occasions)</li>\n       </ul>\n     </li>\n     <li><strong>Proper fit:</strong> \n       <ul>\n         <li>Clothes should not be too tight (restricts circulation, causes discomfort)</li>\n         <li>Not too loose (can be safety hazard, looks unkempt)</li>\n         <li>Shoes should fit properly to prevent foot problems</li>\n       </ul>\n     </li>\n     <li><strong>Material:</strong> Choose breathable fabrics like cotton for everyday wear</li>\n     <li><strong>Hygiene:</strong> Change underwear daily, socks regularly</li>\n   </ol>\n </div>\n\n <div style='margin-bottom: 12px;'>\n   <strong style='color: var(--strongColor);'>Any three from these concepts are acceptable.</strong>\n </div>\n\n <div style='background: var(--greenBgL); color: var(--greenText); padding: 15px; border-radius: 6px; border-left: 4px solid var(--greenBg); margin-top: 15px;'>\n   <strong>✓ Final Answer:</strong> 1. Wear clean clothes. 2. Wear weather-appropriate clothing. 3. Wear properly fitting clothes.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "topic": [
+      "Health Education",
+      "Dimensions of Health"
+    ],
+    "Question": {
+      "content": "Identify the three major dimensions of health.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Physical health. 2. Mental health. 3. Social health."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Three Major Dimensions of Health</h4>\n \n <div style='margin-bottom: 12px;'>\n   <strong style='color: var(--strongColor);'>Based on WHO Definition:</strong><br>\n   The WHO definition of health explicitly includes three dimensions.\n </div>\n\n <div style='background: rgba(0,0,0,0.05); padding: 15px; border-radius: 5px; margin: 15px 0;'>\n   <ol>\n     <li><strong>Physical health:</strong> \n       <ul>\n         <li>Body functions properly</li>\n         <li>Absence of disease or injury</li>\n         <li>Regular exercise, proper nutrition, adequate rest</li>\n       </ul>\n     </li>\n     <li><strong>Mental (psychological) health:</strong> \n       <ul>\n         <li>Emotional well-being</li>\n         <li>Ability to cope with stress</li>\n         <li>Positive self-esteem and self-concept</li>\n         <li>Clear thinking and decision-making</li>\n       </ul>\n     </li>\n     <li><strong>Social health:</strong> \n       <ul>\n         <li>Ability to form relationships</li>\n         <li>Interact positively with others</li>\n         <li>Contribute to community</li>\n         <li>Adapt to social situations</li>\n       </ul>\n     </li>\n   </ol>\n </div>\n\n <div style='margin-bottom: 12px;'>\n   <strong style='color: var(--strongColor);'>Some models include additional dimensions:</strong><br>\n   Spiritual health, emotional health, environmental health, etc., but the three major ones are physical, mental, and social.\n </div>\n\n <div style='background: var(--greenBgL); color: var(--greenText); padding: 15px; border-radius: 6px; border-left: 4px solid var(--greenBg); margin-top: 15px;'>\n   <strong>✓ Final Answer:</strong> Physical health, Mental health, Social health.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "topic": [
+      "Eye Care",
+      "Personal Hygiene",
+      "Health Education"
+    ],
+    "Question": {
+      "content": "Provide any five eye care tips.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Wash eyes with clean water if irritated. 2. Avoid rubbing eyes. 3. Wear protective eyewear when needed. 4. Take breaks from screens (20-20-20 rule). 5. Eat foods rich in Vitamin A."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Eye Care Tips</h4>\n \n <div style='margin-bottom: 12px;'>\n   <strong style='color: var(--strongColor);'>Protecting Your Vision:</strong><br>\n   Eyes are delicate organs that need proper care to maintain good vision.\n </div>\n\n <div style='background: rgba(0,0,0,0.05); padding: 15px; border-radius: 5px; margin: 15px 0;'>\n   <strong style='color: var(--strongColor);'>Essential Eye Care Tips:</strong><br>\n   \n   <ol>\n     <li><strong>Wash eyes gently:</strong> Use clean water if eyes feel irritated or have foreign particles</li>\n     <li><strong>Don't rub eyes:</strong> Rubbing can introduce germs and damage delicate tissues</li>\n     <li><strong>Wear protective eyewear:</strong> Sunglasses for UV protection; safety goggles for work/sports</li>\n     <li><strong>Follow 20-20-20 rule:</strong> Every 20 minutes, look at something 20 feet away for 20 seconds (reduces eye strain from screens)</li>\n     <li><strong>Eat eye-healthy foods:</strong> Vitamin A (carrots, sweet potatoes), Omega-3 (fish), leafy greens</li>\n     <li><strong>Regular check-ups:</strong> Visit eye doctor annually</li>\n     <li><strong>Adequate lighting:</strong> Read/work in well-lit areas to prevent strain</li>\n     <li><strong>Don't share eye makeup:</strong> Prevents infections</li>\n     <li><strong>Remove eye makeup before sleep:</strong> Prevents irritation and infections</li>\n     <li><strong>Stay hydrated:</strong> Prevents dry eyes</li>\n   </ol>\n </div>\n\n <div style='margin-bottom: 12px;'>\n   <strong style='color: var(--strongColor);'>Any five from the above are acceptable.</strong>\n </div>\n\n <div style='background: var(--greenBgL); color: var(--greenText); padding: 15px; border-radius: 6px; border-left: 4px solid var(--greenBg); margin-top: 15px;'>\n   <strong>✓ Final Answer:</strong> 1. Wash eyes if irritated. 2. Avoid rubbing. 3. Wear protective eyewear. 4. Take screen breaks. 5. Eat Vitamin A-rich foods.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "topic": [
+      "Domestic Hygiene",
+      "Environmental Health"
+    ],
+    "Question": {
+      "content": "State any four signs of poor domestic hygiene.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Presence of pests (flies, cockroaches, rodents). 2. Unpleasant odors from garbage or sewage. 3. Cluttered, dusty, or dirty living areas. 4. Accumulated garbage or improper waste disposal."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Signs of Poor Domestic Hygiene</h4>\n \n <div style='margin-bottom: 12px;'>\n   <strong style='color: var(--strongColor);'>What is Domestic Hygiene?</strong><br>\n   Domestic hygiene refers to cleanliness practices within the home environment that prevent disease and promote health.\n </div>\n\n <div style='background: rgba(0,0,0,0.05); padding: 15px; border-radius: 5px; margin: 15px 0;'>\n   <strong style='color: var(--strongColor);'>Common Signs:</strong><br>\n   \n   <ol>\n     <li><strong>Pests and vermin:</strong> Presence of flies, cockroaches, rats, mice, or other pests indicates unsanitary conditions</li>\n     <li><strong>Unpleasant odors:</strong> Bad smells from garbage, sewage, rotting food, or mold</li>\n     <li><strong>Cluttered/dirty areas:</strong> Dust accumulation, dirty floors, unclean surfaces</li>\n     <li><strong>Improper waste disposal:</strong> Garbage not properly contained, overflowing bins, litter around the home</li>\n     <li><strong>Mold and mildew:</strong> Visible growth on walls, ceilings, or in bathrooms</li>\n     <li><strong>Dirty kitchen:</strong> Unwashed dishes, food scraps left out, greasy surfaces</li>\n     <li><strong>Unclean bathroom/toilet:</strong> Stains, odors, mold in bathroom areas</li>\n     <li><strong>Stagnant water:</strong> Water collections that can breed mosquitoes</li>\n   </ol>\n </div>\n\n <div style='margin-bottom: 12px;'>\n   <strong style='color: var(--strongColor);'>Any four from the above are acceptable.</strong>\n </div>\n\n <div style='background: var(--greenBgL); color: var(--greenText); padding: 15px; border-radius: 6px; border-left: 4px solid var(--greenBg); margin-top: 15px;'>\n   <strong>✓ Final Answer:</strong> 1. Presence of pests. 2. Unpleasant odors. 3. Dirty/cluttered areas. 4. Improper garbage disposal.\n </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "topic": [
+      "Nutrition",
+      "Food Pyramid",
+      "Health Education"
+    ],
+    "Question": {
+      "content": "Describe the food pyramid.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The food pyramid is a visual guide showing recommended proportions of different food groups for a healthy diet. Base (largest portion): grains and cereals. Next: vegetables and fruits. Next: proteins (meat, fish, beans, nuts). Top (smallest): fats, oils, and sweets."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Food Pyramid</h4>\n \n <div style='margin-bottom: 12px;'>\n   <strong style='color: var(--strongColor);'>What is the Food Pyramid?</strong><br>\n   The food pyramid is a chart used to represent the optimal number of servings to be eaten each day from each of the basic food groups. It was developed to help people understand healthy eating proportions.\n </div>\n\n <div style='background: rgba(0,0,0,0.05); padding: 15px; border-radius: 5px; margin: 15px 0;'>\n   <strong style='color: var(--strongColor);'>Structure of the Food Pyramid (from base to top):</strong><br>\n   \n   <div style='margin: 20px 0; text-align: center;'>\n     <div style='background: #8B4513; color: white; padding: 10px; width: 80%; margin: 0 auto 2px auto; border-radius: 5px;'><strong>Fats, Oils, Sweets</strong> (use sparingly)</div>\n     <div style='background: #FFA07A; color: black; padding: 15px; width: 85%; margin: 0 auto 2px auto; border-radius: 5px;'><strong>Protein</strong> (meat, fish, eggs, beans, nuts) - 2-3 servings</div>\n     <div style='background: #90EE90; color: black; padding: 20px; width: 90%; margin: 0 auto 2px auto; border-radius: 5px;'><strong>Vegetables</strong> - 3-5 servings | <strong>Fruits</strong> - 2-4 servings</div>\n     <div style='background: #FFD700; color: black; padding: 25px; width: 95%; margin: 0 auto; border-radius: 5px;'><strong>Grains and Cereals</strong> (bread, rice, pasta, cereals) - 6-11 servings</div>\n   </div>\n </div>\n\n <div style='background: rgba(0,0,0,0.05); padding: 15px; border-radius: 5px; margin: 15px 0;'>\n   <strong style='color: var(--strongColor);'>Explanation by Level:</strong><br>\n   \n   <ul>\n     <li><strong>Base (Largest section) - Grains and Cereals:</strong> Should form the foundation of meals. Provide complex carbohydrates for energy, fiber, B vitamins.</li>\n     <li><strong>Second level - Vegetables and Fruits:</strong> Essential for vitamins, minerals, fiber, and antioxidants. Eat a variety of colors.</li>\n     <li><strong>Third level - Protein foods:</strong> Include meat, fish, poultry, eggs, beans, nuts, seeds. Provide protein for growth and repair.</li>\n     <li><strong>Top (Smallest section) - Fats, Oils, and Sweets:</strong> Should be eaten sparingly. Provide calories but few nutrients.</li>\n   </ul>\n </div>\n\n <div style='margin-bottom: 12px;'>\n   <strong style='color: var(--strongColor);'>Modern Versions:</strong><br>\n   Many countries now use a <strong>food plate</strong> model (like MyPlate in the US) which shows portions on a plate rather than pyramid layers, but the concept of balanced proportions remains the same.\n </div>\n\n <div style='background: var(--greenBgL); color: var(--greenText); padding: 15px; border-radius: 6px; border-left: 4px solid var(--greenBg); margin-top: 15px;'>\n   <strong>✓ Final Answer:</strong> The food pyramid is a guide showing food groups in proportion: base (largest) = grains; next = vegetables and fruits; next = proteins; top (smallest) = fats, oils, sweets.\n </div>\n</div>"
+    }
+  }
+]

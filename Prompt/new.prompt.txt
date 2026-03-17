@@ -91,6 +91,12 @@ use topics from here in the topic property.(topics can be more than one.)
 "Primates"
 ],
 
+For headings
+ {
+ "type": "heading",
+ "heading": "This is the heading",
+ "Subheading": "This is the sub-heading"
+ },
 
 topic array can be more than one and outside the topics I provided .
 

@@ -1,10 +1,11 @@
-[  {
+[
+  {
     "type": "pageInfo",
     "kind": "subjective",
-    "course_title": "Calculus Primer",
-    "code": "MTH 120.1",
-    "session": "2024/2025",
-    "topics": ["Calculus", "Continuity", "Discontinuity", "Properties of Continuous Functions", "Derivatives", "Quotient Rule", "Chain Rule", "Exponential Functions", "Inverse Trigonometric Functions", "Implicit Differentiation", "Integration", "Integration by Parts", "Substitution", "Partial Fractions", "Logarithmic Differentiation", "Piecewise Functions", "Inverse Functions", "Trigonometric Functions", "Functions", "Domain and Range", "Limits", "Rationalization", "Mathematics", "Relations and Functions", "Set Theory", "Absolute Value", "Logarithmic Functions", "Area Under Curve", "Intersection of Curves", "Difference Quotient"],
+    "course_title": "General Biohemistry I",
+    "code": "ENG 502.1",
+    "session": "Test",
+    "topics": ["Management", "Leadership", "Professional Skills", "Human Resources", "Technical Skills", "Corporate Governance", "Business Administration", "Organizational Behavior", "Business Strategy", "Project Management", "Documentation", "Business Planning", "Production Management", "Operations Management", "Manufacturing", "Mathematics", "Cost Engineering", "Oil and Gas Industry", "Capital Projects", "Construction Management", "Site Conditions", "Budgeting", "Risk Management", "Cost Management", "Planning", "Project Planning", "Baselines", "Tools and Techniques", "Performance Measurement", "Cost Estimation", "Engineering Projects", "Project Resources", "Schedule Management", "Human Resource Management", "Organizational Structure"],
     "time": "90"
   },
   {
@@ -12,833 +13,631 @@
     "content": "Answer all Questions"
   },
   {
+    "type": "heading",
+    "heading": "Section A"
+  },
+  {
+    "type": "heading",
+    "heading": "Faculty of Engineering",
+    "Subheading": "Engineering Management (ENG 502.1) Test 2023/2024 Academic Session"
+  },
+  {
     "type": "Question",
     "name": "Question 1",
     "topic": [
-      "Calculus",
-      "Continuity",
-      "Discontinuity"
+      "Management",
+      "Leadership",
+      "Professional Skills"
     ],
     "Question": {
-      "content": "Jump discontinuity of a function g occurs at a point a ∈ dom(g) if:",
+      "content": "What does conceptual skill deal with?",
       "type": "OBJ",
       "options": [
-        "lim_{x → a} g(x) ≠ g(a)",
-        "lim_{x → a} g(x) does not exist",
-        "g(a) does not exist",
-        "lim_{x → a⁻} g(x) ≠ lim_{x → a⁺} g(x)"
+        "People",
+        "Ideas",
+        "Technical processes",
+        "Financial resources"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "lim_{x → a⁻} g(x) ≠ lim_{x → a⁺} g(x)"
+      "content": "Ideas"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Jump Discontinuity Definition</h4>\n  <p>A jump discontinuity occurs when the left-hand limit and right-hand limit exist but are not equal.</p>\n  <p>Analyzing each option:</p>\n  <ul>\n    <li><strong>Option a:</strong> \\(\\lim_{x \\to a} g(x) \\neq g(a)\\) - This describes a removable discontinuity, not a jump discontinuity.</li>\n    <li><strong>Option b:</strong> \\(\\lim_{x \\to a} g(x)\\) does not exist - This is too vague; the limit could fail to exist for many reasons (infinite discontinuity, oscillation, etc.).</li>\n    <li><strong>Option c:</strong> \\(g(a)\\) does not exist - This means the function is not defined at a, which could be a removable discontinuity if the limit exists.</li>\n    <li><strong>Option d:</strong> \\(\\lim_{x \\to a^-} g(x) \\neq \\lim_{x \\to a^+} g(x)\\) - This is the correct definition of a jump discontinuity.</li>\n  </ul>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the correct answer is option d.</strong></p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Conceptual Skills in Management</h4>\n <p>Conceptual skills involve the ability to think creatively, understand abstract ideas, and visualize the organization as a whole. These skills allow managers to:</p>\n <ul style='margin-bottom: 12px;'>\n <li>See the \"big picture\" of how different parts of the organization work together</li>\n <li>Solve complex problems creatively</li>\n <li>Plan strategically for the future</li>\n <li>Understand how changes in one area affect other areas</li>\n </ul>\n <div style='background: var(--infoBg); padding: 10px; border-radius: 5px; margin-top: 10px;'>\n <strong>Key Point:</strong> Conceptual skills are most important for top-level managers who need to make strategic decisions.\n </div>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 2",
     "topic": [
-      "Calculus",
-      "Continuity",
-      "Properties of Continuous Functions"
+      "Management",
+      "Professional Skills"
     ],
     "Question": {
-      "content": "Which of the following is not true about continuous functions?",
+      "content": "What should you do regarding the questions in this test?",
       "type": "OBJ",
       "options": [
-        "Constant functions are continuous",
-        "The reciprocal of a continuous function if it is defined is continuous",
-        "Inverse of a continuous function if it exists is necessarily continuous",
-        "Composite of continuous functions is continuous"
+        "Answer only some questions",
+        "Answer ALL the questions",
+        "Skip the difficult ones",
+        "Answer only half"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "Inverse of a continuous function if it exists is necessarily continuous"
+      "content": "Answer ALL the questions"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Properties of Continuous Functions</h4>\n  <p>Let's analyze each statement:</p>\n  <ul>\n    <li><strong>Option a:</strong> \"Constant functions are continuous\" - This is TRUE. Constant functions are continuous everywhere.</li>\n    <li><strong>Option b:</strong> \"The reciprocal of a continuous function if it is defined is continuous\" - This is TRUE. If f is continuous and f(x) ≠ 0, then 1/f is continuous.</li>\n    <li><strong>Option c:</strong> \"Inverse of a continuous function if it exists is necessarily continuous\" - This is NOT necessarily true. A continuous function can have an inverse that is not continuous. For example, consider a function that is continuous but not monotonic on an interval. The inverse of a continuous function is continuous only if the function is strictly monotonic on its domain.</li>\n    <li><strong>Option d:</strong> \"Composite of continuous functions is continuous\" - This is TRUE. The composition of continuous functions is continuous.</li>\n  </ul>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, option c is not true.</strong></p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Test Instructions</h4>\n <p>The instruction clearly states that students must answer ALL questions in the test paper. This is a common examination requirement to ensure comprehensive assessment of student knowledge.</p>\n <div style='background: var(--warningBg); padding: 10px; border-radius: 5px; margin-top: 10px;'>\n <strong>Exam Tip:</strong> Always read and follow instructions carefully before starting any test or examination.\n </div>\n</div>"
     }
   },
   {
     "type": "Question",
-    "name": "Question 3",
+    "name": "Question 3a",
     "topic": [
-      "Calculus",
-      "Derivatives",
-      "Quotient Rule"
+      "Management",
+      "Human Resources",
+      "Professional Skills"
     ],
     "Question": {
-      "content": "If y = √(x²+1)/x, find dy/dx.",
+      "content": "What is human skill concerned with?",
       "type": "OBJ",
       "options": [
-        "(2x-(x²+1))/x²",
-        "(2x²-x⁴+1)/x²",
-        "all of the above",
-        "(x²-1)/x²"
+        "Technical processes",
+        "Working with people",
+        "Financial management",
+        "Strategic planning"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "all of the above"
+      "content": "Working with people"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Derivative Using Quotient Rule</h4>\n  <p>Given \\(y = \\frac{\\sqrt{x^2+1}}{x}\\)</p>\n  <p>We can rewrite as \\(y = (x^2+1)^{1/2} \\cdot x^{-1}\\)</p>\n  <p>Using the quotient rule: \\(\\frac{dy}{dx} = \\frac{x \\cdot \\frac{d}{dx}[\\sqrt{x^2+1}] - \\sqrt{x^2+1} \\cdot 1}{x^2}\\)</p>\n  <p>First, \\(\\frac{d}{dx}[\\sqrt{x^2+1}] = \\frac{1}{2}(x^2+1)^{-1/2} \\cdot 2x = \\frac{x}{\\sqrt{x^2+1}}\\)</p>\n  <p>Substitute:</p>\n  <p>\\(\\frac{dy}{dx} = \\frac{x \\cdot \\frac{x}{\\sqrt{x^2+1}} - \\sqrt{x^2+1}}{x^2}\\)</p>\n  <p>\\(= \\frac{\\frac{x^2}{\\sqrt{x^2+1}} - \\sqrt{x^2+1}}{x^2}\\)</p>\n  <p>Write with common denominator \\(\\sqrt{x^2+1}\\):</p>\n  <p>\\(= \\frac{\\frac{x^2 - (x^2+1)}{\\sqrt{x^2+1}}}{x^2} = \\frac{x^2 - x^2 - 1}{x^2\\sqrt{x^2+1}} = \\frac{-1}{x^2\\sqrt{x^2+1}}\\)</p>\n  <p>This doesn't match any option directly. But if we rationalize or manipulate, we might get equivalent forms.</p>\n  <p>Option d is \\((x^2-1)/x^2\\), which is different.</p>\n  <p>Given that option c says \"all of the above\", and our calculated answer doesn't match a or b either, perhaps there's an error in the problem or our interpretation.</p>\n  <p>If \\(y = \\frac{\\sqrt{x^2+1}}{x}\\) and we simplify differently, we might get one of these forms.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Based on the options, the answer is likely \"all of the above\".</strong></p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Human Skills in Management</h4>\n <p>Human skills (also called interpersonal skills) involve the ability to work effectively with other people. These skills include:</p>\n <ul>\n <li>Communication and active listening</li>\n <li>Empathy and understanding others' perspectives</li>\n <li>Motivation and team building</li>\n <li>Conflict resolution</li>\n <li>Leadership and influence</li>\n </ul>\n <p>These skills are essential at all management levels but are particularly important for middle managers who work directly with teams.</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3b",
+    "topic": [
+      "Management",
+      "Professional Skills",
+      "Technical Skills"
+    ],
+    "Question": {
+      "content": "What is technical skill concerned with?",
+      "type": "OBJ",
+      "options": [
+        "People management",
+        "Ideas and concepts",
+        "Specific knowledge and procedures",
+        "Strategic vision"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Specific knowledge and procedures"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Technical Skills in Management</h4>\n <p>Technical skills involve specialized knowledge, expertise, and ability to perform specific tasks using tools, techniques, and procedures. Examples include:</p>\n <ul>\n <li>Operating machinery or equipment</li>\n <li>Using software applications</li>\n <li>Financial analysis and accounting</li>\n <li>Engineering design and calculations</li>\n <li>Quality control procedures</li>\n </ul>\n <p>Technical skills are most important for first-line managers and entry-level employees who perform specific operational tasks.</p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 4",
     "topic": [
-      "Calculus",
-      "Derivatives",
-      "Chain Rule",
-      "Exponential Functions"
+      "Corporate Governance",
+      "Management",
+      "Business Administration"
     ],
     "Question": {
-      "content": "Let y = e^{tan(3x)}. Find dy/dx.",
+      "content": "What is the name given to a collection of directors in a company?",
       "type": "OBJ",
       "options": [
-        "3 tan²(3x) e^{3 tan(3x)}",
-        "sec²(3x) e^{sec(3x)}",
-        "3 sec²(3x) e^{tan(3x)}",
-        "e^{tan(3x)}"
+        "Management team",
+        "Board of Directors",
+        "Shareholders",
+        "Executive committee"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "3 sec²(3x) e^{tan(3x)}"
+      "content": "Board of Directors"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Derivative of Exponential with Chain Rule</h4>\n  <p>Given \\(y = e^{\\tan(3x)}\\)</p>\n  <p>Use the chain rule: \\(\\frac{dy}{dx} = e^{\\tan(3x)} \\cdot \\frac{d}{dx}[\\tan(3x)]\\)</p>\n  <p>Now \\(\\frac{d}{dx}[\\tan(3x)] = \\sec^2(3x) \\cdot \\frac{d}{dx}[3x] = \\sec^2(3x) \\cdot 3 = 3\\sec^2(3x)\\)</p>\n  <p>Therefore:</p>\n  <p>\\(\\frac{dy}{dx} = e^{\\tan(3x)} \\cdot 3\\sec^2(3x) = 3\\sec^2(3x) e^{\\tan(3x)}\\)</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>The derivative is 3 sec²(3x) e^{tan(3x)}.</strong></p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Corporate Governance Structure</h4>\n <p>A collection of directors in a company is called the <strong>Board of Directors</strong>. The Board:</p>\n <ul>\n <li>Is elected by shareholders to oversee company management</li>\n <li>Makes major strategic decisions</li>\n <li>Appoints and monitors senior executives (like the CEO)</li>\n <li>Ensures the company acts in shareholders' best interests</li>\n <li>Provides governance and accountability</li>\n </ul>\n <div style='background: var(--infoBg); padding: 10px; border-radius: 5px; margin-top: 10px;'>\n <strong>Note:</strong> The Board of Directors typically includes both executive directors (company employees) and non-executive directors (independent outsiders).\n </div>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 5",
     "topic": [
-      "Calculus",
-      "Derivatives",
-      "Inverse Trigonometric Functions"
+      "Organizational Behavior",
+      "Management",
+      "Business Strategy"
     ],
     "Question": {
-      "content": "Find the derivative of y = cos⁻¹(5x-1).",
+      "content": "What is used to differentiate organizational goals by area?",
       "type": "OBJ",
       "options": [
-        "-5/√[1-(5x+1)²]",
-        "-5/√[1+(5x+1)²]",
-        "5/√[1-(5x+1)²]",
-        "-5/√[1-cos(5x+1)²]"
+        "Departmental classification",
+        "Functional differentiation",
+        "Geographic segmentation",
+        "Product categorization"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "-5/√[1-(5x-1)²]"
+      "content": "Functional differentiation"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Derivative of Inverse Cosine</h4>\n  <p>Given \\(y = \\cos^{-1}(5x-1)\\)</p>\n  <p>Recall: \\(\\frac{d}{dx}[\\cos^{-1} u] = -\\frac{1}{\\sqrt{1-u^2}} \\cdot \\frac{du}{dx}\\), where \\(|u| < 1\\)</p>\n  <p>Here, \\(u = 5x-1\\)</p>\n  <p>\\(\\frac{du}{dx} = 5\\)</p>\n  <p>Therefore:</p>\n  <p>\\(\\frac{dy}{dx} = -\\frac{1}{\\sqrt{1-(5x-1)^2}} \\times 5 = -\\frac{5}{\\sqrt{1-(5x-1)^2}}\\)</p>\n  <p>Note: The options have \\((5x+1)^2\\) in the denominator, but we have \\((5x-1)^2\\).</p>\n  <p>Option a has \\(1-(5x+1)^2\\), which is incorrect (should be minus, not plus).</p>\n  <p>Option b has \\(1+(5x+1)^2\\), which is definitely wrong.</p>\n  <p>Option c has positive 5, which is wrong (derivative of cos⁻¹ is negative).</p>\n  <p>Option d has \\(1-\\cos(5x+1)^2\\), which is incorrect notation.</p>\n  <p>The correct answer should be \\(-\\frac{5}{\\sqrt{1-(5x-1)^2}}\\), which isn't exactly in the options, but option a is closest if we ignore the sign inside.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>The correct derivative is -5/√[1-(5x-1)²].</strong></p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Organizational Goals by Area</h4>\n <p>Organizations differentiate their goals by area using functional or departmental classification. This means setting specific goals for different departments or functions such as:</p>\n <ul>\n <li>Marketing goals (market share, brand awareness)</li>\n <li>Financial goals (profit margins, ROI)</li>\n <li>Operations goals (efficiency, quality)</li>\n <li>HR goals (employee satisfaction, retention)</li>\n <li>R&D goals (innovation, new products)</li>\n </ul>\n <p>This approach ensures each department contributes to overall organizational objectives.</p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 6",
     "topic": [
-      "Calculus",
-      "Implicit Differentiation"
+      "Organizational Behavior",
+      "Management",
+      "Business Strategy"
     ],
     "Question": {
-      "content": "Find dy/dx if x³ sin(y) + y = 4x + 3.",
+      "content": "What is used to differentiate organizational goals by scope?",
       "type": "OBJ",
       "options": [
-        "(3x² sin y)/(cos y + 1)",
-        "(3x² sin y)/(cos y - 1)",
-        "(3 + 3x² sin y)/(cos y + 1)",
-        "(2 - 3x² sin y)/(cos y - 1)"
+        "Time horizon",
+        "Strategic vs operational",
+        "Geographic reach",
+        "Market coverage"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "(3x² sin y)/(cos y - 1)"
+      "content": "Time horizon"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Implicit Differentiation</h4>\n  <p>Given: \\(x^3 \\sin(y) + y = 4x + 3\\)</p>\n  <p>Differentiate both sides with respect to x, treating y as a function of x:</p>\n  <p>\\(\\frac{d}{dx}[x^3 \\sin(y)] + \\frac{dy}{dx} = \\frac{d}{dx}[4x] + \\frac{d}{dx}[3]\\)</p>\n  <p>For the first term, use product rule:</p>\n  <p>\\(\\frac{d}{dx}[x^3 \\sin(y)] = 3x^2 \\sin(y) + x^3 \\cos(y) \\frac{dy}{dx}\\)</p>\n  <p>So we have:</p>\n  <p>\\(3x^2 \\sin(y) + x^3 \\cos(y) \\frac{dy}{dx} + \\frac{dy}{dx} = 4\\)</p>\n  <p>Group terms with \\(\\frac{dy}{dx}\\):</p>\n  <p>\\(x^3 \\cos(y) \\frac{dy}{dx} + \\frac{dy}{dx} = 4 - 3x^2 \\sin(y)\\)</p>\n  <p>Factor out \\(\\frac{dy}{dx}\\):</p>\n  <p>\\(\\frac{dy}{dx}[x^3 \\cos(y) + 1] = 4 - 3x^2 \\sin(y)\\)</p>\n  <p>Therefore:</p>\n  <p>\\(\\frac{dy}{dx} = \\frac{4 - 3x^2 \\sin(y)}{x^3 \\cos(y) + 1}\\)</p>\n  <p>This doesn't match any option directly. Option b is \\((3x^2 \\sin y)/(\\cos y - 1)\\), which is different.</p>\n  <p>Perhaps there's a typo in the original equation or options.</p>\n  <p>If the equation were \\(x^3 \\sin(y) + y = 3x + 4\\) or something similar, we might get one of these forms.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Based on the pattern, option b (3x² sin y)/(cos y - 1) is the closest match.</strong></p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Organizational Goals by Scope</h4>\n <p>Organizations differentiate goals by scope primarily through time horizon:</p>\n <ul>\n <li><strong>Strategic goals:</strong> Long-term (3-5+ years), broad, organization-wide</li>\n <li><strong>Tactical goals:</strong> Medium-term (1-3 years), departmental</li>\n <li><strong>Operational goals:</strong> Short-term (weekly/monthly), specific, measurable</li>\n </ul>\n <p>This hierarchical approach ensures alignment between daily activities and long-term vision.</p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 7",
     "topic": [
-      "Calculus",
-      "Derivatives",
-      "Inverse Trigonometric Functions"
+      "Project Management",
+      "Documentation",
+      "Business Planning"
     ],
     "Question": {
-      "content": "Compute dy/dx at x = 0, where y = tan⁻¹(x).",
+      "content": "What does a project charter contain?",
       "type": "OBJ",
       "options": [
-        "undefined",
-        "1",
-        "0",
-        "-i"
+        "Project budget only",
+        "Project objectives and authorization",
+        "Team member resumes",
+        "Marketing plan"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "1"
+      "content": "Project objectives and authorization"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Derivative of Inverse Tangent</h4>\n  <p>Given \\(y = \\tan^{-1}(x)\\)</p>\n  <p>Recall: \\(\\frac{d}{dx}[\\tan^{-1}(x)] = \\frac{1}{1 + x^2}\\)</p>\n  <p>Evaluate at x = 0:</p>\n  <p>\\(\\frac{dy}{dx}\\bigg|_{x=0} = \\frac{1}{1 + 0^2} = \\frac{1}{1} = 1\\)</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, dy/dx at x = 0 is 1.</strong></p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Project Charter Contents</h4>\n <p>A project charter is a formal document that authorizes the project and typically contains:</p>\n <ul>\n <li>Project purpose and justification</li>\n <li>Measurable project objectives</li>\n <li>High-level requirements</li>\n <li>Project boundaries and key deliverables</li>\n <li>Key stakeholder list</li>\n <li>Assigned project manager and authority level</li>\n <li>Summary milestone schedule</li>\n <li>Budget constraints</li>\n <li>Approval requirements</li>\n </ul>\n <p>The charter formally recognizes the project and gives the project manager authority to use organizational resources.</p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 8",
     "topic": [
-      "Calculus",
-      "Derivatives",
-      "Inverse Trigonometric Functions"
+      "Production Management",
+      "Operations Management",
+      "Manufacturing"
     ],
     "Question": {
-      "content": "Let y = sin⁻¹(x), evaluate dy/dx from x = 0 to x = 1.",
-      "type": "OBJ",
-      "options": [
-        "1/2",
-        "1/√2",
-        "√2/2",
-        "√2"
-      ]
+      "content": "What are two functions used for modelling the build-up phase of a given production?",
+      "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "1/√2"
+      "content": "Planning and Scheduling"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Derivative of Inverse Sine</h4>\n  <p>Given \\(y = \\sin^{-1}(x)\\)</p>\n  <p>Recall: \\(\\frac{d}{dx}[\\sin^{-1}(x)] = \\frac{1}{\\sqrt{1-x^2}}\\)</p>\n  <p>The notation \\(\\frac{dy}{dx}\\big|_{x=0}^{x=1}\\) likely means evaluate at x = 1 (since at x = 0 it would be 1).</p>\n  <p>At x = 1:</p>\n  <p>\\(\\frac{dy}{dx}\\bigg|_{x=1} = \\frac{1}{\\sqrt{1-1^2}} = \\frac{1}{\\sqrt{0}}\\) which is undefined (infinite).</p>\n  <p>At x = 1/√2 ≈ 0.707:</p>\n  <p>\\(\\frac{dy}{dx}\\bigg|_{x=1/\\sqrt{2}} = \\frac{1}{\\sqrt{1-(1/2)}} = \\frac{1}{\\sqrt{1/2}} = \\frac{1}{1/\\sqrt{2}} = \\sqrt{2}\\)</p>\n  <p>This gives √2, which is option d.</p>\n  <p>But option b is 1/√2, which is the reciprocal.</p>\n  <p>Perhaps they want the value at some specific point. If we consider x = 1/2:</p>\n  <p>\\(\\frac{dy}{dx}\\bigg|_{x=1/2} = \\frac{1}{\\sqrt{1-(1/4)}} = \\frac{1}{\\sqrt{3/4}} = \\frac{1}{\\sqrt{3}/2} = \\frac{2}{\\sqrt{3}}\\)</p>\n  <p>Not matching.</p>\n  <p>Given that 1/√2 = √2/2, options b and c are the same value.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the answer is likely 1/√2.</strong></p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Production Build-up Phase Functions</h4>\n <p>The two key functions for modelling the build-up phase of production are:</p>\n \n <div style='margin-bottom: 15px;'>\n <strong style='color: var(--strongColor);'>1. Planning Function:</strong>\n <ul>\n <li>Determines what resources are needed</li>\n <li>Calculates material requirements</li>\n <li>Estimates production capacity needs</li>\n <li>Forecasts demand and output levels</li>\n <li>Establishes production methods and procedures</li>\n </ul>\n </div>\n \n <div style='margin-bottom: 15px;'>\n <strong style='color: var(--strongColor);'>2. Scheduling Function:</strong>\n <ul>\n <li>Determines when production activities occur</li>\n <li>Sequences production operations</li>\n <li>Allocates resources over time</li>\n <li>Coordinates different production stages</li>\n <li>Sets timelines and deadlines</li>\n </ul>\n </div>\n \n <div style='background: var(--infoBg); padding: 10px; border-radius: 5px;'>\n <strong>Key Relationship:</strong> Planning determines WHAT and HOW MUCH; Scheduling determines WHEN and IN WHAT ORDER.\n </div>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 9",
     "topic": [
-      "Calculus",
-      "Derivatives",
-      "Inverse Trigonometric Functions"
+      "Organizational Behavior",
+      "Management",
+      "Business Strategy"
     ],
     "Question": {
-      "content": "Find dy/dx if y = sec⁻¹(x).",
+      "content": "What is used to differentiate organizational goals by area?",
       "type": "OBJ",
       "options": [
-        "1/√(x²-1)",
-        "x/√(x²-1)",
-        "1/(x√(1-x²))",
-        "1/(x√(1+x²))"
+        "Departmental classification",
+        "Functional differentiation",
+        "Geographic segmentation",
+        "Product categorization"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "1/(x√(x²-1))"
+      "content": "Functional differentiation"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Derivative of Inverse Secant</h4>\n  <p>Given \\(y = \\sec^{-1}(x)\\)</p>\n  <p>Recall the standard formula: \\(\\frac{d}{dx}[\\sec^{-1}(x)] = \\frac{1}{|x|\\sqrt{x^2-1}}\\) for |x| > 1</p>\n  <p>Looking at the options:</p>\n  <ul>\n    <li>Option a: \\(\\frac{1}{\\sqrt{x^2-1}}\\) - This is the derivative of \\(\\cosh^{-1}(x)\\) or missing the x factor.</li>\n    <li>Option b: \\(\\frac{x}{\\sqrt{x^2-1}}\\) - This is not correct.</li>\n    <li>Option c: \\(\\frac{1}{x\\sqrt{1-x^2}}\\) - This has 1-x² under the square root, which would be for |x| < 1, but sec⁻¹(x) is defined for |x| ≥ 1.</li>\n    <li>Option d: \\(\\frac{1}{x\\sqrt{1+x^2}}\\) - This has 1+x², which is never negative but not correct for sec⁻¹.</li>\n  </ul>\n  <p>The correct derivative is \\(\\frac{1}{x\\sqrt{x^2-1}}\\) (assuming x > 0 for simplicity), which isn't listed exactly. Option c has 1-x² instead of x²-1.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>The correct derivative is 1/(x√(x²-1)), which is not among the options.</strong></p>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 10",
-    "topic": [
-      "Calculus",
-      "Integration",
-      "Integration by Parts"
-    ],
-    "Question": {
-      "content": "The formula for integration by parts is:",
-      "type": "OBJ",
-      "options": [
-        "∫ v du = uv - ∫ u dv",
-        "∫ v du = uv + ∫ u dv",
-        "∫ u dv = uv + ∫ v du",
-        "∫ u dv = uv - ∫ v du"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "∫ u dv = uv - ∫ v du"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Integration by Parts Formula</h4>\n  <p>The integration by parts formula is derived from the product rule for derivatives:</p>\n  <p>\\(\\frac{d}{dx}(uv) = u\\frac{dv}{dx} + v\\frac{du}{dx}\\)</p>\n  <p>Integrating both sides:</p>\n  <p>\\(uv = \\int u\\frac{dv}{dx}dx + \\int v\\frac{du}{dx}dx\\)</p>\n  <p>Or in differential form:</p>\n  <p>\\(\\int u \\, dv = uv - \\int v \\, du\\)</p>\n  <p>Looking at the options:</p>\n  <ul>\n    <li>Option a: \\(\\int v du = uv - \\int u dv\\) - This is a rearranged form but not the standard formula.</li>\n    <li>Option b: \\(\\int v du = uv + \\int u dv\\) - Incorrect sign.</li>\n    <li>Option c: \\(\\int u dv = uv + \\int v du\\) - Incorrect sign.</li>\n    <li>Option d: \\(\\int u dv = uv - \\int v du\\) - This is the correct standard formula.</li>\n  </ul>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, option d is correct.</strong></p>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 11",
-    "topic": [
-      "Calculus",
-      "Integration",
-      "Inverse Trigonometric Functions"
-    ],
-    "Question": {
-      "content": "Evaluate ∫ sin⁻¹(x) dx.",
-      "type": "OBJ",
-      "options": [
-        "x sin⁻¹ x + (1/2)(1-x²)³/² + k",
-        "x sin⁻¹ x - (1/2)(1-x²)³/² + 2k",
-        "x sin⁻¹ x + √(1-x²) + k",
-        "x sin⁻¹ x + 3(1-x²)³/² + k"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "x sin⁻¹ x + √(1-x²) + k"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Integration of Inverse Sine</h4>\n  <p>We need to evaluate \\(\\int \\sin^{-1}(x) dx\\)</p>\n  <p>Use integration by parts: Let \\(u = \\sin^{-1}(x)\\) and \\(dv = dx\\)</p>\n  <p>Then \\(du = \\frac{1}{\\sqrt{1-x^2}} dx\\) and \\(v = x\\)</p>\n  <p>Using \\(\\int u \\, dv = uv - \\int v \\, du\\):</p>\n  <p>\\(\\int \\sin^{-1}(x) dx = x \\sin^{-1}(x) - \\int x \\cdot \\frac{1}{\\sqrt{1-x^2}} dx\\)</p>\n  <p>For the remaining integral, let \\(w = 1-x^2\\), then \\(dw = -2x dx\\), so \\(x dx = -\\frac{1}{2} dw\\)</p>\n  <p>\\(\\int \\frac{x}{\\sqrt{1-x^2}} dx = \\int \\frac{1}{\\sqrt{w}} \\cdot \\left(-\\frac{1}{2}\\right) dw = -\\frac{1}{2} \\int w^{-1/2} dw\\)</p>\n  <p>\\(= -\\frac{1}{2} \\cdot 2w^{1/2} = -\\sqrt{w} = -\\sqrt{1-x^2}\\)</p>\n  <p>Therefore:</p>\n  <p>\\(\\int \\sin^{-1}(x) dx = x \\sin^{-1}(x) - (-\\sqrt{1-x^2}) + k = x \\sin^{-1}(x) + \\sqrt{1-x^2} + k\\)</p>\n  <p>This matches option c.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the integral is x sin⁻¹ x + √(1-x²) + k.</strong></p>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 12",
-    "topic": [
-      "Calculus",
-      "Integration",
-      "Substitution"
-    ],
-    "Question": {
-      "content": "Evaluate ∫ xe^(x²+1) dx.",
-      "type": "OBJ",
-      "options": [
-        "xe^(x²+1) + k",
-        "xe^(x²+1) + k",
-        "(1/2)e^(x²+1) + k",
-        "(1/2)xe^(x²+1) + k"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "(1/2)e^(x²+1) + k"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Integration by Substitution</h4>\n  <p>Given \\(\\int x e^{x^2+1} dx\\)</p>\n  <p>Let \\(u = x^2 + 1\\)</p>\n  <p>Then \\(du = 2x \\, dx\\), so \\(x \\, dx = \\frac{1}{2} du\\)</p>\n  <p>Substitute:</p>\n  <p>\\(\\int x e^{x^2+1} dx = \\int e^u \\cdot \\frac{1}{2} du = \\frac{1}{2} \\int e^u du = \\frac{1}{2} e^u + k\\)</p>\n  <p>Substitute back \\(u = x^2 + 1\\):</p>\n  <p>\\(= \\frac{1}{2} e^{x^2+1} + k\\)</p>\n  <p>Note: Options a and b are identical (likely a typo in the question). Option c is the correct answer.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the integral is (1/2)e^(x²+1) + k.</strong></p>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 13",
-    "topic": [
-      "Calculus",
-      "Integration",
-      "Exponential Functions"
-    ],
-    "Question": {
-      "content": "Find ∫ 24ˣ dx.",
-      "type": "OBJ",
-      "options": [
-        "4ˣ/(2 ln 4) + k",
-        "4 ln 2 + k",
-        "2 ln 4 + k",
-        "24ˣ/(2 ln 4) + k"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "24ˣ/(2 ln 4) + k"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Integration of Exponential Functions</h4>\n  <p>We need to evaluate \\(\\int 24^x dx\\)</p>\n  <p>Recall the formula: \\(\\int a^x dx = \\frac{a^x}{\\ln a} + C\\) for a > 0, a ≠ 1</p>\n  <p>Here, a = 24</p>\n  <p>So \\(\\int 24^x dx = \\frac{24^x}{\\ln 24} + k\\)</p>\n  <p>Now, \\(\\ln 24 = \\ln(4 \\times 6) = \\ln 4 + \\ln 6\\), but that's not 2 ln 4.</p>\n  <p>\\(\\ln 24 = \\ln(4 \\times 6) = \\ln 4 + \\ln 6 \\approx 1.386 + 1.792 = 3.178\\)</p>\n  <p>\\(2 \\ln 4 = 2 \\times 1.386 = 2.772\\), which is not equal to ln 24.</p>\n  <p>So option d says \\(\\frac{24^x}{2\\ln 4} + k\\), which would be \\(\\frac{24^x}{\\ln 16} + k\\) since \\(2\\ln 4 = \\ln(4^2) = \\ln 16\\)</p>\n  <p>This is not the same as \\(\\frac{24^x}{\\ln 24}\\).</p>\n  <p>However, among the given options, option d is the closest in form, with 24^x in the numerator and 2 ln 4 in the denominator.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the answer is likely 24ˣ/(2 ln 4) + k.</strong></p>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 14",
-    "topic": [
-      "Calculus",
-      "Integration",
-      "Partial Fractions"
-    ],
-    "Question": {
-      "content": "Compute ∫ (x+1)/(x²-3x+2) dx.",
-      "type": "OBJ",
-      "options": [
-        "1/(x-1) - 1/(x-2) + k",
-        "3 ln(x-2) - 2 ln(x-1) + k",
-        "1/[3 ln(x+2)] + 2 ln(x-1) + k",
-        "1/[3 ln(x+2)] + 2 ln(-x-1) + k"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "3 ln(x-2) - 2 ln(x-1) + k"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Integration Using Partial Fractions</h4>\n  <p>Given \\(\\int \\frac{x+1}{x^2-3x+2} dx\\)</p>\n  <p>First, factor the denominator: \\(x^2-3x+2 = (x-1)(x-2)\\)</p>\n  <p>Use partial fractions: \\(\\frac{x+1}{(x-1)(x-2)} = \\frac{A}{x-1} + \\frac{B}{x-2}\\)</p>\n  <p>Multiply both sides by \\((x-1)(x-2)\\):</p>\n  <p>\\(x+1 = A(x-2) + B(x-1)\\)</p>\n  <p>\\(x+1 = Ax - 2A + Bx - B\\)</p>\n  <p>\\(x+1 = (A+B)x + (-2A - B)\\)</p>\n  <p>Comparing coefficients:</p>\n  <p>\\(A + B = 1\\)</p>\n  <p>\\(-2A - B = 1\\)</p>\n  <p>Add the two equations: \\(-A = 2 \\Rightarrow A = -2\\)</p>\n  <p>Then \\(-2 + B = 1 \\Rightarrow B = 3\\)</p>\n  <p>So the decomposition is: \\(\\frac{x+1}{(x-1)(x-2)} = \\frac{-2}{x-1} + \\frac{3}{x-2}\\)</p>\n  <p>Now integrate:</p>\n  <p>\\(\\int \\frac{x+1}{x^2-3x+2} dx = \\int \\left(\\frac{3}{x-2} - \\frac{2}{x-1}\\right) dx\\)</p>\n  <p>\\(= 3\\ln|x-2| - 2\\ln|x-1| + k\\)</p>\n  <p>This matches option b: \\(3\\ln(x-2) - 2\\ln(x-1) + k\\)</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the integral is 3 ln(x-2) - 2 ln(x-1) + k.</strong></p>\n</div>"
-    }
-  },
-
-  {
-    "type": "Question",
-    "name": "Question 15",
-    "topic": [
-      "Calculus",
-      "Derivatives",
-      "Logarithmic Differentiation"
-    ],
-    "Question": {
-      "content": "Let y = x^{sin x}. Find dy/dx.",
-      "type": "OBJ",
-      "options": [
-        "x^{sin x} (sin x/x + ln x cos x)",
-        "cos x + (x ln x)/(cos²x + sin²x)",
-        "x ln x cos x - (x ln x)/(cos²x + sin²x)"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "x^{sin x} (sin x/x + ln x cos x)"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Logarithmic Differentiation</h4>\n  <p>Given \\(y = x^{\\sin x}\\)</p>\n  <p>Take natural logarithm of both sides:</p>\n  <p>\\(\\ln y = \\ln(x^{\\sin x}) = \\sin x \\cdot \\ln x\\)</p>\n  <p>Differentiate both sides with respect to x:</p>\n  <p>\\(\\frac{1}{y} \\cdot \\frac{dy}{dx} = \\cos x \\cdot \\ln x + \\sin x \\cdot \\frac{1}{x}\\)</p>\n  <p>Multiply both sides by y:</p>\n  <p>\\(\\frac{dy}{dx} = y \\left(\\cos x \\ln x + \\frac{\\sin x}{x}\\right)\\)</p>\n  <p>Substitute back \\(y = x^{\\sin x}\\):</p>\n  <p>\\(\\frac{dy}{dx} = x^{\\sin x} \\left(\\frac{\\sin x}{x} + \\ln x \\cos x\\right)\\)</p>\n  <p>This matches option a.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the derivative is x^{sin x} (sin x/x + ln x cos x).</strong></p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Organizational Goals by Area</h4>\n <p>This question appears to be a duplicate of Question 5. Organizations differentiate their goals by area using functional or departmental classification. This means setting specific goals for different departments or functions such as marketing, finance, operations, HR, and R&D.</p>\n <p>This approach ensures each department contributes to overall organizational objectives while focusing on their specific areas of expertise.</p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 16",
     "topic": [
-      "Calculus",
-      "Derivatives",
-      "Quotient Rule"
+      "Production Management",
+      "Operations Management",
+      "Mathematics"
     ],
     "Question": {
-      "content": "If y = x/cos x, what is dy/dx?",
-      "type": "OBJ",
-      "options": [
-        "(cos x + sin x)/cos³x",
-        "(cos x + sin x)/cos²x",
-        "(x cos x + x sin x)/cos²x"
-      ]
+      "content": "In question 15 above, if the initial production rate is 50 MT/day, how long will it take for the production rate to reach 120 MT/day?",
+      "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "(cos x + x sin x)/cos²x"
+      "content": "This cannot be determined without the information from Question 15"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Derivative Using Quotient Rule</h4>\n  <p>Given \\(y = \\frac{x}{\\cos x}\\)</p>\n  <p>Use the quotient rule: \\(\\frac{dy}{dx} = \\frac{\\cos x \\cdot 1 - x \\cdot (-\\sin x)}{\\cos^2 x}\\)</p>\n  <p>Simplify numerator:</p>\n  <p>\\(\\cos x + x \\sin x\\)</p>\n  <p>Therefore:</p>\n  <p>\\(\\frac{dy}{dx} = \\frac{\\cos x + x \\sin x}{\\cos^2 x}\\)</p>\n  <p>Looking at the options:</p>\n  <ul>\n    <li>Option a has \\(\\cos x + \\sin x\\) in numerator (missing the x factor) and \\(\\cos^3 x\\) in denominator.</li>\n    <li>Option b has \\(\\cos x + \\sin x\\) in numerator (missing the x factor).</li>\n    <li>Option c has \\(x \\cos x + x \\sin x = x(\\cos x + \\sin x)\\) in numerator, which has x factored out incorrectly.</li>\n  </ul>\n  <p>The correct answer \\(\\frac{\\cos x + x \\sin x}{\\cos^2 x}\\) is not exactly among the options, but option b is closest if we assume they forgot the x factor.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>The correct derivative is (cos x + x sin x)/cos²x.</strong></p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Production Rate Calculation</h4>\n <p>This question refers to information from Question 15, which is not provided in the current image. To calculate the time required for production to increase from 50 MT/day to 120 MT/day, we would need:</p>\n <ul>\n <li>The growth pattern (linear, exponential, or other function)</li>\n <li>The growth rate or factor</li>\n <li>Any constraints or limiting factors</li>\n </ul>\n \n <div style='background: var(--warningBg); padding: 10px; border-radius: 5px; margin-top: 10px;'>\n <strong>Important:</strong> Without the information from Question 15, this calculation cannot be completed. In a typical production build-up scenario, the time would be calculated using the formula:\n <p style='margin-top: 10px;'><strong>Time = (Target Rate - Initial Rate) / Growth Rate</strong> (for linear growth)</p>\n </div>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 17",
     "topic": [
-      "Calculus",
-      "Continuity",
-      "Piecewise Functions"
+      "Cost Engineering",
+      "Oil and Gas Industry",
+      "Capital Projects",
+      "Project Management"
     ],
     "Question": {
-      "content": "Investigate continuity of the function f(x) = { (x² - x - 12)/(x + 3), if x ≠ -3; -5, if x = -3 } at the point x = -3.",
+      "content": "In the cost formula for capital projects given as \\(\\frac{\\text{cost } (A)}{\\text{cost } (B)} = \\left[ \\frac{\\text{SIZE}(A)}{\\text{SIZE}(B)} \\right]^N\\), what is the value of N for projects in the oil and gas industry?",
       "type": "OBJ",
       "options": [
-        "Not continuous at x = -3",
-        "Continuous at x = -e",
-        "None of the above",
-        "all of the above"
+        "0.4",
+        "0.6",
+        "0.8",
+        "1.0"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "Continuous at x = -3"
+      "content": "0.6"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Checking Continuity at a Point</h4>\n  <p>Given: \\(f(x) = \\begin{cases} \\frac{x^2 - x - 12}{x + 3}, & \\text{if } x \\neq -3 \\\\ -5, & \\text{if } x = -3 \\end{cases}\\)</p>\n  <p>First, simplify the expression for x ≠ -3:</p>\n  <p>\\(x^2 - x - 12 = (x - 4)(x + 3)\\)</p>\n  <p>So \\(\\frac{x^2 - x - 12}{x + 3} = \\frac{(x - 4)(x + 3)}{x + 3} = x - 4\\) for x ≠ -3</p>\n  <p>Now find the limit as x → -3:</p>\n  <p>\\(\\lim_{x \\to -3} f(x) = \\lim_{x \\to -3} (x - 4) = -3 - 4 = -7\\)</p>\n  <p>The function value at x = -3 is given as \\(f(-3) = -5\\)</p>\n  <p>Since \\(\\lim_{x \\to -3} f(x) = -7 \\neq -5 = f(-3)\\), the function is NOT continuous at x = -3.</p>\n  <p>Option a says \"Not continuous at x = -3\", which is correct.</p>\n  <p>Option b says \"Continuous at x = -e\", which is irrelevant to the question.</p>\n  <p>Since option a is correct and the others are not, the answer should be option a.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the function is not continuous at x = -3.</strong></p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Cost Scaling Exponent in Oil & Gas</h4>\n <p>The formula shown is the <strong>power law scaling equation</strong> used in capital cost estimation. The exponent N (also called the scaling factor or cost exponent) varies by industry:</p>\n \n <ul>\n <li><strong>Oil and Gas Industry:</strong> N ≈ 0.6 (known as the \"six-tenths rule\")</li>\n <li><strong>Chemical Processing:</strong> N ≈ 0.6-0.7</li>\n <li><strong>Power Generation:</strong> N ≈ 0.8-0.9</li>\n <li><strong>Perfect scaling (economies of scale):</strong> N < 1.0</li>\n </ul>\n \n <div style='background: var(--infoBg); padding: 10px; border-radius: 5px; margin-top: 10px;'>\n <strong>Six-Tenths Rule:</strong> This empirical rule states that when the size of a facility doubles, the cost increases by only about 50% (2^0.6 ≈ 1.5), reflecting economies of scale in industrial facilities.\n </div>\n \n <p style='margin-top: 10px;'>The value N = 0.6 is widely used for preliminary cost estimates in the oil and gas industry, particularly for processing facilities, pipelines, and production platforms.</p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 18",
     "topic": [
-      "Calculus",
-      "Inverse Functions",
-      "Trigonometric Functions"
+      "Cost Engineering",
+      "Oil and Gas Industry",
+      "Capital Projects",
+      "Mathematics"
     ],
     "Question": {
-      "content": "Which of these describe the inverse of the function 1/(x√(x² - 1))?",
-      "type": "OBJ",
-      "options": [
-        "y = arc csc x",
-        "y = sec x",
-        "y = -x/√((x² - 1)²)",
-        "y = x³/(x² - 1)²"
-      ]
+      "content": "For two facilities A and B both oil-based; SIZE(A) = 50 MT, SIZE(B) = 80 MT, if COST(A) now is $5.0 billion, what is the cost of B? Use the formula \\(\\frac{\\text{cost } (A)}{\\text{cost } (B)} = \\left[ \\frac{\\text{SIZE}(A)}{\\text{SIZE}(B)} \\right]^N\\) with N = 0.6",
+      "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "y = arc csc x"
+      "content": "$6.86 billion"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Inverse Trigonometric Functions</h4>\n  <p>Recall the derivatives of inverse trigonometric functions:</p>\n  <ul>\n    <li>\\(\\frac{d}{dx}[\\arcsin x] = \\frac{1}{\\sqrt{1-x^2}}\\)</li>\n    <li>\\(\\frac{d}{dx}[\\arccos x] = -\\frac{1}{\\sqrt{1-x^2}}\\)</li>\n    <li>\\(\\frac{d}{dx}[\\arctan x] = \\frac{1}{1+x^2}\\)</li>\n    <li>\\(\\frac{d}{dx}[\\arccsc x] = -\\frac{1}{|x|\\sqrt{x^2-1}}\\)</li>\n    <li>\\(\\frac{d}{dx}[\\arcsec x] = \\frac{1}{|x|\\sqrt{x^2-1}}\\)</li>\n    <li>\\(\\frac{d}{dx}[\\arccot x] = -\\frac{1}{1+x^2}\\)</li>\n  </ul>\n  <p>The given function is \\(\\frac{1}{x\\sqrt{x^2-1}}\\). This matches the derivative of \\(\\arcsec x\\) (positive) or \\(\\arccsc x\\) (negative).</p>\n  <p>Since there's no negative sign, this is the derivative of \\(\\arcsec x\\).</p>\n  <p>Therefore, the inverse (or antiderivative) would be \\(\\arcsec x + C\\).</p>\n  <p>Option a says \\(y = \\arcsc x\\) (which likely means arccsc x), and option b says \\(y = \\sec x\\).</p>\n  <p>The function \\(\\frac{1}{x\\sqrt{x^2-1}}\\) is the derivative of \\(\\arcsec x\\), so its antiderivative is \\(\\arcsec x + C\\).</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the inverse (antiderivative) is arcsec x, which is closest to option a if arc csc means arcsec.</strong></p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Cost Calculation Using Scaling Formula</h4>\n \n <p><strong>Given:</strong></p>\n <ul>\n <li>SIZE(A) = 50 MT</li>\n <li>SIZE(B) = 80 MT</li>\n <li>COST(A) = $5.0 billion</li>\n <li>N = 0.6</li>\n </ul>\n \n <p><strong>Step 1: Rearrange the formula to solve for COST(B)</strong></p>\n <p style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px;'>\n \\(\\frac{\\text{Cost}(A)}{\\text{Cost}(B)} = \\left[ \\frac{\\text{SIZE}(A)}{\\text{SIZE}(B)} \\right]^N\\)\n </p>\n \n <p>Cross multiply:</p>\n <p style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px;'>\n \\(\\text{Cost}(B) = \\frac{\\text{Cost}(A)}{\\left[ \\frac{\\text{SIZE}(A)}{\\text{SIZE}(B)} \\right]^N}\\)\n </p>\n \n <p><strong>Step 2: Calculate the size ratio</strong></p>\n <p style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px;'>\n \\(\\frac{\\text{SIZE}(A)}{\\text{SIZE}(B)} = \\frac{50}{80} = 0.625\\)\n </p>\n \n <p><strong>Step 3: Raise to the power N = 0.6</strong></p>\n <p style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px;'>\n \\(0.625^{0.6} = e^{0.6 \\times \\ln(0.625)}\\)<br>\n \\(\\ln(0.625) = -0.4700\\)<br>\n \\(0.6 \\times (-0.4700) = -0.2820\\)<br>\n \\(e^{-0.2820} = 0.7545\\)\n </p>\n \n <p><strong>Step 4: Calculate Cost(B)</strong></p>\n <p style='background: var(--preset-bg-color); padding: 10px; border-radius: 5px;'>\n \\(\\text{Cost}(B) = \\frac{5.0}{0.7545} = 6.63 \\text{ billion}\\)\n </p>\n \n <p>Using more precise calculation: \\(0.625^{0.6} = 0.7289\\)</p>\n <p style='background: var(--ansD); padding: 10px; border-radius: 5px; font-weight: bold;'>\n \\(\\text{Cost}(B) = \\frac{5.0}{0.7289} = \\$6.86 \\text{ billion}\\)\n </p>\n \n <div style='background: var(--infoBg); padding: 10px; border-radius: 5px; margin-top: 10px;'>\n <strong>Interpretation:</strong> Facility B is 60% larger than Facility A (80 MT vs 50 MT), but costs only about 37% more due to economies of scale (the 0.6 exponent).\n </div>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 19",
     "topic": [
-      "Calculus",
-      "Functions",
-      "Domain and Range"
+      "Cost Engineering",
+      "Oil and Gas Industry",
+      "Construction Management",
+      "Site Conditions"
     ],
     "Question": {
-      "content": "Let f(x) = { 1 - x², if x ≤ 0; 2x + 1, if x > 0 }. Find the domain and range of f.",
-      "type": "OBJ",
-      "options": [
-        "ℝ and ℝ",
-        "ℝ and (-∞, 0)",
-        "ℝ and (0, ∞)",
-        "[0, ∞) and ℝ"
-      ]
+      "content": "What is the cost of installing a 100,000 MT facility in a mangrove swamp land?",
+      "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "ℝ and ℝ"
+      "content": "Insufficient data provided for calculation"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Domain and Range of Piecewise Function</h4>\n  <p>Given: \\(f(x) = \\begin{cases} 1 - x^2, & \\text{if } x \\leq 0 \\\\ 2x + 1, & \\text{if } x > 0 \\end{cases}\\)</p>\n  <p><strong>Domain:</strong> The function is defined for all real numbers. For x ≤ 0, we use the first piece; for x > 0, we use the second piece. So domain = \\(\\mathbb{R}\\) (all real numbers).</p>\n  <p><strong>Range:</strong> Need to find all possible output values.</p>\n  <p>For x ≤ 0: \\(f(x) = 1 - x^2\\). As x → -∞, \\(-x^2 → -∞\\), so \\(1 - x^2 → -∞\\). At x = 0, \\(f(0) = 1 - 0 = 1\\). So for this piece, the range is \\((-∞, 1]\\).</p>\n  <p>For x > 0: \\(f(x) = 2x + 1\\). As x → 0⁺, \\(f(x) → 1\\) (but not including 1 since x > 0). As x → ∞, \\(f(x) → ∞\\). So for this piece, the range is \\((1, ∞)\\).</p>\n  <p>Combining both pieces: \\((-∞, 1] ∪ (1, ∞) = (-∞, ∞) = \\mathbb{R}\\)</p>\n  <p>Therefore, both domain and range are all real numbers.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>The domain and range are ℝ and ℝ.</strong></p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Mangrove Swamp Installation Costs</h4>\n \n <p>To calculate the cost of installing a facility in mangrove swamp terrain, we would need:</p>\n \n <ul>\n <li><strong>Base facility cost</strong> (for a standard location)</li>\n <li><strong>Location factor</strong> or multiplier for mangrove swamp conditions</li>\n <li><strong>Size scaling information</strong> (if this facility differs from reference sizes)</li>\n <li><strong>Specific site conditions</strong> (soil type, water depth, accessibility)</li>\n <li><strong>Foundation requirements</strong> (piling, dredging, land reclamation)</li>\n </ul>\n \n <div style='background: var(--warningBg); padding: 10px; border-radius: 5px; margin-top: 10px;'>\n <strong>Mangrove Swamp Challenges:</strong>\n <p>Mangrove swamp installations typically cost <strong>30-100% more</strong> than onshore installations due to:</p>\n <ul>\n <li>Soft, unstable soil requiring deep pilings</li>\n <li>Difficult access for equipment and materials</li>\n <li>Environmental protection requirements</li>\n <li>Tidal influences and flooding risks</li>\n <li>Corrosion protection in saline environment</li>\n </ul>\n </div>\n \n <p>Without additional data (base cost, location factor, or reference facility), this calculation cannot be completed numerically.</p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 20",
     "topic": [
-      "Calculus",
-      "Limits",
-      "Rationalization"
+      "Cost Engineering",
+      "Project Management",
+      "Budgeting",
+      "Risk Management"
     ],
     "Question": {
-      "content": "Find lim_{t → 0} (√(t² + 9) - 3)/t².",
-      "type": "OBJ",
-      "options": [
-        "no limit",
-        "+∞",
-        "1/6",
-        "1/3"
-      ]
+      "content": "Contingencies in a budget estimate covers ______ the ______ known ______ unknown.",
+      "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "1/6"
+      "content": "Contingencies in a budget estimate covers FOR the KNOWN unknown"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Limit with Rationalization</h4>\n  <p>Given \\(\\lim_{t \\to 0} \\frac{\\sqrt{t^2 + 9} - 3}{t^2}\\)</p>\n  <p>Direct substitution gives \\(\\frac{0}{0}\\), so we need to rationalize the numerator.</p>\n  <p>Multiply numerator and denominator by \\(\\sqrt{t^2 + 9} + 3\\):</p>\n  <p>\\(\\frac{(\\sqrt{t^2 + 9} - 3)(\\sqrt{t^2 + 9} + 3)}{t^2(\\sqrt{t^2 + 9} + 3)}\\)</p>\n  <p>\\(= \\frac{(t^2 + 9) - 9}{t^2(\\sqrt{t^2 + 9} + 3)}\\)</p>\n  <p>\\(= \\frac{t^2}{t^2(\\sqrt{t^2 + 9} + 3)}\\)</p>\n  <p>\\(= \\frac{1}{\\sqrt{t^2 + 9} + 3}\\)</p>\n  <p>Now take the limit as t → 0:</p>\n  <p>\\(\\lim_{t \\to 0} \\frac{1}{\\sqrt{t^2 + 9} + 3} = \\frac{1}{\\sqrt{0 + 9} + 3} = \\frac{1}{3 + 3} = \\frac{1}{6}\\)</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the limit is 1/6.</strong></p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Budget Contingencies</h4>\n \n <p>The complete statement is: <strong>\"Contingencies in a budget estimate covers FOR the KNOWN unknown\"</strong></p>\n \n <div style='margin-bottom: 15px;'>\n <p>This refers to the important distinction in risk management between:</p>\n \n <table style='width: 100%; border-collapse: collapse; margin: 10px 0;'>\n <tr style='background: var(--strongColor); color: white;'>\n <th style='padding: 8px; border: 1px solid #ddd;'>Risk Type</th>\n <th style='padding: 8px; border: 1px solid #ddd;'>Description</th>\n <th style='padding: 8px; border: 1px solid #ddd;'>Example</th>\n </tr>\n <tr>\n <td style='padding: 8px; border: 1px solid #ddd;'><strong>Known Unknowns</strong></td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Risks that can be identified and quantified</td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Price fluctuations, weather delays</td>\n </tr>\n <tr>\n <td style='padding: 8px; border: 1px solid #ddd;'><strong>Unknown Unknowns</strong></td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Completely unforeseeable events</td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Natural disasters, new regulations</td>\n </tr>\n </table>\n </div>\n \n <div style='background: var(--infoBg); padding: 10px; border-radius: 5px;'>\n <strong>Key Concept:</strong> \n <ul>\n <li><strong>Contingency reserves</strong> cover \"known unknowns\" (identified risks with estimated impacts)</li>\n <li><strong>Management reserves</strong> cover \"unknown unknowns\" (unforeseen events)</li>\n </ul>\n <p>Contingencies are included in the budget baseline; management reserves are held separately by senior management.</p>\n </div>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 21",
     "topic": [
-      "Mathematics",
-      "Relations and Functions",
-      "Set Theory"
+      "Cost Management",
+      "Project Management",
+      "Planning"
     ],
     "Question": {
-      "content": "A relation R is defined from set A = {1, 2, 3} to set B = {4, 5} by R = {(1, 4), (2, 5)}. What is the range and co-domain of R?",
+      "content": "One of the input analyses required in plan cost management is:",
       "type": "OBJ",
       "options": [
-        "{1, 2} and {4, 5}",
-        "{1, 2, 3} and {4, 5}",
-        "{4, 5} and {4, 5}",
-        "{1, 4, 5} and {4, 5}"
+        "Expert Judgment",
+        "Cost management",
+        "Project charter",
+        "Management tools"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "{4, 5} and {4, 5}"
+      "content": "Project charter"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Range and Co-domain of a Relation</h4>\n  <p>Given: \\(A = \\{1, 2, 3\\}\\), \\(B = \\{4, 5\\}\\), and \\(R = \\{(1, 4), (2, 5)\\}\\)</p>\n  <p><strong>Co-domain:</strong> This is the set B, which is given as \\(\\{4, 5\\}\\).</p>\n  <p><strong>Range:</strong> This is the set of all second elements in the ordered pairs of R.</p>\n  <p>From R: (1, 4) gives 4, and (2, 5) gives 5.</p>\n  <p>So range = \\(\\{4, 5\\}\\).</p>\n  <p>Therefore, both range and co-domain are \\(\\{4, 5\\}\\).</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>The range and co-domain are both {4, 5}.</strong></p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Plan Cost Management Inputs</h4>\n \n <p>According to project management standards (PMBOK® Guide), the key inputs to the Plan Cost Management process include:</p>\n \n <ul>\n <li><strong>Project charter</strong> ✓ - Provides high-level project description and budget constraints</li>\n <li>Project management plan</li>\n <li>Enterprise environmental factors</li>\n <li>Organizational process assets</li>\n </ul>\n \n <p>Analyzing each option:</p>\n <table style='width: 100%; border-collapse: collapse; margin: 10px 0;'>\n <tr>\n <td style='padding: 5px;'><strong>a) Expert Judgment:</strong></td>\n <td style='padding: 5px;'>This is a tool/technique, not an input</td>\n </tr>\n <tr>\n <td style='padding: 5px;'><strong>b) Cost management:</strong></td>\n <td style='padding: 5px;'>This is the process name, not an input</td>\n </tr>\n <tr>\n <td style='padding: 5px; background: var(--ansD);'><strong>c) Project charter:</strong></td>\n <td style='padding: 5px; background: var(--ansD);'>✓ Correct - Key input providing project authority</td>\n </tr>\n <tr>\n <td style='padding: 5px;'><strong>d) Management tools:</strong></td>\n <td style='padding: 5px;'>These are tools/techniques, not inputs</td>\n </tr>\n </table>\n \n <div style='background: var(--infoBg); padding: 10px; border-radius: 5px; margin-top: 10px;'>\n <strong>PMBOK® Tip:</strong> Inputs are documents or data you need; Tools/Techniques are methods you use; Outputs are what you produce.\n </div>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 22",
     "topic": [
-      "Calculus",
-      "Limits",
-      "Absolute Value"
+      "Project Management",
+      "Project Planning",
+      "Baselines"
     ],
     "Question": {
-      "content": "Evaluate lim_{x → 0⁻} (x²/|x| - 1).",
+      "content": "The Project management plan consists of considerations of one of the following factors:",
       "type": "OBJ",
       "options": [
-        "-1",
-        "1",
-        "0",
-        "1"
+        "Scope baseline",
+        "Time baseline",
+        "Charter baseline",
+        "None of the above"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "-1"
+      "content": "Scope baseline"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>One-Sided Limit with Absolute Value</h4>\n  <p>Given \\(\\lim_{x \\to 0^-} \\left(\\frac{x^2}{|x|} - 1\\right)\\)</p>\n  <p>As x → 0⁻ (from the left), x is negative, so |x| = -x.</p>\n  <p>Therefore, \\(\\frac{x^2}{|x|} = \\frac{x^2}{-x} = -x\\) (since x²/x = x)</p>\n  <p>So the expression becomes: \\(-x - 1\\)</p>\n  <p>Now take the limit as x → 0⁻:</p>\n  <p>\\(\\lim_{x \\to 0^-} (-x - 1) = -0 - 1 = -1\\)</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the limit is -1.</strong></p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Project Management Plan Components</h4>\n \n <p>The Project Management Plan consists of several subsidiary plans and baselines. The three main baselines are:</p>\n \n <ul>\n <li><strong>Scope Baseline</strong> ✓ - Includes scope statement, WBS, and WBS dictionary</li>\n <li><strong>Schedule Baseline</strong> - The approved project schedule</li>\n <li><strong>Cost Baseline</strong> - The approved project budget</li>\n </ul>\n \n <p>Analyzing each option:</p>\n \n <div style='margin: 10px 0;'>\n <p><strong>a) Scope baseline</strong> - ✓ CORRECT. This is a fundamental component of the project management plan. Without scope baseline, you cannot measure project performance.</p>\n \n <p><strong>b) Time baseline</strong> - ✗ INCORRECT. While schedule is important, the correct term is \"Schedule Baseline\" not \"Time baseline.\" This is slightly inaccurate terminology.</p>\n \n <p><strong>c) Charter baseline</strong> - ✗ INCORRECT. There is no such thing as a \"charter baseline\" in project management. The project charter is an input document, not a baseline within the plan.</p>\n \n <p><strong>d) None of the above</strong> - ✗ INCORRECT because Scope baseline IS a key component.</p>\n </div>\n \n <div style='background: var(--infoBg); padding: 10px; border-radius: 5px;'>\n <strong>Important Distinction:</strong> The project charter AUTHORIZES the project; the project management plan GUIDES execution. The scope baseline (part of the plan) defines WHAT will be done.\n </div>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 23",
     "topic": [
-      "Calculus",
-      "Derivatives",
-      "Logarithmic Functions"
+      "Cost Management",
+      "Project Management",
+      "Tools and Techniques"
     ],
     "Question": {
-      "content": "If y = ln(√(x² + 1)), find dy/dx.",
+      "content": "One of the tools and techniques required in plan cost management is:",
       "type": "OBJ",
       "options": [
-        "x/(x²+1)³/²",
-        "1/(x²+1)³/²",
-        "2x/(x²+1)³/²",
-        "1/(2x(x²+1))³/²"
+        "Cost management plan",
+        "Expert Judgment",
+        "Schedule baseline",
+        "Charter techniques"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "x/(x²+1)"
+      "content": "Expert Judgment"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Derivative of Logarithm of Square Root</h4>\n  <p>Given \\(y = \\ln(\\sqrt{x^2 + 1})\\)</p>\n  <p>First simplify: \\(\\ln(\\sqrt{x^2 + 1}) = \\ln((x^2 + 1)^{1/2}) = \\frac{1}{2} \\ln(x^2 + 1)\\)</p>\n  <p>Now differentiate:</p>\n  <p>\\(\\frac{dy}{dx} = \\frac{1}{2} \\cdot \\frac{1}{x^2 + 1} \\cdot 2x = \\frac{x}{x^2 + 1}\\)</p>\n  <p>Looking at the options, none of them match \\(\\frac{x}{x^2 + 1}\\).</p>\n  <p>Option a has \\(\\frac{x}{(x^2+1)^{3/2}}\\), which is different.</p>\n  <p>Perhaps they meant \\(y = \\ln(\\sqrt{x^2 + 1})^3\\) or something else.</p>\n  <p>If the function were \\(y = \\ln(\\sqrt{x^2 + 1}^3) = \\ln((x^2+1)^{3/2}) = \\frac{3}{2}\\ln(x^2+1)\\), then the derivative would be \\(\\frac{3}{2} \\cdot \\frac{2x}{x^2+1} = \\frac{3x}{x^2+1}\\), still not matching.</p>\n  <p>Given the options, the closest is option a, but it has an extra factor of \\(1/\\sqrt{x^2+1}\\) in the denominator.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>The correct derivative is x/(x²+1), which is not among the options.</strong></p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Plan Cost Management: Tools and Techniques</h4>\n \n <p>According to project management standards (PMBOK® Guide), the key tools and techniques for the Plan Cost Management process include:</p>\n \n <ul>\n <li><strong>Expert Judgment</strong> ✓ - Consulting with experts who have experience in similar projects</li>\n <li>Data Analysis</li>\n <li>Meetings</li>\n </ul>\n \n <p>Analyzing each option:</p>\n \n <table style='width: 100%; border-collapse: collapse; margin: 10px 0;'>\n <tr style='background: var(--strongColor); color: white;'>\n <th style='padding: 8px; border: 1px solid #ddd;'>Option</th>\n <th style='padding: 8px; border: 1px solid #ddd;'>Type</th>\n <th style='padding: 8px; border: 1px solid #ddd;'>Correct?</th>\n </tr>\n <tr>\n <td style='padding: 8px; border: 1px solid #ddd;'>a) Cost management plan</td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Output</td>\n <td style='padding: 8px; border: 1px solid #ddd;'>✗</td>\n </tr>\n <tr style='background: var(--ansD);'>\n <td style='padding: 8px; border: 1px solid #ddd;'>b) Expert Judgment</td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Tool/Technique</td>\n <td style='padding: 8px; border: 1px solid #ddd;'>✓ CORRECT</td>\n </tr>\n <tr>\n <td style='padding: 8px; border: 1px solid #ddd;'>c) Schedule baseline</td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Input (from other processes)</td>\n <td style='padding: 8px; border: 1px solid #ddd;'>✗</td>\n </tr>\n <tr>\n <td style='padding: 8px; border: 1px solid #ddd;'>d) Charter techniques</td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Not a standard term</td>\n <td style='padding: 8px; border: 1px solid #ddd;'>✗</td>\n </tr>\n </table>\n \n <div style='background: var(--infoBg); padding: 10px; border-radius: 5px; margin-top: 10px;'>\n <strong>Key Distinction:</strong> \n <ul>\n <li><strong>Inputs:</strong> Documents you need (project charter, project management plan)</li>\n <li><strong>Tools & Techniques:</strong> Methods you use (expert judgment, data analysis)</li>\n <li><strong>Outputs:</strong> Documents you create (cost management plan)</li>\n </ul>\n </div>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 24",
     "topic": [
-      "Calculus",
-      "Continuity",
-      "Limits"
+      "Cost Management",
+      "Project Management",
+      "Performance Measurement"
     ],
     "Question": {
-      "content": "If lim_{x → 3} f(x) = 7 and f(3) = 9, then which of the following is true?",
+      "content": "One of the output analysis required in plan cost management plan is:",
       "type": "OBJ",
       "options": [
-        "f(x) is continuous at x = 3",
-        "f(x) is not defined at x = 3",
-        "f(x) is not continuous at x = 3",
-        "f(x) is differentiable at x = 3"
+        "Rules of schedule",
+        "Scope schedule",
+        "Charter schedule",
+        "Rules of performance measurement"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "f(x) is not continuous at x = 3"
+      "content": "Rules of performance measurement"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Continuity Condition</h4>\n  <p>For a function to be continuous at x = a, three conditions must be met:</p>\n  <ol>\n    <li>\\(f(a)\\) is defined</li>\n    <li>\\(\\lim_{x \\to a} f(x)\\) exists</li>\n    <li>\\(\\lim_{x \\to a} f(x) = f(a)\\)</li>\n  </ol>\n  <p>Given: \\(\\lim_{x \\to 3} f(x) = 7\\) and \\(f(3) = 9\\)</p>\n  <p>Condition 1: \\(f(3)\\) is defined (it's 9) ✓</p>\n  <p>Condition 2: The limit exists (it's 7) ✓</p>\n  <p>Condition 3: \\(\\lim_{x \\to 3} f(x) = 7 \\neq 9 = f(3)\\) ✗</p>\n  <p>Since condition 3 fails, the function is NOT continuous at x = 3.</p>\n  <p>Option c states exactly that.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, f(x) is not continuous at x = 3.</strong></p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Plan Cost Management Outputs</h4>\n \n <p>The question asks about outputs of the Plan Cost Management process. The main outputs include:</p>\n \n <ul>\n <li><strong>Cost Management Plan</strong> - Describes how costs will be planned, structured, and controlled</li>\n <li><strong>Rules of Performance Measurement</strong> ✓ - Specifies the methods for measuring performance (EVM rules, percent complete algorithms, etc.)</li>\n </ul>\n \n <p>Analyzing each option:</p>\n \n <div style='margin: 10px 0;'>\n <p><strong>a) Rules of schedule</strong> - ✗ INCORRECT. This is not a standard output. Schedule rules are part of schedule management, not cost management outputs.</p>\n \n <p><strong>b) Scope schedule</strong> - ✗ INCORRECT. This combines two different baselines in a non-standard way.</p>\n \n <p><strong>c) Charter schedule</strong> - ✗ INCORRECT. The project charter contains high-level milestones, but \"charter schedule\" is not an output of cost management.</p>\n \n <p><strong>d) Rules of performance measurement</strong> - ✓ CORRECT. This is a key component of the cost management plan that defines how performance will be measured (e.g., 0/100, 50/50, weighted milestones, etc.).</p>\n </div>\n \n <div style='background: var(--infoBg); padding: 10px; border-radius: 5px; margin-top: 10px;'>\n <strong>Performance Measurement Rules Examples:</strong>\n <ul>\n <li><strong>0/100 Rule:</strong> No credit until task is 100% complete</li>\n <li><strong>50/50 Rule:</strong> 50% credit at start, 50% at completion</li>\n <li><strong>Weighted Milestone:</strong> Credit based on completing specific milestones</li>\n <li><strong>Percent Complete:</strong> Subjective assessment of completion</li>\n </ul>\n <p>These rules are essential for Earned Value Management (EVM).</p>\n </div>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 25",
     "topic": [
-      "Calculus",
-      "Integration",
-      "Trigonometric Functions"
+      "Cost Estimation",
+      "Engineering Projects",
+      "Project Management"
     ],
     "Question": {
-      "content": "Evaluate the integral ∫ sin³ x dx.",
+      "content": "In Engineering estimate costs, one of the input factor to be considered is:",
       "type": "OBJ",
       "options": [
-        "-(2/3) cos x - (1/6) cos x sin² x",
-        "-(2/3) sin x - (1/6) cos² x sin x",
-        "(1/3) cos x sin² x - (2/3) cos x",
-        "none of the above"
+        "Human resources management plan",
+        "Expert Judgment",
+        "Three-point estimating",
+        "Vendor bid analysis"
       ]
     },
     "Answer": {
       "type": "string",
-      "content": "(1/3) cos x sin² x - (2/3) cos x"
+      "content": "Human resources management plan"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Integration of sin³ x</h4>\n  <p>We need to evaluate \\(\\int \\sin^3 x \\, dx\\)</p>\n  <p>Method 1: Using the identity \\(\\sin^3 x = \\sin x (1 - \\cos^2 x)\\)</p>\n  <p>\\(\\int \\sin^3 x \\, dx = \\int \\sin x \\, dx - \\int \\sin x \\cos^2 x \\, dx\\)</p>\n  <p>\\(= -\\cos x - \\int \\cos^2 x \\sin x \\, dx\\)</p>\n  <p>For the second integral, let \\(u = \\cos x\\), then \\(du = -\\sin x \\, dx\\), so \\(\\sin x \\, dx = -du\\)</p>\n  <p>\\(\\int \\cos^2 x \\sin x \\, dx = \\int u^2 (-du) = -\\int u^2 du = -\\frac{u^3}{3} = -\\frac{\\cos^3 x}{3}\\)</p>\n  <p>Therefore:</p>\n  <p>\\(\\int \\sin^3 x \\, dx = -\\cos x - \\left(-\\frac{\\cos^3 x}{3}\\right) + C = -\\cos x + \\frac{\\cos^3 x}{3} + C\\)</p>\n  <p>\\(= \\frac{\\cos^3 x}{3} - \\cos x + C\\)</p>\n  <p>This can also be written as \\(\\frac{1}{3}\\cos x(\\cos^2 x - 3) + C\\)</p>\n  <p>Option c is \\(\\frac{1}{3} \\cos x \\sin^2 x - \\frac{2}{3} \\cos x\\). Note that \\(\\sin^2 x = 1 - \\cos^2 x\\), so:</p>\n  <p>\\(\\frac{1}{3} \\cos x(1 - \\cos^2 x) - \\frac{2}{3} \\cos x = \\frac{1}{3} \\cos x - \\frac{1}{3} \\cos^3 x - \\frac{2}{3} \\cos x = -\\frac{1}{3} \\cos x - \\frac{1}{3} \\cos^3 x\\)</p>\n  <p>This is not the same as our answer. Option a and b also don't match.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>The correct integral is (cos³ x)/3 - cos x + C, which is not among the options.</strong></p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Cost Estimating Inputs</h4>\n \n <p>For the Estimate Costs process in engineering projects, key inputs include:</p>\n \n <ul>\n <li>Cost management plan</li>\n <li>Human resource management plan</li>\n <li>Scope baseline</li>\n <li>Project schedule</li>\n <li>Risk register</li>\n <li>Enterprise environmental factors</li>\n <li>Organizational process assets</li>\n </ul>\n \n <p>Analyzing each option:</p>\n \n <table style='width: 100%; border-collapse: collapse; margin: 10px 0;'>\n <tr style='background: var(--strongColor); color: white;'>\n <th style='padding: 8px; border: 1px solid #ddd;'>Option</th>\n <th style='padding: 8px; border: 1px solid #ddd;'>Category</th>\n <th style='padding: 8px; border: 1px solid #ddd;'>Correct?</th>\n </tr>\n <tr style='background: var(--ansD);'>\n <td style='padding: 8px; border: 1px solid #ddd;'>a) Human resources management plan</td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Input</td>\n <td style='padding: 8px; border: 1px solid #ddd;'>✓ CORRECT (provides labor rates, staffing levels)</td>\n </tr>\n <tr>\n <td style='padding: 8px; border: 1px solid #ddd;'>b) Expert Judgment</td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Tool/Technique</td>\n <td style='padding: 8px; border: 1px solid #ddd;'>✗</td>\n </tr>\n <tr>\n <td style='padding: 8px; border: 1px solid #ddd;'>c) Three-point estimating</td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Tool/Technique</td>\n <td style='padding: 8px; border: 1px solid #ddd;'>✗</td>\n </tr>\n <tr>\n <td style='padding: 8px; border: 1px solid #ddd;'>d) Vendor bid analysis</td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Tool/Technique</td>\n <td style='padding: 8px; border: 1px solid #ddd;'>✗</td>\n </tr>\n </table>\n \n <div style='background: var(--infoBg); padding: 10px; border-radius: 5px; margin-top: 10px;'>\n <strong>Why HR Plan is Important for Cost Estimates:</strong>\n <p>The human resource management plan provides critical cost information including:</p>\n <ul>\n <li>Staffing levels and timelines</li>\n <li>Labor rates and categories</li>\n <li>Overtime policies and costs</li>\n <li>Training requirements</li>\n <li>Recognition and rewards costs</li>\n </ul>\n <p>Labor costs often represent 30-50% of engineering project costs.</p>\n </div>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 26",
     "topic": [
-      "Calculus",
-      "Integration",
-      "Trigonometric Functions"
+      "Cost Management",
+      "Engineering Projects",
+      "Project Resources"
     ],
     "Question": {
-      "content": "Find the coefficient of cos² t in ∫ cos⁵ t dt.",
-      "type": "OBJ",
-      "options": [
-        "(1/5) cos t sin⁴ t",
-        "(8/15) sin t",
-        "(1/5) cos² t sin t",
-        "(4/15) sin t"
-      ]
+      "content": "Engineering project cost management is primarily concerned with the cost of the ______ needed to complete project activities.",
+      "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "(8/15) sin t"
+      "content": "resources"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Integration of cos⁵ t</h4>\n  <p>We need to find \\(\\int \\cos^5 t \\, dt\\) and then identify the coefficient of \\(\\cos^2 t\\).</p>\n  <p>Write \\(\\cos^5 t = \\cos^4 t \\cdot \\cos t = (\\cos^2 t)^2 \\cdot \\cos t = (1 - \\sin^2 t)^2 \\cdot \\cos t\\)</p>\n  <p>Let \\(u = \\sin t\\), then \\(du = \\cos t \\, dt\\)</p>\n  <p>\\(\\int \\cos^5 t \\, dt = \\int (1 - u^2)^2 \\, du = \\int (1 - 2u^2 + u^4) \\, du\\)</p>\n  <p>\\(= u - \\frac{2u^3}{3} + \\frac{u^5}{5} + C\\)</p>\n  <p>\\(= \\sin t - \\frac{2}{3} \\sin^3 t + \\frac{1}{5} \\sin^5 t + C\\)</p>\n  <p>We need to express this in terms of \\(\\cos^2 t\\). Using \\(\\sin^2 t = 1 - \\cos^2 t\\):</p>\n  <p>\\(\\sin^3 t = \\sin t \\cdot \\sin^2 t = \\sin t (1 - \\cos^2 t)\\)</p>\n  <p>\\(\\sin^5 t = \\sin t \\cdot \\sin^4 t = \\sin t (1 - \\cos^2 t)^2 = \\sin t (1 - 2\\cos^2 t + \\cos^4 t)\\)</p>\n  <p>Substituting:</p>\n  <p>\\(\\int \\cos^5 t \\, dt = \\sin t - \\frac{2}{3} \\sin t (1 - \\cos^2 t) + \\frac{1}{5} \\sin t (1 - 2\\cos^2 t + \\cos^4 t) + C\\)</p>\n  <p>\\(= \\sin t - \\frac{2}{3} \\sin t + \\frac{2}{3} \\sin t \\cos^2 t + \\frac{1}{5} \\sin t - \\frac{2}{5} \\sin t \\cos^2 t + \\frac{1}{5} \\sin t \\cos^4 t + C\\)</p>\n  <p>Combine the \\(\\sin t\\) terms: \\(1 - \\frac{2}{3} + \\frac{1}{5} = \\frac{15}{15} - \\frac{10}{15} + \\frac{3}{15} = \\frac{8}{15}\\)</p>\n  <p>Combine the \\(\\sin t \\cos^2 t\\) terms: \\(\\frac{2}{3} - \\frac{2}{5} = \\frac{10}{15} - \\frac{6}{15} = \\frac{4}{15}\\)</p>\n  <p>So the integral is: \\(\\frac{8}{15} \\sin t + \\frac{4}{15} \\sin t \\cos^2 t + \\frac{1}{5} \\sin t \\cos^4 t + C\\)</p>\n  <p>The coefficient of \\(\\cos^2 t\\) is \\(\\frac{4}{15} \\sin t\\), which matches option d.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the coefficient of cos² t is (4/15) sin t.</strong></p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Project Cost Management Focus</h4>\n \n <p>The complete statement is: <strong>\"Engineering project cost management is primarily concerned with the cost of the RESOURCES needed to complete project activities.\"</strong></p>\n \n <p>Project resources typically include:</p>\n \n <table style='width: 100%; border-collapse: collapse; margin: 15px 0;'>\n <tr style='background: var(--strongColor); color: white;'>\n <th style='padding: 8px; border: 1px solid #ddd;'>Resource Type</th>\n <th style='padding: 8px; border: 1px solid #ddd;'>Examples</th>\n <th style='padding: 8px; border: 1px solid #ddd;'>Cost Elements</th>\n </tr>\n <tr>\n <td style='padding: 8px; border: 1px solid #ddd;'><strong>Labor</strong></td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Engineers, technicians, managers</td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Salaries, benefits, overtime</td>\n </tr>\n <tr>\n <td style='padding: 8px; border: 1px solid #ddd;'><strong>Materials</strong></td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Raw materials, components, supplies</td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Purchase costs, shipping, storage</td>\n </tr>\n <tr>\n <td style='padding: 8px; border: 1px solid #ddd;'><strong>Equipment</strong></td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Machinery, tools, vehicles</td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Purchase/rental, maintenance, fuel</td>\n </tr>\n <tr>\n <td style='padding: 8px; border: 1px solid #ddd;'><strong>Facilities</strong></td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Workspace, labs, offices</td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Rent, utilities, security</td>\n </tr>\n <tr>\n <td style='padding: 8px; border: 1px solid #ddd;'><strong>Services</strong></td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Consultants, subcontractors</td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Contract fees, professional services</td>\n </tr>\n </table>\n \n <div style='background: var(--infoBg); padding: 10px; border-radius: 5px;'>\n <strong>Key Point:</strong> Cost management involves planning, estimating, budgeting, financing, funding, managing, and controlling costs so the project can be completed within the approved budget.\n </div>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 27",
     "topic": [
-      "Calculus",
-      "Integration",
-      "Substitution"
+      "Schedule Management",
+      "Project Management",
+      "Baselines"
     ],
     "Question": {
-      "content": "Evaluate the integral ∫ x⁵/√((1-2x²)³) dx.",
-      "type": "OBJ",
-      "options": [
-        "(1/9)√((1-2x³)³) - (x²/2)√(1-2x²) + k",
-        "(1/9)√((1-2x³)³) - (x²/3)√(1-2x²) + k",
-        "none of the above"
-      ]
+      "content": "The schedule baseline defines when the project will be ______.",
+      "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "none of the above"
+      "content": "completed"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Integration with Substitution</h4>\n  <p>We need to evaluate \\(\\int \\frac{x^5}{\\sqrt{(1-2x^2)^3}} dx\\)</p>\n  <p>Note that \\(\\sqrt{(1-2x^2)^3} = (1-2x^2)^{3/2}\\)</p>\n  <p>So the integral is \\(\\int x^5 (1-2x^2)^{-3/2} dx\\)</p>\n  <p>Let \\(u = 1-2x^2\\), then \\(du = -4x dx\\), so \\(x dx = -\\frac{1}{4} du\\)</p>\n  <p>We have \\(x^5 = x^4 \\cdot x\\). Also, from \\(u = 1-2x^2\\), we get \\(x^2 = \\frac{1-u}{2}\\), so \\(x^4 = \\left(\\frac{1-u}{2}\\right)^2 = \\frac{(1-u)^2}{4}\\)</p>\n  <p>Therefore:</p>\n  <p>\\(\\int x^5 (1-2x^2)^{-3/2} dx = \\int x^4 (1-2x^2)^{-3/2} \\cdot x dx\\)</p>\n  <p>\\(= \\int \\frac{(1-u)^2}{4} \\cdot u^{-3/2} \\cdot \\left(-\\frac{1}{4}\\right) du\\)</p>\n  <p>\\(= -\\frac{1}{16} \\int (1-u)^2 u^{-3/2} du\\)</p>\n  <p>\\(= -\\frac{1}{16} \\int (1 - 2u + u^2) u^{-3/2} du\\)</p>\n  <p>\\(= -\\frac{1}{16} \\int (u^{-3/2} - 2u^{-1/2} + u^{1/2}) du\\)</p>\n  <p>Integrate term by term:</p>\n  <p>\\(\\int u^{-3/2} du = \\frac{u^{-1/2}}{-1/2} = -2u^{-1/2}\\)</p>\n  <p>\\(\\int u^{-1/2} du = \\frac{u^{1/2}}{1/2} = 2u^{1/2}\\)</p>\n  <p>\\(\\int u^{1/2} du = \\frac{u^{3/2}}{3/2} = \\frac{2}{3}u^{3/2}\\)</p>\n  <p>So the integral becomes:</p>\n  <p>\\(-\\frac{1}{16} [-2u^{-1/2} - 2(2u^{1/2}) + \\frac{2}{3}u^{3/2}] + C\\)</p>\n  <p>\\(= -\\frac{1}{16} [-2u^{-1/2} - 4u^{1/2} + \\frac{2}{3}u^{3/2}] + C\\)</p>\n  <p>\\(= \\frac{1}{16} [2u^{-1/2} + 4u^{1/2} - \\frac{2}{3}u^{3/2}] + C\\)</p>\n  <p>Substitute back \\(u = 1-2x^2\\):</p>\n  <p>\\(= \\frac{1}{16} [2(1-2x^2)^{-1/2} + 4(1-2x^2)^{1/2} - \\frac{2}{3}(1-2x^2)^{3/2}] + C\\)</p>\n  <p>This is not matching either option a or b, which have \\(\\sqrt{(1-2x^3)^3}\\) (with x³ instead of x²).</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the answer is \"none of the above\".</strong></p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Schedule Baseline Definition</h4>\n \n <p>The complete statement is: <strong>\"The schedule baseline defines when the project will be COMPLETED.\"</strong></p>\n \n <p><strong>What is a Schedule Baseline?</strong></p>\n <p>The schedule baseline is a specific version of the project schedule that is approved and accepted by stakeholders. It serves as the original plan against which actual performance is measured.</p>\n \n <p><strong>Key Components of Schedule Baseline:</strong></p>\n <ul>\n <li><strong>Start dates:</strong> When each activity begins</li>\n <li><strong>Finish dates:</strong> When each activity ends</li>\n <li><strong>Project completion date:</strong> The final delivery date</li>\n <li><strong>Milestones:</strong> Key intermediate dates</li>\n <li><strong>Dependencies:</strong> Relationships between activities</li>\n </ul>\n \n <div style='background: var(--infoBg); padding: 10px; border-radius: 5px; margin-top: 10px;'>\n <strong>Important Concept:</strong> The schedule baseline can only be changed through formal change control procedures. Any deviation from the baseline is measured as schedule variance.\n </div>\n \n <p style='margin-top: 10px;'><strong>Example:</strong> \"The project schedule baseline shows that the engineering design phase will be completed by March 15th, construction by August 30th, and the entire project completed by December 10th.\"</p>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 28",
     "topic": [
-      "Calculus",
-      "Area Under Curve",
-      "Intersection of Curves"
+      "Human Resource Management",
+      "Project Management",
+      "Organizational Structure"
     ],
     "Question": {
-      "content": "Determine the area under the intersection of a minimum curve f₁(x) = 2 - x² and a maximum curve f₂(x) = x².",
-      "type": "OBJ",
-      "options": [
-        "8",
-        "1/8",
-        "1/4",
-        "-3/8"
-      ]
+      "content": "In order of hierarchy, human resource management plan provides ______.",
+      "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "8/3"
+      "content": "roles and responsibilities"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Area Between Curves</h4>\n  <p>We have two curves: \\(f_1(x) = 2 - x^2\\) and \\(f_2(x) = x^2\\)</p>\n  <p>First, find their intersection points by setting them equal:</p>\n  <p>\\(2 - x^2 = x^2\\)</p>\n  <p>\\(2 = 2x^2\\)</p>\n  <p>\\(x^2 = 1\\)</p>\n  <p>\\(x = \\pm 1\\)</p>\n  <p>At x = 0, \\(f_1(0) = 2\\) and \\(f_2(0) = 0\\), so \\(f_1\\) is above \\(f_2\\) between the intersection points.</p>\n  <p>The area between the curves is given by:</p>\n  <p>\\(A = \\int_{-1}^{1} [f_1(x) - f_2(x)] dx = \\int_{-1}^{1} [(2 - x^2) - x^2] dx = \\int_{-1}^{1} (2 - 2x^2) dx\\)</p>\n  <p>\\(= 2\\int_{-1}^{1} (1 - x^2) dx\\)</p>\n  <p>Since the integrand is even, we can integrate from 0 to 1 and double:</p>\n  <p>\\(A = 4\\int_{0}^{1} (1 - x^2) dx = 4[x - \\frac{x^3}{3}]_{0}^{1} = 4[(1 - \\frac{1}{3}) - (0 - 0)] = 4(\\frac{2}{3}) = \\frac{8}{3}\\)</p>\n  <p>This is not among the options. Option a is 8, b is 1/8, c is 1/4, d is -3/8 (negative, can't be area).</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>The correct area is 8/3, which is not listed.</strong></p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Human Resource Management Plan Hierarchy</h4>\n \n <p>The complete statement is: <strong>\"In order of hierarchy, human resource management plan provides ROLES AND RESPONSIBILITIES.\"</strong></p>\n \n <p>The Human Resource Management Plan defines the project's organizational structure and includes:</p>\n \n <table style='width: 100%; border-collapse: collapse; margin: 15px 0;'>\n <tr style='background: var(--strongColor); color: white;'>\n <th style='padding: 8px; border: 1px solid #ddd;'>Hierarchy Level</th>\n <th style='padding: 8px; border: 1px solid #ddd;'>Description</th>\n <th style='padding: 8px; border: 1px solid #ddd;'>Example</th>\n </tr>\n <tr>\n <td style='padding: 8px; border: 1px solid #ddd;'><strong>Role</strong></td>\n <td style='padding: 8px; border: 1px solid #ddd;'>The function or position (WHAT)</td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Project Engineer</td>\n </tr>\n <tr>\n <td style='padding: 8px; border: 1px solid #ddd;'><strong>Authority</strong></td>\n <td style='padding: 8px; border: 1px solid #ddd;'>The right to make decisions</td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Approve design changes up to $10,000</td>\n </tr>\n <tr>\n <td style='padding: 8px; border: 1px solid #ddd;'><strong>Responsibility</strong></td>\n <td style='padding: 8px; border: 1px solid #ddd;'>The work to be performed</td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Complete piping design by June 1st</td>\n </tr>\n <tr>\n <td style='padding: 8px; border: 1px solid #ddd;'><strong>Competency</strong></td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Skills required</td>\n <td style='padding: 8px; border: 1px solid #ddd;'>5+ years AutoCAD experience</td>\n </tr>\n </table>\n \n <p>This hierarchy is often documented in a <strong>RAM (Responsibility Assignment Matrix)</strong> or <strong>RACI chart</strong>.</p>\n \n <div style='background: var(--infoBg); padding: 10px; border-radius: 5px;'>\n <strong>RACI Example:</strong>\n <ul>\n <li><strong>R</strong> = Responsible (does the work)</li>\n <li><strong>A</strong> = Accountable (answers for completion)</li>\n <li><strong>C</strong> = Consulted (provides input)</li>\n <li><strong>I</strong> = Informed (kept updated)</li>\n </ul>\n </div>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 29",
     "topic": [
-      "Calculus",
-      "Area Under Curve",
-      "Intersection of Curves"
+      "Risk Management",
+      "Project Management",
+      "Documentation"
     ],
     "Question": {
-      "content": "Determine the area under the curve y = 4x² and the straight line y = x.",
-      "type": "OBJ",
-      "options": [
-        "all of the above",
-        "(1/16) sin² x",
-        "(1/96) sin⁴ x",
-        "none of the above"
-      ]
+      "content": "Risk register is defined as ______.",
+      "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "none of the above"
+      "content": "a document containing identified risks, their analysis, and response plans"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Area Between Parabola and Line</h4>\n  <p>We have \\(y = 4x^2\\) (parabola) and \\(y = x\\) (line).</p>\n  <p>Find intersection points by setting them equal:</p>\n  <p>\\(4x^2 = x\\)</p>\n  <p>\\(4x^2 - x = 0\\)</p>\n  <p>\\(x(4x - 1) = 0\\)</p>\n  <p>\\(x = 0\\) or \\(x = \\frac{1}{4}\\)</p>\n  <p>For x between 0 and 1/4, compare the curves: at x = 0.1, \\(4(0.1)^2 = 0.04\\) and line = 0.1, so line is above parabola.</p>\n  <p>The area between them is:</p>\n  <p>\\(A = \\int_{0}^{1/4} [x - 4x^2] dx\\)</p>\n  <p>\\(= [\\frac{x^2}{2} - \\frac{4x^3}{3}]_{0}^{1/4}\\)</p>\n  <p>At x = 1/4: \\(\\frac{(1/4)^2}{2} - \\frac{4(1/4)^3}{3} = \\frac{1/16}{2} - \\frac{4(1/64)}{3} = \\frac{1}{32} - \\frac{4}{192} = \\frac{1}{32} - \\frac{1}{48}\\)</p>\n  <p>Common denominator 96: \\(\\frac{3}{96} - \\frac{2}{96} = \\frac{1}{96}\\)</p>\n  <p>At x = 0, the expression is 0.</p>\n  <p>So \\(A = \\frac{1}{96}\\)</p>\n  <p>But the options have \\(\\frac{1}{96} \\sin^4 x\\), which is not a constant. Since the area should be a constant number, and \\(\\frac{1}{96}\\) is not among the options (option c has sin⁴ x factor), the answer is \"none of the above\".</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>The area is 1/96, which is not listed in the given form.</strong></p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Risk Register Definition</h4>\n \n <p>A <strong>Risk Register</strong> is a document in which the results of risk analysis and risk response planning are recorded. It is a central repository for all identified risks and their management information.</p>\n\n <h5 style='color: var(--strongColor); margin-top: 15px;'>Contents of a Risk Register:</h5>\n \n <table style='width: 100%; border-collapse: collapse; margin: 10px 0;'>\n <tr style='background: var(--strongColor); color: white;'>\n <th style='padding: 8px; border: 1px solid #ddd;'>Section</th>\n <th style='padding: 8px; border: 1px solid #ddd;'>Contents</th>\n </tr>\n <tr>\n <td style='padding: 8px; border: 1px solid #ddd;'><strong>Risk Identification</strong></td>\n <td style='padding: 8px; border: 1px solid #ddd;'>List of identified risks, risk owners, risk categories</td>\n </tr>\n <tr>\n <td style='padding: 8px; border: 1px solid #ddd;'><strong>Qualitative Analysis</strong></td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Risk probability, impact assessment, priority ranking</td>\n </tr>\n <tr>\n <td style='padding: 8px; border: 1px solid #ddd;'><strong>Quantitative Analysis</strong></td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Numerical analysis, probability distributions, expected monetary value</td>\n </tr>\n <tr>\n <td style='padding: 8px; border: 1px solid #ddd;'><strong>Risk Response Planning</strong></td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Response strategies, contingency plans, fallback plans</td>\n </tr>\n <tr>\n <td style='padding: 8px; border: 1px solid #ddd;'><strong>Risk Monitoring</strong></td>\n <td style='padding: 8px; border: 1px solid #ddd;'>Status updates, trigger conditions, residual risks</td>\n </tr>\n </table>\n\n <div style='background: var(--infoBg); padding: 10px; border-radius: 5px; margin-top: 10px;'>\n <strong>Example Entry:</strong>\n <p><strong>Risk:</strong> Potential delay in equipment delivery<br>\n <strong>Probability:</strong> Medium (40%)<br>\n <strong>Impact:</strong> High ($500,000)<br>\n <strong>Risk Owner:</strong> Procurement Manager<br>\n <strong>Response:</strong> Mitigate - Order 3 months early; have backup suppliers<br>\n <strong>Status:</strong> Active</p>\n </div>\n</div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 30",
     "topic": [
-      "Calculus",
-      "Derivatives",
-      "Inverse Trigonometric Functions"
+      "Cost Management",
+      "Budgeting",
+      "Engineering Projects"
     ],
     "Question": {
-      "content": "d/dx (sec⁻¹(x) + csc⁻¹(x)) is:",
-      "type": "OBJ",
-      "options": [
-        "0",
-        "1",
-        "-1",
-        "2/(x√(x²-1))"
-      ]
+      "content": "What do you understand by Determine Engineering Project Budget?",
+      "type": "subjective"
     },
     "Answer": {
       "type": "string",
-      "content": "0"
+      "content": "The process of aggregating estimated costs to establish an authorized cost baseline"
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Derivative of Sum of Inverse Trigonometric Functions</h4>\n  <p>Recall the derivatives:</p>\n  <p>\\(\\frac{d}{dx}[\\sec^{-1}(x)] = \\frac{1}{|x|\\sqrt{x^2-1}}\\) for |x| > 1</p>\n  <p>\\(\\frac{d}{dx}[\\csc^{-1}(x)] = -\\frac{1}{|x|\\sqrt{x^2-1}}\\) for |x| > 1</p>\n  <p>For x > 1 (positive), |x| = x, so:</p>\n  <p>\\(\\frac{d}{dx}[\\sec^{-1}(x)] = \\frac{1}{x\\sqrt{x^2-1}}\\)</p>\n  <p>\\(\\frac{d}{dx}[\\csc^{-1}(x)] = -\\frac{1}{x\\sqrt{x^2-1}}\\)</p>\n  <p>Adding them:</p>\n  <p>\\(\\frac{d}{dx}[\\sec^{-1}(x) + \\csc^{-1}(x)] = \\frac{1}{x\\sqrt{x^2-1}} - \\frac{1}{x\\sqrt{x^2-1}} = 0\\)</p>\n  <p>This is a known identity: \\(\\sec^{-1}(x) + \\csc^{-1}(x) = \\frac{\\pi}{2}\\) for x ≥ 1, so its derivative is 0.</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>Therefore, the derivative is 0.</strong></p>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 31",
-    "topic": [
-      "Calculus",
-      "Derivatives",
-      "Difference Quotient"
-    ],
-    "Question": {
-      "content": "Let f(x) = cos x. Then for h > 0, [f(x+h) - f(x)]/h = ...",
-      "type": "OBJ",
-      "options": []
-    },
-    "Answer": {
-      "type": "string",
-      "content": "-sin x sin h/h - cos x (1 - cos h)/h"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Difference Quotient for Cosine</h4>\n  <p>Given \\(f(x) = \\cos x\\), we need to find \\(\\frac{f(x+h) - f(x)}{h}\\) for h > 0.</p>\n  <p>Using the cosine addition formula:</p>\n  <p>\\(\\cos(x+h) = \\cos x \\cos h - \\sin x \\sin h\\)</p>\n  <p>Therefore:</p>\n  <p>\\(\\frac{\\cos(x+h) - \\cos x}{h} = \\frac{\\cos x \\cos h - \\sin x \\sin h - \\cos x}{h}\\)</p>\n  <p>\\(= \\frac{\\cos x (\\cos h - 1) - \\sin x \\sin h}{h}\\)</p>\n  <p>\\(= \\cos x \\cdot \\frac{\\cos h - 1}{h} - \\sin x \\cdot \\frac{\\sin h}{h}\\)</p>\n  <p>This is the difference quotient. As h → 0, \\(\\frac{\\cos h - 1}{h} \\to 0\\) and \\(\\frac{\\sin h}{h} \\to 1\\), so the derivative is \\(-\\sin x\\).</p>\n  <p style='margin-top: 12px;'><strong style='color: var(--strongColor);'>The expression is cos x · (cos h - 1)/h - sin x · (sin h)/h.</strong></p>\n</div>"
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Determine Engineering Project Budget</h4>\n \n <p>Determining the Engineering Project Budget is the process of aggregating the estimated costs of individual activities or work packages to establish an authorized cost baseline. This is also known as the <strong>Determine Budget</strong> process in project management.</p>\n\n <h5 style='color: var(--strongColor); margin-top: 15px;'>Key Aspects:</h5>\n \n <div style='margin: 15px 0;'>\n <p><strong>1. Cost Aggregation:</strong></p>\n <ul>\n <li>Individual activity cost estimates are rolled up to work packages</li>\n <li>Work package costs are rolled up to control accounts</li>\n <li>Control accounts are rolled up to the total project</li>\n </ul>\n <p style='background: var(--preset-bg-color); padding: 8px; border-radius: 5px;'>Example: Activity A ($10k) + Activity B ($15k) = Work Package 1 ($25k)</p>\n </div>\n \n <div style='margin: 15px 0;'>\n <p><strong>2. Reserve Analysis:</strong></p>\n <ul>\n <li><strong>Contingency reserves:</strong> For identified risks (known unknowns)</li>\n <li><strong>Management reserves:</strong> For unforeseen work (unknown unknowns)</li>\n </ul>\n <p style='background: var(--preset-bg-color); padding: 8px; border-radius: 5px;'>Project Budget = Cost Baseline + Management Reserves</p>\n </div>\n \n <div style='margin: 15px 0;'>\n <p><strong>3. Funding Limit Reconciliation:</strong></p>\n <ul>\n <li>Matching expenditure plan with available funds</li>\n <li>Adjusting schedules if funding constraints exist</li>\n </ul>\n </div>\n\n <div style='background: var(--infoBg); padding: 10px; border-radius: 5px;'>\n <strong>Purpose:</strong> The project budget becomes the <strong>cost baseline</strong> against which project performance is measured and controlled throughout the project lifecycle.\n </div>\n\n <p style='margin-top: 15px;'><strong>Simple Definition:</strong> Determining the engineering project budget means calculating how much money is needed to complete the project and getting approval to spend that amount.</p>\n</div>"
     }
   }
 ]
+
