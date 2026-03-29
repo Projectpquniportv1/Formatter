@@ -106,7 +106,7 @@ function enableLigtTheme() {
  function DayOrNigth() {
   if (document.body.classList.contains('dark')) {
    localStorage.setItem('theme', 'dark');
-   Id("body").style.background = "#003366";
+   Id("body").style.background = "#A26D16";
    Id("body").style.color = "#fff";
    Id("theme_icon").src = '';
    enableDarkTheme()

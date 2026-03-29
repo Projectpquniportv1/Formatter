@@ -78,6 +78,7 @@
     --instCl: var(--bodyBackground);
     --bodyTextColor: var(--white);
     --bodyBackground: var(--darkTheme);
+    --bodyBackground: #A26D16;
     --explainBg: var(--bodyBackground);
     --explainColor: var(--bodyTextColor);
     --ansL: var(--greenBg);
