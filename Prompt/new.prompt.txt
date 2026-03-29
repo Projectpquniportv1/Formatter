@@ -1,3 +1,7 @@
+Answers are already underlined, just check it and
+
+
+
 From the image I sent return an array of JSON objects that I can copy and matches the scheme.
 Make the explanation easy to understand by newbies.
 Give step by step detailed and easy to understand explanations that students who don't attend classes will understand with ease.
@@ -92,11 +96,11 @@ use topics from here in the topic property.(topics can be more than one.)
 ],
 
 For headings
- {
- "type": "heading",
- "heading": "This is the heading",
- "Subheading": "This is the sub-heading"
- },
+{
+"type": "heading",
+"heading": "This is the heading",
+"Subheading": "This is the sub-heading"
+},
 
 topic array can be more than one and outside the topics I provided .
 

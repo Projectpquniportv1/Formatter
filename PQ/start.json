@@ -2,8 +2,8 @@
   {
     "type": "pageInfo",
     "kind": "subjective",
-    "course_title": "General Biohemistry I",
-    "code": "BCH 210.1",
+    "course_title": "INTRODUCTION TO LABORATORY SCIENCE",
+    "code": "SLT 101.1",
     "session": "2019/2020",
     "topics": [],
     "time": "90"
@@ -15,6 +15,49 @@
   {
     "type": "heading",
     "heading": "Section A"
-  }
+  },
   
-]
+
+
+
+
+  {
+    "type": "pageInfo",
+    "kind": "subjective",
+    "course_title": "Introduction to Entrepreneurship",
+    "code": "GES 211",
+    "session": "Workbook Unit 1&2",
+    "topics": ["Entrepreneurship", "Definitions", "Intrapreneurship", "Characteristics", "Benefits", "History", "Skills", "Motivation", "Examples", "Mindset", "Challenges", "Social Entrepreneurship", "Structure", "Finance", "Process", "Support Systems", "Theories", "Schumpeter", "Psychology", "Kirzner", "Economic Development", "McClelland", "Rationale", "Weber", "Relevance", "Developing Economies", "Sociology", "Social Impact", "Integrated Theory", "Locus of Control", "Social Network Theory"],
+    "time": "90"
+  },
+  {
+    "type": "Instruction",
+    "content": "Pick the correct answer"
+  },
+  
+  
+
+  {
+    "type": "pageInfo",
+    "kind": "subjective",
+    "course_title": "Peace and Conflicts Resolution",
+    "code": "GES 312",
+    "session": "Unit 1",
+    "topics": [""],
+    "time": "90"
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  }  
+  
+  
+  
+
+    
+  ]
+  
+  
+  
+  
+  
