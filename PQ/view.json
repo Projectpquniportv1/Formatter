@@ -1,0 +1,178 @@
+[
+  {
+    "type": "heading",
+    "heading": "POL 201.1: Politics of Developing Area",
+    "Subheading": "2019/2020 1st Semester Examination - Model Answers"
+  },
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": [
+      "Definitions",
+      "Developing Areas",
+      "Political Economy"
+    ],
+    "Question": {
+      "content": "What is a developing area? Identify and explain the main features of developing areas.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "A developing area (or developing country) refers to a nation with a less developed industrial base and a low Human Development Index (HDI) relative to other countries. These areas are characterized by low per capita income, high levels of poverty, and often a reliance on agriculture.\n\nMain features include:\n1. Low Per Capita Income: Average income is very low compared to developed nations.\n2. High Poverty Rates: A large percentage of the population lives below the poverty line.\n3. Agricultural Dependence: The economy is heavily reliant on agriculture and raw material exports.\n4. Rapid Population Growth: High birth rates lead to fast-growing populations, straining resources.\n5. High Unemployment & Underemployment: Many people cannot find formal jobs or work in low-productivity informal sectors.\n6. Political Instability: Frequent changes in government, corruption, and weak institutions are common.\n7. Poor Infrastructure & Technology: Limited access to roads, electricity, internet, and modern production methods.\n8. Low Levels of Education & Healthcare: Poor investment in human capital leads to low literacy and high disease rates."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Understanding Developing Areas</h4>\n<p>Think of a <strong>developing area</strong> like a teenager growing up: not a child (undeveloped) but not yet an adult (developed). These countries are in a transitional phase.</p>\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Key Concept - The Vicious Cycle of Poverty</strong><br>\nMost features are connected. Low income means less savings for investment. Less investment means low productivity. Low productivity keeps incomes low. Breaking this cycle is the central challenge of development politics.\n</div>\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Real World Example</strong><br>\nNigeria, India (historically), and Bangladesh are classic examples. They have oil, IT, or garment industries, but still struggle with infrastructure gaps, corruption, and wide income inequality compared to countries like the USA or Germany.\n</div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "topic": [
+      "Theories",
+      "Modernization Theory",
+      "Dependency Theory",
+      "Political Economy"
+    ],
+    "Question": {
+      "content": "Discuss the statement: 'Modernization and dependency theories are two sides of the same coin.'",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Modernization and dependency theories are indeed 'two sides of the same coin' because they both try to explain why some nations are poor while others are rich, but they reach opposite conclusions about the causes and solutions.\n\nModernization Theory (The 'Head' side): Argues that developing countries are poor because they are 'traditional' - lacking modern values (hard work, innovation), technology, and capitalist institutions. The solution is to adopt Western values, free markets, and democracy through stages of growth.\n\nDependency Theory (The 'Tail' side): Argues that developing countries are poor because they have been systematically exploited by rich countries through colonialism and unequal trade. The 'developed' world became rich by making the 'developing' world poor and dependent on them. The solution is to break away from the global capitalist system.\n\nWhy they are the 'same coin': Both theories are grand narratives that focus on external factors (culture vs. exploitation) and the relationship between rich and poor nations. They both emerged in the post-WWII era to address the same puzzle of global inequality."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Breaking Down the Debate</h4>\n<p>Imagine a student failing an exam.</p>\n<ul style='margin-bottom: 12px;'>\n<li><strong style='color: var(--strongColor);'>Modernization Theory says:</strong> \"The student is lazy, doesn't study hard, and lacks the right attitude. They need to copy the successful student's habits.\" (Blames the poor country)</li>\n<li><strong style='color: var(--strongColor);'>Dependency Theory says:</strong> \"The successful student stole the failing student's notes, bullied them, and rigged the grading system. The poor student never had a fair chance.\" (Blames the rich country)</li>\n</ul>\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>The Middle Ground</strong><br>\nMost modern scholars say both have some truth. Internal problems (like corruption, poor leadership) and external problems (unfair trade, historical exploitation) both matter. Neither theory alone is complete.\n</div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3a",
+    "topic": [
+      "Definitions",
+      "Globalization",
+      "Political Economy"
+    ],
+    "Question": {
+      "content": "What is globalization?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Globalization is the process of increasing interconnection between countries economically, politically, and culturally. It involves the flow of goods, services, money, people, ideas, and information across national borders at an unprecedented scale and speed. Key drivers include international trade, foreign investment, technology (especially the internet), and global media."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>What is Globalization?</h4>\n<p>Think of it as the world becoming a smaller place. A simple example: You can eat sushi in Lagos, wear a shirt made in Bangladesh, talk to someone in London on a phone designed in California and assembled in China, all in one day.</p>\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>The 'Flows' of Globalization</strong><br>\n- <strong>Economic:</strong> Money and goods cross borders (e.g., Coca-Cola sold everywhere).<br>\n- <strong>Political:</strong> International organizations (UN, WTO) make rules that affect local laws.<br>\n- <strong>Cultural:</strong> Movies, music, and ideas (like democracy or K-pop) spread globally.\n</div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3b",
+    "topic": [
+      "Globalization",
+      "History",
+      "Political Economy"
+    ],
+    "Question": {
+      "content": "Is globalization a new or an old phenomenon?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "This is debated, but most scholars argue globalization is not entirely new, though its current form is unique.\n\nOld (Skeptical) View: Globalization has occurred in waves for centuries. Examples include the Silk Road (connecting China to Europe 2000 years ago), the Roman Empire's trade network, and the 'Columbian Exchange' after 1492 (which moved crops, animals, and diseases between Old and New Worlds). The 19th century (1870-1914) saw a huge wave of globalization with steamships, telegraphs, and free trade.\n\nNew (Hyper-globalist) View: Contemporary globalization is fundamentally different in scale, speed, and depth. The internet allows instant, cheap communication. Financial markets trade 24/7. Global supply chains mean a product's parts cross borders many times. Multinational corporations have power rivaling governments. This 'time-space compression' is historically unique.\n\nConclusion: Globalization is an 'old process' with 'new characteristics' - like a bicycle versus a jet plane. Both are transport, but they are not the same."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Old vs. New: The Great Debate</h4>\n<p>Imagine a campfire story. Was it the same story when told by ancient Greeks, medieval monks, and on TikTok today?</p>\n<ul>\n<li><strong style='color: var(--strongColor);'>'Old' Argument (The Long View):</strong> Humans have always traded across distances. The Silk Road sent silk from China to Rome. The Vikings reached America. The point is connection, not technology.</li>\n<li><strong style='color: var(--strongColor);'>'New' Argument (The Speed View):</strong> A message from London to New York took weeks by ship in 1800, minutes by telegraph in 1866, and seconds by WhatsApp today. This speed changes everything about business, war, and culture.</li>\n</ul>\n<p>The agreed middle ground: The <strong>intensity</strong> and <strong>velocity</strong> of modern globalization is new, but the <strong>basic process</strong> is old.</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4a",
+    "topic": [
+      "Definitions",
+      "State",
+      "Political Science"
+    ],
+    "Question": {
+      "content": "What is the 'State'?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The State is a set of permanent political institutions that hold a monopoly on the legitimate use of force within a defined territory. Key elements include a population, a territory, a government, and sovereignty (supreme authority within its borders). Unlike the government (which changes with elections), the State is the continuing framework. Examples include the police, military, courts, and civil service."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Understanding the State</h4>\n<p>Use the <strong>football team analogy</strong>:</p>\n<ul>\n<li><strong style='color: var(--strongColor);'>The State = The Club (Manchester United).</strong> It has a stadium (territory), players (people), rules, and a permanent existence. It outlasts any coach or player.</li>\n<li><strong style='color: var(--strongColor);'>The Government = The Coach & Management.</strong> They are hired, fired, and change every few years, but the club remains.</li>\n<li><strong style='color: var(--strongColor);'>Sovereignty = Home Field Advantage & Final Authority.</strong> No other club can make decisions for Man United. Similarly, no outside force (in theory) can command the State within its borders.</li>\n</ul>\n<p>Max Weber famously defined the State as the entity that has a 'monopoly on the legitimate use of physical force' - meaning only the police and military can legally lock you up or use violence.</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4b",
+    "topic": [
+      "State",
+      "Political Economy",
+      "Economic Development"
+    ],
+    "Question": {
+      "content": "Explain how the character of the state affects the economy.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The 'character' of the state (its strength, autonomy, and goals) fundamentally shapes economic outcomes in several ways:\n\n1. Strength (Capacity): A strong state can enforce property rights, collect taxes, build infrastructure (roads, power), and maintain order - all essential for markets to function. A weak state ('failed state') sees corruption, smuggling, and no investment.\n\n2. Autonomy (Freedom from special interests): A state that is independent (not captured by elites or corporations) can make long-term plans for industrial policy, education, and healthcare. A state that is 'captured' serves only the rich, leading to inequality and poor public services.\n\n3. Type of Regime:\n   - Developmental State (e.g., South Korea, Singapore): Actively guides the economy, protects infant industries, and invests in technology. Led to rapid growth.\n   - Predatory State (e.g., Mobutu's Zaire, some oil dictatorships): Rulers use the state as their personal bank, stealing resources and leaving nothing for development.\n   - Laissez-faire State (e.g., 19th century USA, some neoliberal policies): Minimizes intervention, letting markets decide. Can lead to growth but also crises and inequality.\n\n4. Ideology & Policy: Socialist states nationalize industries; capitalist states privatize. These choices directly determine who owns wealth and how resources are allocated.\n\nIn short: The state sets the rules of the economic game. If the rules are fair and enforced, the economy can thrive. If the rules are corrupt or absent, the economy suffers."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>How the State Shapes the Economy</h4>\n<p>Think of the state as the <strong>referee</strong> in a football match.</p>\n<ul>\n<li><strong style='color: var(--strongColor);'>A Good Referee (Strong, Fair State):</strong> Enforces rules against fouling (property rights), stops players from stealing the ball (enforces contracts), and keeps the game flowing (infrastructure). Businesses invest because they trust the game is fair.</li>\n<li><strong style='color: var(--strongColor);'>A Weak Referee (Weak State):</strong> Players foul constantly, the best players are attacked, and the crowd invades the pitch. No serious player wants to join this game. This is why businesses flee failed states like Somalia.</li>\n<li><strong style='color: var(--strongColor);'>A Corrupt Referee (Predatory State):</strong> The referee takes bribes, helps one team cheat, and steals the match ball. This is like Zimbabwe under Mugabe or Nigeria during Abacha - the state becomes a tool for looting, not development.</li>\n</ul>\n<p><strong>Real Case:</strong> Compare Botswana (stable, democratic, used diamond revenues for schools and infrastructure) vs. Sierra Leone (collapsed into civil war over diamonds). Same resource, different state character, completely different economic results.</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5a",
+    "topic": [
+      "World System Theory",
+      "Theories",
+      "Political Economy",
+      "Globalization"
+    ],
+    "Question": {
+      "content": "What is world system theory?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "World System Theory (developed by Immanuel Wallerstein) argues that the world is a single capitalist economic system, not just a collection of separate countries. It divides nations into three structural roles:\n\n1. Core (Rich countries): USA, Western Europe, Japan. They have high-tech industry, strong militaries, and dominate finance. They exploit the rest.\n\n2. Periphery (Poor countries): Most of Africa, parts of Asia and Latin America. They provide cheap raw materials and labor. They are exploited.\n\n3. Semi-Periphery (Middle-income): China, India, Brazil, South Africa. They have some industry but also are exploited by the Core. They also exploit the Periphery. This group stabilizes the system.\n\nCrucially, a country's position is not fixed. The system is dynamic. The key point is that poverty and wealth are created by the same global system - the Core is rich because the Periphery is poor."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>World System Theory Made Simple</h4>\n<p>Imagine a single <strong>global apartment building</strong> instead of separate houses.</p>\n<ul>\n<li><strong style='color: var(--strongColor);'>Core = The Penthouse (Top floor):</strong> Has the best view, controls the elevator, sets the building rules, and collects rent from below.</li>\n<li><strong style='color: var(--strongColor);'>Semi-Periphery = The Middle Floors:</strong> They have decent apartments. Some are moving up, some are moving down. They pay rent to the top but collect rent from the bottom.</li>\n<li><strong style='color: var(--strongColor);'>Periphery = The Basement:</strong> No windows, leaky pipes, pays high rent, does all the cleaning and maintenance for the building. The system is designed so they can never afford to move up easily.</li>\n</ul>\n<p>Wallerstein says you cannot understand why the basement is poor without looking at the whole building. The penthouse's wealth is <strong>causally linked</strong> to the basement's poverty through the structure of the global economy (colonialism, unequal trade, debt).</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5b",
+    "topic": [
+      "World System Theory",
+      "Developing Areas",
+      "Political Economy",
+      "Globalization"
+    ],
+    "Question": {
+      "content": "How does world system theory help in explaining developing areas?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "World system theory helps explain developing areas (the Periphery and Semi-Periphery) by focusing on their structural position in the global economy, rather than blaming their internal 'failures'.\n\nKey explanations it offers:\n\n1. Underdevelopment as a Created Condition: Developing areas are not 'undeveloped' (a natural state) but 'underdeveloped' (a condition forced upon them by the Core through colonialism, slavery, and unequal treaties). Their poverty is necessary for Core wealth.\n\n2. Unequal Exchange: Periphery countries export cheap raw materials (cocoa, oil, minerals) but import expensive manufactured goods (machines, medicine, cars). The terms of trade always favor the Core, so value flows outward.\n\n3. Blocked Industrialization: The Core uses tariffs, patents, and control of technology to prevent the Periphery from developing its own advanced industries. When a Periphery country tries to industrialize (e.g., build a steel mill), Core countries sell steel cheaper, driving them out of business.\n\n4. The Role of the Semi-Periphery: These countries (like China or India) act as a 'buffer'. They exploit the Periphery (buying cheap raw materials) while being exploited by the Core (paying for technology). This prevents a unified revolt of all poor countries.\n\n5. Cyclical Crises: The world system goes through booms and busts (like the 2008 financial crisis). The Core often solves its crises by shifting the pain to the Periphery through debt, austerity, and resource grabs.\n\nIn short: World system theory explains developing areas by showing that they are not on a separate 'path' to development. They are trapped in a global hierarchy designed for their exploitation. Change requires not just internal reform, but transforming or breaking the world system itself."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Explaining 'Developing Areas' with World Systems Theory</h4>\n<p>Imagine a <strong>treadmill</strong> that powers a luxury mansion (the Core).</p>\n<ul>\n<li><strong style='color: var(--strongColor);'>The Developing Country is on the treadmill:</strong> They are running as hard as they can (exporting cheap goods, accepting low wages). But they never get closer to the mansion. Their running is what <strong>powers</strong> the mansion's lights, air conditioning, and swimming pool.</li>\n<li><strong style='color: var(--strongColor);'>Traditional theories ask:</strong> 'Why isn't the treadmill runner running faster?' (implying they are lazy or have bad culture).</li>\n<li><strong style='color: var(--strongColor);'>World Systems Theory asks:</strong> 'Who designed this machine? Who benefits from the runner staying in place? How can the runner get off the treadmill and build their own house?'</li>\n</ul>\n<p><strong>Real World Examples:</strong>\n<br>- <strong>Colonialism:</strong> Britain's industrial revolution was funded by cotton from slave plantations in the American South and India, and taxes from India. The Periphery literally built the Core.\n<br>- <strong>Debt:</strong> Many African countries borrowed money from the IMF/World Bank (Core-controlled). When they struggled to pay back, they were forced to privatize state assets (sell water, electricity, mines) to Core companies.\n<br>- <strong>Technology:</strong> Periphery countries produce iPhones but Apple (USA) keeps 60% of the profit. The worker in China gets <1%. The system is designed so value flows up.</p>\n<p><strong>Theory's Implication:</strong> To truly develop, a country must break the rules of the system (like China did by protecting its industries and stealing technology) or the system itself must be overthrown. Simple 'aid' or 'good governance' inside the existing structure won't solve the problem.</p>\n</div>"
+    }
+  }
+]

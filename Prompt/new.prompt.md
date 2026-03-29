@@ -1,11 +1,12 @@
-Answers are already underlined, just check it and
 
 
-
-From the image I sent return an array of JSON objects that I can copy and matches the scheme.
-Make the explanation easy to understand by newbies.
-Give step by step detailed and easy to understand explanations that students who don't attend classes will understand with ease.
-
+From the image/text I sent return an array of JSON objects that I can copy and matches the scheme.
+Make the explanation:
+      1. Sstep by step and detailed
+      2. Easy to understand by newbies.
+      3. Look good and readable with the help of necessary html elements and css.
+Keep the answers as short as possiblie (max 3 lines) use <br> to make line breaks don't use ""\n"
+      
 **CRITICAL INSTRUCTIONS:**
 1. Break down each multi-part question into individual JSON objects for EVERY sub-part
 2. For the Question `content` field, create complete, self-contained questions by:
@@ -15,77 +16,40 @@ Give step by step detailed and easy to understand explanations that students who
 3. For the Answer `content` field, provide only the direct answer without repeating the question structure
 4. Use consistent naming in the `name` field: "Question 1a)i", "Question 1a)ii", etc.
 
-
+```json
 {
-"type": "Question",
-"name": "Question 70",
-"topic": [
-"Mammals",
-"Primates",
-"Evolution"
-],
-"Question": {
-"content": "Primates first evolved from a small group of arboreal mammals called _______.",
-"type": "OBJ",
-"options": [
-"Homo sapiens",
-"Archonta",
-"Archontasis",
-"Homo erectus"
-]
-},
-"Answer": {
-"type": "string",
-"content": "Archonta"
-},
-"Explanation": {
-"type": "string",
-"content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Primate Origins</h4>\n <p>The solution key indicates the answer is <strong>B (Archonta)</strong>.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Classification</strong><br>\n Archonta is a superorder that traditionally groups Primates with Bats (Chiroptera), Colugos (Dermoptera), and Tree Shrews (Scandentia), suggesting a common arboreal ancestor.\n </div>\n</div>"
-}
+  "type": "Question",
+  "name": "Question 70",
+  "topic": [
+    "Mammals",
+    "Primates",
+    "Evolution"
+  ] ,
+  "Question": {
+    "content": "Primates first evolved from a small group of arboreal mammals called _______.",
+    "type": "OBJ",
+    "options": [
+      "Homo sapiens",
+      "Archonta",
+      "Archontasis",
+      "Homo erectus"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Archonta"
+  },
+  "Explanation": {  
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Primate Origins</h4>\n <p>The solution key indicates the answer is <strong>B (Archonta)</strong>.</p>\n <div style='margin-bottom: 12px;'>\n <strong style='color: var(--strongColor);'>Classification</strong><br>\n Archonta is a superorder that traditionally groups Primates with Bats (Chiroptera), Colugos (Dermoptera), and Tree Shrews (Scandentia), suggesting a common arboreal ancestor.\n </div>\n</div>"
+  }
 },
 
+```
 
-
-use topics from here in the topic property.(topics can be more than one.)
+use topics from here in the topic property.(topics can be more than the ones here.)
+```json
 "topics": [
-"Vertebrates",
-"Amphibians",
-"Classification",
-"Fishes",
-"Agnatha",
-"Reptiles",
-"Osteichthyes",
-"Placodermi",
-"Paleontology",
-"Chondrichthyes",
-"Evolution",
-"Physiology",
-"Communication",
-"Biodiversity",
-"Ecology",
-"Acanthodii",
-"Taxonomy",
-"Thermoregulation",
-"Adaptation",
-"Anatomy",
-"Circulatory System",
-"Respiration",
-"Definitions",
-"Head",
-"Urochordates",
-"Development",
-"Larvaceans",
-"Thaliacea",
-"Sensory Organs",
-"Lamprey",
-"Digestive System",
-"Excretion",
-"Nervous System",
-"Hearing",
-"Pain Perception",
-"Swim Bladder",
-"Reproduction",
-"Sound Production",
 "Dormancy",
 "Biology",
 "Birds",
@@ -94,17 +58,19 @@ use topics from here in the topic property.(topics can be more than one.)
 "Mammals",
 "Primates"
 ],
-
+```
 For headings
+```josn
 {
 "type": "heading",
 "heading": "This is the heading",
 "Subheading": "This is the sub-heading"
 },
-
+```
 topic array can be more than one and outside the topics I provided .
 
 Use this css root
+```css
 /*our colors*/
 :root {
 --mainBlue: #003d99;
@@ -192,7 +158,7 @@ color-scheme: light dark;
 --preset-bg-color: var(--ash);
 }
 }
-
+```
 use MathJax syntax \\( \\)for equations and chemical reactions to make it more readable. use as little as possible.
 
 break the equation into different lines, avoid long lines of equations
@@ -203,6 +169,6 @@ IF it's a subjective question then change "type": "OBJ" to "type":"subjective"
 and remove options property.
 let answers just be the final answer.
 
-Remove the (a), (b), etc... the will label the options by itself.
+Remove the (a), (b), etc... the app will label the options by itself.
 
 And don't skip any question!
